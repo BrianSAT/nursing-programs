@@ -134,161 +134,138 @@ document.getElementById('sort-by').addEventListener('change', renderTable);
 // Modal functions
 function showDetail(id) {
   const p = programsMap[id];
-  if (!p) return;
+  if (!p) {
+    console.error('Program not found:', id);
+    return;
+  }
 
   const modal = document.getElementById('modal');
   const body = document.getElementById('modal-body');
 
-  const prereqs = p.prerequisites?.standard || {};
-  const prereqLabels = {
-    ap_1_2: 'A&P 1+2',
-    micro: 'Microbiology',
-    stats: 'Statistics',
-    chem: 'Chemistry',
-    lifespan: 'Lifespan Psych',
-    nutrition: 'Nutrition',
-    psych: 'Gen Psychology',
-    sociology: 'Sociology',
-    biology: 'Biology',
-    ethics: 'Ethics'
-  };
+  try {
+    const prereqs = p.prerequisites?.standard || {};
+    const prereqLabels = {
+      ap_1_2: 'A&P 1+2',
+      micro: 'Microbiology',
+      stats: 'Statistics',
+      chem: 'Chemistry',
+      lifespan: 'Lifespan Psych',
+      nutrition: 'Nutrition',
+      psych: 'Gen Psychology',
+      sociology: 'Sociology',
+      biology: 'Biology',
+      ethics: 'Ethics'
+    };
 
-  const prereqHtml = Object.entries(prereqLabels).map(([key, label]) => {
-    const required = prereqs[key];
-    return `<span class="prereq-tag ${required ? 'required' : 'not-required'}">${label}</span>`;
-  }).join('');
+    const prereqHtml = Object.entries(prereqLabels).map(function(entry) {
+      const key = entry[0];
+      const label = entry[1];
+      const required = prereqs[key];
+      return '<span class="prereq-tag ' + (required ? 'required' : 'not-required') + '">' + label + '</span>';
+    }).join('');
 
-  const scores = p.scores || {};
-  const costs = p.costs || {};
+    const scores = p.scores || {};
+    const costs = p.costs || {};
 
-  body.innerHTML = `
-    <div class="detail-header">
-      <h2>${p.name}</h2>
-      <div class="meta">
-        <span class="type-badge type-${p.type}">${p.type}</span>
-        &nbsp;•&nbsp; ${p.location?.full || 'Location unknown'}
-        ${scores.rank ? `&nbsp;•&nbsp; Rank #${scores.rank}` : ''}
-      </div>
-    </div>
+    // Helper to safely format numbers
+    function safePercent(val) {
+      if (val == null) return '-';
+      return (val * 100).toFixed(0) + '%';
+    }
 
-    ${p.notes ? `
-    <div class="detail-section">
-      <h3>Notes</h3>
-      <div class="notes-box">${p.notes}</div>
-    </div>
-    ` : ''}
+    function safeScore(val) {
+      if (val == null) return '-';
+      return val.toFixed(2);
+    }
 
-    <div class="detail-section">
-      <h3>Program Details</h3>
-      <div class="detail-grid">
-        <div class="detail-item">
-          <div class="label">Duration</div>
-          <div class="value">${p.program_details?.duration_months ? p.program_details.duration_months + ' months' : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Terms</div>
-          <div class="value">${p.program_details?.terms || '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Start Date</div>
-          <div class="value">${formatDate(p.admissions?.start_date)}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Deadline</div>
-          <div class="value">${formatDate(p.admissions?.deadline)}</div>
-        </div>
-      </div>
-    </div>
+    // Build HTML in parts
+    let html = '';
 
-    <div class="detail-section">
-      <h3>Scores</h3>
-      <div class="detail-grid">
-        <div class="detail-item">
-          <div class="label">Raw Score</div>
-          <div class="value" style="color: #2563eb; font-size: 1.2rem;">${scores.raw_score?.toFixed(2) || '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Location</div>
-          <div class="value">${scores.location_score || '-'}${scores.location_boost ? ` (+${scores.location_boost})` : ''}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Prestige</div>
-          <div class="value">${scores.prestige ? (scores.prestige * 100).toFixed(0) + '%' : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">NP Pathway</div>
-          <div class="value">${scores.np_pathway ? (scores.np_pathway * 100).toFixed(0) + '%' : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Competitiveness</div>
-          <div class="value">${scores.competitiveness ? (scores.competitiveness * 100).toFixed(0) + '%' : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Start Score</div>
-          <div class="value">${scores.start_score ? (scores.start_score * 100).toFixed(0) + '%' : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Cost Score</div>
-          <div class="value">${scores.cost_score ? (scores.cost_score * 100).toFixed(0) + '%' : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Nat'l Percentile</div>
-          <div class="value">${scores.national_percentile ? (scores.national_percentile * 100).toFixed(0) + '%' : '-'}</div>
-        </div>
-      </div>
-    </div>
+    // Header
+    html += '<div class="detail-header">';
+    html += '<h2>' + escapeHtml(p.name) + '</h2>';
+    html += '<div class="meta">';
+    html += '<span class="type-badge type-' + p.type + '">' + p.type + '</span>';
+    html += ' &bull; ' + escapeHtml(p.location?.full || 'Location unknown');
+    if (scores.rank) html += ' &bull; Rank #' + scores.rank;
+    html += '</div></div>';
 
-    <div class="detail-section">
-      <h3>Costs</h3>
-      <div class="detail-grid">
-        <div class="detail-item">
-          <div class="label">Tuition</div>
-          <div class="value">${formatCurrency(costs.Tuition)}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Fees</div>
-          <div class="value">${formatCurrency(costs.Fees)}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Net Tuition</div>
-          <div class="value">${formatCurrency(costs['Net Tuition'])}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Monthly Burn</div>
-          <div class="value" style="color: #dc2626;">${formatCurrency(costs['Mo. Burn'])}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Total Cost</div>
-          <div class="value">${formatCurrency(costs['Total Cost'])}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">Scholarship</div>
-          <div class="value">${costs['Schlrshp Amt'] ? formatCurrency(costs['Schlrshp Amt']) + ' (' + (costs['Schlrshp %'] * 100) + '%)' : '-'}</div>
-        </div>
-        <div class="detail-item">
-          <div class="label">COL Index</div>
-          <div class="value">${costs['COL Index'] || '-'}</div>
-        </div>
-      </div>
-    </div>
+    // Notes
+    if (p.notes) {
+      html += '<div class="detail-section">';
+      html += '<h3>Notes</h3>';
+      html += '<div class="notes-box">' + escapeHtml(p.notes) + '</div>';
+      html += '</div>';
+    }
 
-    <div class="detail-section">
-      <h3>Prerequisites</h3>
-      <div class="prereq-grid">
-        ${prereqHtml}
-      </div>
-      ${p.prerequisites?.additional ? `<div style="margin-top: 10px; font-size: 0.9rem; color: #666;"><strong>Additional:</strong> ${p.prerequisites.additional}</div>` : ''}
-    </div>
+    // Program Details
+    html += '<div class="detail-section"><h3>Program Details</h3><div class="detail-grid">';
+    html += buildDetailItem('Duration', p.program_details?.duration_months ? p.program_details.duration_months + ' months' : '-');
+    html += buildDetailItem('Terms', p.program_details?.terms || '-');
+    html += buildDetailItem('Start Date', formatDate(p.admissions?.start_date));
+    html += buildDetailItem('Deadline', formatDate(p.admissions?.deadline));
+    html += '</div></div>';
 
-    ${p.admissions?.email ? `
-    <div class="detail-section">
-      <h3>Contact</h3>
-      <a href="mailto:${p.admissions.email}" class="contact-link">${p.admissions.email}</a>
-    </div>
-    ` : ''}
-  `;
+    // Scores
+    html += '<div class="detail-section"><h3>Scores</h3><div class="detail-grid">';
+    html += '<div class="detail-item"><div class="label">Raw Score</div><div class="value" style="color: #2563eb; font-size: 1.2rem;">' + safeScore(scores.raw_score) + '</div></div>';
+    html += buildDetailItem('Location', (scores.location_score || '-') + (scores.location_boost ? ' (+' + scores.location_boost + ')' : ''));
+    html += buildDetailItem('Prestige', safePercent(scores.prestige));
+    html += buildDetailItem('NP Pathway', safePercent(scores.np_pathway));
+    html += buildDetailItem('Competitiveness', safePercent(scores.competitiveness));
+    html += buildDetailItem('Start Score', safePercent(scores.start_score));
+    html += buildDetailItem('Cost Score', safePercent(scores.cost_score));
+    html += buildDetailItem("Nat'l Percentile", safePercent(scores.national_percentile));
+    html += '</div></div>';
 
-  modal.classList.remove('hidden');
+    // Costs
+    html += '<div class="detail-section"><h3>Costs</h3><div class="detail-grid">';
+    html += buildDetailItem('Tuition', formatCurrency(costs.Tuition));
+    html += buildDetailItem('Fees', formatCurrency(costs.Fees));
+    html += buildDetailItem('Net Tuition', formatCurrency(costs['Net Tuition']));
+    html += '<div class="detail-item"><div class="label">Monthly Burn</div><div class="value" style="color: #dc2626;">' + formatCurrency(costs['Mo. Burn']) + '</div></div>';
+    html += buildDetailItem('Total Cost', formatCurrency(costs['Total Cost']));
+    const scholarshipText = costs['Schlrshp Amt'] ? formatCurrency(costs['Schlrshp Amt']) + ' (' + (costs['Schlrshp %'] * 100) + '%)' : '-';
+    html += buildDetailItem('Scholarship', scholarshipText);
+    html += buildDetailItem('COL Index', costs['COL Index'] || '-');
+    html += '</div></div>';
+
+    // Prerequisites
+    html += '<div class="detail-section"><h3>Prerequisites</h3>';
+    html += '<div class="prereq-grid">' + prereqHtml + '</div>';
+    if (p.prerequisites?.additional) {
+      html += '<div style="margin-top: 10px; font-size: 0.9rem; color: #666;"><strong>Additional:</strong> ' + escapeHtml(p.prerequisites.additional) + '</div>';
+    }
+    html += '</div>';
+
+    // Contact
+    if (p.admissions?.email) {
+      html += '<div class="detail-section"><h3>Contact</h3>';
+      html += '<a href="mailto:' + escapeHtml(p.admissions.email) + '" class="contact-link">' + escapeHtml(p.admissions.email) + '</a>';
+      html += '</div>';
+    }
+
+    body.innerHTML = html;
+    modal.classList.remove('hidden');
+
+  } catch (err) {
+    console.error('Error rendering detail:', err);
+    body.innerHTML = '<p style="color: red;">Error loading program details. Check console.</p>';
+    modal.classList.remove('hidden');
+  }
+}
+
+function buildDetailItem(label, value) {
+  return '<div class="detail-item"><div class="label">' + label + '</div><div class="value">' + value + '</div></div>';
+}
+
+function escapeHtml(text) {
+  if (text == null) return '';
+  return String(text)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
 }
 
 function closeModal() {
