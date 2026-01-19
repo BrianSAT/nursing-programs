@@ -20,14 +20,10 @@ function savePrograms(data) {
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
 }
 
-// GET all programs with calculated scores
+// GET all programs (scores pre-calculated in data)
 router.get('/', (req, res) => {
   const data = loadPrograms();
-  const programsWithScores = data.programs.map(program => ({
-    ...program,
-    calculated: calculateScores(program, data.metadata)
-  }));
-  res.json({ metadata: data.metadata, programs: programsWithScores });
+  res.json(data);
 });
 
 // GET single program by ID
@@ -37,10 +33,7 @@ router.get('/:id', (req, res) => {
   if (!program) {
     return res.status(404).json({ error: 'Program not found' });
   }
-  res.json({
-    ...program,
-    calculated: calculateScores(program, data.metadata)
-  });
+  res.json(program);
 });
 
 // POST new program
