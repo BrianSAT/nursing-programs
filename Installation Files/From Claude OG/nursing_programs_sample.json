@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "target_start": "2027-01-20",
+    "target_competitiveness": 0.8,
+    "base_living_cost": 1500,
+    "weights": {
+      "addl_prereq_fit": 1,
+      "online_lab_conf": 1,
+      "np_pathway": 1,
+      "prestige": 1,
+      "competitiveness": 1,
+      "start_score": 1,
+      "time_factor": 1,
+      "cost_score": 1
+    }
+  },
+  "programs": [
+    {
+      "id": "pitt",
+      "name": "Pitt",
+      "type": "ABSN",
+      "location": {
+        "city": "Pittsburgh",
+        "state": "PA",
+        "region": "Northeast"
+      },
+      "prerequisites": {
+        "anatomy_physiology_1": true,
+        "anatomy_physiology_2": true,
+        "microbiology": true,
+        "statistics": true,
+        "chemistry": true,
+        "lifespan_psychology": true,
+        "nutrition": true,
+        "general_psychology": true,
+        "sociology": false,
+        "biology": false,
+        "ethics": false
+      },
+      "additional_prerequisites": ["Genetics", "Pathophysiology"],
+      "admissions": {
+        "email": "nursing@pitt.edu",
+        "application_deadline": "2026-09-01",
+        "start_date": "2027-01-15",
+        "rolling_admissions": false
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 4,
+        "online_labs_accepted": null
+      },
+      "costs": {
+        "tuition": 45000,
+        "fees": 2500,
+        "col_index": 98,
+        "scholarship": {
+          "amount": 5000,
+          "probability": 0.3
+        }
+      },
+      "scores": {
+        "location_score": 8,
+        "location_boost": 1,
+        "np_pathway": 0.85,
+        "prestige": 0.75,
+        "national_percentile": 0.78,
+        "addl_prereq_fit": 0.7,
+        "online_lab_confidence": null
+      },
+      "notes": "#1 preference. Strong NP pathway. Requires Genetics and Pathophysiology beyond standard prereqs.",
+      "data_completeness": "partial",
+      "last_updated": "2026-01-15"
+    },
+    {
+      "id": "cincinnati",
+      "name": "U Cincinnati",
+      "type": "ABSN",
+      "location": {
+        "city": "Cincinnati",
+        "state": "OH",
+        "region": "Midwest"
+      },
+      "prerequisites": {
+        "anatomy_physiology_1": true,
+        "anatomy_physiology_2": true,
+        "microbiology": true,
+        "statistics": true,
+        "chemistry": true,
+        "lifespan_psychology": true,
+        "nutrition": true,
+        "general_psychology": true,
+        "sociology": true,
+        "biology": false,
+        "ethics": false
+      },
+      "additional_prerequisites": ["Pharmacology (nursing-specific, timing constraints)"],
+      "admissions": {
+        "email": null,
+        "application_deadline": null,
+        "start_date": null,
+        "rolling_admissions": null
+      },
+      "program_details": {
+        "duration_months": null,
+        "terms": null,
+        "online_labs_accepted": null
+      },
+      "costs": {
+        "tuition": null,
+        "fees": null,
+        "col_index": 95,
+        "scholarship": {
+          "amount": null,
+          "probability": null
+        }
+      },
+      "scores": {
+        "location_score": 6,
+        "location_boost": 0,
+        "np_pathway": null,
+        "prestige": null,
+        "national_percentile": null,
+        "addl_prereq_fit": 0.3,
+        "online_lab_confidence": null
+      },
+      "notes": "Secondary option. Pharmacology prereq has severe timing constraints that create accessibility barrier for career changers.",
+      "data_completeness": "stub",
+      "last_updated": "2026-01-15"
+    },
+    {
+      "id": "ohio-state",
+      "name": "Ohio State",
+      "type": "ABSN",
+      "location": {
+        "city": "Columbus",
+        "state": "OH",
+        "region": "Midwest"
+      },
+      "prerequisites": {
+        "anatomy_physiology_1": true,
+        "anatomy_physiology_2": true,
+        "microbiology": true,
+        "statistics": true,
+        "chemistry": true,
+        "lifespan_psychology": true,
+        "nutrition": true,
+        "general_psychology": true,
+        "sociology": false,
+        "biology": false,
+        "ethics": false
+      },
+      "additional_prerequisites": [],
+      "admissions": {
+        "email": null,
+        "application_deadline": null,
+        "start_date": null,
+        "rolling_admissions": null
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": null,
+        "online_labs_accepted": null
+      },
+      "costs": {
+        "tuition": null,
+        "fees": null,
+        "col_index": 95,
+        "scholarship": {
+          "amount": null,
+          "probability": null
+        }
+      },
+      "scores": {
+        "location_score": 5,
+        "location_boost": 0,
+        "np_pathway": null,
+        "prestige": 0.7,
+        "national_percentile": 0.75,
+        "addl_prereq_fit": 1.0,
+        "online_lab_confidence": null
+      },
+      "notes": "No additional prereqs beyond standard. Fully populated in Excel version.",
+      "data_completeness": "partial",
+      "last_updated": "2026-01-15"
+    }
+  ]
+}

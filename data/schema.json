@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Nursing Program Evaluation Schema",
+  "description": "Schema for ABSN/DEMSN program evaluation matrix - Spring 2027 target",
+
+  "definitions": {
+    "program": {
+      "type": "object",
+      "required": ["id", "name", "type", "location"],
+      "properties": {
+
+        "id": {
+          "type": "string",
+          "description": "Unique identifier (lowercase, hyphenated school name)"
+        },
+
+        "name": {
+          "type": "string",
+          "description": "School short name (e.g., 'Pitt', 'Ohio State')"
+        },
+
+        "type": {
+          "type": "string",
+          "enum": ["ABSN", "DEMSN", "DABSN", "MN", "GEM"],
+          "description": "Program type"
+        },
+
+        "location": {
+          "type": "object",
+          "properties": {
+            "city": { "type": "string" },
+            "state": { "type": "string" },
+            "region": { "type": "string", "description": "Optional grouping (Midwest, Southeast, etc.)" }
+          },
+          "required": ["city", "state"]
+        },
+
+        "prerequisites": {
+          "type": "object",
+          "description": "Standard prerequisite requirements",
+          "properties": {
+            "anatomy_physiology_1": { "type": "boolean" },
+            "anatomy_physiology_2": { "type": "boolean" },
+            "microbiology": { "type": "boolean" },
+            "statistics": { "type": "boolean" },
+            "chemistry": { "type": "boolean" },
+            "lifespan_psychology": { "type": "boolean" },
+            "nutrition": { "type": "boolean" },
+            "general_psychology": { "type": "boolean" },
+            "sociology": { "type": "boolean" },
+            "biology": { "type": "boolean" },
+            "ethics": { "type": "boolean" }
+          }
+        },
+
+        "additional_prerequisites": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Prerequisites beyond standard grid (e.g., 'Pathophysiology', 'Genetics', 'Pharmacology')"
+        },
+
+        "admissions": {
+          "type": "object",
+          "properties": {
+            "email": { "type": "string", "format": "email" },
+            "application_deadline": { "type": "string", "format": "date" },
+            "start_date": { "type": "string", "format": "date" },
+            "rolling_admissions": { "type": "boolean" }
+          }
+        },
+
+        "program_details": {
+          "type": "object",
+          "properties": {
+            "duration_months": { "type": "integer" },
+            "terms": { "type": "integer" },
+            "online_labs_accepted": { "type": "boolean", "description": "Whether online lab courses are accepted" }
+          }
+        },
+
+        "costs": {
+          "type": "object",
+          "properties": {
+            "tuition": { "type": "number", "description": "Total program tuition in USD" },
+            "fees": { "type": "number", "description": "Additional fees in USD" },
+            "cost_of_living_index": { "type": "number", "description": "Cost of living multiplier (1.0 = baseline)" },
+            "scholarship_amount": { "type": "number", "description": "Expected scholarship amount" },
+            "scholarship_probability": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        },
+
+        "scores": {
+          "type": "object",
+          "description": "Manual assessment scores (0-1 unless noted)",
+          "properties": {
+            "location": { "type": "number", "minimum": 0, "maximum": 10, "description": "Location desirability (0-10)" },
+            "location_boost": { "type": "number", "description": "Manual adjustment to location score (+/-)" },
+            "np_pathway": { "type": "number", "minimum": 0, "maximum": 1, "description": "Quality of BSN-to-NP pathway" },
+            "prestige": { "type": "number", "minimum": 0, "maximum": 1 },
+            "national_percentile": { "type": "number", "minimum": 0, "maximum": 1, "description": "National ranking percentile (0.8 = 80th percentile = target)" },
+            "prereq_fit": { "type": "number", "minimum": 0, "maximum": 1, "description": "Probability of completing all prereqs in time" },
+            "online_lab_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        },
+
+        "notes": {
+          "type": "string",
+          "description": "Freeform notes"
+        },
+
+        "data_completeness": {
+          "type": "string",
+          "enum": ["complete", "partial", "stub"],
+          "description": "How populated this program's data is"
+        },
+
+        "last_updated": {
+          "type": "string",
+          "format": "date",
+          "description": "When this record was last verified/updated"
+        }
+      }
+    }
+  },
+
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "target_start": { "type": "string", "format": "date", "description": "Target program start date (2027-01-20)" },
+        "target_competitiveness": { "type": "number", "description": "Target national percentile (0.8)" },
+        "base_living_cost": { "type": "number", "description": "Baseline monthly living expenses ($1500)" },
+        "weights": {
+          "type": "object",
+          "description": "Weight exponents for scoring formula",
+          "properties": {
+            "prereq_fit": { "type": "number", "default": 1 },
+            "online_lab_confidence": { "type": "number", "default": 1 },
+            "np_pathway": { "type": "number", "default": 1 },
+            "prestige": { "type": "number", "default": 1 },
+            "competitiveness": { "type": "number", "default": 1 },
+            "start_score": { "type": "number", "default": 1 },
+            "time_factor": { "type": "number", "default": 1 },
+            "cost_score": { "type": "number", "default": 1 }
+          }
+        }
+      }
+    },
+    "programs": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/program" }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "nursing-program-matrix",
+  "version": "1.0.0",
+  "description": "Nursing program evaluation and comparison tool for ABSN programs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/**/*.test.js",
+    "test:single": "node --test",
+    "validate": "node src/utils/validate-data.js"
+  },
+  "keywords": [
+    "nursing",
+    "education",
+    "evaluation"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

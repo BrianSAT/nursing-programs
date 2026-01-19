@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Nursing Program Evaluation Schema",
+  "description": "Schema for ABSN/DEMSN program evaluation matrix - Spring 2027 target",
+  
+  "definitions": {
+    "program": {
+      "type": "object",
+      "required": ["id", "name", "type", "location"],
+      "properties": {
+        
+        "id": {
+          "type": "string",
+          "description": "Unique identifier (lowercase, hyphenated school name)"
+        },
+        
+        "name": {
+          "type": "string",
+          "description": "School short name (e.g., 'Pitt', 'Ohio State')"
+        },
+        
+        "type": {
+          "type": "string",
+          "enum": ["ABSN", "DEMSN", "DABSN", "MN", "GEM"],
+          "description": "Program type"
+        },
+        
+        "location": {
+          "type": "object",
+          "properties": {
+            "city": { "type": "string" },
+            "state": { "type": "string" },
+            "region": { "type": "string", "description": "Optional grouping (Midwest, Southeast, etc.)" }
+          },
+          "required": ["city", "state"]
+        },
+        
+        "prerequisites": {
+          "type": "object",
+          "description": "Standard prerequisite requirements",
+          "properties": {
+            "anatomy_physiology_1": { "type": "boolean" },
+            "anatomy_physiology_2": { "type": "boolean" },
+            "microbiology": { "type": "boolean" },
+            "statistics": { "type": "boolean" },
+            "chemistry": { "type": "boolean" },
+            "lifespan_psychology": { "type": "boolean" },
+            "nutrition": { "type": "boolean" },
+            "general_psychology": { "type": "boolean" },
+            "sociology": { "type": "boolean" },
+            "biology": { "type": "boolean" },
+            "ethics": { "type": "boolean" }
+          }
+        },
+        
+        "additional_prerequisites": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Prerequisites beyond standard grid (e.g., 'Pathophysiology', 'Genetics', 'Pharmacology')"
+        },
+        
+        "admissions": {
+          "type": "object",
+          "properties": {
+            "email": { "type": "string", "format": "email" },
+            "application_deadline": { "type": "string", "format": "date" },
+            "start_date": { "type": "string", "format": "date" },
+            "rolling_admissions": { "type": "boolean" }
+          }
+        },
+        
+        "program_details": {
+          "type": "object",
+          "properties": {
+            "duration_months": { "type": "integer" },
+            "terms": { "type": "integer" },
+            "online_labs_accepted": { "type": "boolean", "description": "Whether online lab courses are accepted" }
+          }
+        },
+        
+        "costs": {
+          "type": "object",
+          "properties": {
+            "tuition": { "type": "number", "description": "Total program tuition in USD" },
+            "fees": { "type": "number", "description": "Additional fees in USD" },
+            "col_index": { "type": "integer", "description": "Cost of living index (Milwaukee = 100)" },
+            "scholarship": {
+              "type": "object",
+              "properties": {
+                "amount": { "type": "number", "description": "Expected scholarship amount" },
+                "probability": { "type": "number", "minimum": 0, "maximum": 1 }
+              }
+            }
+          }
+        },
+        
+        "scores": {
+          "type": "object",
+          "description": "Manual assessment scores (0-1 unless noted)",
+          "properties": {
+            "location_score": { "type": "number", "minimum": 0, "maximum": 10, "description": "Location desirability (0-10)" },
+            "location_boost": { "type": "number", "description": "Manual adjustment to location score (+/-)" },
+            "np_pathway": { "type": "number", "minimum": 0, "maximum": 1, "description": "Quality of BSN-to-NP pathway" },
+            "prestige": { "type": "number", "minimum": 0, "maximum": 1 },
+            "national_percentile": { "type": "number", "minimum": 0, "maximum": 1, "description": "National ranking percentile (0.8 = 80th percentile = target)" },
+            "addl_prereq_fit": { "type": "number", "minimum": 0, "maximum": 1, "description": "Probability of completing all prereqs in time" },
+            "online_lab_confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        },
+        
+        "notes": {
+          "type": "string",
+          "description": "Freeform notes"
+        },
+        
+        "data_completeness": {
+          "type": "string",
+          "enum": ["complete", "partial", "stub"],
+          "description": "How populated this program's data is"
+        },
+        
+        "last_updated": {
+          "type": "string",
+          "format": "date",
+          "description": "When this record was last verified/updated"
+        }
+      }
+    }
+  },
+  
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "target_start": { "type": "string", "format": "date", "description": "Target program start date (2027-01-20)" },
+        "target_competitiveness": { "type": "number", "description": "Target national percentile (0.8)" },
+        "base_living_cost": { "type": "number", "description": "Baseline monthly living expenses ($1500)" },
+        "weights": {
+          "type": "object",
+          "description": "Weight exponents for scoring formula",
+          "properties": {
+            "addl_prereq_fit": { "type": "number", "default": 1 },
+            "online_lab_conf": { "type": "number", "default": 1 },
+            "np_pathway": { "type": "number", "default": 1 },
+            "prestige": { "type": "number", "default": 1 },
+            "competitiveness": { "type": "number", "default": 1 },
+            "start_score": { "type": "number", "default": 1 },
+            "time_factor": { "type": "number", "default": 1 },
+            "cost_score": { "type": "number", "default": 1 }
+          }
+        }
+      }
+    },
+    "programs": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/program" }
+    }
+  },
+  
+  "calculated_fields_documentation": {
+    "_comment": "These fields are computed at runtime, not stored",
+    "competitiveness": "1 - abs(national_percentile - 0.8)",
+    "start_score": "Based on days from target: ±30d=1.0, ±120d=0.5, before>120d=0.1, after>120d=0.3",
+    "time_factor": "≤12mo=1.0, 13-18mo=0.75, 19-24mo=0.5, >24mo=0.25",
+    "net_tuition": "tuition + fees - (scholarship.amount × scholarship.probability)",
+    "total_living": "base_living × (col_index/100) × duration_months",
+    "monthly_burn": "(net_tuition + total_living) / duration_months",
+    "cost_score": "max(0.1, 1 - (burn - min_burn) / (max_burn - min_burn))",
+    "raw_score": "(location_score + location_boost) × prereq_fit^w × online_lab^w × np_pathway^w × prestige^w × competitiveness^w × start_score^w × time_factor^w × cost_score^w"
+  }
+}

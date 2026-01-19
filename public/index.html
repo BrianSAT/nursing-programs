@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nursing Program Matrix</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Nursing Program Evaluation Matrix</h1>
+    <p>Comparing ABSN programs for Spring 2027</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search programs...">
+      <select id="sort-by">
+        <option value="raw_score">Sort by Score</option>
+        <option value="name">Sort by Name</option>
+        <option value="monthly_burn">Sort by Cost</option>
+        <option value="duration">Sort by Duration</option>
+      </select>
+    </div>
+
+    <table id="programs-table">
+      <thead>
+        <tr>
+          <th>Program</th>
+          <th>Location</th>
+          <th>Type</th>
+          <th>Duration</th>
+          <th>Monthly Cost</th>
+          <th>Score</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="programs-body">
+        <!-- Populated by JavaScript -->
+      </tbody>
+    </table>
+
+    <div id="loading">Loading programs...</div>
+    <div id="error" class="hidden"></div>
+  </main>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
