@@ -335,7 +335,9 @@
           "US History (6 hrs)",
           "Visual & Performing Arts",
           "Philosophy/Ethics"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact admissions to verify"
       },
       "admissions": {
         "email": "nursing.students@uth.tmc.edu",
@@ -400,7 +402,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (3): Texas Government, US History (6 hrs), Philosophy/Ethics"
+          "Fall 2026 courses needed (3): Texas Government, US History (6 hrs), Philosophy/Ethics",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -617,7 +620,9 @@
         "addl_prereq_fit": null,
         "extra": [
           "General Chemistry I with lab"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact admissions to verify"
       },
       "admissions": {
         "email": "nursingquestions@emory.edu",
@@ -682,7 +687,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (1): General Chemistry I with lab"
+          "Fall 2026 courses needed (1): General Chemistry I with lab",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -1646,7 +1652,9 @@
         "addl_prereq_fit": null,
         "extra": [
           "University Gen Ed Requirements (Communication, Quantitative, Ethnic Studies)"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Use course evaluation form to verify"
       },
       "admissions": {
         "email": "admissions@nursing.wisc.edu",
@@ -1711,7 +1719,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (1): University Gen Ed Requirements (Communication, Quantitative, Ethnic Studies)"
+          "Fall 2026 courses needed (1): University Gen Ed Requirements (Communication, Quantitative, Ethnic Studies)",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -2113,7 +2122,9 @@
         },
         "additional": null,
         "addl_prereq_fit": null,
-        "extra": []
+        "extra": [],
+        "online_ap_labs": "conditional",
+        "online_lab_notes": "Online courses accepted; verify virtual labs"
       },
       "admissions": {
         "email": "sonadmissions@dm.duke.edu",
@@ -2178,7 +2189,7 @@
       "plan_fit": {
         "status": "fits",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Online A&P labs: case-by-case review - verify with school"
         ]
       }
     },
@@ -2679,7 +2690,9 @@
         "addl_prereq_fit": null,
         "extra": [
           "Behavioral Science (Psych, Sociology, or Anthropology)"
-        ]
+        ],
+        "online_ap_labs": false,
+        "online_lab_notes": "Explicit policy: labs cannot be online"
       },
       "admissions": {
         "email": "(866) 892-3819 (form-based)",
@@ -2745,9 +2758,9 @@
         "expected_value_with_commitment": 15000
       },
       "plan_fit": {
-        "status": "fits",
+        "status": "adjust",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Does NOT accept online A&P labs - requires in-person lab completion"
         ]
       }
     },
@@ -2773,7 +2786,9 @@
         },
         "additional": "Organic/Biochemistry",
         "addl_prereq_fit": 0.75,
-        "extra": []
+        "extra": [],
+        "online_ap_labs": true,
+        "online_lab_notes": "Courses can be taken online or in person"
       },
       "admissions": {
         "email": "nursing@creighton.edu",
@@ -3055,7 +3070,9 @@
           "Human Genetics (3 cr)",
           "Pathophysiology (4 cr)",
           "English Composition - technical writing (3 cr)"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact absn@pitt.edu to verify"
       },
       "admissions": {
         "email": "absn@pitt.edu",
@@ -3123,7 +3140,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (3): Human Genetics (3 cr), Pathophysiology (4 cr), English Composition - technical writing (3 cr)"
+          "Fall 2026 courses needed (3): Human Genetics (3 cr), Pathophysiology (4 cr), English Composition - technical writing (3 cr)",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -3624,7 +3642,9 @@
         "extra": [
           "English Composition (6 semester hrs)",
           "Science Elective (4 cr)"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact admissions to verify"
       },
       "admissions": {
         "email": "mcdanikf@musc.edu",
@@ -3695,7 +3715,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (1): English Composition (6 semester hrs)"
+          "Fall 2026 courses needed (1): English Composition (6 semester hrs)",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -4004,7 +4025,9 @@
         },
         "additional": null,
         "addl_prereq_fit": null,
-        "extra": []
+        "extra": [],
+        "online_ap_labs": null,
+        "online_lab_notes": "Labs required; verify online lab policy"
       },
       "admissions": {
         "email": "admissions@nursing.upenn.edu",
@@ -4073,7 +4096,7 @@
       "plan_fit": {
         "status": "fits",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -4205,7 +4228,9 @@
         "addl_prereq_fit": 0.8,
         "extra": [
           "Tennessee U.S. History requirement (6 semester hrs or 1 HS unit)"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact nursing@utk.edu to verify"
       },
       "admissions": {
         "email": "nursstudent@utk.edu",
@@ -4278,7 +4303,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (1): Tennessee U.S. History requirement (6 semester hrs or 1 HS unit)"
+          "Fall 2026 courses needed (1): Tennessee U.S. History requirement (6 semester hrs or 1 HS unit)",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -4786,7 +4812,9 @@
         "addl_prereq_fit": null,
         "extra": [
           "Pathophysiology (grade B+ required)"
-        ]
+        ],
+        "online_ap_labs": "conditional",
+        "online_lab_notes": "Accepts Portage; case-by-case review"
       },
       "admissions": {
         "email": "nursing@georgetown.edu",
@@ -4851,7 +4879,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (1): Pathophysiology (grade B+ required)"
+          "Fall 2026 courses needed (1): Pathophysiology (grade B+ required)",
+          "Online A&P labs: case-by-case review - verify with school"
         ]
       }
     },
@@ -5085,7 +5114,9 @@
           "Pathophysiology (BIO-322)",
           "Christian Worldview (CWV-101)",
           "HESI A2 exam"
-        ]
+        ],
+        "online_ap_labs": true,
+        "online_lab_notes": "Offers own online A&P with labs"
       },
       "admissions": {
         "email": "absn@gcu.edu",
@@ -5177,7 +5208,9 @@
           "ethics": false
         },
         "additional": "2 chemistry courses (organic + inorganic) with labs OR 1 chem + 1 micro with labs. Must have BA/BS with 3.0+ GPA (3.2 preferred).",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "online_ap_labs": "conditional",
+        "online_lab_notes": "Max 2 online courses recommended"
       },
       "admissions": {
         "email": "cshgrad@depaul.edu",
@@ -5245,7 +5278,7 @@
       "plan_fit": {
         "status": "fits",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Online A&P labs: case-by-case review - verify with school"
         ]
       }
     },
@@ -5277,7 +5310,9 @@
           "Resume",
           "3 letters of recommendation",
           "Admissions statement"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact admissions to verify"
       },
       "admissions": {
         "email": "nursing@marquette.edu",
@@ -5347,7 +5382,7 @@
       "plan_fit": {
         "status": "fits",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -5376,7 +5411,9 @@
         "extra": [
           "TEAS exam (65% min)",
           "Starting Summer 2027: Nutrition and Human Growth added"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact admissions to verify"
       },
       "admissions": {
         "email": "absn@ndm.edu",
@@ -5441,7 +5478,7 @@
       "plan_fit": {
         "status": "fits",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -6161,7 +6198,9 @@
         "extra": [
           "Pathophysiology",
           "Pharmacology with Nursing Component (within 1 YEAR!)"
-        ]
+        ],
+        "online_ap_labs": "conditional",
+        "online_lab_notes": "Case-by-case; Portage no longer accepted 2024+"
       },
       "admissions": {
         "email": "nursingbearcats@uc.edu",
@@ -6227,7 +6266,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (2): Pathophysiology, Pharmacology with Nursing Component (within 1 YEAR!)"
+          "Fall 2026 courses needed (2): Pathophysiology, Pharmacology with Nursing Component (within 1 YEAR!)",
+          "Online A&P labs: case-by-case review - verify with school"
         ]
       }
     },
@@ -6257,7 +6297,9 @@
         "addl_prereq_fit": 0.7,
         "extra": [
           "Anatomy must be taken BEFORE Physiology (cannot be same semester)"
-        ]
+        ],
+        "online_ap_labs": true,
+        "online_lab_notes": "Explicit policy: virtual labs accepted"
       },
       "admissions": {
         "email": "jhuson@jhu.edu",
@@ -6365,7 +6407,9 @@
           "English Composition (3 cr)",
           "Philosophy (6 cr)",
           "Religious Studies (6 cr)"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact healthcare@regis.edu to verify"
       },
       "admissions": {
         "email": "healthcare@regis.edu",
@@ -6436,7 +6480,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (3): Health Care Ethics, English Composition (3 cr), Philosophy (6 cr)"
+          "Fall 2026 courses needed (3): Health Care Ethics, English Composition (3 cr), Philosophy (6 cr)",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -6785,7 +6830,9 @@
           "English Composition I & II",
           "Interpersonal Communication",
           "HESI A2 or TEAS"
-        ]
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Use articulation tool; contact admissions"
       },
       "admissions": {
         "email": "admissions@samuelmerritt.edu",
@@ -6861,7 +6908,8 @@
       "plan_fit": {
         "status": "fall_required",
         "reasons": [
-          "Fall 2026 courses needed (3): Pathophysiology, Pharmacology, English Composition I & II"
+          "Fall 2026 courses needed (3): Pathophysiology, Pharmacology, English Composition I & II",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -7089,7 +7137,9 @@
         "addl_prereq_fit": 0.9,
         "extra": [
           "Lifespan Development OR Developmental Psych specifically"
-        ]
+        ],
+        "online_ap_labs": true,
+        "online_lab_notes": "Labs \"preferred but not required\""
       },
       "admissions": {
         "email": "VUSN-Admissions@vanderbilt.edu",

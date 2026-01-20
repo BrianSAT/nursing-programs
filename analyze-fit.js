@@ -166,7 +166,23 @@ function analyzeProgram(program) {
     }
   }
 
-  if (status === 'fits') {
+  // Check online A&P lab policy - user is taking A&P online
+  const onlineLabsOk = program.prerequisites?.online_ap_labs;
+  if (onlineLabsOk === false) {
+    // Explicit policy: does NOT accept online labs
+    if (status === 'fits' || status === 'fall_required') {
+      status = 'adjust';
+    }
+    reasons.push('Does NOT accept online A&P labs - requires in-person lab completion');
+  } else if (onlineLabsOk === 'conditional') {
+    // Conditional - add a note but don't change status
+    reasons.push('Online A&P labs: case-by-case review - verify with school');
+  } else if (onlineLabsOk === null) {
+    // Policy unclear
+    reasons.push('Online A&P lab policy unclear - verify with school before applying');
+  }
+
+  if (status === 'fits' && reasons.length === 0) {
     reasons.push('Standard prereqs match your plan');
   }
 
