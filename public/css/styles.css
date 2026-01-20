@@ -294,6 +294,36 @@ tbody tr:hover {
   color: #9ca3af;
 }
 
+.prereq-tag.extra {
+  background: #fee2e2;
+  color: #991b1b;
+  font-weight: 500;
+}
+
+/* Application timing badge */
+.app-timing-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.app-timing-badge.in-progress-ok {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.app-timing-badge.completed-only {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.app-timing-badge.unknown {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
 .notes-box {
   background: #fffbeb;
   border-left: 3px solid #f59e0b;

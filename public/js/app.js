@@ -345,6 +345,18 @@ function showDetail(id) {
     html += buildDetailItem('Start Date', formatDate(p.admissions?.start_date));
     html += buildDetailItem('Deadline', formatDate(p.admissions?.deadline));
 
+    // Application timing - can apply while courses in progress?
+    let appTimingHtml = '';
+    const inProgressOk = p.admissions?.in_progress_ok;
+    if (inProgressOk === true) {
+      appTimingHtml = '<span class="app-timing-badge in-progress-ok">Can apply while enrolled</span>';
+    } else if (inProgressOk === false) {
+      appTimingHtml = '<span class="app-timing-badge completed-only">Prereqs must be complete</span>';
+    } else {
+      appTimingHtml = '<span class="app-timing-badge unknown">Check with school</span>';
+    }
+    html += '<div class="detail-item"><div class="label">Apply While Enrolled?</div><div class="value">' + appTimingHtml + '</div></div>';
+
     // NP Pathway type
     const npPathwayType = p.program_details?.np_pathway_type || 'standard';
     let npPathwayLabel = 'Standard';
@@ -425,6 +437,16 @@ function showDetail(id) {
     // Prerequisites
     html += '<div class="detail-section"><h3>Prerequisites</h3>';
     html += '<div class="prereq-grid">' + prereqHtml + '</div>';
+
+    // Extra/unconventional prereqs (shown in red)
+    if (p.prerequisites?.extra && p.prerequisites.extra.length > 0) {
+      html += '<div class="prereq-grid" style="margin-top: 10px;">';
+      p.prerequisites.extra.forEach(function(extraReq) {
+        html += '<span class="prereq-tag extra">' + escapeHtml(extraReq) + '</span>';
+      });
+      html += '</div>';
+    }
+
     if (p.prerequisites?.additional) {
       html += '<div style="margin-top: 10px; font-size: 0.9rem; color: #666;"><strong>Additional:</strong> ' + escapeHtml(p.prerequisites.additional) + '</div>';
     }
