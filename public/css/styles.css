@@ -339,6 +339,11 @@ tbody tr:hover {
   color: #166534;
 }
 
+.plan-fit-badge.fall-required {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
 .plan-fit-badge.adjust {
   background: #fef3c7;
   color: #92400e;
@@ -359,6 +364,11 @@ tbody tr:hover {
 .plan-fit-box.fits {
   background: #f0fdf4;
   border-left: 4px solid #16a34a;
+}
+
+.plan-fit-box.fall-required {
+  background: #eff6ff;
+  border-left: 4px solid #2563eb;
 }
 
 .plan-fit-box.adjust {

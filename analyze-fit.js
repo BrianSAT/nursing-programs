@@ -4,12 +4,15 @@
  * User's Plan:
  * - Spring 2026 (Jan-May): A&P1, A&P2, Stats, Chemistry, Lifespan Psych
  * - Summer 2026: Nutrition, Microbiology
- * - Fall 2026: Available for extras
+ * - Fall 2026: Available for up to 3 extra courses
  *
  * Categories:
  * - "fits": Standard prereqs, no unusual requirements
- * - "adjust": Needs extra course(s) that can be done summer/fall, or test out option
- * - "ruled_out": Complete prereqs at app, healthcare exp/cert required, or impossible timeline
+ * - "fall_required": Needs 1-3 extra courses that can be done in Fall 2026
+ * - "adjust": Needs 4+ extra courses, or timing/application complications
+ * - "ruled_out": Healthcare exp/cert required, or impossible timeline
+ *
+ * Max leniency: Can apply with courses planned for future semesters (not yet enrolled)
  */
 
 const fs = require('fs');
@@ -98,36 +101,12 @@ function analyzeProgram(program) {
 
   // Check for extra prereqs that need adjustment
   let adjustmentNeeded = [];
-  let impossibleExtras = [];
 
   for (const extra of extras) {
     const extraLower = extra.toLowerCase();
 
-    // Skip non-course requirements (TEAS, GRE, resume, etc.)
-    if (extraLower.includes('teas') ||
-        extraLower.includes('hesi') ||
-        extraLower.includes('gre') ||
-        extraLower.includes('gmat') ||
-        extraLower.includes('resume') ||
-        extraLower.includes('letter') ||
-        extraLower.includes('recommendation') ||
-        extraLower.includes('statement') ||
-        extraLower.includes('interview') ||
-        extraLower.includes('bls') ||
-        extraLower.includes('cpr') ||
-        extraLower.includes('within') ||  // timing notes
-        extraLower.includes('grade') ||   // grade requirements
-        extraLower.includes('gpa') ||
-        extraLower.includes('credits') ||
-        extraLower.includes('hours') ||
-        extraLower.includes('sequence') ||
-        extraLower.includes('must be') ||
-        extraLower.includes('cannot') ||
-        extraLower.includes('before')) {
-      continue;
-    }
-
-    // Check if it's a course that needs to be added
+    // FIRST: Check if it's a course that needs to be added (check courses BEFORE skipping)
+    // This ensures "Pathophysiology (grade B+ required)" gets caught
     if (extraLower.includes('pathophysiology') ||
         extraLower.includes('patho') ||
         extraLower.includes('pharmacology') ||
@@ -139,6 +118,7 @@ function analyzeProgram(program) {
         extraLower.includes('abnormal psych') ||
         extraLower.includes('general biology') ||
         extraLower.includes('biology (3 cr)') ||
+        extraLower.includes('biology or chemistry') ||
         extraLower.includes('ethics') ||
         extraLower.includes('epidemiology') ||
         extraLower.includes('foreign language') ||
@@ -148,29 +128,36 @@ function analyzeProgram(program) {
         extraLower.includes('fine arts') ||
         extraLower.includes('history') ||
         extraLower.includes('government') ||
-        extraLower.includes('constitution')) {
+        extraLower.includes('constitution') ||
+        extraLower.includes('chemistry i') ||
+        extraLower.includes('chemistry for health') ||
+        extraLower.includes('gen ed') ||
+        extraLower.includes('general education')) {
       adjustmentNeeded.push(extra);
     }
+    // Non-course requirements are ignored (TEAS, GRE, resume, BLS, etc.)
   }
 
-  // Special case: Programs requiring 2+ extra courses = harder adjustment
-  if (adjustmentNeeded.length > 2) {
+  // Categorize based on number of extra courses needed
+  if (adjustmentNeeded.length > 3) {
+    // More than 3 extra courses = needs significant adjustment
     status = 'adjust';
     reasons.push(`Needs ${adjustmentNeeded.length} extra courses: ${adjustmentNeeded.join(', ')}`);
-    reasons.push('May need to add courses to summer or test out of Nutrition');
+    reasons.push('More than 3 courses - may need summer additions or test-outs');
   } else if (adjustmentNeeded.length > 0) {
-    status = 'adjust';
-    reasons.push(`Add to Fall 2026: ${adjustmentNeeded.join(', ')}`);
+    // 1-3 extra courses = can do in Fall 2026
+    status = 'fall_required';
+    reasons.push(`Fall 2026 courses needed (${adjustmentNeeded.length}): ${adjustmentNeeded.join(', ')}`);
   }
 
-  // Special timing considerations
-  if (notes.toLowerCase().includes('3 of 4') ||
-      notes.toLowerCase().includes('2 of 3') ||
-      notes.toLowerCase().includes('at least 1 science')) {
-    // Programs that need some prereqs done at application
-    if (status === 'fits') {
+  // Special timing considerations - programs requiring prereqs complete at application
+  // With max leniency, only flag if they explicitly require COMPLETE (not planned)
+  if (notes.toLowerCase().includes('must be complete') ||
+      notes.toLowerCase().includes('completed before') ||
+      notes.toLowerCase().includes('no in-progress')) {
+    if (status === 'fits' || status === 'fall_required') {
       status = 'adjust';
-      reasons.push('May need some prereqs complete (not just in-progress) at application');
+      reasons.push('May require prereqs complete (not planned) at application - verify with school');
     }
   }
 
@@ -189,6 +176,7 @@ fs.writeFileSync(programsPath, JSON.stringify(data, null, 2));
 
 // Summary
 const fits = data.programs.filter(p => p.plan_fit?.status === 'fits');
+const fallRequired = data.programs.filter(p => p.plan_fit?.status === 'fall_required');
 const adjust = data.programs.filter(p => p.plan_fit?.status === 'adjust');
 const ruledOut = data.programs.filter(p => p.plan_fit?.status === 'ruled_out');
 
@@ -197,7 +185,13 @@ console.log('=== Plan Fit Analysis ===\n');
 console.log(`✓ FITS WITH PLAN (${fits.length} programs):`);
 fits.forEach(p => console.log(`  ${p.name} (${p.location?.full})`));
 
-console.log(`\n⚡ REQUIRES ADJUSTMENT (${adjust.length} programs):`);
+console.log(`\n📚 FALL CLASS REQUIRED (${fallRequired.length} programs):`);
+fallRequired.forEach(p => {
+  console.log(`  ${p.name}:`);
+  p.plan_fit.reasons.forEach(r => console.log(`    - ${r}`));
+});
+
+console.log(`\n⚡ NEEDS ADJUSTMENT (${adjust.length} programs):`);
 adjust.forEach(p => {
   console.log(`  ${p.name}:`);
   p.plan_fit.reasons.forEach(r => console.log(`    - ${r}`));
@@ -211,6 +205,7 @@ ruledOut.forEach(p => {
 
 console.log(`\n=== Summary ===`);
 console.log(`Fits: ${fits.length}`);
+console.log(`Fall Required: ${fallRequired.length}`);
 console.log(`Adjust: ${adjust.length}`);
 console.log(`Ruled Out: ${ruledOut.length}`);
 console.log(`Total: ${data.programs.length}`);

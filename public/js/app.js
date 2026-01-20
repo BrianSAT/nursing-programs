@@ -61,6 +61,7 @@ function getDisplayedMonthlyBurn(program) {
 function getPlanFitLabel(status) {
   switch (status) {
     case 'fits': return 'Fits Plan';
+    case 'fall_required': return 'Fall Classes';
     case 'adjust': return 'Adjust';
     case 'ruled_out': return 'Ruled Out';
     default: return '-';
@@ -70,6 +71,7 @@ function getPlanFitLabel(status) {
 function getPlanFitBadgeClass(status) {
   switch (status) {
     case 'fits': return 'fits';
+    case 'fall_required': return 'fall-required';
     case 'adjust': return 'adjust';
     case 'ruled_out': return 'ruled-out';
     default: return '';
@@ -160,10 +162,10 @@ function renderTable() {
           ? valA.localeCompare(valB)
           : valB.localeCompare(valA);
       case 'plan_fit':
-        // Sort order: fits (best) > adjust > ruled_out (worst)
-        const fitOrder = { fits: 1, adjust: 2, ruled_out: 3, '': 4 };
-        valA = fitOrder[a.plan_fit?.status || ''] || 4;
-        valB = fitOrder[b.plan_fit?.status || ''] || 4;
+        // Sort order: fits (best) > fall_required > adjust > ruled_out (worst)
+        const fitOrder = { fits: 1, fall_required: 2, adjust: 3, ruled_out: 4, '': 5 };
+        valA = fitOrder[a.plan_fit?.status || ''] || 5;
+        valB = fitOrder[b.plan_fit?.status || ''] || 5;
         break;
       case 'raw_score':
       default:
@@ -375,6 +377,9 @@ function showDetail(id) {
       if (fitStatus === 'fits') {
         fitTitle = 'Fits Your Plan';
         fitBoxClass = 'fits';
+      } else if (fitStatus === 'fall_required') {
+        fitTitle = 'Fall 2026 Classes Required';
+        fitBoxClass = 'fall-required';
       } else if (fitStatus === 'adjust') {
         fitTitle = 'Requires Adjustment';
         fitBoxClass = 'adjust';
