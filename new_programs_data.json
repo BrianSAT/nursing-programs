@@ -1,0 +1,1276 @@
+{
+  "research_date": "2026-01-19",
+  "researcher": "Claude Code",
+  "programs": [
+    {
+      "id": "rush-gem",
+      "name": "Rush University GEM",
+      "type": "GEM",
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "full": "Chicago, IL"
+      },
+      "admissions": {
+        "email": "nursing@rushu.rush.edu",
+        "deadline": "2026-10-19",
+        "preferred_deadline": "2026-08-17",
+        "start_date": "2027-01-04"
+      },
+      "program_details": {
+        "duration_months": 24,
+        "terms": 6,
+        "format": "Hybrid (online + in-person)",
+        "degree": "MSN Clinical Nurse Leader"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": false,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "None beyond core sciences. Labs recommended but NOT required.",
+        "addl_prereq_fit": 1.0,
+        "notes": "Minimal prerequisites - only Gen Chem I, Human Anatomy, Human Physiology, Microbiology. Grade C or higher required."
+      },
+      "costs": {
+        "tuition": 83694,
+        "tuition_notes": "$1,131/credit x 74 credits",
+        "fees": 2500,
+        "col_index": 115
+      },
+      "scores": {
+        "location_score": 8,
+        "location_breakdown": {
+          "distance": 3,
+          "geography": 1,
+          "city_culture": 4,
+          "notes": "<2hr drive from Milwaukee, Lake Michigan access, major metro"
+        },
+        "location_boost": 0,
+        "np_pathway": 1.0,
+        "np_pathway_notes": "Direct Entry Pathway to 6 doctoral programs (DNP, PhD). Top-ranked NP specialties.",
+        "prestige": 0.85,
+        "national_percentile": 0.88,
+        "ranking_notes": "#17 DNP, #34 MSN nationally. #1 in Illinois. Top 5 in multiple NP specialties.",
+        "online_lab_conf": 1.0,
+        "online_lab_notes": "Labs recommended but NOT required for prerequisites"
+      },
+      "notes": "Excellent NP pathway with Direct Entry option to doctoral programs. Minimal prereqs make this very accessible. 100% NCLEX pass rate. 24-month program is longer than some ABSNs but yields MSN degree. Strong option for NP career track.",
+      "sources": [
+        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses",
+        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses/masters-entry-nursing-msn-non-nurses-admission-guidelines",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/rush-university-33081"
+      ]
+    },
+    {
+      "id": "depaul-menp",
+      "name": "DePaul University MENP",
+      "type": "MENP",
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "full": "Chicago, IL"
+      },
+      "admissions": {
+        "email": "cshgrad@depaul.edu",
+        "deadline": "2026-09-01",
+        "deadline_notes": "Verify exact deadline with admissions",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 24,
+        "duration_options": "24 months (Accelerated) or 36 months (Balanced Stride)",
+        "terms": 6,
+        "format": "On-campus, Lincoln Park",
+        "degree": "MSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": false,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "2 chemistry courses (organic + inorganic) with labs OR 1 chem + 1 micro with labs. Must have BA/BS with 3.0+ GPA (3.2 preferred).",
+        "addl_prereq_fit": 0.8,
+        "notes": "Chemistry requirement is more extensive than typical (needs organic or 2nd chem course)"
+      },
+      "costs": {
+        "tuition": 45857,
+        "tuition_notes": "$836/credit, verify current rates",
+        "fees": 2000,
+        "col_index": 115
+      },
+      "scores": {
+        "location_score": 8,
+        "location_breakdown": {
+          "distance": 3,
+          "geography": 1,
+          "city_culture": 4,
+          "notes": "<2hr drive from Milwaukee, Lake Michigan access, major metro"
+        },
+        "location_boost": 0,
+        "np_pathway": 0.8,
+        "np_pathway_notes": "Has DNP programs in FNP, AGNP, Nurse Anesthesia. First MENP program in Illinois.",
+        "prestige": 0.6,
+        "national_percentile": 0.65,
+        "ranking_notes": "Not ranked in top tiers but #97 in one ranking. 97% NCLEX pass rate. CCNE accredited.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific policy found - likely case-by-case"
+      },
+      "notes": "Lower cost Chicago option. First MENP in Illinois. Offers Balanced Stride option for more flexibility. 75+ clinical sites including guaranteed ICU rotation. Lower prestige but solid outcomes. Good if targeting Chicago area.",
+      "sources": [
+        "https://csh.depaul.edu/academics/nursing/graduate/nursing-menp/Pages/default.aspx",
+        "https://catalog.depaul.edu/programs/generalist-nursing-ms/",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/depaul-university-33074"
+      ]
+    },
+    {
+      "id": "marquette-gem",
+      "name": "Marquette University Direct Entry MSN",
+      "type": "GEM",
+      "location": {
+        "city": "Milwaukee",
+        "state": "WI",
+        "full": "Milwaukee, WI"
+      },
+      "admissions": {
+        "email": "nursing@marquette.edu",
+        "phone": "(866) 891-8438",
+        "deadline": "2026-09-01",
+        "deadline_notes": "Rolling admissions - verify specific cohort deadlines",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 15,
+        "duration_options": "5 semesters (15 months) or 8 semesters extended",
+        "terms": 5,
+        "credits": 75,
+        "format": "Hybrid - Pleasant Prairie (hybrid-online) or Milwaukee (mostly in-person)",
+        "degree": "MSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": true,
+          "psych": true,
+          "sociology": true,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Stats must be within 7 years. A&P preferred within 5 years. Need Psych OR Sociology (not both).",
+        "addl_prereq_fit": 0.9,
+        "notes": "Fairly standard prereqs. Nutrition required which you may need to add."
+      },
+      "costs": {
+        "tuition": 69000,
+        "tuition_notes": "Fixed $69,000 total for Spring/Summer 2026 starts",
+        "fees": 1545,
+        "fees_breakdown": "$500 deposit + $570 assessments + $300 uniforms + $175 equipment",
+        "col_index": 100
+      },
+      "scores": {
+        "location_score": 6,
+        "location_breakdown": {
+          "distance": 3,
+          "geography": 1,
+          "city_culture": 2,
+          "notes": "You're in Milwaukee already. Lake Michigan but flat terrain. Mid-size city."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.8,
+        "np_pathway_notes": "Has MSN and DNP programs. Strong Jesuit nursing tradition.",
+        "prestige": 0.7,
+        "national_percentile": 0.61,
+        "ranking_notes": "#57 MSN, #80 DNP, #28 BSN nationally. Strong regional reputation.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific policy stated"
+      },
+      "notes": "Strong local option if you decide staying in Milwaukee is acceptable. Faster than Rush (15 vs 24 months). Pleasant Prairie campus offers hybrid format. Fixed tuition is nice for budgeting. However, you mentioned wanting to LEAVE Milwaukee - factor that into decision.",
+      "sources": [
+        "https://mastersnursing.marquette.edu/admissions/tuition-and-financial-aid/",
+        "https://mastersnursing.marquette.edu/admissions/requirements-and-prerequisites/",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/marquette-university-33312"
+      ]
+    },
+    {
+      "id": "regis-absn",
+      "name": "Regis University Accelerated BSN",
+      "type": "ABSN",
+      "location": {
+        "city": "Denver",
+        "state": "CO",
+        "full": "Denver, CO"
+      },
+      "admissions": {
+        "email": "healthcare@regis.edu",
+        "phone": "303-458-4900",
+        "deadline": "2026-09-15",
+        "deadline_notes": "Sept 15 for May 2027 start; June 15 for Jan 2027 start",
+        "start_date": "2027-05-01"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "credits": 64,
+        "clinical_hours": 750,
+        "format": "On-campus Denver - no online option",
+        "degree": "BSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": true,
+          "biology": false,
+          "ethics": true
+        },
+        "additional": "Philosophy (3 credits), Religious Studies (6 credits!). Total 56 prereq credits required. Does NOT accept online sciences from Sofia, Straighterline, or Portage.",
+        "addl_prereq_fit": 0.3,
+        "notes": "SIGNIFICANT additional requirements: Philosophy + 6 credits Religious Studies. This is a Jesuit school with values-based requirements."
+      },
+      "costs": {
+        "tuition": 72735,
+        "tuition_notes": "$24,245/semester x 3 semesters",
+        "fees": 2500,
+        "col_index": 108
+      },
+      "scores": {
+        "location_score": 9,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 3,
+          "city_culture": 4,
+          "notes": "~14hr drive but direct flights from MKE. Rocky Mountains! Major metro with outdoor culture."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.8,
+        "np_pathway_notes": "Has MSN and DNP programs. Loretto Heights School of Nursing. CCNE accredited.",
+        "prestige": 0.55,
+        "national_percentile": 0.55,
+        "ranking_notes": "#1 in Colorado (Niche), but not nationally ranked in top tiers. Regional reputation.",
+        "online_lab_conf": 0.5,
+        "online_lab_notes": "Accepts online labs from accredited schools BUT explicitly excludes Sofia, Straighterline, Portage"
+      },
+      "notes": "LOCATION IS GREAT (Denver/mountains) but PREREQS ARE PROBLEMATIC. You'd need Philosophy + 6 credits of Religious Studies on top of everything else. That's a significant hurdle. Also explicitly rejects some online lab providers. 12-month program is fast. Good NP pathway. Weigh location benefits against prereq burden.",
+      "sources": [
+        "https://www.regis.edu/academics/majors-and-programs/undergraduate/nursing-bsn-accelerated",
+        "https://www.regis.edu/academics/majors-and-programs/application-requirements/nursing-bsn-accelerated",
+        "https://allnurses.com/schools/regis-university-r319/"
+      ]
+    },
+    {
+      "id": "johns-hopkins-msn",
+      "name": "Johns Hopkins MSN Entry into Nursing",
+      "type": "MN",
+      "location": {
+        "city": "Baltimore",
+        "state": "MD",
+        "full": "Baltimore, MD"
+      },
+      "admissions": {
+        "email": "jhuson@jhu.edu",
+        "deadline": "2026-01-15",
+        "priority_deadline": "2025-11-01",
+        "start_date": "2026-08-01",
+        "start_date_notes": "Fall 2026 entry. For Spring 2027, check if available."
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "format": "Full-time, on-site",
+        "degree": "MSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": false,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "All prereqs must be completed with grade B or higher (not C). JHU offers own online prereq courses at $375/credit.",
+        "addl_prereq_fit": 0.7,
+        "notes": "Grade requirement is B minimum (stricter than most). No chemistry required though."
+      },
+      "costs": {
+        "tuition": 112000,
+        "tuition_notes": "$28,000/semester x 4 semesters. Tuition locked - no increase in year 2.",
+        "fees": 2000,
+        "scholarships_available": "Yes - $5,000 to full tuition available",
+        "col_index": 118
+      },
+      "scores": {
+        "location_score": 7,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 2,
+          "city_culture": 3,
+          "notes": "~12hr drive, direct flights available. Chesapeake Bay area, some trails. Large established city."
+        },
+        "location_boost": 0,
+        "np_pathway": 1.0,
+        "np_pathway_notes": "ELITE NP programs. #1 DNP, #2 MSN nationally. World-class clinical placements.",
+        "prestige": 0.98,
+        "national_percentile": 0.99,
+        "ranking_notes": "#1 DNP, #2 MSN nationally. #3 nursing school in the WORLD (QS). Top 3 in every NP specialty.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific restriction found. Offers own online prereqs."
+      },
+      "notes": "ELITE program - #1/#2 nationally. However: (1) Your scoring formula PENALIZES elite programs >0.9 percentile, (2) $112K tuition is steep even with scholarship potential, (3) Grade B requirement on prereqs is strict. Worth applying if you want the absolute best NP pathway and can get scholarship money, but may not score well in your system. Deadline for Fall 2026 is Jan 15, 2026 - very soon!",
+      "sources": [
+        "https://nursing.jhu.edu/programs/fall-2026-master-of-science-in-nursing-msn-entry-into-nursing-program/",
+        "https://nursing.jhu.edu/admissions/tuition-fees/",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/johns-hopkins-university-33119"
+      ]
+    },
+    {
+      "id": "baylor-fastbacc",
+      "name": "Baylor University FastBacc",
+      "type": "ABSN",
+      "location": {
+        "city": "Dallas",
+        "state": "TX",
+        "full": "Dallas, TX"
+      },
+      "admissions": {
+        "email": "fastbacc@baylor.edu",
+        "deadline": "2026-01-15",
+        "deadline_notes": "Jan 15, 2026 for May 2026 start. Applications via NursingCAS.",
+        "start_date": "2026-05-01"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "credits": 62,
+        "clinical_hours": 720,
+        "format": "On-campus Dallas (also has Distance ABSN option for TX residents)",
+        "degree": "BSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": true,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "English Comp I & II, English Literature, Federal Government, Bible-based Religion, World Religion, History course. 52 hours total prereqs (33 needed to apply). HESI exam required (80+ English, 80+ Math).",
+        "addl_prereq_fit": 0.2,
+        "notes": "EXTENSIVE additional requirements: Religion courses (Bible-based + World), English Lit, Federal Govt, History. This is a Baptist school with significant gen-ed requirements."
+      },
+      "costs": {
+        "tuition": 68100,
+        "tuition_notes": "Based on Distance ABSN price - on-campus may vary. Verify with admissions.",
+        "fees": 2000,
+        "col_index": 96
+      },
+      "scores": {
+        "location_score": 8,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 1,
+          "city_culture": 4,
+          "notes": "~15hr drive, direct flights from MKE. Flat terrain, limited water. Major Texas metro."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.8,
+        "np_pathway_notes": "Has DNP programs. #4 nurse anesthesia, #22 nurse-midwifery nationally.",
+        "prestige": 0.7,
+        "national_percentile": 0.71,
+        "ranking_notes": "#43 DNP, #28 BSN nationally. #1 nursing school in Texas (Nursingprocess). 97% NCLEX pass rate.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific restrictions found"
+      },
+      "notes": "Texas option with strong outcomes. HOWEVER: VERY extensive prereqs including Bible-based Religion, World Religion, English Lit, Federal Govt, History. You'd need to complete significant additional coursework. Lower COL is a plus. May 2026 deadline is VERY soon (Jan 15, 2026).",
+      "sources": [
+        "https://nursing.baylor.edu/admissions/undergraduate-admissions/second-degree-post-baccalaureate/fastbaccr",
+        "https://onlinenursing.baylor.edu/tuition",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/baylor-university-33272"
+      ]
+    },
+    {
+      "id": "uk-absn",
+      "name": "University of Kentucky ABSN",
+      "type": "ABSN",
+      "location": {
+        "city": "Lexington",
+        "state": "KY",
+        "full": "Lexington, KY"
+      },
+      "admissions": {
+        "email": "conadmissions@uky.edu",
+        "deadline": "2026-03-01",
+        "deadline_notes": "March 1 for Fall 2026. Apply via NursingCAS + UK application.",
+        "start_date": "2026-08-01"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "credits": 55,
+        "format": "Hybrid - online didactic + in-person labs/clinicals in Lexington or Ashland",
+        "degree": "BSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Minimum C grade in all prereqs. Video interview required.",
+        "addl_prereq_fit": 0.9,
+        "notes": "Standard prereqs, relatively streamlined requirements."
+      },
+      "costs": {
+        "tuition": 35000,
+        "tuition_notes": "Estimated ~$505/credit in-state x 55 credits = ~$28K in-state. Out-of-state ~$75K. Online rate may apply uniformly.",
+        "fees": 2000,
+        "col_index": 90
+      },
+      "scores": {
+        "location_score": 6,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 2,
+          "city_culture": 2,
+          "notes": "~6hr drive from Milwaukee. Rolling hills/horse country, some outdoor access. Mid-size city, college town."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.8,
+        "np_pathway_notes": "Strong NP programs. First DNP program in the nation (2001). #20 DNP nationally.",
+        "prestige": 0.75,
+        "national_percentile": 0.78,
+        "ranking_notes": "#15 BSN, #20 DNP nationally. 98% NCLEX pass rate. Top 2% of BSN programs.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "Hybrid format suggests flexibility with online components"
+      },
+      "notes": "STRONG VALUE option - lower COL, good rankings, standard prereqs. In your 80th percentile sweet spot. Hybrid format gives some flexibility. Lexington is a nice college town but may feel small. Good NP pathway with pioneering DNP program.",
+      "sources": [
+        "https://nursing.uky.edu/undergraduate-programs/accelerated-bsn",
+        "https://nursing.uky.edu/undergraduate-programs/accelerated-bsn/apply",
+        "https://nursing.uky.edu/news/uk-college-nursing-ranks-top-2-nation-bsn-programs-top-5-dnp-programs"
+      ]
+    },
+    {
+      "id": "vanderbilt-mn",
+      "name": "Vanderbilt University MN Pre-Specialty",
+      "type": "MN",
+      "location": {
+        "city": "Nashville",
+        "state": "TN",
+        "full": "Nashville, TN"
+      },
+      "admissions": {
+        "email": "VUSN-Admissions@vanderbilt.edu",
+        "phone": "615-322-4400",
+        "deadline": "2025-10-15",
+        "deadline_notes": "Oct 15 priority for Fall 2026. Rolling after. Applications open August.",
+        "start_date": "2026-08-01"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "credits": 66,
+        "format": "Full-time, in-person (daily commute required)",
+        "degree": "MN",
+        "pathway": "MN Prespecialty guarantees spot in NP specialty after MN completion"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": false,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "A&P, Micro must be within 5 years of application. 3.0 GPA recommended.",
+        "addl_prereq_fit": 0.9,
+        "notes": "Relatively standard prereqs. No chemistry required. 5-year recency on sciences."
+      },
+      "costs": {
+        "tuition": 135762,
+        "tuition_notes": "$2,057/credit x 66 credits. Very expensive but elite program.",
+        "fees": 6000,
+        "fees_breakdown": "$4,074 health insurance + $791 student fees + $1,012 health fee + misc",
+        "col_index": 105
+      },
+      "scores": {
+        "location_score": 8,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 2,
+          "city_culture": 4,
+          "notes": "~7hr drive from Milwaukee. Hilly terrain, some outdoor access. Major metro with cultural momentum - music scene, growth."
+        },
+        "location_boost": 0,
+        "np_pathway": 1.0,
+        "np_pathway_notes": "EXCELLENT. #4 MSN, #17 DNP nationally. 13 NP specialties. MN Prespecialty guarantees NP spot.",
+        "prestige": 0.9,
+        "national_percentile": 0.97,
+        "ranking_notes": "#4 MSN nationally (Top 5). 97% employment in advanced practice after graduation.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific policy stated"
+      },
+      "notes": "Nashville is one of your preferred cities! Elite program with guaranteed NP pathway via MN Prespecialty track. VERY expensive ($136K). May be penalized by your competitiveness formula (top 3%). Strong if you can afford it and want Nashville location + guaranteed NP path.",
+      "sources": [
+        "https://nursing.vanderbilt.edu/programs/mn/",
+        "https://nursing.vanderbilt.edu/admissions/msn-mn-pmc/",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/vanderbilt-university-33271"
+      ]
+    },
+    {
+      "id": "ucla-mecn",
+      "name": "UCLA Master Entry Clinical Nursing (MECN)",
+      "type": "MECN",
+      "location": {
+        "city": "Los Angeles",
+        "state": "CA",
+        "full": "Los Angeles, CA"
+      },
+      "admissions": {
+        "email": "sonstuaff@sonnet.ucla.edu",
+        "deadline": "2025-11-01",
+        "deadline_notes": "Nov 1, 2025 for Fall 2026. Very competitive: 500+ apps for 70 spots.",
+        "start_date": "2026-09-24"
+      },
+      "program_details": {
+        "duration_months": 24,
+        "terms": 6,
+        "format": "Full-time, on-campus only. Not available part-time or online.",
+        "degree": "MSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Chemistry must be combined inorganic/organic/biochem sequence. Epidemiology required. Communication/interpersonal course required. All prereqs grade C+ by Dec 2025.",
+        "addl_prereq_fit": 0.5,
+        "notes": "Extensive chemistry requirement (inorganic + organic + biochem). Plus Epidemiology and Communication courses beyond standard prereqs."
+      },
+      "costs": {
+        "tuition": 57192,
+        "tuition_notes": "$28,596/year in-state x 2 years. Out-of-state: ~$82K total ($40,841/yr + $12,245 NRST).",
+        "fees": 3000,
+        "col_index": 160
+      },
+      "scores": {
+        "location_score": 7,
+        "location_breakdown": {
+          "distance": 1,
+          "geography": 2,
+          "city_culture": 4,
+          "notes": "~28hr drive, no direct flights. Beach access, some hills. Massive metro but high COL."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.9,
+        "np_pathway_notes": "Strong NP programs. #9 MSN, #27 DNP nationally.",
+        "prestige": 0.85,
+        "national_percentile": 0.94,
+        "ranking_notes": "#9 MSN, #9 BSN, #27 DNP. Excellent public school option. Joe C. Wen School of Nursing.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific policy stated"
+      },
+      "notes": "VERY competitive (7:1 applicant ratio). Extensive prereqs including full chem sequence + epidemiology. HIGH COL (LA). In-state tuition is reasonable but out-of-state is steep. Good rankings but may be penalized by competitiveness formula. Distance from Milwaukee is significant.",
+      "sources": [
+        "https://www.nursing.ucla.edu/programs-admissions/academic-programs/master-of-science-entry",
+        "https://nursing.ucla.edu/programs-admissions/financial-aid/tuition-fees/tuition-fees-mecn-program",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/university-of-california-los-angeles-33030"
+      ]
+    },
+    {
+      "id": "yale-gepn",
+      "name": "Yale University GEPN",
+      "type": "GEPN",
+      "location": {
+        "city": "New Haven",
+        "state": "CT",
+        "full": "New Haven, CT"
+      },
+      "admissions": {
+        "email": "nursing.admissions@yale.edu",
+        "deadline": "2025-10-15",
+        "deadline_notes": "Oct 15 for Fall 2026. Apply via NursingCAS.",
+        "start_date": "2026-06-01"
+      },
+      "program_details": {
+        "duration_months": 36,
+        "terms": 9,
+        "format": "Full-time, on-campus. 3-year MSN program combining RN prep + specialty.",
+        "degree": "MSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": false,
+          "stats": false,
+          "chem": false,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Only A&P I and A&P II with labs required (4 credits each). Within 8 years. 3.0 GPA on prereqs required. 3.0 cumulative GPA OR top 50th percentile GRE. AP credits NOT accepted.",
+        "addl_prereq_fit": 1.0,
+        "notes": "MINIMAL prereqs - only A&P! But GRE may be required if GPA under 3.0."
+      },
+      "costs": {
+        "tuition": 124023,
+        "tuition_notes": "$51,748/year x 2 + $20,527 summer term. 3-year program.",
+        "fees": 6000,
+        "fees_breakdown": "$2,246 equipment/tech + $510 lab + $134 activity + $3,422 health insurance",
+        "col_index": 140
+      },
+      "scores": {
+        "location_score": 5,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 1,
+          "city_culture": 2,
+          "notes": "~14hr drive, connections via NYC. Coastal but not mountains. Small city, college town."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.9,
+        "np_pathway_notes": "3-year program includes specialty training. Good NP outcomes. 94-98% NCLEX pass rate.",
+        "prestige": 0.8,
+        "national_percentile": 0.79,
+        "ranking_notes": "#30 MSN, #47 DNP. Yale name but nursing school not top-10. #6 in world (QS). PhD top 5.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "Within 8 years, from accredited institution including community college"
+      },
+      "notes": "MINIMAL prereqs (only A&P!) make this very accessible. BUT: 3-year program is LONG, expensive ($124K), and New Haven may not match your location preferences. Yale prestige but nursing school rankings not elite. Actually falls in your 80th percentile sweet spot. Worth considering if you value minimal prereqs and Ivy brand.",
+      "sources": [
+        "https://nursing.yale.edu/academics/graduate-entry-pre-specialty-nursing-gepn",
+        "https://nursing.yale.edu/admissions-aid/admissions/graduate-entry-pre-specialty-nursing-gepn/prerequisites",
+        "https://nursing.yale.edu/admissions-aid/financial-aid/tuition-and-fees"
+      ]
+    },
+    {
+      "id": "columbia-mde",
+      "name": "Columbia University MDE",
+      "type": "MDE",
+      "location": {
+        "city": "New York",
+        "state": "NY",
+        "full": "New York, NY"
+      },
+      "admissions": {
+        "email": "nursing-admissions@columbia.edu",
+        "deadline": "2025-12-01",
+        "deadline_notes": "Applications open August 2025 for Summer 2026 start. Cohort model.",
+        "start_date": "2026-06-01"
+      },
+      "program_details": {
+        "duration_months": 15,
+        "terms": 4,
+        "clinical_hours": 1000,
+        "format": "Full-time, on-campus",
+        "degree": "MS (NY doesn't offer MSN)"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": false,
+          "lifespan": false,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "All prereqs must be grade B or higher. Stats must be within 5 years. Labs NOT required. Offers OPEN program for prereqs online.",
+        "addl_prereq_fit": 0.8,
+        "notes": "Grade B requirement is stricter than most. No chemistry required."
+      },
+      "costs": {
+        "tuition": 87242,
+        "tuition_notes": "Per third-party sources. Verify with Columbia directly.",
+        "fees": 3000,
+        "col_index": 180
+      },
+      "scores": {
+        "location_score": 5,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 1,
+          "city_culture": 4,
+          "notes": "~14hr drive, direct flights available. Limited outdoor access in NYC. Massive metro but VERY high COL."
+        },
+        "location_boost": 0,
+        "np_pathway": 1.0,
+        "np_pathway_notes": "ELITE. Historically #5-6 nationally. WHO Collaborating Center. Largest NIH funding per capita.",
+        "prestige": 0.92,
+        "national_percentile": 0.96,
+        "ranking_notes": "Historically #5-6 (declined to submit data recently). Ivy League. Top DNP programs.",
+        "online_lab_conf": 1.0,
+        "online_lab_notes": "Labs explicitly NOT required for prereqs"
+      },
+      "notes": "ELITE Ivy program but VERY expensive ($87K) + NYC COL (180 index). Historically top-5 ranked. Labs not required is nice. Grade B requirement on prereqs. Will be penalized by your competitiveness formula. NYC may not match your location preferences (high COL, limited outdoor access).",
+      "sources": [
+        "https://www.nursing.columbia.edu/academics/academic-programs/masters-direct-entry-program-non-nurses",
+        "https://www.nursing.columbia.edu/academics/admissions-glance"
+      ]
+    },
+    {
+      "id": "drexel-ace",
+      "name": "Drexel University ACE BSN",
+      "type": "ABSN",
+      "location": {
+        "city": "Philadelphia",
+        "state": "PA",
+        "full": "Philadelphia, PA"
+      },
+      "admissions": {
+        "email": "enroll@drexel.edu",
+        "phone": "215-895-2400",
+        "deadline": "2026-04-15",
+        "deadline_notes": "April 15 priority for Spring 2027. Rolling admissions after June 1.",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 11,
+        "terms": 4,
+        "format": "Full-time on-campus. Four consecutive 10-week terms. Classes 5 days/week.",
+        "degree": "BSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "English Comp required. Chemistry within 10 years. A&P/Micro within 5 years. 3.0 GPA required. Cannot have C or below in 2+ science prereqs.",
+        "addl_prereq_fit": 0.9,
+        "notes": "Standard prereqs. English comp required. Recency requirements on sciences."
+      },
+      "costs": {
+        "tuition": 61836,
+        "tuition_notes": "$15,459/term x 4 terms. First term has additional $4,036 in fees.",
+        "fees": 4036,
+        "col_index": 112
+      },
+      "scores": {
+        "location_score": 8,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 2,
+          "city_culture": 4,
+          "notes": "~12hr drive, direct flights available. Close to Pittsburgh! Near water, some trails. Major metro."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.6,
+        "np_pathway_notes": "Has MSN/DNP but #112 DNP ranking. Unranked MSN. Weaker NP pathway than others.",
+        "prestige": 0.5,
+        "national_percentile": 0.5,
+        "ranking_notes": "Unranked MSN, #112 DNP. Strong undergrad nursing (#74). 97-100% NCLEX pass rate.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "Online courses accepted from regionally accredited schools"
+      },
+      "notes": "CLOSE TO PITTSBURGH (your #1 city!). Fast 11-month program. Standard prereqs. Moderate cost. But weaker NP pathway (unranked MSN). Good if you want to be near Pittsburgh during school, then transfer for NP. Philly has good outdoor access to Appalachians.",
+      "sources": [
+        "https://drexel.edu/admissions/undergrad/nursing-ace",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/drexel-university-33449"
+      ]
+    },
+    {
+      "id": "north-park-demsn",
+      "name": "North Park University DEMSN",
+      "type": "DEMSN",
+      "location": {
+        "city": "Chicago",
+        "state": "IL",
+        "full": "Chicago, IL"
+      },
+      "admissions": {
+        "email": "nursing@northpark.edu",
+        "deadline": "2026-06-01",
+        "deadline_notes": "Rolling admissions. Verify specific cohort deadlines.",
+        "start_date": "2026-09-01"
+      },
+      "program_details": {
+        "duration_months": 20,
+        "terms": 5,
+        "credits": 68,
+        "clinical_hours": 595,
+        "format": "On-ground with some hybrid elements. Chicago campus.",
+        "degree": "MSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "2.75 GPA required. TEAS exam required (within 1 year of applying).",
+        "addl_prereq_fit": 0.8,
+        "notes": "Standard prereqs but TEAS exam adds a hurdle."
+      },
+      "costs": {
+        "tuition": 62900,
+        "tuition_notes": "$925/credit x 68 credits",
+        "fees": 2000,
+        "col_index": 115
+      },
+      "scores": {
+        "location_score": 8,
+        "location_breakdown": {
+          "distance": 3,
+          "geography": 1,
+          "city_culture": 4,
+          "notes": "<2hr drive from Milwaukee, Lake Michigan access, major metro"
+        },
+        "location_boost": 0,
+        "np_pathway": 0.6,
+        "np_pathway_notes": "Has MSN program. Not nationally ranked. Smaller school.",
+        "prestige": 0.5,
+        "national_percentile": 0.5,
+        "ranking_notes": "Not in top US News rankings. Regional reputation. Swedish Covenant heritage.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific policy found"
+      },
+      "notes": "Another Chicago option. Lower prestige than Rush/DePaul but similar price. TEAS exam required. 20 months is moderate length. Falls in your 80th percentile sweet spot due to not being elite. Could be good backup Chicago option.",
+      "sources": [
+        "https://msn.northpark.edu/nursing-admissions/",
+        "https://degree.northpark.edu/online-programs/healthcare-nursing/msn/demsn-direct-entry/faqs/"
+      ]
+    },
+    {
+      "id": "samuel-merritt-absn",
+      "name": "Samuel Merritt University ABSN",
+      "type": "ABSN",
+      "location": {
+        "city": "Oakland",
+        "state": "CA",
+        "full": "Oakland, CA"
+      },
+      "admissions": {
+        "email": "admissions@samuelmerritt.edu",
+        "deadline": "2025-12-01",
+        "deadline_notes": "Dec 1 for Summer 2026. Nov 15 for Spring 2026. Via NursingCAS.",
+        "start_date": "2026-06-01"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "format": "On-campus. Oakland, Sacramento, or San Mateo campuses.",
+        "degree": "BSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Pharmacology and Pathophysiology required! TEAS or HESI exam required (80% minimum). BLS certification required.",
+        "addl_prereq_fit": 0.3,
+        "notes": "SIGNIFICANT additional requirements: Pharmacology + Pathophysiology. These are often taken IN nursing school, not as prereqs."
+      },
+      "costs": {
+        "tuition": 56000,
+        "tuition_notes": "~$50-56K based on recent figures. Verify current rates.",
+        "fees": 2000,
+        "col_index": 165
+      },
+      "scores": {
+        "location_score": 6,
+        "location_breakdown": {
+          "distance": 1,
+          "geography": 3,
+          "city_culture": 3,
+          "notes": "~30hr drive, no direct flights. Bay Area has great outdoor access (water, hills). Major metro but VERY high COL."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.6,
+        "np_pathway_notes": "Has MSN programs. Not nationally ranked. Healthcare-focused university.",
+        "prestige": 0.5,
+        "national_percentile": 0.55,
+        "ranking_notes": "Not in top US News rankings. Regional reputation in Bay Area healthcare.",
+        "online_lab_conf": 0.5,
+        "online_lab_notes": "No specific policy found. HESI/TEAS required."
+      },
+      "notes": "Bay Area option but PROBLEMATIC PREREQS: Pharmacology + Pathophysiology required BEFORE entry. Most programs teach these IN the program. Very high COL (165 index). Distance from Milwaukee is significant. Probably not worth the prereq hassle.",
+      "sources": [
+        "https://www.samuelmerritt.edu/college-nursing/accelerated-bachelor-science-nursing",
+        "https://www.samuelmerritt.edu/prerequisite-course-articulation"
+      ]
+    },
+    {
+      "id": "uwm-mn",
+      "name": "UW-Milwaukee Direct Entry MN",
+      "type": "MN",
+      "location": {
+        "city": "Milwaukee",
+        "state": "WI",
+        "full": "Milwaukee, WI"
+      },
+      "admissions": {
+        "email": "nursing@uwm.edu",
+        "phone": "414-229-5047",
+        "deadline": "2026-02-01",
+        "deadline_notes": "Feb 1 priority for Fall start. Aug 1 for Spring start.",
+        "start_date": "2026-08-01"
+      },
+      "program_details": {
+        "duration_months": 24,
+        "terms": 6,
+        "format": "Cohort model. Combination of online and on-campus.",
+        "degree": "MN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Prereqs can be in progress when applying but must be complete before start.",
+        "addl_prereq_fit": 0.9,
+        "notes": "Standard prereqs. Flexible timing for completion."
+      },
+      "costs": {
+        "tuition": 25456,
+        "tuition_notes": "$12,728/year in-state x 2 years. Out-of-state: ~$52K total.",
+        "fees": 2000,
+        "col_index": 100
+      },
+      "scores": {
+        "location_score": 6,
+        "location_breakdown": {
+          "distance": 3,
+          "geography": 1,
+          "city_culture": 2,
+          "notes": "You're in Milwaukee already. Lake Michigan but flat terrain. Mid-size city."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.6,
+        "np_pathway_notes": "Has MSN and nursing PhD. Accredited but not highly ranked.",
+        "prestige": 0.5,
+        "national_percentile": 0.5,
+        "ranking_notes": "Not in top US News rankings. State school reputation.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific restrictions found"
+      },
+      "notes": "LOCAL BACKUP option. VERY affordable in-state ($25K). BUT: keeps you in Milwaukee, which you wanted to leave. 24 months is longer than some. Note: UWM does NOT have traditional 12-month ABSN - only this Direct Entry MN. Good safety school if cost is primary concern.",
+      "sources": [
+        "https://uwm.edu/nursing/academics/mn-direct-entry/",
+        "https://catalog.uwm.edu/health-professions-sciences/nursing/nursing-mn/"
+      ]
+    },
+    {
+      "id": "edgewood-absn",
+      "name": "Edgewood University ABSN",
+      "type": "ABSN",
+      "location": {
+        "city": "Madison",
+        "state": "WI",
+        "full": "Madison, WI"
+      },
+      "admissions": {
+        "email": "nursing@edgewood.edu",
+        "deadline": "2026-06-01",
+        "deadline_notes": "Rolling admissions. Via NursingCAS.",
+        "start_date": "2026-09-01"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "credits": 58,
+        "clinical_hours": 600,
+        "format": "Full-time in-person (also has online ABSN option)",
+        "degree": "BSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "2.75 GPA required. Math/science prereqs within 8 years. Grade C minimum. $1,000 deposit on admission.",
+        "addl_prereq_fit": 0.9,
+        "notes": "Standard prereqs. 8-year recency is generous."
+      },
+      "costs": {
+        "tuition": 45000,
+        "tuition_notes": "Fixed $45,000 for 12-month program",
+        "fees": 1000,
+        "col_index": 105
+      },
+      "scores": {
+        "location_score": 7,
+        "location_breakdown": {
+          "distance": 3,
+          "geography": 2,
+          "city_culture": 3,
+          "notes": "~1hr from Milwaukee. Lakes + isthmus geography. Growing tech city, good culture."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.4,
+        "np_pathway_notes": "BSN only - would need to go elsewhere for NP. Small school.",
+        "prestige": 0.5,
+        "national_percentile": 0.5,
+        "ranking_notes": "Not in top rankings but 100% NCLEX pass rate. Dominican heritage.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific restrictions found"
+      },
+      "notes": "MADISON BACKUP option. 100% NCLEX pass rate is excellent. Reasonable $45K fixed tuition. Fast 12-month program. BUT: weak NP pathway (BSN only). Close enough to Milwaukee that family pressure might persist. Good value if you just want BSN quickly.",
+      "sources": [
+        "https://www.edgewood.edu/academics/programs/post-baccalaureate-accelerated-bachelor-of-science-in-nursing/",
+        "https://absn.edgewood.edu/"
+      ]
+    },
+    {
+      "id": "alverno-demsn",
+      "name": "Alverno College DEMSN",
+      "type": "DEMSN",
+      "location": {
+        "city": "Milwaukee",
+        "state": "WI",
+        "full": "Milwaukee, WI"
+      },
+      "admissions": {
+        "email": "admissions@alverno.edu",
+        "deadline": "2026-06-01",
+        "deadline_notes": "Classes begin August and January. Rolling admissions.",
+        "start_date": "2026-08-01"
+      },
+      "program_details": {
+        "duration_months": 18,
+        "duration_options": "18-20 months accelerated OR 3-year extended option",
+        "terms": 5,
+        "credits": 77,
+        "format": "On-campus. Milwaukee or Mesa, AZ locations.",
+        "degree": "MSN (dual BSN+MSN)"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Prereqs must be within 7 years and grade C or better.",
+        "addl_prereq_fit": 0.9,
+        "notes": "Standard prereqs. 7-year recency requirement."
+      },
+      "costs": {
+        "tuition": 63525,
+        "tuition_notes": "$825/credit x 77 credits",
+        "fees": 3000,
+        "fees_breakdown": "$450/semester comprehensive fee + $720/semester ATI fee x 6 semesters",
+        "col_index": 100
+      },
+      "scores": {
+        "location_score": 6,
+        "location_breakdown": {
+          "distance": 3,
+          "geography": 1,
+          "city_culture": 2,
+          "notes": "You're in Milwaukee. Could do Mesa, AZ campus instead for different location."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.6,
+        "np_pathway_notes": "Dual BSN+MSN in 18 months. Has DNP program. 92% NCLEX pass rate.",
+        "prestige": 0.5,
+        "national_percentile": 0.5,
+        "ranking_notes": "Not in top rankings. Women's college with nursing tradition.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific restrictions found"
+      },
+      "notes": "MILWAUKEE BACKUP but has MESA, AZ option! Could use this to get to Arizona instead of staying in Milwaukee. Dual BSN+MSN is efficient - graduate with master's. 18 months is reasonable. Strong local clinical partnerships. Consider Mesa campus if you want Southwest.",
+      "sources": [
+        "https://msn.alverno.edu/",
+        "https://www.alverno.edu/demsn"
+      ]
+    },
+    {
+      "id": "lourdes-absn",
+      "name": "Lourdes University ABSN",
+      "type": "ABSN",
+      "location": {
+        "city": "Sylvania",
+        "state": "OH",
+        "full": "Sylvania, OH (Toledo area)"
+      },
+      "admissions": {
+        "email": "admissions@lourdes.edu",
+        "deadline": "2026-03-01",
+        "deadline_notes": "Verify specific deadlines with admissions.",
+        "start_date": "2026-08-01"
+      },
+      "program_details": {
+        "duration_months": 15,
+        "terms": 4,
+        "format": "On-campus",
+        "degree": "BSN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Verify specific prereqs with Lourdes - limited data available.",
+        "addl_prereq_fit": 0.8,
+        "notes": "Standard prereqs assumed based on similar Ohio programs."
+      },
+      "costs": {
+        "tuition": 44000,
+        "tuition_notes": "Estimated based on similar Ohio programs (~$44K). Verify with Lourdes.",
+        "fees": 2000,
+        "col_index": 88
+      },
+      "scores": {
+        "location_score": 5,
+        "location_breakdown": {
+          "distance": 2,
+          "geography": 1,
+          "city_culture": 1,
+          "notes": "~5hr drive from Milwaukee. Toledo area - flat, limited outdoor features. Small city."
+        },
+        "location_boost": 0,
+        "np_pathway": 0.4,
+        "np_pathway_notes": "Has MSN but primarily BSN-focused. DNP Nurse Anesthesia program.",
+        "prestige": 0.4,
+        "national_percentile": 0.4,
+        "ranking_notes": "Not in top rankings. Small Franciscan university. DNP accredited through 2026.",
+        "online_lab_conf": 0.8,
+        "online_lab_notes": "No specific policy found"
+      },
+      "notes": "LOW PRIORITY - limited data available. Small Franciscan school near Toledo. Very low COL (88) could be appealing. But Toledo doesn't match your location preferences (flat, small, not much culture). Weak NP pathway. Only consider if cost is primary driver.",
+      "sources": [
+        "https://lourdes.edu/nursing/"
+      ]
+    }
+  ],
+  "research_notes": {
+    "methodology": "Web searches for official program pages, US News rankings, tuition pages, and admissions requirements. Applied user's location scoring methodology from RESEARCH_BRIEF.md.",
+    "caveats": [
+      "2026-2027 tuition rates may not be finalized - verify with programs",
+      "Deadlines are approximate for Spring 2027 - confirm with admissions offices",
+      "Some programs (Rush, DePaul, Marquette, JHU) are MSN/GEM rather than traditional ABSN",
+      "COL indices estimated for cities not in reference table"
+    ],
+    "key_findings": [
+      "Rush has minimal prereqs and excellent NP pathway - strong contender",
+      "Regis has GREAT location but problematic prereqs (Philosophy + 6 Religious Studies credits)",
+      "Johns Hopkins is elite but will be penalized by your competitiveness formula",
+      "DePaul offers lower-cost Chicago option with flexible pacing",
+      "Marquette is fast (15 months) but keeps you in Milwaukee",
+      "UK is a STRONG VALUE option - 80th percentile, low COL, standard prereqs",
+      "Baylor has EXTENSIVE religion/gen-ed prereqs despite being in Texas",
+      "Vanderbilt in Nashville is excellent but $136K is steep",
+      "UCLA is very competitive (7:1) and needs extensive chem prereqs",
+      "Yale has MINIMAL prereqs (only A&P!) but 3-year program is long",
+      "Columbia is elite Ivy but $87K + NYC COL (180 index) is brutal",
+      "Drexel is CLOSE TO PITTSBURGH - 11 months, standard prereqs, weaker NP pathway",
+      "Samuel Merritt requires Pharmacology + Pathophysiology BEFORE entry - unusual",
+      "UW-Milwaukee is cheapest option ($25K in-state) but keeps you in Milwaukee",
+      "Edgewood has 100% NCLEX pass rate, $45K fixed, but BSN-only (no NP pathway)",
+      "Alverno has MESA, AZ campus option - escape to Southwest while staying in program"
+    ]
+  }
+}

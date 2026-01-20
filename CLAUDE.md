@@ -93,7 +93,7 @@ All factors are multiplied together (weights default to 1.0). A zero in any fact
 | `prestige` | 0-1 | Career value of the degree downstream | Manual rating |
 | `competitiveness` | 0-1 | Ease of admission (sweet spot = 80th percentile) | `1 - |national_percentile - 0.8|` |
 | `start_score` | 0-1 | How well start date aligns with target (Jan 2027) | Calculated from start_date |
-| `time_factor` | 0.25-1 | Preference for shorter programs | ≤12mo=1.0, 13-18mo=0.75, 19-24mo=0.5, >24mo=0.25 |
+| `time_factor` | 0.2-1 | Preference for shorter programs | ≤12mo=1.0, 13-16mo=0.8, 17-23mo=0.6, 24-31mo=0.4, ≥32mo=0.2 |
 | `cost_score` | 0-1 | Affordability (lower monthly burn = higher score) | `max(0, 1 - monthly_burn/10000)` |
 | `np_pathway` | 0-1 | Regional viability for BSN→NP transition | See below |
 

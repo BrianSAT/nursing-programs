@@ -216,10 +216,11 @@ function calcStartScore(startDate) {
 
 function calcTimeFactor(months) {
   if (!months) return 1.0;
-  if (months <= 12) return 1.0;
-  if (months <= 18) return 0.75;
-  if (months <= 24) return 0.5;
-  return 0.25;
+  if (months <= 12) return 1.0;   // No penalty
+  if (months <= 16) return 0.8;   // 20% penalty
+  if (months <= 23) return 0.6;   // 40% penalty
+  if (months <= 31) return 0.4;   // 60% penalty
+  return 0.2;                     // 80% penalty (32+ months)
 }
 
 data.programs.forEach(p => {

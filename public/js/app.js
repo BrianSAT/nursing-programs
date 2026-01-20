@@ -234,9 +234,10 @@ function recalculateRawScore(program, costScore) {
   // Time factor
   const duration = costs['Duration (mo)'] || details.duration_months || 12;
   let timeFactor = 1.0;
-  if (duration > 24) timeFactor = 0.25;
-  else if (duration > 18) timeFactor = 0.5;
-  else if (duration > 12) timeFactor = 0.75;
+  if (duration >= 32) timeFactor = 0.2;       // 80% penalty
+  else if (duration >= 24) timeFactor = 0.4;  // 60% penalty
+  else if (duration >= 17) timeFactor = 0.6;  // 40% penalty
+  else if (duration >= 13) timeFactor = 0.8;  // 20% penalty
 
   const rawScore = base * prereqFit * onlineLabConf * npPathway * prestige * competitiveness * startScore * timeFactor * costScore;
   return Math.round(rawScore * 100) / 100;
