@@ -38,12 +38,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "University Gen Ed Requirements (Communication, Quantitative, Ethnic Studies)"
+        ]
       },
       "admissions": {
         "email": "admissions@nursing.wisc.edu",
         "deadline": "2026-09-15",
-        "start_date": "2027-05-15"
+        "start_date": "2027-05-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "All 4 science prereqs complete by Sep 15 deadline; others before start."
       },
       "program_details": {
         "duration_months": 12,
@@ -120,12 +125,18 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "100 hours healthcare experience (within 12 months)",
+          "RSN course"
+        ]
       },
       "admissions": {
         "email": "asknursing@uw.edu",
         "deadline": "2026-10-15",
-        "start_date": "2027-01-05"
+        "start_date": "2027-01-05",
+        "in_progress_ok": true,
+        "app_timing_notes": "3+ sciences done with 3.0 grade at application. All done before start."
       },
       "program_details": {
         "duration_months": 12,
@@ -202,12 +213,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@osu.edu",
         "deadline": "2027-01-09",
-        "start_date": "2027-05-20"
+        "start_date": "2027-05-20",
+        "in_progress_ok": false,
+        "app_timing_notes": "ALL prereqs complete with B- by application deadline."
       },
       "program_details": {
         "duration_months": 18,
@@ -285,12 +299,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "sonadmissions@dm.duke.edu",
         "deadline": "2026-01-15",
-        "start_date": "2026-08-15"
+        "start_date": "2026-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Prereqs not required before applying, must complete before enrollment. NOTE: Duke ABSN ending Spring 2026 - only MN available."
       },
       "program_details": {
         "duration_months": 16,
@@ -367,12 +384,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "General Chemistry I with lab"
+        ]
       },
       "admissions": {
         "email": "nursingquestions@emory.edu",
         "deadline": "2026-09-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply with courses in progress, complete by orientation. <20% acceptance."
       },
       "program_details": {
         "duration_months": 12,
@@ -449,12 +471,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "admissions@nursing.upenn.edu",
         "deadline": "2026-02-02",
-        "start_date": "2027-08-14"
+        "start_date": "2027-08-14",
+        "in_progress_ok": true,
+        "app_timing_notes": "All prereqs complete by June 15 of enrollment year. Very flexible!"
       },
       "program_details": {
         "duration_months": 17,
@@ -531,12 +556,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "SON_Admissions@urmc.rochester.edu",
         "deadline": "2025-11-01",
-        "start_date": "2026-09-01"
+        "start_date": "2026-09-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Prereqs must be complete 3 weeks before program start - very flexible!"
       },
       "program_details": {
         "duration_months": 12,
@@ -620,12 +648,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Behavioral Science (Psych, Sociology, or Anthropology)"
+        ]
       },
       "admissions": {
         "email": "(866) 892-3819 (form-based)",
         "deadline": "2026-11-15",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Max 3 prereqs in progress at application."
       },
       "program_details": {
         "duration_months": 16,
@@ -705,12 +738,19 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Oral Communication (CSU GE A.1)",
+          "Written Composition (CSU GE A.2)",
+          "Critical Thinking (CSU GE A.3)"
+        ]
       },
       "admissions": {
         "email": "nursing@fullerton.edu",
         "deadline": "2025-11-30",
-        "start_date": "2026-08-25"
+        "start_date": "2026-08-25",
+        "in_progress_ok": false,
+        "app_timing_notes": "ALL prereqs complete by end of Fall 2025 for Fall 2026. CA residents only."
       },
       "program_details": {
         "duration_months": 24,
@@ -788,12 +828,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "absn@csun.edu",
         "deadline": "2026-01-31",
-        "start_date": "2026-08-25"
+        "start_date": "2026-08-25",
+        "in_progress_ok": false,
+        "app_timing_notes": "ALL prereqs on transcripts by deadline. NO in-progress considered."
       },
       "program_details": {
         "duration_months": 15,
@@ -870,12 +913,17 @@
           "ethics": false
         },
         "additional": "Separate Anatomy & Physiology courses (not combined A&P)",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "Tennessee U.S. History requirement (6 semester hrs or 1 HS unit)"
+        ]
       },
       "admissions": {
         "email": "nursstudent@utk.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-05-15"
+        "start_date": "2027-05-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "3 of 4 prereqs done by Fall 2025; 1 can be Spring 2026."
       },
       "program_details": {
         "duration_months": 12,
@@ -960,12 +1008,18 @@
           "ethics": false
         },
         "additional": "60 semester hours total; English Comp required",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "English Composition (6 semester hrs)",
+          "Science Elective (4 cr)"
+        ]
       },
       "admissions": {
         "email": "mcdanikf@musc.edu",
         "deadline": "2027-01-31",
-        "start_date": "2027-08-15"
+        "start_date": "2027-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "3 of 4 sciences at application. All done by enrollment."
       },
       "program_details": {
         "duration_months": 16,
@@ -1043,12 +1097,18 @@
           "ethics": false
         },
         "additional": "TEAS exam required; 54 credits minimum",
-        "addl_prereq_fit": 0.85
+        "addl_prereq_fit": 0.85,
+        "extra": [
+          "TEAS exam (65% min, proficiency all areas)",
+          "Theology (5 credits, during program)"
+        ]
       },
       "admissions": {
         "email": "absn@csp.edu",
         "deadline": "2026-10-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply with prereqs in progress; provisional admission until completion."
       },
       "program_details": {
         "duration_months": 16,
@@ -1125,12 +1185,18 @@
           "ethics": false
         },
         "additional": "TEAS required; English Comp; 22 credit hrs prereqs; 5-year latency",
-        "addl_prereq_fit": 0.85
+        "addl_prereq_fit": 0.85,
+        "extra": [
+          "TEAS exam (65% min)",
+          "Starting Summer 2027: Nutrition and Human Growth added"
+        ]
       },
       "admissions": {
         "email": "absn@ndm.edu",
         "deadline": "2026-11-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for in-progress policy."
       },
       "program_details": {
         "duration_months": 15,
@@ -1207,12 +1273,20 @@
           "ethics": false
         },
         "additional": "TEAS 76% min; 5-year science latency; English Comp",
-        "addl_prereq_fit": 0.85
+        "addl_prereq_fit": 0.85,
+        "extra": [
+          "Pathophysiology",
+          "Abnormal Psychology/Psychopathology",
+          "Ethics (Religion/Philosophy)",
+          "TEAS (76% min)"
+        ]
       },
       "admissions": {
         "email": "absn@mercer.edu",
         "deadline": "2026-11-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": false,
+        "app_timing_notes": "All 30 hours complete before enrolling."
       },
       "program_details": {
         "duration_months": 12,
@@ -1289,12 +1363,19 @@
           "ethics": false
         },
         "additional": "HESI A2 exam; 3.25 prereq GPA; 7-year science latency",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "Pathophysiology (BIO-322)",
+          "Christian Worldview (CWV-101)",
+          "HESI A2 exam"
+        ]
       },
       "admissions": {
         "email": "absn@gcu.edu",
         "deadline": "2026-10-15",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Complete before core nursing courses. Can do prereqs online at GCU."
       },
       "program_details": {
         "duration_months": 16,
@@ -1371,12 +1452,19 @@
           "ethics": false
         },
         "additional": "Genetics, Pathophysiology",
-        "addl_prereq_fit": 0.7
+        "addl_prereq_fit": 0.7,
+        "extra": [
+          "Human Genetics (3 cr)",
+          "Pathophysiology (4 cr)",
+          "English Composition - technical writing (3 cr)"
+        ]
       },
       "admissions": {
         "email": "absn@pitt.edu",
         "deadline": "2026-07-01",
-        "start_date": "2027-01-11"
+        "start_date": "2027-01-11",
+        "in_progress_ok": null,
+        "app_timing_notes": "Rolling admissions. Contact absn@pitt.edu for in-progress policy."
       },
       "program_details": {
         "duration_months": 12,
@@ -1458,12 +1546,18 @@
           "ethics": false
         },
         "additional": "English Comp required. Chemistry within 10 years. A&P/Micro within 5 years. 3.0 GPA required. Cannot have C or below in 2+ science prereqs.",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "English Composition (3 cr)",
+          "General Chemistry I with Lab (4 cr)"
+        ]
       },
       "admissions": {
         "email": "enroll@drexel.edu",
         "deadline": "2026-04-15",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": false,
+        "app_timing_notes": "3 of 4 sciences (incl. both A&P) must be complete BEFORE applying."
       },
       "program_details": {
         "duration_months": 11,
@@ -1545,12 +1639,15 @@
           "ethics": true
         },
         "additional": "Organic/Biochemistry",
-        "addl_prereq_fit": 0.75
+        "addl_prereq_fit": 0.75,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@creighton.edu",
         "deadline": "2026-09-15",
-        "start_date": "2027-01-04"
+        "start_date": "2027-01-04",
+        "in_progress_ok": true,
+        "app_timing_notes": "2 of 3 sciences complete at deadline. All done 45 days before start."
       },
       "program_details": {
         "duration_months": 12,
@@ -1627,12 +1724,21 @@
           "ethics": true
         },
         "additional": "Texas Government (for out-of-state)",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "HESI A2 or TEAS",
+          "Texas Government",
+          "US History (6 hrs)",
+          "Visual & Performing Arts",
+          "Philosophy/Ethics"
+        ]
       },
       "admissions": {
         "email": "nursing.students@uth.tmc.edu",
         "deadline": "2026-09-15",
-        "start_date": "2027-01-18"
+        "start_date": "2027-01-18",
+        "in_progress_ok": true,
+        "app_timing_notes": "Apply with 48/60 credits (16 must be sciences). TX Gov required for out-of-state."
       },
       "program_details": {
         "duration_months": 15,
@@ -1711,12 +1817,17 @@
           "ethics": false
         },
         "additional": "None beyond core sciences. Labs recommended but NOT required.",
-        "addl_prereq_fit": 1
+        "addl_prereq_fit": 1,
+        "extra": [
+          "3 of 4 prereqs from 4-year institution"
+        ]
       },
       "admissions": {
         "email": "nursing@rushu.rush.edu",
         "deadline": "2026-10-19",
-        "start_date": "2027-01-04"
+        "start_date": "2027-01-04",
+        "in_progress_ok": false,
+        "app_timing_notes": "All prereqs complete with C+ by NursingCAS deadline. Only 4 prereqs!"
       },
       "program_details": {
         "duration_months": 24,
@@ -1798,12 +1909,18 @@
           "ethics": false
         },
         "additional": "Pathophysiology, Pharmacology (nursing; 1-yr limit!)",
-        "addl_prereq_fit": 0.3
+        "addl_prereq_fit": 0.3,
+        "extra": [
+          "Pathophysiology",
+          "Pharmacology with Nursing Component (within 1 YEAR!)"
+        ]
       },
       "admissions": {
         "email": "nursingbearcats@uc.edu",
         "deadline": "2026-09-15",
-        "start_date": "2027-01-11"
+        "start_date": "2027-01-11",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply while finishing bachelor's. Pre-Accelerated pathway available."
       },
       "program_details": {
         "duration_months": 18,
@@ -1883,12 +2000,17 @@
           "ethics": false
         },
         "additional": "A&P, Micro must be within 5 years of application. 3.0 GPA recommended.",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "Lifespan Development OR Developmental Psych specifically"
+        ]
       },
       "admissions": {
         "email": "VUSN-Admissions@vanderbilt.edu",
         "deadline": "2025-10-15",
-        "start_date": "2026-08-01"
+        "start_date": "2026-08-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Prereqs NOT required at time of application - most flexible elite school!"
       },
       "program_details": {
         "duration_months": 16,
@@ -1982,12 +2104,19 @@
           "ethics": false
         },
         "additional": "Minimum C grade in all prereqs. Video interview required.",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "General Biology (3 cr)",
+          "Composition/Communication course",
+          "Two-semester Chemistry sequence"
+        ]
       },
       "admissions": {
         "email": "conadmissions@uky.edu",
         "deadline": "2026-03-01",
-        "start_date": "2026-08-01"
+        "start_date": "2026-08-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Some prereqs at application (Anatomy, Physio, Bio, Chem, Psych, Comp). Others before first nursing semester."
       },
       "program_details": {
         "duration_months": 16,
@@ -2071,12 +2200,22 @@
           "ethics": false
         },
         "additional": "English Comp I & II, English Literature, Federal Government, Bible-based Religion, World Religion, History course. 52 hours total prereqs (33 needed to apply). HESI exam required (80+ English, 80+ Math).",
-        "addl_prereq_fit": 0.2
+        "addl_prereq_fit": 0.2,
+        "extra": [
+          "English Composition I & II",
+          "English Literature",
+          "Federal/US Government",
+          "Bible-based Religion",
+          "World Religion",
+          "HESI A2 (English 80+, Math 80+)"
+        ]
       },
       "admissions": {
         "email": "fastbacc@baylor.edu",
         "deadline": "2026-01-15",
-        "start_date": "2026-05-01"
+        "start_date": "2026-05-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply with 33/52 credits (incl. 2 sciences). All complete before start."
       },
       "program_details": {
         "duration_months": 12,
@@ -2249,12 +2388,20 @@
           "ethics": false
         },
         "additional": "2.75 GPA required. Math/science prereqs within 8 years. Grade C minimum. $1,000 deposit on admission.",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "Pathophysiology",
+          "CNA certification",
+          "Foreign language (2 semesters)",
+          "AHA BLS/CPR"
+        ]
       },
       "admissions": {
         "email": "nursing@edgewood.edu",
         "deadline": "2026-06-01",
-        "start_date": "2026-09-01"
+        "start_date": "2026-09-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Pathophysiology may be completed during first session."
       },
       "program_details": {
         "duration_months": 12,
@@ -2337,12 +2484,17 @@
           "ethics": false
         },
         "additional": "Prereqs must be within 7 years and grade C or better.",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "Abnormal Psychology"
+        ]
       },
       "admissions": {
         "email": "admissions@alverno.edu",
         "deadline": "2026-06-01",
-        "start_date": "2026-08-01"
+        "start_date": "2026-08-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "May apply while completing prereqs, all done before start."
       },
       "program_details": {
         "duration_months": 18,
@@ -2425,12 +2577,20 @@
           "ethics": true
         },
         "additional": "Philosophy (3 credits), Religious Studies (6 credits!). Total 56 prereq credits required. Does NOT accept online sciences from Sofia, Straighterline, or Portage.",
-        "addl_prereq_fit": 0.3
+        "addl_prereq_fit": 0.3,
+        "extra": [
+          "Health Care Ethics",
+          "English Composition (3 cr)",
+          "Philosophy (6 cr)",
+          "Religious Studies (6 cr)"
+        ]
       },
       "admissions": {
         "email": "healthcare@regis.edu",
         "deadline": "2026-09-15",
-        "start_date": "2027-05-01"
+        "start_date": "2027-05-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "3 of 4 science prereqs by deadline. Rolling admissions."
       },
       "program_details": {
         "duration_months": 12,
@@ -2515,12 +2675,21 @@
           "ethics": false
         },
         "additional": "Pharmacology and Pathophysiology required! TEAS or HESI exam required (80% minimum). BLS certification required.",
-        "addl_prereq_fit": 0.3
+        "addl_prereq_fit": 0.3,
+        "extra": [
+          "Pathophysiology",
+          "Pharmacology",
+          "English Composition I & II",
+          "Interpersonal Communication",
+          "HESI A2 or TEAS"
+        ]
       },
       "admissions": {
         "email": "admissions@samuelmerritt.edu",
         "deadline": "2025-12-01",
-        "start_date": "2026-06-01"
+        "start_date": "2026-06-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Prereqs can be planned/in-progress, must be done before start."
       },
       "program_details": {
         "duration_months": 12,
@@ -2604,12 +2773,19 @@
           "ethics": false
         },
         "additional": "Stats must be within 7 years. A&P preferred within 5 years. Need Psych OR Sociology (not both).",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "Resume",
+          "3 letters of recommendation",
+          "Admissions statement"
+        ]
       },
       "admissions": {
         "email": "nursing@marquette.edu",
         "deadline": "2026-09-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "May apply while completing, cannot be in progress at program start."
       },
       "program_details": {
         "duration_months": 15,
@@ -2693,12 +2869,18 @@
           "ethics": false
         },
         "additional": "Prereqs can be in progress when applying but must be complete before start.",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "Biochemistry",
+          "CNA recommended"
+        ]
       },
       "admissions": {
         "email": "nursing@uwm.edu",
         "deadline": "2026-02-01",
-        "start_date": "2026-08-01"
+        "start_date": "2026-08-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Don't need prereqs to apply, complete before start. B+ required in all prereqs."
       },
       "program_details": {
         "duration_months": 24,
@@ -2781,12 +2963,17 @@
           "ethics": false
         },
         "additional": "All prereqs must be completed with grade B or higher (not C). JHU offers own online prereq courses at $375/credit.",
-        "addl_prereq_fit": 0.7
+        "addl_prereq_fit": 0.7,
+        "extra": [
+          "Anatomy must be taken BEFORE Physiology (cannot be same semester)"
+        ]
       },
       "admissions": {
         "email": "jhuson@jhu.edu",
         "deadline": "2026-01-15",
-        "start_date": "2026-08-01"
+        "start_date": "2026-08-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply while completing prereqs. All done before program start. Nov 1 for merit scholarships."
       },
       "program_details": {
         "duration_months": 16,
@@ -2870,12 +3057,19 @@
           "ethics": false
         },
         "additional": "Chemistry must be combined inorganic/organic/biochem sequence. Epidemiology required. Communication/interpersonal course required. All prereqs grade C+ by Dec 2025.",
-        "addl_prereq_fit": 0.5
+        "addl_prereq_fit": 0.5,
+        "extra": [
+          "Epidemiology",
+          "English Reading & Composition (2 courses)",
+          "Written and Oral Communication"
+        ]
       },
       "admissions": {
         "email": "sonstuaff@sonnet.ucla.edu",
         "deadline": "2025-11-01",
-        "start_date": "2026-09-24"
+        "start_date": "2026-09-24",
+        "in_progress_ok": true,
+        "app_timing_notes": "Apply Nov 1, all prereqs (except Epidemiology) complete by December."
       },
       "program_details": {
         "duration_months": 24,
@@ -2960,12 +3154,17 @@
           "ethics": false
         },
         "additional": "All prereqs must be grade B or higher. Stats must be within 5 years. Labs NOT required. Offers OPEN program for prereqs online.",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "Statistics must be within 5 years"
+        ]
       },
       "admissions": {
         "email": "nursing-admissions@columbia.edu",
         "deadline": "2025-12-01",
-        "start_date": "2026-06-01"
+        "start_date": "2026-06-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "At least 1 science prereq MUST be complete at application."
       },
       "program_details": {
         "duration_months": 15,
@@ -3049,12 +3248,18 @@
           "ethics": false
         },
         "additional": "Only A&P I and A&P II with labs required (4 credits each). Within 8 years. 3.0 GPA on prereqs required. 3.0 cumulative GPA OR top 50th percentile GRE. AP credits NOT accepted.",
-        "addl_prereq_fit": 1
+        "addl_prereq_fit": 1,
+        "extra": [
+          "General Chemistry with lab (4 cr)",
+          "GRE if GPA <3.0"
+        ]
       },
       "admissions": {
         "email": "nursing.admissions@yale.edu",
         "deadline": "2025-10-15",
-        "start_date": "2026-06-01"
+        "start_date": "2026-06-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "3 of 4 prereqs complete at application. 4th done by June 15. Oct 15 priority deadline."
       },
       "program_details": {
         "duration_months": 36,
@@ -3139,12 +3344,15 @@
           "ethics": false
         },
         "additional": "2.75 GPA required. TEAS exam required (within 1 year of applying).",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@northpark.edu",
         "deadline": "2026-06-01",
-        "start_date": "2026-09-01"
+        "start_date": "2026-09-01",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for in-progress policy."
       },
       "program_details": {
         "duration_months": 20,
@@ -3228,12 +3436,17 @@
           "ethics": false
         },
         "additional": "Verify specific prereqs with Lourdes - limited data available.",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "BLS certification (valid 18+ months)"
+        ]
       },
       "admissions": {
         "email": "admissions@lourdes.edu",
         "deadline": "2026-03-01",
-        "start_date": "2026-08-01"
+        "start_date": "2026-08-01",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for in-progress policy."
       },
       "program_details": {
         "duration_months": 15,
@@ -3314,12 +3527,19 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Theology/Religion (3 cr)",
+          "History (3 cr)",
+          "Fine Arts (3 cr)"
+        ]
       },
       "admissions": {
         "email": "nursing@slu.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": false,
+        "app_timing_notes": "ALL prereqs must be complete before program begins."
       },
       "program_details": {
         "duration_months": 16,
@@ -3396,12 +3616,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Introduction to Genetics (3 cr)"
+        ]
       },
       "admissions": {
         "email": "nursing@ohsu.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-01-10"
+        "start_date": "2027-01-10",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply while completing prerequisites."
       },
       "program_details": {
         "duration_months": 15,
@@ -3478,12 +3703,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@stedwards.edu",
         "deadline": "2025-12-31",
-        "start_date": "2026-08-15"
+        "start_date": "2026-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "May apply with prereqs in progress, complete before nursing courses."
       },
       "program_details": {
         "duration_months": 16,
@@ -3560,12 +3788,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@louisville.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Minimum 2 science prereqs complete at application."
       },
       "program_details": {
         "duration_months": 15,
@@ -3642,12 +3873,18 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Chemistry I & II (2 semesters)",
+          "Health Care Ethics"
+        ]
       },
       "admissions": {
         "email": "nursing@csuohio.edu",
         "deadline": "2026-04-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Only 2 science prereqs must be complete at application."
       },
       "program_details": {
         "duration_months": 16,
@@ -3724,12 +3961,15 @@
           "ethics": false
         },
         "additional": "Healthcare experience (10 hr min)",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@wayne.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-05-15"
+        "start_date": "2027-05-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for policy."
       },
       "program_details": {
         "duration_months": 20,
@@ -3806,12 +4046,22 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "ATI TEAS (7th ed)",
+          "Pathobiology",
+          "Pharmacotherapy for Nursing",
+          "Intro to Organic & Biochem with Lab",
+          "Cultural Diversity",
+          "Medical Ethics"
+        ]
       },
       "admissions": {
         "email": "nursing@isu.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Set A prereqs complete before applying; Set B can be in progress."
       },
       "program_details": {
         "duration_months": 12,
@@ -3888,12 +4138,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "NUTR 2050 (must take at Clemson)"
+        ]
       },
       "admissions": {
         "email": "nursing@clemson.edu",
         "deadline": "2026-02-15",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Direct admission program. Transfer admits ~10 students only."
       },
       "program_details": {
         "duration_months": 20,
@@ -3970,12 +4225,20 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "TEAS exam",
+          "Resume",
+          "Letter of Interest",
+          "Two reference letters"
+        ]
       },
       "admissions": {
         "email": "nursing@memphis.edu",
         "deadline": "2026-03-01",
-        "start_date": "2026-08-15"
+        "start_date": "2026-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "All prereqs in-progress or complete at application, finished before start."
       },
       "program_details": {
         "duration_months": 18,
@@ -4052,12 +4315,18 @@
           "ethics": false
         },
         "additional": "Pathophysiology I & II",
-        "addl_prereq_fit": 0.85
+        "addl_prereq_fit": 0.85,
+        "extra": [
+          "HESI A2 (75% cumulative and each subsection)",
+          "Pathophysiology II (NURS 240)"
+        ]
       },
       "admissions": {
         "email": "HSC-CON-FinancialAid@salud.unm.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Case-by-case for missing Patho, Nutrition, or Lifespan."
       },
       "program_details": {
         "duration_months": 16,
@@ -4134,12 +4403,18 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "TEAS exam",
+          "U.S. Constitution course (3 cr)"
+        ]
       },
       "admissions": {
         "email": "nursing@roseman.edu",
         "deadline": "2026-04-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": false,
+        "app_timing_notes": "Prereqs and bachelor's should be complete for review. Rolling admissions."
       },
       "program_details": {
         "duration_months": 18,
@@ -4216,12 +4491,15 @@
           "ethics": false
         },
         "additional": "Sciences within 10 years; 3.25 GPA required",
-        "addl_prereq_fit": 0.85
+        "addl_prereq_fit": 0.85,
+        "extra": []
       },
       "admissions": {
         "email": "accbsn@uccs.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-05-15"
+        "start_date": "2027-05-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for policy."
       },
       "program_details": {
         "duration_months": 16,
@@ -4298,12 +4576,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@uab.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for policy."
       },
       "program_details": {
         "duration_months": 16,
@@ -4380,12 +4661,18 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Pathophysiology OR Pharmacology",
+          "60 credit hrs Liberal Arts & Sciences"
+        ]
       },
       "admissions": {
         "email": "admissions@thechristcollege.edu",
         "deadline": "2026-04-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Prep Phase available for those completing prereqs. Note: Located in CINCINNATI."
       },
       "program_details": {
         "duration_months": 16,
@@ -4462,12 +4749,17 @@
           "ethics": false
         },
         "additional": "CNA I certification required",
-        "addl_prereq_fit": 0.8
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "CNA I certification (NC Nurse Aide Registry)"
+        ]
       },
       "admissions": {
         "email": "nursing@uncc.edu",
         "deadline": "2026-02-01",
-        "start_date": "2026-08-15"
+        "start_date": "2026-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "At least 3 science courses with labs complete at application."
       },
       "program_details": {
         "duration_months": 16,
@@ -4544,12 +4836,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "ATI TEAS (within 24 months)"
+        ]
       },
       "admissions": {
         "email": "admissions@researchcollege.edu",
         "deadline": "2026-04-01",
-        "start_date": "2026-05-15"
+        "start_date": "2026-05-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Apply 12-18 months early to complete remaining prereqs."
       },
       "program_details": {
         "duration_months": 12,
@@ -4630,12 +4927,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Pathophysiology (grade B+ required)"
+        ]
       },
       "admissions": {
         "email": "nursing@georgetown.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Rolling admissions. Prereqs due at matriculation."
       },
       "program_details": {
         "duration_months": 12,
@@ -4712,12 +5014,15 @@
           "ethics": false
         },
         "additional": "TEAS 65% min required",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@uams.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-05-15"
+        "start_date": "2027-05-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for policy."
       },
       "program_details": {
         "duration_months": 15,
@@ -4798,12 +5103,18 @@
           "ethics": false
         },
         "additional": "3.25 GPA min; TEAS required",
-        "addl_prereq_fit": 0.85
+        "addl_prereq_fit": 0.85,
+        "extra": [
+          "TEAS VII (70% total, 62% science min)",
+          "Chemistry for Health Sciences with lab"
+        ]
       },
       "admissions": {
         "email": "nursing@fiu.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "ALL science prereqs complete at application. Up to 2 non-science in progress."
       },
       "program_details": {
         "duration_months": 16,
@@ -4880,12 +5191,19 @@
           "ethics": false
         },
         "additional": "2.7 undergrad GPA; 3.0 prereq GPA",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "TEAS exam (58.7% Proficient min)",
+          "Finite Math (or Calculus)",
+          "Arts/Humanities course"
+        ]
       },
       "admissions": {
         "email": "nursing@iu.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": false,
+        "app_timing_notes": "All 28-31 credits should be complete for competitive consideration."
       },
       "program_details": {
         "duration_months": 16,
@@ -4962,12 +5280,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "online@utulsa.edu",
         "deadline": "2026-04-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for policy."
       },
       "program_details": {
         "duration_months": 21,
@@ -5044,12 +5365,18 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Pharmacology",
+          "Applied Physiology"
+        ]
       },
       "admissions": {
         "email": "nursing@buffalo.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "4 of 9 prereqs complete by Oct 1 deadline. Rest done before May start."
       },
       "program_details": {
         "duration_months": 12,
@@ -5126,12 +5453,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@arizona.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for policy."
       },
       "program_details": {
         "duration_months": 16,
@@ -5208,12 +5538,18 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "RIC Math Competency",
+          "RIC Writing Requirement"
+        ]
       },
       "admissions": {
         "email": "nursing@ric.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply while enrolled in core sciences."
       },
       "program_details": {
         "duration_months": 20,
@@ -5290,12 +5626,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Organic Chemistry with lab"
+        ]
       },
       "admissions": {
         "email": "nursing@loyno.edu",
         "deadline": "2026-04-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for in-progress policy."
       },
       "program_details": {
         "duration_months": 17,
@@ -5376,12 +5717,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "GRE may be required"
+        ]
       },
       "admissions": {
         "email": "cnhsgrad@uvm.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-05-15"
+        "start_date": "2027-05-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Max 2 prereqs incomplete at application. MEPN program (not ABSN)."
       },
       "program_details": {
         "duration_months": 36,
@@ -5458,12 +5804,18 @@
           "ethics": false
         },
         "additional": "TEAS 70% min",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "TEAS exam (70% min)",
+          "50 hours healthcare experience"
+        ]
       },
       "admissions": {
         "email": "nursing@wsu.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-08-15"
+        "start_date": "2027-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Up to 3 prereqs in progress. All done by end of Spring before Fall entry."
       },
       "program_details": {
         "duration_months": 16,
@@ -5540,12 +5892,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Biology OR Chemistry with lab (4 cr)"
+        ]
       },
       "admissions": {
         "email": "nursing@duq.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply before done, all complete before start. Portage Learning accepted."
       },
       "program_details": {
         "duration_months": 12,
@@ -5625,12 +5982,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "nursing@luc.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Some in progress OK, ALL complete before starting ABSN."
       },
       "program_details": {
         "duration_months": 16,
@@ -5707,12 +6067,20 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Organic Chemistry with lab",
+          "NLN NEX exam",
+          "American History/Political Science",
+          "Genetics"
+        ]
       },
       "admissions": {
         "email": "nursing@hunter.cuny.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": false,
+        "app_timing_notes": "ALL prereqs complete by end of Spring before Fall. VERY competitive (100 admitted annually)."
       },
       "program_details": {
         "duration_months": 18,
@@ -5789,12 +6157,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Organic/Biochemistry (CHM 1360)"
+        ]
       },
       "admissions": {
         "email": "nursing@spu.edu",
         "deadline": "2026-03-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Transfer applicants need 4+ prereqs (incl. 2 sciences) at application."
       },
       "program_details": {
         "duration_months": 16,
@@ -5871,12 +6244,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Pathophysiology (3 credits)"
+        ]
       },
       "admissions": {
         "email": "admissions@carlow.edu",
         "deadline": "2026-04-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": null,
+        "app_timing_notes": "A&P must be from same institution and within 7 years."
       },
       "program_details": {
         "duration_months": 15,
@@ -5952,12 +6330,15 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": []
       },
       "admissions": {
         "email": "mclnurse@tulane.edu",
         "deadline": "2026-03-15",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can receive conditional admission with up to 3 prereqs in progress."
       },
       "program_details": {
         "duration_months": 16,
@@ -6038,12 +6419,15 @@
           "ethics": false
         },
         "additional": "NOTE: Cincinnati location paused; Columbus/Cleveland sites available",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": []
       },
       "admissions": {
         "email": "absn@xavier.edu",
         "deadline": "2026-04-15",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Provisional admission available. Only 4 prereqs required (minimal)."
       },
       "program_details": {
         "duration_months": 16,
@@ -6119,12 +6503,17 @@
           "ethics": false
         },
         "additional": null,
-        "addl_prereq_fit": null
+        "addl_prereq_fit": null,
+        "extra": [
+          "Organic/Biochemistry"
+        ]
       },
       "admissions": {
         "email": "nursing@capital.edu",
         "deadline": "2026-06-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Conditional acceptance with prereqs in progress (proof by March 15)."
       },
       "program_details": {
         "duration_months": 20,
@@ -6200,12 +6589,19 @@
           "ethics": false
         },
         "additional": "Pre-nursing track available",
-        "addl_prereq_fit": 0.9
+        "addl_prereq_fit": 0.9,
+        "extra": [
+          "English Composition I & II",
+          "TEAS exam (58.7% min, waived with bachelor's)",
+          "College Math/Algebra"
+        ]
       },
       "admissions": {
         "email": "admissions@nursing.umaryland.edu",
         "deadline": "2026-06-01",
-        "start_date": "2027-01-15"
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Up to 4 courses in progress. 2 sciences + 1 other must be done at application."
       },
       "program_details": {
         "duration_months": 24,
