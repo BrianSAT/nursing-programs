@@ -108,8 +108,10 @@ function analyzeProgram(program) {
     // FIRST: Check if it's a course that needs to be added (check courses BEFORE skipping)
     // This ensures "Pathophysiology (grade B+ required)" gets caught
     if (extraLower.includes('pathophysiology') ||
+        extraLower.includes('pathobiology') ||
         extraLower.includes('patho') ||
         extraLower.includes('pharmacology') ||
+        extraLower.includes('pharmacotherapy') ||
         extraLower.includes('genetics') ||
         extraLower.includes('organic') ||
         extraLower.includes('biochem') ||
@@ -132,7 +134,10 @@ function analyzeProgram(program) {
         extraLower.includes('chemistry i') ||
         extraLower.includes('chemistry for health') ||
         extraLower.includes('gen ed') ||
-        extraLower.includes('general education')) {
+        extraLower.includes('general education') ||
+        extraLower.includes('cultural diversity') ||
+        extraLower.includes('diversity') ||
+        extraLower.includes('humanities')) {
       adjustmentNeeded.push(extra);
     }
     // Non-course requirements are ignored (TEAS, GRE, resume, BLS, etc.)

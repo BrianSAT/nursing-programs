@@ -205,9 +205,10 @@
         "expected_value_with_commitment": 400
       },
       "plan_fit": {
-        "status": "fall_required",
+        "status": "adjust",
         "reasons": [
-          "Fall 2026 courses needed (3): Pathobiology, Intro to Organic & Biochem with Lab, Medical Ethics"
+          "Needs 5 extra courses: Pathobiology, Pharmacotherapy for Nursing, Intro to Organic & Biochem with Lab, Cultural Diversity, Medical Ethics",
+          "More than 3 courses - may need summer additions or test-outs"
         ]
       }
     },
