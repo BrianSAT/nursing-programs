@@ -3962,14 +3962,18 @@
         },
         "additional": "Healthcare experience (10 hr min)",
         "addl_prereq_fit": 0.9,
-        "extra": []
+        "extra": [
+          "Pathophysiology (NUR 2030)",
+          "Healthcare experience (10 hrs min)",
+          "Developmental/Health Psychology"
+        ]
       },
       "admissions": {
         "email": "nursing@wayne.edu",
         "deadline": "2026-02-01",
         "start_date": "2027-05-15",
-        "in_progress_ok": null,
-        "app_timing_notes": "Contact school for policy."
+        "in_progress_ok": true,
+        "app_timing_notes": "Two-step application. Prereqs cannot be >10 years old. Pass/Fail not accepted."
       },
       "program_details": {
         "duration_months": 20,
@@ -4492,14 +4496,18 @@
         },
         "additional": "Sciences within 10 years; 3.25 GPA required",
         "addl_prereq_fit": 0.85,
-        "extra": []
+        "extra": [
+          "Pathophysiology",
+          "ATI TEAS exam",
+          "Colorado residency required"
+        ]
       },
       "admissions": {
         "email": "accbsn@uccs.edu",
         "deadline": "2026-02-01",
         "start_date": "2027-05-15",
-        "in_progress_ok": null,
-        "app_timing_notes": "Contact school for policy."
+        "in_progress_ok": false,
+        "app_timing_notes": "ALL prereqs complete by end of fall semester. 3.25 GPA for competitive admission."
       },
       "program_details": {
         "duration_months": 16,
@@ -4577,14 +4585,17 @@
         },
         "additional": null,
         "addl_prereq_fit": null,
-        "extra": []
+        "extra": [
+          "GRE (297 combined) or GMAT (480)",
+          "Chemistry I & II with Labs"
+        ]
       },
       "admissions": {
         "email": "nursing@uab.edu",
         "deadline": "2026-03-01",
         "start_date": "2027-01-15",
-        "in_progress_ok": null,
-        "app_timing_notes": "Contact school for policy."
+        "in_progress_ok": true,
+        "app_timing_notes": "AMNP (MSN program). GRE/GMAT required. Can be in progress at application."
       },
       "program_details": {
         "duration_months": 16,
@@ -5015,14 +5026,20 @@
         },
         "additional": "TEAS 65% min required",
         "addl_prereq_fit": 0.9,
-        "extra": []
+        "extra": [
+          "English Comp I & II",
+          "Speech/Technical Writing",
+          "College Algebra",
+          "History",
+          "Fine Arts/Humanities (6 hrs)"
+        ]
       },
       "admissions": {
         "email": "nursing@uams.edu",
         "deadline": "2026-03-01",
         "start_date": "2027-05-15",
-        "in_progress_ok": null,
-        "app_timing_notes": "Contact school for policy."
+        "in_progress_ok": true,
+        "app_timing_notes": "Prereqs done by end of Spring before Summer start. NOTE: Accelerated program is in FAYETTEVILLE, not Little Rock!"
       },
       "program_details": {
         "duration_months": 15,
@@ -5287,8 +5304,8 @@
         "email": "online@utulsa.edu",
         "deadline": "2026-04-01",
         "start_date": "2027-01-15",
-        "in_progress_ok": null,
-        "app_timing_notes": "Contact school for policy."
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply while completing prereqs. Geographic restrictions (90 miles from specific cities)."
       },
       "program_details": {
         "duration_months": 21,
@@ -5454,14 +5471,18 @@
         },
         "additional": null,
         "addl_prereq_fit": null,
-        "extra": []
+        "extra": [
+          "English Composition",
+          "Lifespan Development",
+          "Grade B+ required starting Fall 2025"
+        ]
       },
       "admissions": {
         "email": "nursing@arizona.edu",
         "deadline": "2026-03-01",
         "start_date": "2027-01-15",
-        "in_progress_ok": null,
-        "app_timing_notes": "Contact school for policy."
+        "in_progress_ok": true,
+        "app_timing_notes": "May have 2 prereqs in progress at application."
       },
       "program_details": {
         "duration_months": 16,
