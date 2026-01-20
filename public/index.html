@@ -43,6 +43,7 @@
           <th class="sortable" data-sort="start_date">Start Date</th>
           <th class="sortable" data-sort="deadline">Deadline</th>
           <th class="sortable" data-sort="monthly_burn">$/Month</th>
+          <th>Work Commit</th>
           <th class="sortable sort-desc" data-sort="raw_score">Score</th>
           <th class="sortable" data-sort="status">Status</th>
         </tr>
@@ -60,6 +61,18 @@
     <div class="modal-content">
       <button class="modal-close" onclick="closeModal()">&times;</button>
       <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Work-Commitment Info Modal -->
+  <div id="work-commit-modal" class="modal hidden">
+    <div class="modal-content modal-small">
+      <button class="modal-close" onclick="closeWorkCommitModal()">&times;</button>
+      <div id="work-commit-modal-body">
+        <h2>Work-Commitment Scholarship</h2>
+        <p class="modal-intro">This scholarship requires you to work at a specific hospital for a set period after graduation.</p>
+        <div id="work-commit-programs"></div>
+      </div>
     </div>
   </div>
 

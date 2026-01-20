@@ -57,9 +57,9 @@
         "prestige": 0.8,
         "competitiveness": 0.95,
         "start_score": 0.75,
-        "cost_score": 0.49,
-        "raw_score": 1.47,
-        "rank": 6,
+        "cost_score": 0.45,
+        "raw_score": 1.35,
+        "rank": 5,
         "national_percentile": 0.75,
         "location_combined": 5.29
       },
@@ -69,22 +69,32 @@
         "Location": "Madison, WI",
         "Tuition": 45000,
         "Fees": 2500,
-        "Schlrshp Amt": 5000,
-        "Schlrshp %": 0.25,
-        "Net Tuition": 46250,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 47500,
         "COL Index": 105,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 18900,
         "Total Cost": 65150,
-        "Mo. Burn": 5117,
-        "Cost Score": 0.49
+        "Mo. Burn": 5533,
+        "Cost Score": 0.45
       },
       "regional": {
         "ed_opportunity": 0.55,
         "np_accessibility": 0.7,
         "underserved_access": 0.6,
         "np_pathway_calculated": 0.62
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -129,7 +139,7 @@
         "start_score": 1,
         "cost_score": 0.34,
         "raw_score": 1.66,
-        "rank": 5,
+        "rank": 3,
         "national_percentile": 0.92,
         "location_combined": 6.57
       },
@@ -146,13 +156,25 @@
         "Total Living": 27000,
         "Total Cost": 79664,
         "Mo. Burn": 6639,
-        "Cost Score": 0.34
+        "Cost Score": 0.34,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "regional": {
         "ed_opportunity": 0.7,
         "np_accessibility": 0.85,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.77
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -195,9 +217,9 @@
         "prestige": 0.9,
         "competitiveness": 0.95,
         "start_score": 0.75,
-        "cost_score": 0.77,
-        "raw_score": 2.15,
-        "rank": 1,
+        "cost_score": 0.3,
+        "raw_score": 0.84,
+        "rank": 8,
         "national_percentile": 0.85,
         "location_combined": 6.41
       },
@@ -205,24 +227,35 @@
       "scoring_notes": "Top-15 public, strong Midwest reputation",
       "costs": {
         "Location": "Columbus, OH",
-        "Tuition": 16500,
-        "Fees": 2000,
-        "Schlrshp Amt": 2000,
-        "Schlrshp %": 0.3,
-        "Net Tuition": 17900,
+        "Tuition": 100700,
+        "Fees": 0,
+        "Schlrshp Amt": 500,
+        "Schlrshp %": null,
+        "Net Tuition": 100200,
         "COL Index": 95,
         "Duration (mo)": 18,
         "Living $/mo": 1500,
         "Total Living": 25650,
         "Total Cost": 43550,
-        "Mo. Burn": 2342,
-        "Cost Score": 0.77
+        "Mo. Burn": 6992,
+        "Cost Score": 0.3,
+        "tuition_notes": "Non-resident surcharge $1,199/credit"
       },
       "regional": {
         "ed_opportunity": 0.9,
         "np_accessibility": 0.85,
         "underserved_access": 0.8,
         "np_pathway_calculated": 0.86
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.1
+        },
+        "expected_value_no_commitment": 500,
+        "expected_value_with_commitment": 500
       }
     },
     {
@@ -265,9 +298,9 @@
         "prestige": 0.95,
         "competitiveness": 0.83,
         "start_score": 0.75,
-        "cost_score": 0.32,
-        "raw_score": 0.85,
-        "rank": 16,
+        "cost_score": 0.08,
+        "raw_score": 0.21,
+        "rank": 29,
         "national_percentile": 0.97,
         "location_combined": 5.96
       },
@@ -277,22 +310,32 @@
         "Location": "Durham, NC",
         "Tuition": 118816,
         "Fees": 4000,
-        "Schlrshp Amt": 40000,
-        "Schlrshp %": 0.15,
-        "Net Tuition": 116816,
+        "Schlrshp Amt": 2000,
+        "Schlrshp %": null,
+        "Net Tuition": 120816,
         "COL Index": 110,
         "Duration (mo)": 16,
         "Living $/mo": 1500,
         "Total Living": 26400,
         "Total Cost": 143216,
-        "Mo. Burn": 6826,
-        "Cost Score": 0.32
+        "Mo. Burn": 9201,
+        "Cost Score": 0.08
       },
       "regional": {
         "ed_opportunity": 0.8,
         "np_accessibility": 0.85,
         "underserved_access": 0.7,
         "np_pathway_calculated": 0.8
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 20000,
+          "probability": 0.1
+        },
+        "expected_value_no_commitment": 2000,
+        "expected_value_with_commitment": 2000
       }
     },
     {
@@ -335,9 +378,9 @@
         "prestige": 0.95,
         "competitiveness": 0.9,
         "start_score": 1,
-        "cost_score": 0.25,
-        "raw_score": 1.36,
-        "rank": 9,
+        "cost_score": 0.14,
+        "raw_score": 0.76,
+        "rank": 12,
         "national_percentile": 0.9,
         "location_combined": 6.34
       },
@@ -347,22 +390,32 @@
         "Location": "Atlanta, GA",
         "Tuition": 82000,
         "Fees": 3500,
-        "Schlrshp Amt": 15000,
-        "Schlrshp %": 0.4,
-        "Net Tuition": 79500,
+        "Schlrshp Amt": 2250,
+        "Schlrshp %": null,
+        "Net Tuition": 83250,
         "COL Index": 108,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 19440,
         "Total Cost": 98940,
-        "Mo. Burn": 7495,
-        "Cost Score": 0.25
+        "Mo. Burn": 8558,
+        "Cost Score": 0.14
       },
       "regional": {
         "ed_opportunity": 0.95,
         "np_accessibility": 0.9,
         "underserved_access": 0.85,
         "np_pathway_calculated": 0.91
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 15000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 2250,
+        "expected_value_with_commitment": 2250
       }
     },
     {
@@ -407,7 +460,7 @@
         "start_score": 0.5,
         "cost_score": 0,
         "raw_score": 0.7,
-        "rank": 20,
+        "rank": 13,
         "national_percentile": 1,
         "location_combined": 5.53
       },
@@ -424,13 +477,25 @@
         "Total Living": 31875,
         "Total Cost": 176095,
         "Mo. Burn": 10359,
-        "Cost Score": 0
+        "Cost Score": 0,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "regional": {
         "ed_opportunity": 0.85,
         "np_accessibility": 0.85,
         "underserved_access": 0.85,
         "np_pathway_calculated": 0.85
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -473,9 +538,9 @@
         "prestige": 0.8,
         "competitiveness": 0.98,
         "start_score": 0.75,
-        "cost_score": 0.81,
-        "raw_score": 1.92,
-        "rank": 3,
+        "cost_score": 0.12,
+        "raw_score": 0.28,
+        "rank": 26,
         "national_percentile": 0.78,
         "location_combined": 5
       },
@@ -485,22 +550,39 @@
         "Location": "Rochester, NY",
         "Tuition": 81630,
         "Fees": 6300,
-        "Schlrshp Amt": 81630,
-        "Schlrshp %": 0.5,
-        "Net Tuition": 47115,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 87930,
         "COL Index": 95,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 17100,
         "Total Cost": 64215,
-        "Mo. Burn": 1950,
-        "Cost Score": 0.81
+        "Mo. Burn": 8753,
+        "Cost Score": 0.12
       },
       "regional": {
         "ed_opportunity": 0.5,
         "np_accessibility": 0.75,
         "underserved_access": 0.6,
         "np_pathway_calculated": 0.63
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": {
+          "program_name": "UR Nursing Scholars",
+          "amount": 84090,
+          "commitment_years": 3,
+          "employer": "Strong Memorial / Highland / F.F. Thompson Hospital",
+          "competitive": true,
+          "notes": "100% tuition coverage as forgivable loan. Must work full-time RN at UR Medicine hospital for 3 years. U.S. citizens/permanent residents/DACA only."
+        },
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 42045
       }
     },
     {
@@ -545,7 +627,7 @@
         "start_score": 1,
         "cost_score": 0.33,
         "raw_score": 1.1,
-        "rank": 11,
+        "rank": 6,
         "national_percentile": 0.7,
         "location_combined": 6.56
       },
@@ -556,8 +638,8 @@
         "Tuition": 87569,
         "Fees": 0,
         "Schlrshp Amt": 15000,
-        "Schlrshp %": 0.9,
-        "Net Tuition": 74069,
+        "Schlrshp %": null,
+        "Net Tuition": 72569,
         "COL Index": 145,
         "Duration (mo)": 16,
         "Living $/mo": 1500,
@@ -571,6 +653,19 @@
         "np_accessibility": 0.9,
         "underserved_access": 0.8,
         "np_pathway_calculated": 0.88
+      },
+      "scholarships": {
+        "guaranteed": {
+          "amount": 15000,
+          "notes": "All Boston/Providence admits receive $15K ($3,750/semester x 4)"
+        },
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 15000,
+        "expected_value_with_commitment": 15000
       }
     },
     {
@@ -613,9 +708,9 @@
         "prestige": 0.7,
         "competitiveness": 0.75,
         "start_score": 0.75,
-        "cost_score": 0.72,
-        "raw_score": 0.62,
-        "rank": 22,
+        "cost_score": 0.62,
+        "raw_score": 0.53,
+        "rank": 17,
         "national_percentile": 0.55,
         "location_combined": 4.54
       },
@@ -623,22 +718,35 @@
       "scoring_notes": "CSU system, regional",
       "costs": {
         "Location": "Fullerton, CA",
-        "Tuition": 17995,
+        "Tuition": 43675,
         "Fees": 0,
-        "Net Tuition": 17995,
+        "Net Tuition": 43675,
         "COL Index": 135,
         "Duration (mo)": 24,
         "Living $/mo": 1500,
         "Total Living": 48600,
         "Total Cost": 66595,
-        "Mo. Burn": 2775,
-        "Cost Score": 0.72
+        "Mo. Burn": 3845,
+        "Cost Score": 0.62,
+        "tuition_notes": "Non-resident surcharge $444/unit",
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "regional": {
         "ed_opportunity": 0.65,
         "np_accessibility": 0.6,
         "underserved_access": 0.55,
         "np_pathway_calculated": 0.61
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -683,7 +791,7 @@
         "start_score": 0.75,
         "cost_score": 0.37,
         "raw_score": 0.05,
-        "rank": 39,
+        "rank": 36,
         "national_percentile": 0.55,
         "location_combined": 4.93
       },
@@ -700,13 +808,25 @@
         "Total Living": 31500,
         "Total Cost": 94488,
         "Mo. Burn": 6299,
-        "Cost Score": 0.37
+        "Cost Score": 0.37,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "regional": {
         "ed_opportunity": 0.75,
         "np_accessibility": 0.55,
         "underserved_access": 0.7,
         "np_pathway_calculated": 0.66
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -749,9 +869,9 @@
         "prestige": 0.7,
         "competitiveness": 0.92,
         "start_score": 0.75,
-        "cost_score": 0.67,
-        "raw_score": 1.19,
-        "rank": 10,
+        "cost_score": 0.32,
+        "raw_score": 0.57,
+        "rank": 16,
         "national_percentile": 0.72,
         "location_combined": 6.59
       },
@@ -759,24 +879,42 @@
       "scoring_notes": "State flagship, solid nursing school, ~70th percentile nationally",
       "costs": {
         "Location": "Knoxville, TN",
-        "Tuition": 33256,
+        "Tuition": 62461,
         "Fees": 2500,
-        "Schlrshp Amt": 12776,
-        "Schlrshp %": 0.25,
-        "Net Tuition": 32562,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 64961,
         "COL Index": 92,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 16560,
         "Total Cost": 49122,
-        "Mo. Burn": 3295,
-        "Cost Score": 0.67
+        "Mo. Burn": 6793,
+        "Cost Score": 0.32,
+        "tuition_notes": "Out-of-state rate"
       },
       "regional": {
         "ed_opportunity": 0.65,
         "np_accessibility": 0.7,
         "underserved_access": 0.9,
         "np_pathway_calculated": 0.73
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": {
+          "program_name": "UTMC ABSN Scholarship",
+          "amount": 12776,
+          "commitment_years": 3,
+          "employer": "UT Medical Center",
+          "competitive": true,
+          "notes": "Only 8 scholars admitted per year. Application deadline March 1."
+        },
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 6388
       }
     },
     {
@@ -819,9 +957,9 @@
         "prestige": 0.85,
         "competitiveness": 0.98,
         "start_score": 0.5,
-        "cost_score": 0.5,
-        "raw_score": 0.49,
-        "rank": 25,
+        "cost_score": 0.45,
+        "raw_score": 0.44,
+        "rank": 20,
         "national_percentile": 0.82,
         "location_combined": 4.95
       },
@@ -829,24 +967,35 @@
       "scoring_notes": "Top-ranked nursing school, academic medical center, ~80th percentile",
       "costs": {
         "Location": "Charleston, SC",
-        "Tuition": 58060,
+        "Tuition": 60660,
         "Fees": 2400,
-        "Schlrshp Amt": 5000,
-        "Schlrshp %": 0.3,
-        "Net Tuition": 58960,
+        "Schlrshp Amt": 500,
+        "Schlrshp %": null,
+        "Net Tuition": 62560,
         "COL Index": 105,
         "Duration (mo)": 16,
         "Living $/mo": 1500,
         "Total Living": 25200,
         "Total Cost": 84160,
-        "Mo. Burn": 5041,
-        "Cost Score": 0.5
+        "Mo. Burn": 5485,
+        "Cost Score": 0.45,
+        "tuition_notes": "Out-of-state rate"
       },
       "regional": {
         "ed_opportunity": 0.7,
         "np_accessibility": 0.75,
         "underserved_access": 0.65,
         "np_pathway_calculated": 0.71
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.1
+        },
+        "expected_value_no_commitment": 500,
+        "expected_value_with_commitment": 500
       }
     },
     {
@@ -889,9 +1038,9 @@
         "prestige": 0.55,
         "competitiveness": 0.75,
         "start_score": 1,
-        "cost_score": 0.45,
-        "raw_score": 0.73,
-        "rank": 19,
+        "cost_score": 0.43,
+        "raw_score": 0.7,
+        "rank": 14,
         "national_percentile": 0.55,
         "location_combined": 6.84
       },
@@ -901,22 +1050,32 @@
         "Location": "St. Paul, MN",
         "Tuition": 64050,
         "Fees": 3050,
-        "Schlrshp Amt": 4000,
-        "Schlrshp %": 0.8,
-        "Net Tuition": 63900,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 67100,
         "COL Index": 102,
         "Duration (mo)": 16,
         "Living $/mo": 1500,
         "Total Living": 24480,
         "Total Cost": 88380,
-        "Mo. Burn": 5474,
-        "Cost Score": 0.45
+        "Mo. Burn": 5724,
+        "Cost Score": 0.43
       },
       "regional": {
         "ed_opportunity": 0.85,
         "np_accessibility": 0.8,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -959,9 +1118,9 @@
         "prestige": 0.55,
         "competitiveness": 0.75,
         "start_score": 1,
-        "cost_score": 0.46,
-        "raw_score": 0.54,
-        "rank": 23,
+        "cost_score": 0.42,
+        "raw_score": 0.49,
+        "rank": 19,
         "national_percentile": 0.55,
         "location_combined": 5.58
       },
@@ -971,22 +1130,32 @@
         "Location": "Baltimore, MD",
         "Tuition": 58550,
         "Fees": 3000,
-        "Schlrshp Amt": 5000,
-        "Schlrshp %": 0.3,
-        "Net Tuition": 60050,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 61550,
         "COL Index": 110,
         "Duration (mo)": 15,
         "Living $/mo": 1500,
         "Total Living": 24750,
         "Total Cost": 84800,
-        "Mo. Burn": 5420,
-        "Cost Score": 0.46
+        "Mo. Burn": 5753,
+        "Cost Score": 0.42
       },
       "regional": {
         "ed_opportunity": 0.85,
         "np_accessibility": 0.75,
         "underserved_access": 0.8,
         "np_pathway_calculated": 0.8
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1029,9 +1198,9 @@
         "prestige": 0.65,
         "competitiveness": 0.85,
         "start_score": 1,
-        "cost_score": 0.34,
-        "raw_score": 0.86,
-        "rank": 15,
+        "cost_score": 0.31,
+        "raw_score": 0.79,
+        "rank": 10,
         "national_percentile": 0.65,
         "location_combined": 6.34
       },
@@ -1041,22 +1210,32 @@
         "Location": "Atlanta, GA",
         "Tuition": 61773,
         "Fees": 2500,
-        "Schlrshp Amt": 5000,
-        "Schlrshp %": 0.25,
-        "Net Tuition": 63023,
+        "Schlrshp Amt": 500,
+        "Schlrshp %": null,
+        "Net Tuition": 63773,
         "COL Index": 108,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 19440,
         "Total Cost": 82463,
-        "Mo. Burn": 6559,
-        "Cost Score": 0.34
+        "Mo. Burn": 6934,
+        "Cost Score": 0.31
       },
       "regional": {
         "ed_opportunity": 0.95,
         "np_accessibility": 0.9,
         "underserved_access": 0.85,
         "np_pathway_calculated": 0.91
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.1
+        },
+        "expected_value_no_commitment": 500,
+        "expected_value_with_commitment": 500
       }
     },
     {
@@ -1099,9 +1278,9 @@
         "prestige": 0.5,
         "competitiveness": 0.7,
         "start_score": 1,
-        "cost_score": 0.52,
-        "raw_score": 0.68,
-        "rank": 21,
+        "cost_score": 0.5,
+        "raw_score": 0.65,
+        "rank": 15,
         "national_percentile": 0.5,
         "location_combined": 6.51
       },
@@ -1111,22 +1290,32 @@
         "Location": "Phoenix, AZ",
         "Tuition": 53550,
         "Fees": 3000,
-        "Schlrshp Amt": 5000,
-        "Schlrshp %": 0.35,
-        "Net Tuition": 54800,
+        "Schlrshp Amt": 750,
+        "Schlrshp %": null,
+        "Net Tuition": 55800,
         "COL Index": 103,
         "Duration (mo)": 16,
         "Living $/mo": 1500,
         "Total Living": 24720,
         "Total Cost": 79520,
-        "Mo. Burn": 4767,
-        "Cost Score": 0.52
+        "Mo. Burn": 5033,
+        "Cost Score": 0.5
       },
       "regional": {
         "ed_opportunity": 0.9,
         "np_accessibility": 0.85,
         "underserved_access": 0.85,
         "np_pathway_calculated": 0.87
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 750,
+        "expected_value_with_commitment": 750
       }
     },
     {
@@ -1171,7 +1360,7 @@
         "start_score": 1,
         "cost_score": 0.44,
         "raw_score": 1.69,
-        "rank": 4,
+        "rank": 2,
         "national_percentile": 0.85,
         "location_combined": 7.95
       },
@@ -1182,7 +1371,7 @@
         "Tuition": 54000,
         "Fees": 3500,
         "Schlrshp Amt": 8333,
-        "Schlrshp %": 1,
+        "Schlrshp %": null,
         "Net Tuition": 49167,
         "COL Index": 98,
         "Duration (mo)": 12,
@@ -1197,6 +1386,19 @@
         "np_accessibility": 0.8,
         "underserved_access": 0.7,
         "np_pathway_calculated": 0.76
+      },
+      "scholarships": {
+        "guaranteed": {
+          "amount": 8333,
+          "notes": "Guaranteed for all ABSN students"
+        },
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 8333,
+        "expected_value_with_commitment": 8333
       }
     },
     {
@@ -1245,7 +1447,7 @@
         "start_score": 1,
         "cost_score": 0.23,
         "raw_score": 0.39,
-        "rank": 27,
+        "rank": 21,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 6.8
@@ -1254,13 +1456,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Philadelphia, PA",
-        "Net Tuition": 0,
+        "Net Tuition": 65872,
         "Tuition": 61836,
         "Fees": 4036,
         "COL Index": 112,
         "Duration (mo)": 11,
         "Mo. Burn": 7668,
-        "Cost Score": 0.23
+        "Cost Score": 0.23,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://drexel.edu/admissions/undergrad/nursing-ace",
@@ -1271,6 +1475,16 @@
         "np_accessibility": 0.85,
         "underserved_access": 0.85,
         "np_pathway_calculated": 0.85
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1313,9 +1527,9 @@
         "prestige": 0.75,
         "competitiveness": 0.95,
         "start_score": 1,
-        "cost_score": 0.35,
-        "raw_score": 0.97,
-        "rank": 14,
+        "cost_score": 0.36,
+        "raw_score": 1,
+        "rank": 7,
         "national_percentile": 0.75,
         "location_combined": 6.1
       },
@@ -1325,22 +1539,32 @@
         "Location": "Omaha, NE",
         "Tuition": 55425,
         "Fees": 5500,
-        "Schlrshp Amt": 0,
-        "Schlrshp %": 0,
-        "Net Tuition": 60925,
+        "Schlrshp Amt": 500,
+        "Schlrshp %": null,
+        "Net Tuition": 60425,
         "COL Index": 92,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 16560,
         "Total Cost": 77485,
-        "Mo. Burn": 6457,
-        "Cost Score": 0.35
+        "Mo. Burn": 6415,
+        "Cost Score": 0.36
       },
       "regional": {
         "ed_opportunity": 0.75,
         "np_accessibility": 0.7,
         "underserved_access": 0.7,
         "np_pathway_calculated": 0.72
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.1
+        },
+        "expected_value_no_commitment": 500,
+        "expected_value_with_commitment": 500
       }
     },
     {
@@ -1383,9 +1607,9 @@
         "prestige": 0.8,
         "competitiveness": 1,
         "start_score": 1,
-        "cost_score": 0.82,
-        "raw_score": 2.12,
-        "rank": 2,
+        "cost_score": 0.72,
+        "raw_score": 1.86,
+        "rank": 1,
         "national_percentile": 0.8,
         "location_combined": 5.96
       },
@@ -1395,22 +1619,32 @@
         "Location": "Houston, TX",
         "Tuition": 18000,
         "Fees": 2500,
-        "Schlrshp Amt": 15000,
-        "Schlrshp %": 0.7,
-        "Net Tuition": 10000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 20500,
         "COL Index": 96,
         "Duration (mo)": 15,
         "Living $/mo": 1500,
         "Total Living": 21600,
         "Total Cost": 31600,
-        "Mo. Burn": 1807,
-        "Cost Score": 0.82
+        "Mo. Burn": 2807,
+        "Cost Score": 0.72
       },
       "regional": {
         "ed_opportunity": 0.95,
         "np_accessibility": 0.9,
         "underserved_access": 0.9,
         "np_pathway_calculated": 0.92
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1459,7 +1693,7 @@
         "start_score": 1,
         "cost_score": 0.47,
         "raw_score": 1.38,
-        "rank": 7,
+        "rank": 4,
         "national_percentile": 0.88,
         "online_lab_conf": 1,
         "location_combined": 7.5
@@ -1468,13 +1702,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Chicago, IL",
-        "Net Tuition": 0,
+        "Net Tuition": 86194,
         "Tuition": 83694,
         "Fees": 2500,
         "COL Index": 115,
         "Duration (mo)": 24,
         "Mo. Burn": 5316,
-        "Cost Score": 0.47
+        "Cost Score": 0.47,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses",
@@ -1486,6 +1722,16 @@
         "np_accessibility": 0.95,
         "underserved_access": 0.9,
         "np_pathway_calculated": 0.94
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1528,9 +1774,9 @@
         "prestige": 0.75,
         "competitiveness": 0.92,
         "start_score": 1,
-        "cost_score": 0.53,
-        "raw_score": 0.48,
-        "rank": 26,
+        "cost_score": 0.31,
+        "raw_score": 0.28,
+        "rank": 27,
         "national_percentile": 0.72,
         "location_combined": 6.79
       },
@@ -1538,24 +1784,35 @@
       "scoring_notes": "Strong state school, UC Health system",
       "costs": {
         "Location": "Cincinnati, OH",
-        "Tuition": 56912,
+        "Tuition": 96749,
         "Fees": 2000,
         "Schlrshp Amt": 0,
-        "Schlrshp %": 0,
-        "Net Tuition": 58912,
+        "Schlrshp %": null,
+        "Net Tuition": 98749,
         "COL Index": 95,
         "Duration (mo)": 18,
         "Living $/mo": 1500,
         "Total Living": 25650,
         "Total Cost": 84562,
-        "Mo. Burn": 4698,
-        "Cost Score": 0.53
+        "Mo. Burn": 6911,
+        "Cost Score": 0.31,
+        "tuition_notes": "Non-resident rate"
       },
       "regional": {
         "ed_opportunity": 0.65,
         "np_accessibility": 0.75,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.72
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1602,9 +1859,9 @@
         "prestige": 0.9,
         "competitiveness": 0.83,
         "start_score": 0.75,
-        "cost_score": 0,
-        "raw_score": 1.06,
-        "rank": 12,
+        "cost_score": 0.01,
+        "raw_score": 0.02,
+        "rank": 38,
         "national_percentile": 0.97,
         "online_lab_conf": 0.8,
         "location_combined": 7.06
@@ -1613,13 +1870,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Nashville, TN",
-        "Net Tuition": 0,
+        "Net Tuition": 132762,
         "Tuition": 135762,
         "Fees": 6000,
         "COL Index": 105,
         "Duration (mo)": 16,
-        "Mo. Burn": 10435,
-        "Cost Score": 0
+        "Mo. Burn": 9873,
+        "Cost Score": 0.01,
+        "Schlrshp Amt": 9000,
+        "Schlrshp %": null
       },
       "sources": [
         "https://nursing.vanderbilt.edu/programs/mn/",
@@ -1631,6 +1890,26 @@
         "np_accessibility": 0.95,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.88
+      },
+      "scholarships": {
+        "guaranteed": {
+          "amount": 9000,
+          "notes": "All full-time MN students receive $3K-$15K (using $9K midpoint)"
+        },
+        "work_commitment": {
+          "program_name": "VUMC Nurse Scholars",
+          "amount": 30000,
+          "commitment_years": 3,
+          "employer": "Vanderbilt University Medical Center",
+          "competitive": true,
+          "notes": "Up to $7,500/semester for 4 semesters. Must maintain good academic standing."
+        },
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 9000,
+        "expected_value_with_commitment": 24000
       }
     },
     {
@@ -1679,7 +1958,7 @@
         "start_score": 0.75,
         "cost_score": 0.63,
         "raw_score": 0.84,
-        "rank": 17,
+        "rank": 9,
         "national_percentile": 0.78,
         "online_lab_conf": 0.8,
         "location_combined": 4.49
@@ -1688,13 +1967,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Lexington, KY",
-        "Net Tuition": 0,
+        "Net Tuition": 37000,
         "Tuition": 35000,
         "Fees": 2000,
         "COL Index": 90,
         "Duration (mo)": 16,
         "Mo. Burn": 3663,
-        "Cost Score": 0.63
+        "Cost Score": 0.63,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://nursing.uky.edu/undergraduate-programs/accelerated-bsn",
@@ -1706,6 +1987,16 @@
         "np_accessibility": 0.75,
         "underserved_access": 0.95,
         "np_pathway_calculated": 0.75
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1754,7 +2045,7 @@
         "start_score": 0.5,
         "cost_score": 0.27,
         "raw_score": 0.09,
-        "rank": 37,
+        "rank": 34,
         "national_percentile": 0.71,
         "online_lab_conf": 0.8,
         "location_combined": 6.56
@@ -1763,13 +2054,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Dallas, TX",
-        "Net Tuition": 0,
+        "Net Tuition": 70100,
         "Tuition": 68100,
         "Fees": 2000,
         "COL Index": 96,
         "Duration (mo)": 12,
         "Mo. Burn": 7282,
-        "Cost Score": 0.27
+        "Cost Score": 0.27,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://nursing.baylor.edu/admissions/undergraduate-admissions/second-degree-post-baccalaureate/fastbaccr",
@@ -1781,6 +2074,16 @@
         "np_accessibility": 0.9,
         "underserved_access": 0.65,
         "np_pathway_calculated": 0.82
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1829,7 +2132,7 @@
         "start_score": 1,
         "cost_score": 0.63,
         "raw_score": 0.77,
-        "rank": 18,
+        "rank": 11,
         "national_percentile": 0.65,
         "online_lab_conf": 0.8,
         "location_combined": 7.5
@@ -1838,13 +2141,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Chicago, IL",
-        "Net Tuition": 0,
+        "Net Tuition": 47857,
         "Tuition": 45857,
         "Fees": 2000,
         "COL Index": 115,
         "Duration (mo)": 24,
         "Mo. Burn": 3719,
-        "Cost Score": 0.63
+        "Cost Score": 0.63,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://csh.depaul.edu/academics/nursing/graduate/nursing-menp/Pages/default.aspx",
@@ -1856,6 +2161,16 @@
         "np_accessibility": 0.95,
         "underserved_access": 0.9,
         "np_pathway_calculated": 0.94
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1904,7 +2219,7 @@
         "start_score": 0.75,
         "cost_score": 0.46,
         "raw_score": 0.38,
-        "rank": 28,
+        "rank": 22,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.36
@@ -1913,13 +2228,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Madison, WI",
-        "Net Tuition": 0,
+        "Net Tuition": 46000,
         "Tuition": 45000,
         "Fees": 1000,
         "COL Index": 105,
         "Duration (mo)": 12,
         "Mo. Burn": 5408,
-        "Cost Score": 0.46
+        "Cost Score": 0.46,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://www.edgewood.edu/academics/programs/post-baccalaureate-accelerated-bachelor-of-science-in-nursing/",
@@ -1930,6 +2247,16 @@
         "np_accessibility": 0.7,
         "underserved_access": 0.6,
         "np_pathway_calculated": 0.62
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -1978,7 +2305,7 @@
         "start_score": 0.75,
         "cost_score": 0.48,
         "raw_score": 0.29,
-        "rank": 32,
+        "rank": 25,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -1987,13 +2314,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Milwaukee, WI",
-        "Net Tuition": 0,
+        "Net Tuition": 66525,
         "Tuition": 63525,
         "Fees": 3000,
         "COL Index": 100,
         "Duration (mo)": 18,
         "Mo. Burn": 5196,
-        "Cost Score": 0.48
+        "Cost Score": 0.48,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://msn.alverno.edu/",
@@ -2004,6 +2333,16 @@
         "np_accessibility": 0.8,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.72
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2052,7 +2391,7 @@
         "start_score": 0.75,
         "cost_score": 0.21,
         "raw_score": 0.07,
-        "rank": 38,
+        "rank": 35,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 7.09
@@ -2061,13 +2400,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Denver, CO",
-        "Net Tuition": 0,
+        "Net Tuition": 75235,
         "Tuition": 72735,
         "Fees": 2500,
         "COL Index": 108,
         "Duration (mo)": 12,
         "Mo. Burn": 7890,
-        "Cost Score": 0.21
+        "Cost Score": 0.21,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://www.regis.edu/academics/majors-and-programs/undergraduate/nursing-bsn-accelerated",
@@ -2079,6 +2420,16 @@
         "np_accessibility": 0.8,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.79
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2127,7 +2478,7 @@
         "start_score": 0.5,
         "cost_score": 0.27,
         "raw_score": 0.04,
-        "rank": 40,
+        "rank": 37,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 4.98
@@ -2136,13 +2487,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Oakland, CA",
-        "Net Tuition": 0,
+        "Net Tuition": 58000,
         "Tuition": 56000,
         "Fees": 2000,
         "COL Index": 165,
         "Duration (mo)": 12,
         "Mo. Burn": 7308,
-        "Cost Score": 0.27
+        "Cost Score": 0.27,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://www.samuelmerritt.edu/college-nursing/accelerated-bachelor-science-nursing",
@@ -2153,81 +2506,16 @@
         "np_accessibility": 0.8,
         "underserved_access": 0.85,
         "np_pathway_calculated": 0.83
-      }
-    },
-    {
-      "id": "rush",
-      "name": "Rush",
-      "type": "DEMSN",
-      "location": {
-        "full": "Chicago, IL",
-        "city": "Chicago",
-        "state": "IL"
       },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": false,
-          "chem": true,
-          "lifespan": false,
-          "nutrition": false,
-          "psych": false,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
         },
-        "additional": "None beyond core sciences. Labs recommended but NOT required.",
-        "addl_prereq_fit": 1
-      },
-      "admissions": {
-        "email": "nursing@rushu.rush.edu",
-        "deadline": "2026-10-19",
-        "start_date": "2027-01-04"
-      },
-      "program_details": {
-        "duration_months": 24,
-        "terms": 6,
-        "online_lab_conf": null,
-        "format": "Hybrid (online + in-person)",
-        "degree": "MSN Clinical Nurse Leader"
-      },
-      "scores": {
-        "location_score": 8,
-        "location_boost": 0,
-        "np_pathway": 0.94,
-        "prestige": 0.85,
-        "competitiveness": 0.92,
-        "start_score": 1,
-        "cost_score": 0.47,
-        "raw_score": 1.38,
-        "rank": 7,
-        "national_percentile": 0.88,
-        "online_lab_conf": 1,
-        "location_combined": 7.5
-      },
-      "notes": "Excellent NP pathway with Direct Entry option to doctoral programs. Minimal prereqs make this very accessible. 100% NCLEX pass rate. 24-month program is longer than some ABSNs but yields MSN degree. Strong option for NP career track.",
-      "scoring_notes": null,
-      "costs": {
-        "Location": "Chicago, IL",
-        "Net Tuition": 0,
-        "Tuition": 83694,
-        "Fees": 2500,
-        "COL Index": 115,
-        "Duration (mo)": 24,
-        "Mo. Burn": 5316,
-        "Cost Score": 0.47
-      },
-      "sources": [
-        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses",
-        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses/masters-entry-nursing-msn-non-nurses-admission-guidelines",
-        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/rush-university-33081"
-      ],
-      "regional": {
-        "ed_opportunity": 0.95,
-        "np_accessibility": 0.95,
-        "underserved_access": 0.9,
-        "np_pathway_calculated": 0.94
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2276,7 +2564,7 @@
         "start_score": 1,
         "cost_score": 0.38,
         "raw_score": 0.5,
-        "rank": 24,
+        "rank": 18,
         "national_percentile": 0.61,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2285,13 +2573,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Milwaukee, WI",
-        "Net Tuition": 0,
+        "Net Tuition": 70545,
         "Tuition": 69000,
         "Fees": 1545,
         "COL Index": 100,
         "Duration (mo)": 15,
         "Mo. Burn": 6203,
-        "Cost Score": 0.38
+        "Cost Score": 0.38,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://mastersnursing.marquette.edu/admissions/tuition-and-financial-aid/",
@@ -2303,6 +2593,16 @@
         "np_accessibility": 0.8,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.72
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2351,7 +2651,7 @@
         "start_score": 0.75,
         "cost_score": 0.74,
         "raw_score": 0.3,
-        "rank": 31,
+        "rank": 24,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2360,13 +2660,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Milwaukee, WI",
-        "Net Tuition": 0,
+        "Net Tuition": 27456,
         "Tuition": 25456,
         "Fees": 2000,
         "COL Index": 100,
         "Duration (mo)": 24,
         "Mo. Burn": 2644,
-        "Cost Score": 0.74
+        "Cost Score": 0.74,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://uwm.edu/nursing/academics/mn-direct-entry/",
@@ -2377,81 +2679,16 @@
         "np_accessibility": 0.8,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.72
-      }
-    },
-    {
-      "id": "vanderbilt-mn",
-      "name": "Vanderbilt MN",
-      "type": "DEMSN",
-      "location": {
-        "full": "Nashville, TN",
-        "city": "Nashville",
-        "state": "TN"
       },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": true,
-          "chem": false,
-          "lifespan": true,
-          "nutrition": true,
-          "psych": false,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
         },
-        "additional": "A&P, Micro must be within 5 years of application. 3.0 GPA recommended.",
-        "addl_prereq_fit": 0.9
-      },
-      "admissions": {
-        "email": "VUSN-Admissions@vanderbilt.edu",
-        "deadline": "2025-10-15",
-        "start_date": "2026-08-01"
-      },
-      "program_details": {
-        "duration_months": 16,
-        "terms": 4,
-        "online_lab_conf": null,
-        "format": "Full-time, in-person (daily commute required)",
-        "degree": "MN"
-      },
-      "scores": {
-        "location_score": 8,
-        "location_boost": 0,
-        "np_pathway": 0.88,
-        "prestige": 0.9,
-        "competitiveness": 0.83,
-        "start_score": 0.75,
-        "cost_score": 0,
-        "raw_score": 1.06,
-        "rank": 12,
-        "national_percentile": 0.97,
-        "online_lab_conf": 0.8,
-        "location_combined": 7.06
-      },
-      "notes": "Nashville is one of your preferred cities! Elite program with guaranteed NP pathway via MN Prespecialty track. VERY expensive ($136K). May be penalized by your competitiveness formula (top 3%). Strong if you can afford it and want Nashville location + guaranteed NP path.",
-      "scoring_notes": null,
-      "costs": {
-        "Location": "Nashville, TN",
-        "Net Tuition": 0,
-        "Tuition": 135762,
-        "Fees": 6000,
-        "COL Index": 105,
-        "Duration (mo)": 16,
-        "Mo. Burn": 10435,
-        "Cost Score": 0
-      },
-      "sources": [
-        "https://nursing.vanderbilt.edu/programs/mn/",
-        "https://nursing.vanderbilt.edu/admissions/msn-mn-pmc/",
-        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/vanderbilt-university-33271"
-      ],
-      "regional": {
-        "ed_opportunity": 0.9,
-        "np_accessibility": 0.95,
-        "underserved_access": 0.75,
-        "np_pathway_calculated": 0.88
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2500,7 +2737,7 @@
         "start_score": 0.75,
         "cost_score": 0.11,
         "raw_score": 0.15,
-        "rank": 34,
+        "rank": 31,
         "national_percentile": 0.99,
         "online_lab_conf": 0.8,
         "location_combined": 5.58
@@ -2509,13 +2746,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Baltimore, MD",
-        "Net Tuition": 0,
+        "Net Tuition": 114000,
         "Tuition": 112000,
         "Fees": 2000,
         "COL Index": 118,
         "Duration (mo)": 16,
         "Mo. Burn": 8895,
-        "Cost Score": 0.11
+        "Cost Score": 0.11,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://nursing.jhu.edu/programs/fall-2026-master-of-science-in-nursing-msn-entry-into-nursing-program/",
@@ -2527,6 +2766,16 @@
         "np_accessibility": 0.75,
         "underserved_access": 0.8,
         "np_pathway_calculated": 0.8
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2573,9 +2822,9 @@
         "prestige": 0.85,
         "competitiveness": 0.86,
         "start_score": 0.75,
-        "cost_score": 0.51,
-        "raw_score": 0.34,
-        "rank": 29,
+        "cost_score": 0.33,
+        "raw_score": 0.22,
+        "rank": 28,
         "national_percentile": 0.94,
         "online_lab_conf": 0.8,
         "location_combined": 6.14
@@ -2584,13 +2833,16 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Los Angeles, CA",
-        "Net Tuition": 0,
-        "Tuition": 57192,
+        "Net Tuition": 102016,
+        "Tuition": 99016,
         "Fees": 3000,
         "COL Index": 160,
         "Duration (mo)": 24,
-        "Mo. Burn": 4908,
-        "Cost Score": 0.51
+        "Mo. Burn": 6651,
+        "Cost Score": 0.33,
+        "tuition_notes": "Non-resident including health insurance",
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://www.nursing.ucla.edu/programs-admissions/academic-programs/master-of-science-entry",
@@ -2602,6 +2854,16 @@
         "np_accessibility": 0.8,
         "underserved_access": 0.9,
         "np_pathway_calculated": 0.88
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2650,7 +2912,7 @@
         "start_score": 0.5,
         "cost_score": 0.13,
         "raw_score": 0.14,
-        "rank": 35,
+        "rank": 32,
         "national_percentile": 0.96,
         "online_lab_conf": 1,
         "location_combined": 4.55
@@ -2659,13 +2921,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "New York, NY",
-        "Net Tuition": 0,
+        "Net Tuition": 90242,
         "Tuition": 87242,
         "Fees": 3000,
         "COL Index": 180,
         "Duration (mo)": 15,
         "Mo. Burn": 8716,
-        "Cost Score": 0.13
+        "Cost Score": 0.13,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://www.nursing.columbia.edu/academics/academic-programs/masters-direct-entry-program-non-nurses",
@@ -2676,6 +2940,16 @@
         "np_accessibility": 0.85,
         "underserved_access": 0.95,
         "np_pathway_calculated": 0.91
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2724,7 +2998,7 @@
         "start_score": 0.5,
         "cost_score": 0.43,
         "raw_score": 0.14,
-        "rank": 36,
+        "rank": 33,
         "national_percentile": 0.79,
         "online_lab_conf": 0.8,
         "location_combined": 4.04
@@ -2733,13 +3007,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "New Haven, CT",
-        "Net Tuition": 0,
+        "Net Tuition": 130023,
         "Tuition": 124023,
         "Fees": 6000,
         "COL Index": 140,
         "Duration (mo)": 36,
         "Mo. Burn": 5712,
-        "Cost Score": 0.43
+        "Cost Score": 0.43,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://nursing.yale.edu/academics/graduate-entry-pre-specialty-nursing-gepn",
@@ -2751,6 +3027,16 @@
         "np_accessibility": 0.85,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2799,7 +3085,7 @@
         "start_score": 0.75,
         "cost_score": 0.5,
         "raw_score": 0.32,
-        "rank": 30,
+        "rank": 23,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 7.5
@@ -2808,13 +3094,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Chicago, IL",
-        "Net Tuition": 0,
+        "Net Tuition": 64900,
         "Tuition": 62900,
         "Fees": 2000,
         "COL Index": 115,
         "Duration (mo)": 20,
         "Mo. Burn": 4970,
-        "Cost Score": 0.5
+        "Cost Score": 0.5,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://msn.northpark.edu/nursing-admissions/",
@@ -2825,6 +3113,16 @@
         "np_accessibility": 0.95,
         "underserved_access": 0.9,
         "np_pathway_calculated": 0.94
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     },
     {
@@ -2873,7 +3171,7 @@
         "start_score": 0.75,
         "cost_score": 0.56,
         "raw_score": 0.16,
-        "rank": 33,
+        "rank": 30,
         "national_percentile": 0.4,
         "online_lab_conf": 0.8,
         "location_combined": 3.4
@@ -2882,13 +3180,15 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Sylvania, OH",
-        "Net Tuition": 0,
+        "Net Tuition": 46000,
         "Tuition": 44000,
         "Fees": 2000,
         "COL Index": 88,
         "Duration (mo)": 15,
         "Mo. Burn": 4387,
-        "Cost Score": 0.56
+        "Cost Score": 0.56,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
       },
       "sources": [
         "https://lourdes.edu/nursing/"
@@ -2898,6 +3198,16 @@
         "np_accessibility": 0.65,
         "underserved_access": 0.7,
         "np_pathway_calculated": 0.68
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
       }
     }
   ],

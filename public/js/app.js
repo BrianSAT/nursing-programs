@@ -1,6 +1,7 @@
 let programs = [];
 let programsMap = {};
 let currentSort = { column: 'raw_score', direction: 'desc' };
+let workCommitmentEnabled = {}; // Track per-program: { programId: true/false }
 
 async function loadPrograms() {
   const loading = document.getElementById('loading');
@@ -36,6 +37,25 @@ function formatDate(dateStr) {
 function formatCurrency(amount) {
   if (amount == null) return '-';
   return '$' + Math.round(amount).toLocaleString();
+}
+
+function getDisplayedMonthlyBurn(program) {
+  if (!program.costs) return null;
+
+  const baseBurn = program.costs['Mo. Burn'];
+  if (baseBurn == null) return null;
+
+  if (workCommitmentEnabled[program.id] && program.scholarships?.work_commitment) {
+    // Calculate adjusted burn with work-commitment scholarship
+    const wc = program.scholarships.work_commitment;
+    const duration = program.costs['Duration (mo)'] || program.program_details?.duration_months || 12;
+    // Apply 50% probability for competitive scholarships
+    const expectedValue = wc.competitive ? wc.amount * 0.5 : wc.amount;
+    const monthlyBenefit = expectedValue / duration;
+    return Math.max(0, baseBurn - monthlyBenefit);
+  }
+
+  return baseBurn;
 }
 
 function renderTable() {
@@ -134,9 +154,14 @@ function renderTable() {
   // Render rows
   tbody.innerHTML = filtered.map(p => {
     const status = getDataStatus(p);
-    const monthlyBurn = p.costs?.['Mo. Burn'];
+    const monthlyBurn = getDisplayedMonthlyBurn(p);
     const rawScore = p.scores?.raw_score;
     const rank = p.scores?.rank;
+    const hasWorkCommit = p.scholarships?.work_commitment != null;
+    const isChecked = workCommitmentEnabled[p.id] ? 'checked' : '';
+    const workCommitCell = hasWorkCommit
+      ? `<input type="checkbox" class="work-commit-checkbox" data-program-id="${p.id}" ${isChecked} onclick="event.stopPropagation(); toggleWorkCommit('${p.id}', this)">`
+      : '-';
 
     return `
       <tr class="${status === 'needs-data' ? 'needs-data-row' : ''}" onclick="showDetail('${p.id}')">
@@ -147,8 +172,9 @@ function renderTable() {
         <td>${p.program_details?.duration_months ? p.program_details.duration_months + ' mo' : '-'}</td>
         <td>${formatDate(p.admissions?.start_date)}</td>
         <td>${formatDate(p.admissions?.deadline)}</td>
-        <td>${formatCurrency(monthlyBurn)}</td>
-        <td class="score">${rawScore != null ? rawScore.toFixed(2) : '-'}</td>
+        <td id="burn-${p.id}">${formatCurrency(monthlyBurn)}</td>
+        <td class="work-commit-cell">${workCommitCell}</td>
+        <td class="score" id="score-${p.id}">${rawScore != null ? rawScore.toFixed(2) : '-'}</td>
         <td class="status-${status}">${status === 'complete' ? 'Complete' : 'Needs Data'}</td>
       </tr>
     `;
@@ -159,6 +185,62 @@ function renderTable() {
 document.getElementById('search').addEventListener('input', renderTable);
 document.getElementById('type-filter').addEventListener('change', renderTable);
 document.getElementById('data-filter').addEventListener('change', renderTable);
+
+// Work-commitment checkbox toggle (per-program)
+function toggleWorkCommit(programId, checkbox) {
+  const program = programsMap[programId];
+  if (!program || !program.scholarships?.work_commitment) return;
+
+  if (checkbox.checked) {
+    // Show popup with work-commitment details
+    workCommitmentEnabled[programId] = true;
+    showWorkCommitPopup(program);
+  } else {
+    workCommitmentEnabled[programId] = false;
+  }
+
+  // Recalculate cost score and raw score
+  const newBurn = getDisplayedMonthlyBurn(program);
+  const newCostScore = Math.max(0, 1 - (newBurn / 10000));
+  const newRawScore = recalculateRawScore(program, newCostScore);
+
+  // Update the monthly burn display for this row
+  const burnCell = document.getElementById('burn-' + programId);
+  if (burnCell) {
+    burnCell.textContent = formatCurrency(newBurn);
+  }
+
+  // Update the score display for this row
+  const scoreCell = document.getElementById('score-' + programId);
+  if (scoreCell) {
+    scoreCell.textContent = newRawScore != null ? newRawScore.toFixed(2) : '-';
+  }
+}
+
+// Recalculate raw score with new cost score
+function recalculateRawScore(program, costScore) {
+  const scores = program.scores || {};
+  const details = program.program_details || {};
+  const costs = program.costs || {};
+
+  const base = (scores.location_score || 5) + (scores.location_boost || 0);
+  const prereqFit = program.prerequisites?.addl_prereq_fit || 1.0;
+  const onlineLabConf = scores.online_lab_conf || details.online_lab_conf || 1.0;
+  const npPathway = scores.np_pathway || 0.5;
+  const prestige = scores.prestige || 1.0;
+  const competitiveness = scores.competitiveness || 1.0;
+  const startScore = scores.start_score || 1.0;
+
+  // Time factor
+  const duration = costs['Duration (mo)'] || details.duration_months || 12;
+  let timeFactor = 1.0;
+  if (duration > 24) timeFactor = 0.25;
+  else if (duration > 18) timeFactor = 0.5;
+  else if (duration > 12) timeFactor = 0.75;
+
+  const rawScore = base * prereqFit * onlineLabConf * npPathway * prestige * competitiveness * startScore * timeFactor * costScore;
+  return Math.round(rawScore * 100) / 100;
+}
 
 // Column header sorting
 function setupSortableHeaders() {
@@ -280,12 +362,45 @@ function showDetail(id) {
     html += buildDetailItem('Tuition', formatCurrency(costs.Tuition));
     html += buildDetailItem('Fees', formatCurrency(costs.Fees));
     html += buildDetailItem('Net Tuition', formatCurrency(costs['Net Tuition']));
-    html += '<div class="detail-item"><div class="label">Monthly Burn</div><div class="value" style="color: #dc2626;">' + formatCurrency(costs['Mo. Burn']) + '</div></div>';
-    html += buildDetailItem('Total Cost', formatCurrency(costs['Total Cost']));
-    const scholarshipText = costs['Schlrshp Amt'] ? formatCurrency(costs['Schlrshp Amt']) + ' (' + (costs['Schlrshp %'] * 100) + '%)' : '-';
-    html += buildDetailItem('Scholarship', scholarshipText);
+    const displayedBurn = getDisplayedMonthlyBurn(p);
+    html += '<div class="detail-item"><div class="label">Monthly Burn' + (workCommitmentEnabled[p.id] && p.scholarships?.work_commitment ? ' (w/ WC)' : '') + '</div><div class="value" style="color: #dc2626;">' + formatCurrency(displayedBurn) + '</div></div>';
     html += buildDetailItem('COL Index', costs['COL Index'] || '-');
     html += '</div></div>';
+
+    // Scholarships
+    const scholarships = p.scholarships || {};
+    html += '<div class="detail-section"><h3>Scholarships</h3><div class="detail-grid">';
+
+    // Guaranteed
+    if (scholarships.guaranteed) {
+      html += '<div class="detail-item"><div class="label">Guaranteed</div><div class="value" style="color: #16a34a;">' + formatCurrency(scholarships.guaranteed.amount) + '</div></div>';
+    } else {
+      html += buildDetailItem('Guaranteed', 'None');
+    }
+
+    // Merit
+    if (scholarships.merit?.pool > 0) {
+      html += buildDetailItem('Merit Pool', formatCurrency(scholarships.merit.pool) + ' (' + (scholarships.merit.probability * 100) + '% chance)');
+    } else {
+      html += buildDetailItem('Merit', 'None');
+    }
+
+    // Expected value
+    html += buildDetailItem('Expected Value', formatCurrency(scholarships.expected_value_no_commitment || 0));
+    html += '</div>';
+
+    // Work-commitment section
+    if (scholarships.work_commitment) {
+      const wc = scholarships.work_commitment;
+      html += '<div class="work-commit-card" style="margin-top: 15px;">';
+      html += '<h3 style="margin: 0 0 8px 0;">Work-Commitment Option Available</h3>';
+      html += '<div class="amount">' + formatCurrency(wc.amount) + '</div>';
+      html += '<div class="details"><strong>' + escapeHtml(wc.program_name) + '</strong><br>';
+      html += wc.commitment_years + '-year commitment at ' + escapeHtml(wc.employer) + '</div>';
+      html += '<div class="notes">' + escapeHtml(wc.notes) + '</div>';
+      html += '</div>';
+    }
+    html += '</div>';
 
     // Prerequisites
     html += '<div class="detail-section"><h3>Prerequisites</h3>';
@@ -336,7 +451,59 @@ document.getElementById('modal').addEventListener('click', (e) => {
 
 // Close modal on Escape key
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape') {
+    closeModal();
+    closeWorkCommitModal();
+  }
+});
+
+// Work-commitment popup functions (for single program)
+function showWorkCommitPopup(program) {
+  const modal = document.getElementById('work-commit-modal');
+  const container = document.getElementById('work-commit-programs');
+  const wc = program.scholarships.work_commitment;
+
+  const duration = program.costs?.['Duration (mo)'] || program.program_details?.duration_months || 12;
+  const expectedValue = wc.competitive ? wc.amount * 0.5 : wc.amount;
+  const monthlyBenefit = Math.round(expectedValue / duration);
+
+  // Calculate score change
+  const baseBurn = program.costs?.['Mo. Burn'] || 0;
+  const newBurn = Math.max(0, baseBurn - monthlyBenefit);
+  const oldCostScore = Math.max(0, 1 - (baseBurn / 10000));
+  const newCostScore = Math.max(0, 1 - (newBurn / 10000));
+  const oldRawScore = program.scores?.raw_score || 0;
+  const newRawScore = recalculateRawScore(program, newCostScore);
+  const scoreDiff = newRawScore - oldRawScore;
+
+  container.innerHTML = `
+    <div class="work-commit-card">
+      <h3>${escapeHtml(program.name)}</h3>
+      <div class="amount">${formatCurrency(wc.amount)} scholarship</div>
+      <div class="details">
+        <strong>${escapeHtml(wc.program_name)}</strong><br>
+        ${wc.commitment_years}-year commitment at ${escapeHtml(wc.employer)}
+      </div>
+      <div class="notes">${escapeHtml(wc.notes)}</div>
+      <div class="calculation">
+        <strong>Impact:</strong><br>
+        Monthly burn: ${formatCurrency(baseBurn)} → ${formatCurrency(newBurn)} (-${formatCurrency(monthlyBenefit)}/mo)<br>
+        Score: ${oldRawScore.toFixed(2)} → ${newRawScore.toFixed(2)} (+${scoreDiff.toFixed(2)})
+        ${wc.competitive ? '<br><small>(Using 50% expected value due to competitive selection)</small>' : ''}
+      </div>
+    </div>
+  `;
+
+  modal.classList.remove('hidden');
+}
+
+function closeWorkCommitModal() {
+  document.getElementById('work-commit-modal').classList.add('hidden');
+}
+
+// Close work-commit modal on background click
+document.getElementById('work-commit-modal').addEventListener('click', (e) => {
+  if (e.target.id === 'work-commit-modal') closeWorkCommitModal();
 });
 
 loadPrograms();
