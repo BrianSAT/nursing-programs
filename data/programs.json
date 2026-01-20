@@ -61,7 +61,7 @@
         "start_score": 0.75,
         "cost_score": 0.45,
         "raw_score": 1.35,
-        "rank": 21,
+        "rank": 25,
         "national_percentile": 0.75,
         "location_combined": 5.29
       },
@@ -143,7 +143,7 @@
         "start_score": 1,
         "cost_score": 0.34,
         "raw_score": 1.66,
-        "rank": 13,
+        "rank": 14,
         "national_percentile": 0.92,
         "location_combined": 6.57
       },
@@ -225,7 +225,7 @@
         "start_score": 0.75,
         "cost_score": 0.3,
         "raw_score": 0.67,
-        "rank": 37,
+        "rank": 43,
         "national_percentile": 0.85,
         "location_combined": 6.41
       },
@@ -308,7 +308,7 @@
         "start_score": 0.75,
         "cost_score": 0.08,
         "raw_score": 0.23,
-        "rank": 51,
+        "rank": 58,
         "national_percentile": 0.97,
         "location_combined": 5.96
       },
@@ -390,7 +390,7 @@
         "start_score": 1,
         "cost_score": 0.14,
         "raw_score": 0.76,
-        "rank": 34,
+        "rank": 40,
         "national_percentile": 0.9,
         "location_combined": 6.34
       },
@@ -472,7 +472,7 @@
         "start_score": 0.5,
         "cost_score": 0,
         "raw_score": 0.56,
-        "rank": 40,
+        "rank": 46,
         "national_percentile": 1,
         "location_combined": 5.53
       },
@@ -554,7 +554,7 @@
         "start_score": 0.75,
         "cost_score": 0.12,
         "raw_score": 0.28,
-        "rank": 48,
+        "rank": 55,
         "national_percentile": 0.78,
         "location_combined": 5
       },
@@ -643,7 +643,7 @@
         "start_score": 1,
         "cost_score": 0.33,
         "raw_score": 1.18,
-        "rank": 25,
+        "rank": 29,
         "national_percentile": 0.7,
         "location_combined": 6.56
       },
@@ -728,7 +728,7 @@
         "start_score": 0.75,
         "cost_score": 0.62,
         "raw_score": 0.42,
-        "rank": 44,
+        "rank": 50,
         "national_percentile": 0.55,
         "location_combined": 4.54
       },
@@ -811,7 +811,7 @@
         "start_score": 0.75,
         "cost_score": 0.37,
         "raw_score": 0.06,
-        "rank": 60,
+        "rank": 67,
         "national_percentile": 0.55,
         "location_combined": 4.93
       },
@@ -893,7 +893,7 @@
         "start_score": 0.75,
         "cost_score": 0.32,
         "raw_score": 0.57,
-        "rank": 39,
+        "rank": 45,
         "national_percentile": 0.72,
         "location_combined": 6.59
       },
@@ -983,7 +983,7 @@
         "start_score": 0.5,
         "cost_score": 0.45,
         "raw_score": 0.47,
-        "rank": 43,
+        "rank": 49,
         "national_percentile": 0.82,
         "location_combined": 4.95
       },
@@ -1066,7 +1066,7 @@
         "start_score": 1,
         "cost_score": 0.43,
         "raw_score": 0.75,
-        "rank": 35,
+        "rank": 41,
         "national_percentile": 0.55,
         "location_combined": 6.84
       },
@@ -1148,7 +1148,7 @@
         "start_score": 1,
         "cost_score": 0.42,
         "raw_score": 0.53,
-        "rank": 42,
+        "rank": 48,
         "national_percentile": 0.55,
         "location_combined": 5.58
       },
@@ -1230,7 +1230,7 @@
         "start_score": 1,
         "cost_score": 0.31,
         "raw_score": 0.79,
-        "rank": 33,
+        "rank": 39,
         "national_percentile": 0.65,
         "location_combined": 6.34
       },
@@ -1312,7 +1312,7 @@
         "start_score": 1,
         "cost_score": 0.5,
         "raw_score": 0.69,
-        "rank": 36,
+        "rank": 42,
         "national_percentile": 0.5,
         "location_combined": 6.51
       },
@@ -1394,7 +1394,7 @@
         "start_score": 1,
         "cost_score": 0.44,
         "raw_score": 1.69,
-        "rank": 12,
+        "rank": 13,
         "national_percentile": 0.85,
         "location_combined": 7.95
       },
@@ -1483,7 +1483,7 @@
         "start_score": 1,
         "cost_score": 0.23,
         "raw_score": 0.39,
-        "rank": 45,
+        "rank": 51,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 6.8
@@ -1567,7 +1567,7 @@
         "start_score": 1,
         "cost_score": 0.36,
         "raw_score": 1,
-        "rank": 30,
+        "rank": 36,
         "national_percentile": 0.75,
         "location_combined": 6.1
       },
@@ -1649,7 +1649,7 @@
         "start_score": 1,
         "cost_score": 0.72,
         "raw_score": 1.98,
-        "rank": 9,
+        "rank": 10,
         "national_percentile": 0.8,
         "location_combined": 5.96
       },
@@ -1735,7 +1735,7 @@
         "start_score": 1,
         "cost_score": 0.47,
         "raw_score": 1.11,
-        "rank": 29,
+        "rank": 34,
         "national_percentile": 0.88,
         "online_lab_conf": 1,
         "location_combined": 7.5
@@ -1820,7 +1820,7 @@
         "start_score": 1,
         "cost_score": 0.31,
         "raw_score": 0.22,
-        "rank": 52,
+        "rank": 59,
         "national_percentile": 0.72,
         "location_combined": 6.79
       },
@@ -1907,7 +1907,7 @@
         "start_score": 0.75,
         "cost_score": 0.01,
         "raw_score": 0.02,
-        "rank": 62,
+        "rank": 69,
         "national_percentile": 0.97,
         "online_lab_conf": 0.8,
         "location_combined": 7.06
@@ -2006,7 +2006,7 @@
         "start_score": 0.75,
         "cost_score": 0.63,
         "raw_score": 0.9,
-        "rank": 31,
+        "rank": 37,
         "national_percentile": 0.78,
         "online_lab_conf": 0.8,
         "location_combined": 4.49
@@ -2095,7 +2095,7 @@
         "start_score": 0.5,
         "cost_score": 0.27,
         "raw_score": 0.09,
-        "rank": 58,
+        "rank": 65,
         "national_percentile": 0.71,
         "online_lab_conf": 0.8,
         "location_combined": 6.56
@@ -2184,7 +2184,7 @@
         "start_score": 1,
         "cost_score": 0.63,
         "raw_score": 0.62,
-        "rank": 38,
+        "rank": 44,
         "national_percentile": 0.65,
         "online_lab_conf": 0.8,
         "location_combined": 7.5
@@ -2273,7 +2273,7 @@
         "start_score": 0.75,
         "cost_score": 0.46,
         "raw_score": 0.38,
-        "rank": 46,
+        "rank": 52,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.36
@@ -2361,7 +2361,7 @@
         "start_score": 0.75,
         "cost_score": 0.48,
         "raw_score": 0.24,
-        "rank": 49,
+        "rank": 56,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2449,7 +2449,7 @@
         "start_score": 0.75,
         "cost_score": 0.21,
         "raw_score": 0.07,
-        "rank": 59,
+        "rank": 66,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 7.09
@@ -2538,7 +2538,7 @@
         "start_score": 0.5,
         "cost_score": 0.27,
         "raw_score": 0.04,
-        "rank": 61,
+        "rank": 68,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 4.98
@@ -2626,7 +2626,7 @@
         "start_score": 1,
         "cost_score": 0.38,
         "raw_score": 0.54,
-        "rank": 41,
+        "rank": 47,
         "national_percentile": 0.61,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2715,7 +2715,7 @@
         "start_score": 0.75,
         "cost_score": 0.74,
         "raw_score": 0.24,
-        "rank": 50,
+        "rank": 57,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2803,7 +2803,7 @@
         "start_score": 0.75,
         "cost_score": 0.11,
         "raw_score": 0.16,
-        "rank": 55,
+        "rank": 62,
         "national_percentile": 0.99,
         "online_lab_conf": 0.8,
         "location_combined": 5.58
@@ -2892,7 +2892,7 @@
         "start_score": 0.75,
         "cost_score": 0.33,
         "raw_score": 0.18,
-        "rank": 53,
+        "rank": 60,
         "national_percentile": 0.94,
         "online_lab_conf": 0.8,
         "location_combined": 6.14
@@ -2982,7 +2982,7 @@
         "start_score": 0.5,
         "cost_score": 0.13,
         "raw_score": 0.15,
-        "rank": 56,
+        "rank": 63,
         "national_percentile": 0.96,
         "online_lab_conf": 1,
         "location_combined": 4.55
@@ -3070,7 +3070,7 @@
         "start_score": 0.5,
         "cost_score": 0.43,
         "raw_score": 0.11,
-        "rank": 57,
+        "rank": 64,
         "national_percentile": 0.79,
         "online_lab_conf": 0.8,
         "location_combined": 4.04
@@ -3159,7 +3159,7 @@
         "start_score": 0.75,
         "cost_score": 0.5,
         "raw_score": 0.38,
-        "rank": 47,
+        "rank": 53,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 7.5
@@ -3247,7 +3247,7 @@
         "start_score": 0.75,
         "cost_score": 0.56,
         "raw_score": 0.18,
-        "rank": 54,
+        "rank": 61,
         "national_percentile": 0.4,
         "online_lab_conf": 0.8,
         "location_combined": 3.4
@@ -3330,7 +3330,7 @@
         "start_score": 1,
         "cost_score": 0.51,
         "raw_score": 2.19,
-        "rank": 3,
+        "rank": 4,
         "national_percentile": 0.7,
         "location_combined": 8.36
       },
@@ -3412,7 +3412,7 @@
         "start_score": 1,
         "cost_score": 0.48,
         "raw_score": 2.09,
-        "rank": 7,
+        "rank": 8,
         "national_percentile": 0.8,
         "location_combined": 7.99
       },
@@ -3494,7 +3494,7 @@
         "start_score": 0.75,
         "cost_score": 0.47,
         "raw_score": 1.29,
-        "rank": 23,
+        "rank": 27,
         "national_percentile": 0.65,
         "location_combined": 7.8
       },
@@ -3578,7 +3578,7 @@
         "start_score": 1,
         "cost_score": 0.65,
         "raw_score": 2.1,
-        "rank": 6,
+        "rank": 7,
         "national_percentile": 0.6,
         "location_combined": 7.49
       },
@@ -3660,7 +3660,7 @@
         "start_score": 1,
         "cost_score": 0.67,
         "raw_score": 2.13,
-        "rank": 4,
+        "rank": 5,
         "national_percentile": 0.55,
         "location_combined": 7.44
       },
@@ -3742,7 +3742,7 @@
         "start_score": 0.75,
         "cost_score": 0.6,
         "raw_score": 1.14,
-        "rank": 28,
+        "rank": 33,
         "national_percentile": 0.65,
         "location_combined": 7.35
       },
@@ -3824,7 +3824,7 @@
         "start_score": 1,
         "cost_score": 0.68,
         "raw_score": 2.88,
-        "rank": 1,
+        "rank": 2,
         "national_percentile": 0.45,
         "location_combined": 7.28
       },
@@ -3906,7 +3906,7 @@
         "start_score": 1,
         "cost_score": 0.57,
         "raw_score": 1.47,
-        "rank": 18,
+        "rank": 21,
         "national_percentile": 0.75,
         "location_combined": 7.22
       },
@@ -3988,7 +3988,7 @@
         "start_score": 0.75,
         "cost_score": 0.81,
         "raw_score": 1.53,
-        "rank": 17,
+        "rank": 20,
         "national_percentile": 0.5,
         "location_combined": 7.14
       },
@@ -4070,7 +4070,7 @@
         "start_score": 1,
         "cost_score": 0.62,
         "raw_score": 1.86,
-        "rank": 10,
+        "rank": 11,
         "national_percentile": 0.55,
         "location_combined": 6.97
       },
@@ -4152,7 +4152,7 @@
         "start_score": 1,
         "cost_score": 0.56,
         "raw_score": 1.15,
-        "rank": 27,
+        "rank": 32,
         "national_percentile": 0.5,
         "location_combined": 6.91
       },
@@ -4234,7 +4234,7 @@
         "start_score": 0.75,
         "cost_score": 0.6,
         "raw_score": 1.16,
-        "rank": 26,
+        "rank": 31,
         "national_percentile": 0.5,
         "location_combined": 6.85
       },
@@ -4316,7 +4316,7 @@
         "start_score": 1,
         "cost_score": 0.59,
         "raw_score": 2.03,
-        "rank": 8,
+        "rank": 9,
         "national_percentile": 0.65,
         "location_combined": 6.72
       },
@@ -4398,7 +4398,7 @@
         "start_score": 1,
         "cost_score": 0.61,
         "raw_score": 1.77,
-        "rank": 11,
+        "rank": 12,
         "national_percentile": 0.45,
         "location_combined": 6.75
       },
@@ -4480,7 +4480,7 @@
         "start_score": 0.75,
         "cost_score": 0.67,
         "raw_score": 1.28,
-        "rank": 24,
+        "rank": 28,
         "national_percentile": 0.55,
         "location_combined": 6.68
       },
@@ -4562,7 +4562,7 @@
         "start_score": 0.75,
         "cost_score": 0.72,
         "raw_score": 2.13,
-        "rank": 5,
+        "rank": 6,
         "national_percentile": 0.6,
         "location_combined": 6.6
       },
@@ -4648,7 +4648,7 @@
         "start_score": 1,
         "cost_score": 0.22,
         "raw_score": 0.85,
-        "rank": 32,
+        "rank": 38,
         "national_percentile": 0.88,
         "location_combined": 6.45
       },
@@ -4730,7 +4730,7 @@
         "start_score": 0.75,
         "cost_score": 0.67,
         "raw_score": 1.37,
-        "rank": 20,
+        "rank": 24,
         "national_percentile": 0.55,
         "location_combined": 6.32
       },
@@ -4816,7 +4816,7 @@
         "start_score": 1,
         "cost_score": 0.69,
         "raw_score": 1.63,
-        "rank": 15,
+        "rank": 16,
         "national_percentile": 0.6,
         "location_combined": 6.24
       },
@@ -4898,7 +4898,7 @@
         "start_score": 1,
         "cost_score": 0.58,
         "raw_score": 1.65,
-        "rank": 14,
+        "rank": 15,
         "national_percentile": 0.7,
         "location_combined": 6.2
       },
@@ -4980,7 +4980,7 @@
         "start_score": 1,
         "cost_score": 0.71,
         "raw_score": 1.32,
-        "rank": 22,
+        "rank": 26,
         "national_percentile": 0.5,
         "location_combined": 6.24
       },
@@ -5062,7 +5062,7 @@
         "start_score": 1,
         "cost_score": 0.63,
         "raw_score": 2.29,
-        "rank": 2,
+        "rank": 3,
         "national_percentile": 0.55,
         "location_combined": 6.08
       },
@@ -5144,7 +5144,7 @@
         "start_score": 1,
         "cost_score": 0.58,
         "raw_score": 1.62,
-        "rank": 16,
+        "rank": 17,
         "national_percentile": 0.65,
         "location_combined": 6.08
       },
@@ -5226,7 +5226,7 @@
         "start_score": 1,
         "cost_score": 0.67,
         "raw_score": 1.43,
-        "rank": 19,
+        "rank": 22,
         "national_percentile": 0.5,
         "location_combined": 6.08
       },
@@ -5260,6 +5260,587 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      }
+    },
+    {
+      "id": "loyola-nola",
+      "name": "Loyola New Orleans",
+      "type": "ABSN",
+      "location": {
+        "full": "New Orleans, LA"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@loyno.edu",
+        "deadline": "2026-04-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 17,
+        "terms": 4,
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 7.5,
+        "location_boost": 0.5,
+        "np_pathway": 0.81,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.69,
+        "raw_score": 1.43,
+        "rank": 23,
+        "national_percentile": 0.55,
+        "location_combined": 6.48
+      },
+      "notes": "Hybrid program; Ochsner Nurse Scholar bonus ($30K); Greater NOLA clinical sites",
+      "scoring_notes": "Food + music city; excellent underserved access",
+      "costs": {
+        "Location": "New Orleans, LA",
+        "Tuition": 24804,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 27804,
+        "COL Index": 100,
+        "Duration (mo)": 17,
+        "Living $/mo": 1500,
+        "Total Living": 25500,
+        "Total Cost": 53304,
+        "Mo. Burn": 3135,
+        "Cost Score": 0.69
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": {
+          "name": "Ochsner Nurse Scholar",
+          "amount": 30000,
+          "years": 3
+        },
+        "merit": {
+          "pool": 5000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 1000,
+        "expected_value_with_commitment": 31000
+      }
+    },
+    {
+      "id": "uvm-burlington",
+      "name": "UVM",
+      "type": "MEPN",
+      "location": {
+        "full": "Burlington, VT"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "cnhsgrad@uvm.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-05-15"
+      },
+      "program_details": {
+        "duration_months": 36,
+        "terms": 9,
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "Direct entry MSN with NP pathway"
+      },
+      "scores": {
+        "location_score": 6.5,
+        "location_boost": 0.5,
+        "np_pathway": 0.78,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.67,
+        "raw_score": 0.3,
+        "rank": 54,
+        "national_percentile": 0.6,
+        "location_combined": 5.46
+      },
+      "notes": "MEPN = 1yr prelicensure + 2yr MSN; Full NP practice authority state; 675 clinical hours yr 1",
+      "scoring_notes": "Beautiful location; hipster food/craft scene; skiing",
+      "costs": {
+        "Location": "Burlington, VT",
+        "Tuition": 55000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 58000,
+        "COL Index": 115,
+        "Duration (mo)": 36,
+        "Living $/mo": 1500,
+        "Total Living": 62100,
+        "Total Cost": 120100,
+        "Mo. Burn": 3336,
+        "Cost Score": 0.67
+      },
+      "regional": {
+        "ed_opportunity": 0.65,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.85,
+        "np_pathway_calculated": 0.78
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 750,
+        "expected_value_with_commitment": 750
+      }
+    },
+    {
+      "id": "wsu-spokane",
+      "name": "WSU Spokane",
+      "type": "ABSN",
+      "location": {
+        "full": "Spokane, WA"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "TEAS 70% min",
+        "addl_prereq_fit": 0.9
+      },
+      "admissions": {
+        "email": "nursing@wsu.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-08-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 7,
+        "location_boost": 0.5,
+        "np_pathway": 0.71,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.61,
+        "raw_score": 1.05,
+        "rank": 35,
+        "national_percentile": 0.55,
+        "location_combined": 5.32
+      },
+      "notes": "97% NCLEX (2024); Full NP practice authority state; River + mountains; Affordable outdoor city",
+      "scoring_notes": "User favorite - mountain/river access; underrated city",
+      "costs": {
+        "Location": "Spokane, WA",
+        "Tuition": 35000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 38000,
+        "COL Index": 100,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 24000,
+        "Total Cost": 62000,
+        "Mo. Burn": 3875,
+        "Cost Score": 0.61
+      },
+      "regional": {
+        "ed_opportunity": 0.65,
+        "np_accessibility": 0.7,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.71
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 600,
+        "expected_value_with_commitment": 600
+      }
+    },
+    {
+      "id": "duquesne-pittsburgh",
+      "name": "Duquesne",
+      "type": "ABSN",
+      "location": {
+        "full": "Pittsburgh, PA"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@duq.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 9,
+        "location_boost": 0.5,
+        "np_pathway": 0.82,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.62,
+        "raw_score": 3.06,
+        "rank": 1,
+        "national_percentile": 0.65,
+        "location_combined": 7.79
+      },
+      "notes": "12-month fast track; $30K scholarship for all admits; UPMC + AHN rotations; 95.6% NCLEX",
+      "scoring_notes": "User's #1 city; on-the-come-up; excellent topology",
+      "costs": {
+        "Location": "Pittsburgh, PA",
+        "Tuition": 55976,
+        "Fees": 3000,
+        "Schlrshp Amt": 30000,
+        "Schlrshp %": null,
+        "Net Tuition": 28976,
+        "COL Index": 95,
+        "Duration (mo)": 12,
+        "Living $/mo": 1500,
+        "Total Living": 17100,
+        "Total Cost": 46076,
+        "Mo. Burn": 3840,
+        "Cost Score": 0.62
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.82
+      },
+      "scholarships": {
+        "guaranteed": {
+          "name": "Second Degree Scholarship",
+          "amount": 30000
+        },
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 30000,
+        "expected_value_with_commitment": 30000
+      }
+    },
+    {
+      "id": "loyola-chicago",
+      "name": "Loyola Chicago",
+      "type": "ABSN",
+      "location": {
+        "full": "Maywood, IL (Chicago)"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@luc.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 7.5,
+        "location_boost": 0.5,
+        "np_pathway": 0.82,
+        "prestige": 0.8,
+        "competitiveness": 0.8,
+        "start_score": 1,
+        "cost_score": 0.53,
+        "raw_score": 1.62,
+        "rank": 18,
+        "national_percentile": 0.7,
+        "location_combined": 6.56
+      },
+      "notes": "Hybrid option; Social justice emphasis; 94% NCLEX; Northwestern Memorial rotations",
+      "scoring_notes": "Strong Jesuit program; food + music scene",
+      "costs": {
+        "Location": "Chicago, IL",
+        "Tuition": 45000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 48000,
+        "COL Index": 110,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 26400,
+        "Total Cost": 74400,
+        "Mo. Burn": 4650,
+        "Cost Score": 0.53
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.75,
+        "np_pathway_calculated": 0.82
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 1000,
+        "expected_value_with_commitment": 1000
+      }
+    },
+    {
+      "id": "hunter-nyc",
+      "name": "Hunter College (CUNY)",
+      "type": "ABSN",
+      "location": {
+        "full": "New York, NY"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@hunter.cuny.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 18,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "CUNY = very affordable for NY residents; 51 credits; Major NYC hospital rotations",
+      "scoring_notes": "Best value in NYC; public school pricing",
+      "scores": {
+        "location_score": 6,
+        "location_boost": 0.5,
+        "np_pathway": 0.85,
+        "prestige": 0.7,
+        "competitiveness": 0.8,
+        "start_score": 1,
+        "cost_score": 0.63,
+        "raw_score": 1.17,
+        "rank": 30,
+        "national_percentile": 0.55,
+        "location_combined": 5.53
+      },
+      "costs": {
+        "Location": "New York, NY",
+        "Tuition": 15555,
+        "Fees": 2000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 17555,
+        "COL Index": 180,
+        "Duration (mo)": 18,
+        "Living $/mo": 1500,
+        "Total Living": 48600,
+        "Total Cost": 66155,
+        "Mo. Burn": 3675,
+        "Cost Score": 0.63
+      },
+      "regional": {
+        "ed_opportunity": 0.9,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.85
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 300,
+        "expected_value_with_commitment": 300
+      }
+    },
+    {
+      "id": "spu-seattle",
+      "name": "Seattle Pacific",
+      "type": "ABSN",
+      "location": {
+        "full": "Seattle, WA"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@spu.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Christian university; Full NP practice authority state; Pacific NW lifestyle",
+      "scoring_notes": "Mountains + water access; food/music/dating scene",
+      "scores": {
+        "location_score": 8.5,
+        "location_boost": 1,
+        "np_pathway": 0.77,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.46,
+        "raw_score": 1.59,
+        "rank": 19,
+        "national_percentile": 0.55,
+        "location_combined": 7.32
+      },
+      "costs": {
+        "Location": "Seattle, WA",
+        "Tuition": 48000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 51000,
+        "COL Index": 150,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 36000,
+        "Total Cost": 87000,
+        "Mo. Burn": 5438,
+        "Cost Score": 0.46
+      },
+      "regional": {
+        "ed_opportunity": 0.7,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.75,
+        "np_pathway_calculated": 0.77
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 750,
+        "expected_value_with_commitment": 750
       }
     }
   ],
