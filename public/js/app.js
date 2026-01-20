@@ -58,12 +58,31 @@ function getDisplayedMonthlyBurn(program) {
   return baseBurn;
 }
 
+function getPlanFitLabel(status) {
+  switch (status) {
+    case 'fits': return 'Fits Plan';
+    case 'adjust': return 'Adjust';
+    case 'ruled_out': return 'Ruled Out';
+    default: return '-';
+  }
+}
+
+function getPlanFitBadgeClass(status) {
+  switch (status) {
+    case 'fits': return 'fits';
+    case 'adjust': return 'adjust';
+    case 'ruled_out': return 'ruled-out';
+    default: return '';
+  }
+}
+
 function renderTable() {
   const tbody = document.getElementById('programs-body');
   const stats = document.getElementById('stats');
   const search = document.getElementById('search').value.toLowerCase();
   const typeFilter = document.getElementById('type-filter').value;
   const dataFilter = document.getElementById('data-filter').value;
+  const fitFilter = document.getElementById('fit-filter').value;
 
   let filtered = programs.filter(p => {
     // Search filter
@@ -80,7 +99,11 @@ function renderTable() {
       (dataFilter === 'complete' && status === 'complete') ||
       (dataFilter === 'needs-data' && status === 'needs-data');
 
-    return searchMatch && typeMatch && dataMatch;
+    // Plan fit filter
+    const planFit = p.plan_fit?.status || '';
+    const fitMatch = !fitFilter || planFit === fitFilter;
+
+    return searchMatch && typeMatch && dataMatch && fitMatch;
   });
 
   // Sort based on currentSort
@@ -136,6 +159,12 @@ function renderTable() {
         return currentSort.direction === 'asc'
           ? valA.localeCompare(valB)
           : valB.localeCompare(valA);
+      case 'plan_fit':
+        // Sort order: fits (best) > adjust > ruled_out (worst)
+        const fitOrder = { fits: 1, adjust: 2, ruled_out: 3, '': 4 };
+        valA = fitOrder[a.plan_fit?.status || ''] || 4;
+        valB = fitOrder[b.plan_fit?.status || ''] || 4;
+        break;
       case 'raw_score':
       default:
         valA = a.scores?.raw_score ?? -1;
@@ -163,6 +192,10 @@ function renderTable() {
       ? `<input type="checkbox" class="work-commit-checkbox" data-program-id="${p.id}" ${isChecked} onclick="event.stopPropagation(); toggleWorkCommit('${p.id}', this)">`
       : '-';
 
+    const planFitStatus = p.plan_fit?.status || '';
+    const planFitLabel = getPlanFitLabel(planFitStatus);
+    const planFitClass = getPlanFitBadgeClass(planFitStatus);
+
     return `
       <tr class="${status === 'needs-data' ? 'needs-data-row' : ''}" onclick="showDetail('${p.id}')">
         <td>${rank != null ? '#' + rank : '-'}</td>
@@ -175,6 +208,7 @@ function renderTable() {
         <td id="burn-${p.id}">${formatCurrency(monthlyBurn)}</td>
         <td class="work-commit-cell">${workCommitCell}</td>
         <td class="score" id="score-${p.id}">${rawScore != null ? rawScore.toFixed(2) : '-'}</td>
+        <td>${planFitStatus ? '<span class="plan-fit-badge ' + planFitClass + '">' + planFitLabel + '</span>' : '-'}</td>
         <td class="status-${status}">${status === 'complete' ? 'Complete' : 'Needs Data'}</td>
       </tr>
     `;
@@ -185,6 +219,7 @@ function renderTable() {
 document.getElementById('search').addEventListener('input', renderTable);
 document.getElementById('type-filter').addEventListener('change', renderTable);
 document.getElementById('data-filter').addEventListener('change', renderTable);
+document.getElementById('fit-filter').addEventListener('change', renderTable);
 
 // Work-commitment checkbox toggle (per-program)
 function toggleWorkCommit(programId, checkbox) {
@@ -329,6 +364,36 @@ function showDetail(id) {
     html += ' &bull; ' + escapeHtml(p.location?.full || 'Location unknown');
     if (scores.rank) html += ' &bull; Rank #' + scores.rank;
     html += '</div></div>';
+
+    // Plan Fit Status
+    if (p.plan_fit?.status) {
+      const fitStatus = p.plan_fit.status;
+      const fitReasons = p.plan_fit.reasons || [];
+      let fitTitle = 'Plan Status Unknown';
+      let fitBoxClass = '';
+
+      if (fitStatus === 'fits') {
+        fitTitle = 'Fits Your Plan';
+        fitBoxClass = 'fits';
+      } else if (fitStatus === 'adjust') {
+        fitTitle = 'Requires Adjustment';
+        fitBoxClass = 'adjust';
+      } else if (fitStatus === 'ruled_out') {
+        fitTitle = 'Ruled Out for Spring 2027';
+        fitBoxClass = 'ruled-out';
+      }
+
+      html += '<div class="plan-fit-box ' + fitBoxClass + '">';
+      html += '<h4><span class="plan-fit-badge ' + fitBoxClass + '">' + getPlanFitLabel(fitStatus) + '</span> ' + fitTitle + '</h4>';
+      if (fitReasons.length > 0) {
+        html += '<ul>';
+        fitReasons.forEach(function(reason) {
+          html += '<li>' + escapeHtml(reason) + '</li>';
+        });
+        html += '</ul>';
+      }
+      html += '</div>';
+    }
 
     // Notes
     if (p.notes) {

@@ -102,6 +102,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -190,6 +196,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires: 100 hours healthcare experience (within 12 months)"
+        ]
       }
     },
     {
@@ -276,6 +288,12 @@
         },
         "expected_value_no_commitment": 500,
         "expected_value_with_commitment": 500
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -361,6 +379,12 @@
         },
         "expected_value_no_commitment": 2000,
         "expected_value_with_commitment": 2000
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -448,6 +472,12 @@
         },
         "expected_value_no_commitment": 2250,
         "expected_value_with_commitment": 2250
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -533,6 +563,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -625,6 +661,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 42045
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -715,6 +757,12 @@
         },
         "expected_value_no_commitment": 15000,
         "expected_value_with_commitment": 15000
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -805,6 +853,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -890,6 +944,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -985,6 +1045,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 6388
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Tennessee U.S. History requirement (6 semester hrs or 1 HS unit)"
+        ]
       }
     },
     {
@@ -1074,6 +1140,12 @@
         },
         "expected_value_no_commitment": 500,
         "expected_value_with_commitment": 500
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: English Composition (6 semester hrs)"
+        ]
       }
     },
     {
@@ -1162,6 +1234,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -1250,6 +1328,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -1340,6 +1424,12 @@
         },
         "expected_value_no_commitment": 500,
         "expected_value_with_commitment": 500
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -1429,6 +1519,12 @@
         },
         "expected_value_no_commitment": 750,
         "expected_value_with_commitment": 750
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Pathophysiology (BIO-322)"
+        ]
       }
     },
     {
@@ -1521,6 +1617,13 @@
         },
         "expected_value_no_commitment": 8333,
         "expected_value_with_commitment": 8333
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Needs 3 extra courses: Human Genetics (3 cr), Pathophysiology (4 cr), English Composition - technical writing (3 cr)",
+          "May need to add courses to summer or test out of Nutrition"
+        ]
       }
     },
     {
@@ -1616,6 +1719,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -1701,6 +1810,12 @@
         },
         "expected_value_no_commitment": 500,
         "expected_value_with_commitment": 500
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "May need some prereqs complete (not just in-progress) at application"
+        ]
       }
     },
     {
@@ -1792,6 +1907,13 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Needs 3 extra courses: Texas Government, US History (6 hrs), Philosophy/Ethics",
+          "May need to add courses to summer or test out of Nutrition"
+        ]
       }
     },
     {
@@ -1886,6 +2008,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -1975,6 +2103,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Pathophysiology"
+        ]
       }
     },
     {
@@ -2079,6 +2213,12 @@
         },
         "expected_value_no_commitment": 9000,
         "expected_value_with_commitment": 24000
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -2175,6 +2315,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: General Biology (3 cr), Composition/Communication course"
+        ]
       }
     },
     {
@@ -2274,6 +2420,13 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Needs 4 extra courses: English Composition I & II, Federal/US Government, Bible-based Religion, World Religion",
+          "May need to add courses to summer or test out of Nutrition"
+        ]
       }
     },
     {
@@ -2363,6 +2516,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -2459,6 +2618,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires: CNA certification"
+        ]
       }
     },
     {
@@ -2552,6 +2717,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Abnormal Psychology"
+        ]
       }
     },
     {
@@ -2650,6 +2821,13 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Needs 3 extra courses: Health Care Ethics, English Composition (3 cr), Philosophy (6 cr)",
+          "May need to add courses to summer or test out of Nutrition"
+        ]
       }
     },
     {
@@ -2748,6 +2926,13 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Needs 3 extra courses: Pathophysiology, Pharmacology, English Composition I & II",
+          "May need to add courses to summer or test out of Nutrition"
+        ]
       }
     },
     {
@@ -2844,6 +3029,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -2938,6 +3129,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires: CNA recommended"
+        ]
       }
     },
     {
@@ -3032,6 +3229,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -3129,6 +3332,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Epidemiology, English Reading & Composition (2 courses)"
+        ]
       }
     },
     {
@@ -3223,6 +3432,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "May need some prereqs complete (not just in-progress) at application"
+        ]
       }
     },
     {
@@ -3319,6 +3534,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "May need some prereqs complete (not just in-progress) at application"
+        ]
       }
     },
     {
@@ -3411,6 +3632,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -3504,6 +3731,12 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -3593,6 +3826,12 @@
         },
         "expected_value_no_commitment": 1000,
         "expected_value_with_commitment": 1000
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -3680,6 +3919,12 @@
         },
         "expected_value_no_commitment": 450,
         "expected_value_with_commitment": 450
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Introduction to Genetics (3 cr)"
+        ]
       }
     },
     {
@@ -3765,6 +4010,12 @@
         },
         "expected_value_no_commitment": 1000,
         "expected_value_with_commitment": 1000
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -3850,6 +4101,12 @@
         },
         "expected_value_no_commitment": 450,
         "expected_value_with_commitment": 450
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -3938,6 +4195,12 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Health Care Ethics"
+        ]
       }
     },
     {
@@ -4027,6 +4290,12 @@
         },
         "expected_value_no_commitment": 450,
         "expected_value_with_commitment": 450
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires: Healthcare experience (10 hrs min)"
+        ]
       }
     },
     {
@@ -4119,6 +4388,13 @@
         },
         "expected_value_no_commitment": 400,
         "expected_value_with_commitment": 400
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Needs 3 extra courses: Pathobiology, Intro to Organic & Biochem with Lab, Medical Ethics",
+          "May need to add courses to summer or test out of Nutrition"
+        ]
       }
     },
     {
@@ -4206,6 +4482,12 @@
         },
         "expected_value_no_commitment": 500,
         "expected_value_with_commitment": 500
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -4296,6 +4578,12 @@
         },
         "expected_value_no_commitment": 200,
         "expected_value_with_commitment": 200
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -4384,6 +4672,12 @@
         },
         "expected_value_no_commitment": 450,
         "expected_value_with_commitment": 450
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Pathophysiology II (NURS 240)"
+        ]
       }
     },
     {
@@ -4472,6 +4766,12 @@
         },
         "expected_value_no_commitment": 450,
         "expected_value_with_commitment": 450
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -4561,6 +4861,12 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -4649,6 +4955,12 @@
         },
         "expected_value_no_commitment": 750,
         "expected_value_with_commitment": 750
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -4737,6 +5049,12 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Pathophysiology OR Pharmacology"
+        ]
       }
     },
     {
@@ -4824,6 +5142,12 @@
         },
         "expected_value_no_commitment": 750,
         "expected_value_with_commitment": 750
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires: CNA I certification (NC Nurse Aide Registry)"
+        ]
       }
     },
     {
@@ -4915,6 +5239,12 @@
         },
         "expected_value_no_commitment": 400,
         "expected_value_with_commitment": 10400
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -5002,6 +5332,12 @@
         },
         "expected_value_no_commitment": 1500,
         "expected_value_with_commitment": 1500
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -5097,6 +5433,13 @@
         },
         "expected_value_no_commitment": 1500,
         "expected_value_with_commitment": 31500
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Needs 3 extra courses: English Comp I & II, History, Fine Arts/Humanities (6 hrs)",
+          "May need to add courses to summer or test out of Nutrition"
+        ]
       }
     },
     {
@@ -5185,6 +5528,12 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -5274,6 +5623,12 @@
         },
         "expected_value_no_commitment": 750,
         "expected_value_with_commitment": 750
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -5359,6 +5714,12 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -5447,6 +5808,12 @@
         },
         "expected_value_no_commitment": 1250,
         "expected_value_with_commitment": 1250
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Pharmacology"
+        ]
       }
     },
     {
@@ -5536,6 +5903,12 @@
         },
         "expected_value_no_commitment": 450,
         "expected_value_with_commitment": 450
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: English Composition"
+        ]
       }
     },
     {
@@ -5624,6 +5997,12 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -5715,6 +6094,12 @@
         },
         "expected_value_no_commitment": 1000,
         "expected_value_with_commitment": 31000
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Organic Chemistry with lab"
+        ]
       }
     },
     {
@@ -5802,6 +6187,12 @@
         },
         "expected_value_no_commitment": 750,
         "expected_value_with_commitment": 750
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -5890,6 +6281,12 @@
         },
         "expected_value_no_commitment": 600,
         "expected_value_with_commitment": 600
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires: 50 hours healthcare experience"
+        ]
       }
     },
     {
@@ -5980,6 +6377,12 @@
         },
         "expected_value_no_commitment": 30000,
         "expected_value_with_commitment": 30000
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -6065,6 +6468,12 @@
         },
         "expected_value_no_commitment": 1000,
         "expected_value_with_commitment": 1000
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -6155,6 +6564,12 @@
         },
         "expected_value_no_commitment": 300,
         "expected_value_with_commitment": 300
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+        ]
       }
     },
     {
@@ -6242,6 +6657,12 @@
         },
         "expected_value_no_commitment": 750,
         "expected_value_with_commitment": 750
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Organic/Biochemistry (CHM 1360)"
+        ]
       }
     },
     {
@@ -6328,6 +6749,12 @@
         "Total Cost": 68335,
         "Mo. Burn": 4556,
         "Cost Score": 0.54
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -6417,6 +6844,12 @@
         "Total Cost": 96280,
         "Mo. Burn": 6018,
         "Cost Score": 0.4
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -6501,6 +6934,12 @@
         "Total Cost": 86680,
         "Mo. Burn": 5418,
         "Cost Score": 0.46
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
       }
     },
     {
@@ -6587,6 +7026,12 @@
         "Total Cost": 73660,
         "Mo. Burn": 3683,
         "Cost Score": 0.63
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: Organic/Biochemistry"
+        ]
       }
     },
     {
@@ -6675,6 +7120,12 @@
         "Total Cost": 76087,
         "Mo. Burn": 3170,
         "Cost Score": 0.68
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "Add to Fall 2026: English Composition I & II"
+        ]
       }
     }
   ],

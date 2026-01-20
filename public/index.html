@@ -28,6 +28,12 @@
         <option value="complete">Complete Only</option>
         <option value="needs-data">Needs Data</option>
       </select>
+      <select id="fit-filter">
+        <option value="">All Plan Fit</option>
+        <option value="fits">Fits Plan</option>
+        <option value="adjust">Needs Adjustment</option>
+        <option value="ruled_out">Ruled Out</option>
+      </select>
     </div>
 
     <div class="stats" id="stats"></div>
@@ -45,6 +51,7 @@
           <th class="sortable" data-sort="monthly_burn">$/Month</th>
           <th>Work Commit</th>
           <th class="sortable sort-desc" data-sort="raw_score">Score</th>
+          <th class="sortable" data-sort="plan_fit">Plan Fit</th>
           <th class="sortable" data-sort="status">Status</th>
         </tr>
       </thead>
