@@ -384,6 +384,16 @@ tbody tr {
   color: #16a34a;
 }
 
+/* NP Pathway notes */
+.np-pathway-note {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: #f0fdf4;
+  border-left: 3px solid #16a34a;
+  font-size: 0.85rem;
+  color: #166534;
+}
+
 /* Responsive */
 @media (max-width: 1000px) {
   table {

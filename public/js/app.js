@@ -343,7 +343,26 @@ function showDetail(id) {
     html += buildDetailItem('Terms', p.program_details?.terms || '-');
     html += buildDetailItem('Start Date', formatDate(p.admissions?.start_date));
     html += buildDetailItem('Deadline', formatDate(p.admissions?.deadline));
-    html += '</div></div>';
+
+    // NP Pathway type
+    const npPathwayType = p.program_details?.np_pathway_type || 'standard';
+    let npPathwayLabel = 'Standard';
+    let npPathwayStyle = '';
+    if (npPathwayType === 'pre_specialty') {
+      npPathwayLabel = 'Pre-Specialty';
+      npPathwayStyle = 'color: #16a34a;';
+    } else if (npPathwayType === 'cnl') {
+      npPathwayLabel = 'CNL Track';
+      npPathwayStyle = 'color: #f59e0b;';
+    }
+    html += '<div class="detail-item"><div class="label">NP Pathway</div><div class="value" style="' + npPathwayStyle + '">' + npPathwayLabel + '</div></div>';
+    html += '</div>';
+
+    // NP Pathway notes if present
+    if (p.program_details?.np_pathway_notes) {
+      html += '<div class="np-pathway-note">' + escapeHtml(p.program_details.np_pathway_notes) + '</div>';
+    }
+    html += '</div>';
 
     // Scores
     html += '<div class="detail-section"><h3>Scores</h3><div class="detail-grid">';

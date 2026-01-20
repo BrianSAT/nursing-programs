@@ -48,7 +48,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 4,
-        "online_lab_conf": null
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8.5,
@@ -128,7 +130,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 4,
-        "online_lab_conf": null
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8.5,
@@ -208,7 +212,9 @@
       "program_details": {
         "duration_months": 18,
         "terms": 5,
-        "online_lab_conf": 0.9
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7.5,
@@ -289,7 +295,9 @@
       "program_details": {
         "duration_months": 16,
         "terms": 4,
-        "online_lab_conf": null
+        "online_lab_conf": null,
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "MN program with integrated specialty tracks"
       },
       "scores": {
         "location_score": 7.5,
@@ -369,7 +377,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 3,
-        "online_lab_conf": null
+        "online_lab_conf": null,
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "DABSN leads directly to NP specialization tracks"
       },
       "scores": {
         "location_score": 7,
@@ -449,7 +459,9 @@
       "program_details": {
         "duration_months": 17,
         "terms": 4,
-        "online_lab_conf": 0.85
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 6.5,
@@ -529,7 +541,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 3,
-        "online_lab_conf": 0.8
+        "online_lab_conf": 0.8,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8,
@@ -616,7 +630,9 @@
       "program_details": {
         "duration_months": 16,
         "terms": 4,
-        "online_lab_conf": null
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7.5,
@@ -699,7 +715,9 @@
       "program_details": {
         "duration_months": 24,
         "terms": 5,
-        "online_lab_conf": 0.95
+        "online_lab_conf": 0.95,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7.5,
@@ -780,7 +798,9 @@
       "program_details": {
         "duration_months": 15,
         "terms": 4,
-        "online_lab_conf": 0.1
+        "online_lab_conf": 0.1,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7.5,
@@ -860,7 +880,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 3,
-        "online_lab_conf": 0.7
+        "online_lab_conf": 0.7,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 9,
@@ -948,7 +970,9 @@
       "program_details": {
         "duration_months": 16,
         "terms": 4,
-        "online_lab_conf": 0.7
+        "online_lab_conf": 0.7,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7,
@@ -1029,7 +1053,9 @@
       "program_details": {
         "duration_months": 16,
         "terms": 4,
-        "online_lab_conf": 0.9
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8.5,
@@ -1109,7 +1135,9 @@
       "program_details": {
         "duration_months": 15,
         "terms": 4,
-        "online_lab_conf": 0.8
+        "online_lab_conf": 0.8,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7,
@@ -1189,7 +1217,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 3,
-        "online_lab_conf": 0.85
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7,
@@ -1269,7 +1299,9 @@
       "program_details": {
         "duration_months": 16,
         "terms": 4,
-        "online_lab_conf": 0.95
+        "online_lab_conf": 0.95,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7.5,
@@ -1349,7 +1381,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 3,
-        "online_lab_conf": 0.85
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 10,
@@ -1436,7 +1470,9 @@
         "terms": 4,
         "online_lab_conf": null,
         "format": "Full-time on-campus. Four consecutive 10-week terms. Classes 5 days/week.",
-        "degree": "BSN"
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8,
@@ -1518,7 +1554,9 @@
       "program_details": {
         "duration_months": 12,
         "terms": 5,
-        "online_lab_conf": 0.85
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8.5,
@@ -1598,7 +1636,9 @@
       "program_details": {
         "duration_months": 15,
         "terms": 5,
-        "online_lab_conf": 0.9
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 6.5,
@@ -1682,7 +1722,9 @@
         "terms": 6,
         "online_lab_conf": 0.85,
         "format": "Hybrid (online + in-person)",
-        "degree": "MSN Clinical Nurse Leader"
+        "degree": "MSN Clinical Nurse Leader",
+        "np_pathway_type": "cnl",
+        "np_pathway_notes": "GEM results in MSN + Clinical Nurse Leader (CNL) certification. CNL focus is care coordination/systems leadership, not direct clinical NP path."
       },
       "scores": {
         "location_score": 8,
@@ -1765,7 +1807,9 @@
       "program_details": {
         "duration_months": 18,
         "terms": 4,
-        "online_lab_conf": 0.85
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 9.5,
@@ -1850,7 +1894,9 @@
         "terms": 4,
         "online_lab_conf": 0.9,
         "format": "Full-time, in-person (daily commute required)",
-        "degree": "MN"
+        "degree": "MN",
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "MN Prespecialty track - declare NP specialty during program"
       },
       "scores": {
         "location_score": 8,
@@ -1947,7 +1993,9 @@
         "terms": 4,
         "online_lab_conf": null,
         "format": "Hybrid - online didactic + in-person labs/clinicals in Lexington or Ashland",
-        "degree": "BSN"
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 6,
@@ -2034,7 +2082,9 @@
         "terms": 3,
         "online_lab_conf": null,
         "format": "On-campus Dallas (also has Distance ABSN option for TX residents)",
-        "degree": "BSN"
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8,
@@ -2121,7 +2171,9 @@
         "terms": 6,
         "online_lab_conf": null,
         "format": "On-campus, Lincoln Park",
-        "degree": "MSN"
+        "degree": "MSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8,
@@ -2208,7 +2260,9 @@
         "terms": 3,
         "online_lab_conf": null,
         "format": "Full-time in-person (also has online ABSN option)",
-        "degree": "BSN"
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7,
@@ -2294,7 +2348,9 @@
         "terms": 5,
         "online_lab_conf": null,
         "format": "On-campus. Milwaukee or Mesa, AZ locations.",
-        "degree": "MSN (dual BSN+MSN)"
+        "degree": "MSN (dual BSN+MSN)",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 6,
@@ -2380,7 +2436,9 @@
         "terms": 3,
         "online_lab_conf": null,
         "format": "On-campus Denver - no online option",
-        "degree": "BSN"
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 9,
@@ -2467,7 +2525,9 @@
         "terms": 3,
         "online_lab_conf": null,
         "format": "On-campus. Oakland, Sacramento, or San Mateo campuses.",
-        "degree": "BSN"
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 6,
@@ -2553,7 +2613,9 @@
         "terms": 5,
         "online_lab_conf": null,
         "format": "Hybrid - Pleasant Prairie (hybrid-online) or Milwaukee (mostly in-person)",
-        "degree": "MSN"
+        "degree": "MSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 6,
@@ -2640,7 +2702,9 @@
         "terms": 6,
         "online_lab_conf": null,
         "format": "Cohort model. Combination of online and on-campus.",
-        "degree": "MN"
+        "degree": "MN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 6,
@@ -2726,7 +2790,9 @@
         "terms": 4,
         "online_lab_conf": null,
         "format": "Full-time, on-site",
-        "degree": "MSN"
+        "degree": "MSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7,
@@ -2813,7 +2879,9 @@
         "terms": 6,
         "online_lab_conf": null,
         "format": "Full-time, on-campus only. Not available part-time or online.",
-        "degree": "MSN"
+        "degree": "MSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 7,
@@ -2901,7 +2969,9 @@
         "terms": 4,
         "online_lab_conf": null,
         "format": "Full-time, on-campus",
-        "degree": "MS (NY doesn't offer MSN)"
+        "degree": "MS (NY doesn't offer MSN)",
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "Direct Entry MS allows specialty declaration; seamless to DNP"
       },
       "scores": {
         "location_score": 5,
@@ -2987,7 +3057,9 @@
         "terms": 9,
         "online_lab_conf": null,
         "format": "Full-time, on-campus. 3-year MSN program combining RN prep + specialty.",
-        "degree": "MSN"
+        "degree": "MSN",
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "GEPN (Graduate Entry Pre-Specialty Nursing) - 3yr program with integrated specialty"
       },
       "scores": {
         "location_score": 5,
@@ -3074,7 +3146,9 @@
         "terms": 5,
         "online_lab_conf": null,
         "format": "On-ground with some hybrid elements. Chicago campus.",
-        "degree": "MSN"
+        "degree": "MSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 8,
@@ -3160,7 +3234,9 @@
         "terms": 4,
         "online_lab_conf": null,
         "format": "On-campus",
-        "degree": "BSN"
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
       },
       "scores": {
         "location_score": 5,
