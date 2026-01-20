@@ -1,5 +1,6 @@
 let programs = [];
 let programsMap = {};
+let currentSort = { column: 'raw_score', direction: 'desc' };
 
 async function loadPrograms() {
   const loading = document.getElementById('loading');
@@ -43,7 +44,6 @@ function renderTable() {
   const search = document.getElementById('search').value.toLowerCase();
   const typeFilter = document.getElementById('type-filter').value;
   const dataFilter = document.getElementById('data-filter').value;
-  const sortBy = document.getElementById('sort-by').value;
 
   let filtered = programs.filter(p => {
     // Search filter
@@ -63,37 +63,68 @@ function renderTable() {
     return searchMatch && typeMatch && dataMatch;
   });
 
-  // Sort
+  // Sort based on currentSort
   filtered.sort((a, b) => {
-    switch (sortBy) {
+    let valA, valB;
+    const col = currentSort.column;
+
+    switch (col) {
       case 'name':
-        return a.name.localeCompare(b.name);
+        valA = a.name || '';
+        valB = b.name || '';
+        return currentSort.direction === 'asc'
+          ? valA.localeCompare(valB)
+          : valB.localeCompare(valA);
+      case 'type':
+        valA = a.type || '';
+        valB = b.type || '';
+        return currentSort.direction === 'asc'
+          ? valA.localeCompare(valB)
+          : valB.localeCompare(valA);
+      case 'location':
+        valA = a.location?.full || '';
+        valB = b.location?.full || '';
+        return currentSort.direction === 'asc'
+          ? valA.localeCompare(valB)
+          : valB.localeCompare(valA);
+      case 'status':
+        valA = getDataStatus(a);
+        valB = getDataStatus(b);
+        return currentSort.direction === 'asc'
+          ? valA.localeCompare(valB)
+          : valB.localeCompare(valA);
       case 'rank':
-        const rankA = a.scores?.rank ?? 999;
-        const rankB = b.scores?.rank ?? 999;
-        return rankA - rankB;
+        valA = a.scores?.rank ?? 999;
+        valB = b.scores?.rank ?? 999;
+        break;
       case 'duration':
-        const durA = a.program_details?.duration_months ?? 999;
-        const durB = b.program_details?.duration_months ?? 999;
-        return durA - durB;
+        valA = a.program_details?.duration_months ?? 999;
+        valB = b.program_details?.duration_months ?? 999;
+        break;
       case 'monthly_burn':
-        const burnA = a.costs?.['Mo. Burn'] ?? 999999;
-        const burnB = b.costs?.['Mo. Burn'] ?? 999999;
-        return burnA - burnB;
+        valA = a.costs?.['Mo. Burn'] ?? 999999;
+        valB = b.costs?.['Mo. Burn'] ?? 999999;
+        break;
       case 'start_date':
-        const startA = a.admissions?.start_date || '9999-99-99';
-        const startB = b.admissions?.start_date || '9999-99-99';
-        return startA.localeCompare(startB);
+        valA = a.admissions?.start_date || '9999-99-99';
+        valB = b.admissions?.start_date || '9999-99-99';
+        return currentSort.direction === 'asc'
+          ? valA.localeCompare(valB)
+          : valB.localeCompare(valA);
       case 'deadline':
-        const deadA = a.admissions?.deadline || '9999-99-99';
-        const deadB = b.admissions?.deadline || '9999-99-99';
-        return deadA.localeCompare(deadB);
+        valA = a.admissions?.deadline || '9999-99-99';
+        valB = b.admissions?.deadline || '9999-99-99';
+        return currentSort.direction === 'asc'
+          ? valA.localeCompare(valB)
+          : valB.localeCompare(valA);
       case 'raw_score':
       default:
-        const scoreA = a.scores?.raw_score ?? -1;
-        const scoreB = b.scores?.raw_score ?? -1;
-        return scoreB - scoreA; // Descending
+        valA = a.scores?.raw_score ?? -1;
+        valB = b.scores?.raw_score ?? -1;
+        break;
     }
+    // Numeric comparison
+    return currentSort.direction === 'asc' ? valA - valB : valB - valA;
   });
 
   // Update stats
@@ -129,7 +160,34 @@ function renderTable() {
 document.getElementById('search').addEventListener('input', renderTable);
 document.getElementById('type-filter').addEventListener('change', renderTable);
 document.getElementById('data-filter').addEventListener('change', renderTable);
-document.getElementById('sort-by').addEventListener('change', renderTable);
+
+// Column header sorting
+function setupSortableHeaders() {
+  document.querySelectorAll('th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const column = th.dataset.sort;
+
+      // Toggle direction if same column, otherwise default direction
+      if (currentSort.column === column) {
+        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+      } else {
+        currentSort.column = column;
+        // Default directions: score/rank desc, others asc
+        currentSort.direction = ['raw_score', 'rank'].includes(column) ? 'desc' : 'asc';
+      }
+
+      // Update header classes
+      document.querySelectorAll('th.sortable').forEach(h => {
+        h.classList.remove('sort-asc', 'sort-desc');
+      });
+      th.classList.add(currentSort.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+
+      renderTable();
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', setupSortableHeaders);
 
 // Modal functions
 function showDetail(id) {

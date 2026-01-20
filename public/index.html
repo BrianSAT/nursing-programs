@@ -28,15 +28,6 @@
         <option value="complete">Complete Only</option>
         <option value="needs-data">Needs Data</option>
       </select>
-      <select id="sort-by">
-        <option value="raw_score">Sort by Score</option>
-        <option value="rank">Sort by Rank</option>
-        <option value="duration">Sort by Duration</option>
-        <option value="monthly_burn">Sort by Monthly Cost</option>
-        <option value="start_date">Sort by Start Date</option>
-        <option value="deadline">Sort by Deadline</option>
-        <option value="name">Sort by Name</option>
-      </select>
     </div>
 
     <div class="stats" id="stats"></div>
@@ -44,16 +35,16 @@
     <table id="programs-table">
       <thead>
         <tr>
-          <th>Rank</th>
-          <th>Program</th>
-          <th>Type</th>
-          <th>Location</th>
-          <th>Duration</th>
-          <th>Start Date</th>
-          <th>Deadline</th>
-          <th>$/Month</th>
-          <th>Score</th>
-          <th>Status</th>
+          <th class="sortable" data-sort="rank">Rank</th>
+          <th class="sortable" data-sort="name">Program</th>
+          <th class="sortable" data-sort="type">Type</th>
+          <th class="sortable" data-sort="location">Location</th>
+          <th class="sortable" data-sort="duration">Duration</th>
+          <th class="sortable" data-sort="start_date">Start Date</th>
+          <th class="sortable" data-sort="deadline">Deadline</th>
+          <th class="sortable" data-sort="monthly_burn">$/Month</th>
+          <th class="sortable sort-desc" data-sort="raw_score">Score</th>
+          <th class="sortable" data-sort="status">Status</th>
         </tr>
       </thead>
       <tbody id="programs-body">
