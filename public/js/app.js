@@ -82,11 +82,10 @@ function renderTable() {
           ? valA.localeCompare(valB)
           : valB.localeCompare(valA);
       case 'location':
-        valA = a.location?.full || '';
-        valB = b.location?.full || '';
-        return currentSort.direction === 'asc'
-          ? valA.localeCompare(valB)
-          : valB.localeCompare(valA);
+        // Sort by combined location score (location_score × np_pathway), not alphabetically
+        valA = a.scores?.location_combined ?? 0;
+        valB = b.scores?.location_combined ?? 0;
+        break;
       case 'status':
         valA = getDataStatus(a);
         valB = getDataStatus(b);

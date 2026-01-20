@@ -1,9 +1,30 @@
 /**
  * Scoring algorithm for nursing program evaluation
  *
- * Formula: raw_score = (location_score + location_boost) × prereq_fit^w × online_lab_conf^w
- *          × np_pathway^w × prestige^w × competitiveness^w × start_score^w
- *          × time_factor^w × cost_score^w
+ * GOAL: Find the best ABSN program for transitioning to become a triage nurse
+ * in an under-resourced healthcare system.
+ *
+ * PATHWAY: BSN → RN work (ED/triage experience) → NP program (while working) → Triage NP
+ *
+ * Formula: raw_score = (location_score + location_boost) × prereq_fit × online_lab_conf
+ *          × np_pathway × prestige × competitiveness × start_score × time_factor × cost_score
+ *
+ * KEY SCORING CONCEPTS:
+ *
+ * - competitiveness: Peaks at 80th percentile. Being TOO elite (100th) is penalized
+ *   equally to being too easy (60th). Formula: 1 - |national_percentile - 0.8|
+ *
+ * - prestige: Higher is better. Measures downstream career value of the degree.
+ *   (Different from competitiveness - ideal is high prestige + 80th percentile difficulty)
+ *
+ * - np_pathway: Regional viability score for the BSN → NP transition.
+ *   Formula: 0.35 × ed_opportunity + 0.40 × np_accessibility + 0.25 × underserved_access
+ *   Where:
+ *     - ed_opportunity: Availability of ED/trauma jobs for RN experience (0-1)
+ *     - np_accessibility: Part-time/hybrid NP programs in region for working nurses (0-1)
+ *     - underserved_access: Proximity to underserved populations / HPSAs / FQHCs (0-1)
+ *
+ * - cost_score: Monthly burn rate normalized. Programs over $10K/month score 0.
  */
 
 const DEFAULT_WEIGHTS = {
@@ -17,11 +38,18 @@ const DEFAULT_WEIGHTS = {
   cost_score: 1.0
 };
 
+const NP_PATHWAY_WEIGHTS = {
+  ed_opportunity: 0.35,      // Can you get relevant RN experience in the region?
+  np_accessibility: 0.40,    // Are there part-time/hybrid NP programs for working nurses?
+  underserved_access: 0.25   // Is there underserved population access nearby?
+};
+
 const DEFAULT_METADATA = {
   target_start: '2027-01-20',
   target_competitiveness_percentile: 0.8,
   base_monthly_living: 1500,
-  weights: DEFAULT_WEIGHTS
+  weights: DEFAULT_WEIGHTS,
+  np_pathway_weights: NP_PATHWAY_WEIGHTS
 };
 
 /**
@@ -90,6 +118,29 @@ function calcCostScore(monthlyBurn, maxBurn = 10000) {
 }
 
 /**
+ * Calculate NP pathway score based on regional factors
+ *
+ * Measures how well the program's region supports the transition:
+ * BSN → RN work (gaining ED experience) → NP program (while working) → Triage NP
+ *
+ * @param {object} regionalData - Object with ed_opportunity, np_accessibility, underserved_access (each 0-1)
+ * @param {object} weights - Optional custom weights (default: 0.35, 0.40, 0.25)
+ * @returns {number} NP pathway score (0-1)
+ */
+function calcNpPathway(regionalData, weights = NP_PATHWAY_WEIGHTS) {
+  if (!regionalData) return 1.0; // Default if no regional data
+
+  const ed = regionalData.ed_opportunity ?? 0.5;
+  const np = regionalData.np_accessibility ?? 0.5;
+  const underserved = regionalData.underserved_access ?? 0.5;
+
+  // Weighted average formula
+  return (weights.ed_opportunity * ed) +
+         (weights.np_accessibility * np) +
+         (weights.underserved_access * underserved);
+}
+
+/**
  * Calculate all scores for a program
  */
 function calculateScores(program, metadata = {}) {
@@ -150,6 +201,8 @@ module.exports = {
   calcTimeFactor,
   calcMonthlyBurn,
   calcCostScore,
+  calcNpPathway,
   DEFAULT_WEIGHTS,
-  DEFAULT_METADATA
+  DEFAULT_METADATA,
+  NP_PATHWAY_WEIGHTS
 };

@@ -68,9 +68,84 @@ data/
 
 ## Scoring Formula
 
+### Goal
+Find the best ABSN program for transitioning to become a **triage nurse in an under-resourced healthcare system**.
+
+### Pathway
+`BSN → RN work (ED/triage experience) → NP program (while working) → Triage NP in underserved area`
+
+### Formula
 ```
-raw_score = (location_score + boost) × prereq_fit^w × online_lab^w × np_pathway^w
-            × prestige^w × competitiveness^w × start_score^w × time_factor^w × cost_score^w
+raw_score = (location_score + boost) × prereq_fit × online_lab_conf × np_pathway
+            × prestige × competitiveness × start_score × time_factor × cost_score
+```
+
+All factors are multiplied together (weights default to 1.0). A zero in any factor zeros the entire score.
+
+### Factor Definitions
+
+| Factor | Range | Description | Calculation |
+|--------|-------|-------------|-------------|
+| `location_score` | 1-10 | Base desirability of location | Manual rating |
+| `location_boost` | 0-2 | Bonus for preferred cities (e.g., Pittsburgh) | Manual |
+| `prereq_fit` | 0-1 | How well current coursework matches requirements | Manual |
+| `online_lab_conf` | 0-1 | Confidence that online/lab components are manageable | Manual |
+| `prestige` | 0-1 | Career value of the degree downstream | Manual rating |
+| `competitiveness` | 0-1 | Ease of admission (sweet spot = 80th percentile) | `1 - |national_percentile - 0.8|` |
+| `start_score` | 0-1 | How well start date aligns with target (Jan 2027) | Calculated from start_date |
+| `time_factor` | 0.25-1 | Preference for shorter programs | ≤12mo=1.0, 13-18mo=0.75, 19-24mo=0.5, >24mo=0.25 |
+| `cost_score` | 0-1 | Affordability (lower monthly burn = higher score) | `max(0, 1 - monthly_burn/10000)` |
+| `np_pathway` | 0-1 | Regional viability for BSN→NP transition | See below |
+
+### NP Pathway Score (Regional Viability)
+
+Measures how well the program's **region** supports the career transition, not the school's NP program quality.
+
+```
+np_pathway = 0.35 × ed_opportunity + 0.40 × np_accessibility + 0.25 × underserved_access
+```
+
+| Component | Weight | What it measures |
+|-----------|--------|------------------|
+| `ed_opportunity` | 35% | Can you get ED/trauma RN experience? (Level 1/2 trauma centers in metro) |
+| `np_accessibility` | 40% | Are there part-time/hybrid NP programs for working nurses? |
+| `underserved_access` | 25% | Proximity to underserved populations (HPSAs, FQHCs) |
+
+**Rationale**: NP accessibility weighted highest because doing NP while working requires local programs. You can travel for underserved work later, but need local NP options.
+
+### Competitiveness vs Prestige
+
+These measure **different things**:
+
+- **Competitiveness**: How hard is it to get in? Sweet spot is 80th percentile - not too hard, not too easy. Being at 100th percentile (ultra-competitive) is penalized equally to 60th percentile.
+
+- **Prestige**: How valuable is this degree for your career? Higher is always better. Ideal: high prestige school that's not impossible to get into.
+
+### Cost Score
+
+Programs with monthly burn rate >$10,000 automatically score 0 (non-starter threshold).
+
+### Combined Location Score
+
+Used for sorting by location (not alphabetically). Combines base location desirability with regional NP pathway viability.
+
+```
+location_combined = (location_score + location_boost) × np_pathway
+```
+
+This ensures that when sorting by "location", programs in regions with better NP pathway opportunities rank higher.
+
+## Data Files
+
+| File | Purpose |
+|------|---------|
+| `data/programs.json` | Main program data with scores |
+| `data/regional-data.json` | Regional NP pathway viability data (ed_opportunity, np_accessibility, underserved_access) for each metro area |
+| `data/schema.json` | JSON Schema for validation |
+
+```
+monthly_burn = (tuition + fees - scholarships + living_costs) / duration_months
+cost_score = max(0, 1 - monthly_burn / 10000)
 ```
 
 ## Next Phases

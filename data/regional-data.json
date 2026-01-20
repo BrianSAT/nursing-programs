@@ -1,0 +1,252 @@
+{
+  "description": "Regional NP pathway viability data for nursing program locations",
+  "last_updated": "2026-01-19",
+  "methodology": {
+    "ed_opportunity": "Level 1/2 trauma center density in metro area (0-1)",
+    "np_accessibility": "Part-time/hybrid FNP/AGACNP programs for working nurses (0-1)",
+    "underserved_access": "HPSA designations and FQHC density nearby (0-1)",
+    "formula": "np_pathway = 0.35 × ed_opportunity + 0.40 × np_accessibility + 0.25 × underserved_access"
+  },
+  "regions": {
+    "Atlanta, GA": {
+      "ed_opportunity": 0.95,
+      "ed_notes": "Multiple Level 1: Grady (busiest in Southeast), Wellstar Kennestone, Children's Healthcare of Atlanta",
+      "np_accessibility": 0.90,
+      "np_notes": "Emory, Kennesaw State, Mercer, Augusta - all offer part-time/hybrid FNP",
+      "underserved_access": 0.85,
+      "underserved_notes": "Grady serves 1.8M residents, 40%+ uninsured; SW Atlanta HPSA; 10+ community health centers"
+    },
+    "Baltimore, MD": {
+      "ed_opportunity": 0.85,
+      "ed_notes": "Johns Hopkins, R Adams Cowley Shock Trauma (national model); Level 2s include Bayview, Sinai",
+      "np_accessibility": 0.75,
+      "np_notes": "Notre Dame of Maryland (part-time FNP), UMSON hybrid, Johns Hopkins DNP",
+      "underserved_access": 0.80,
+      "underserved_notes": "Baltimore City has most HPSA designations in region; Baltimore Medical System 8 health centers"
+    },
+    "Boston, MA": {
+      "ed_opportunity": 0.90,
+      "ed_notes": "5+ Level 1: MGH, Brigham, BIDMC, Boston Children's, Tufts",
+      "np_accessibility": 0.90,
+      "np_notes": "UMass Boston hybrid, MCPHS online, Northeastern hybrid, Regis online, Simmons",
+      "underserved_access": 0.80,
+      "underserved_notes": "Multiple FQHCs in Roxbury, Dorchester; facility HPSAs designated"
+    },
+    "Charleston, SC": {
+      "ed_opportunity": 0.70,
+      "ed_notes": "MUSC only Level 1 in Lowcountry (~2,100 trauma/year); Trident Level 2",
+      "np_accessibility": 0.75,
+      "np_notes": "MUSC DNP-FNP hybrid; Charleston Southern MSN-FNP; USC Columbia online",
+      "underserved_access": 0.65,
+      "underserved_notes": "Fetter Health Care Network FQHC; moderate underserved population"
+    },
+    "Chicago, IL": {
+      "ed_opportunity": 0.95,
+      "ed_notes": "10+ Level 1: Northwestern, Stroger, UIC, Loyola, Mt. Sinai, Lutheran General",
+      "np_accessibility": 0.95,
+      "np_notes": "Rush, UIC (AGACNP #8 nationally), Loyola, North Park - all part-time/hybrid",
+      "underserved_access": 0.90,
+      "underserved_notes": "22 FQHCs with 150+ locations; 167 FQHCs in greater metro; large urban underserved"
+    },
+    "Cincinnati, OH": {
+      "ed_opportunity": 0.65,
+      "ed_notes": "UC Medical Center only adult Level 1 in region; Cincinnati Children's Level 1 Pediatric",
+      "np_accessibility": 0.75,
+      "np_notes": "UC hybrid FNP/AGACNP; Xavier part-time FNP; Ohio University online",
+      "underserved_access": 0.75,
+      "underserved_notes": "67 FQHCs in Hamilton County; Cincinnati Health Dept serves 45K+ patients"
+    },
+    "Columbus, OH": {
+      "ed_opportunity": 0.90,
+      "ed_notes": "OhioHealth Grant (busiest Level 1 in OH), OSU Wexner Level 1, Nationwide Children's Level 1 Pediatric",
+      "np_accessibility": 0.85,
+      "np_notes": "OSU (#7 nationally), Mount Carmel online MSN, Ohio University online",
+      "underserved_access": 0.80,
+      "underserved_notes": "33 FQHCs near Columbus; PrimaryOne Health 11 locations; OSU NP-led FQHC"
+    },
+    "Dallas, TX": {
+      "ed_opportunity": 0.85,
+      "ed_notes": "4+ Level 1: Parkland, Baylor, Texas Health Dallas, UT Southwestern",
+      "np_accessibility": 0.90,
+      "np_notes": "TWU hybrid FNP, UT Arlington online, UTMB dual FNP-AGACNP",
+      "underserved_access": 0.65,
+      "underserved_notes": "Only 4 FQHCs with ~29 sites - significantly fewer than Houston"
+    },
+    "Denver, CO": {
+      "ed_opportunity": 0.80,
+      "ed_notes": "Denver Health Level 1 (Ernest E. Moore Shock Trauma); UCHealth Level 1; Children's Hospital Level 1 Pediatric",
+      "np_accessibility": 0.80,
+      "np_notes": "CU Anschutz (first NP programs in US) online+intensives; UNC meets 1 day/week; full practice authority since 2010",
+      "underserved_access": 0.75,
+      "underserved_notes": "56 FQHCs in Denver; STRIDE CHC 13 clinics; Denver Health serves 177K"
+    },
+    "Durham, NC": {
+      "ed_opportunity": 0.80,
+      "ed_notes": "Duke Level 1; UNC Chapel Hill Level 1 (10 miles away)",
+      "np_accessibility": 0.85,
+      "np_notes": "Duke distance-learning MSN-FNP/AGACNP (3 campus visits); UNC hybrid",
+      "underserved_access": 0.70,
+      "underserved_notes": "Population-based HPSAs; NC has significant rural shortages statewide"
+    },
+    "Fullerton, CA": {
+      "ed_opportunity": 0.65,
+      "ed_notes": "Orange County has 1 Level 1 (UCI); 2-3 Level 2; no trauma center in Fullerton itself",
+      "np_accessibility": 0.60,
+      "np_notes": "CSUF limited NP; Cal State Dominguez Hills online FNP; may need LA-area programs",
+      "underserved_access": 0.55,
+      "underserved_notes": "Orange County more affluent; fewer HPSA designations than LA County"
+    },
+    "Houston, TX": {
+      "ed_opportunity": 0.95,
+      "ed_notes": "Texas Medical Center - largest in world; Memorial Hermann-TMC busiest in US (40K trauma/yr); Ben Taub Level 1",
+      "np_accessibility": 0.90,
+      "np_notes": "UTHealth Cizik (#1 DNP in TX) hybrid; TWU Houston; affordable tuition",
+      "underserved_access": 0.90,
+      "underserved_notes": "~120 FQHC sites in Harris County (4x Dallas); large underserved population"
+    },
+    "Knoxville, TN": {
+      "ed_opportunity": 0.65,
+      "ed_notes": "UT Medical Center only Level 1 in East Tennessee, serving 21 counties",
+      "np_accessibility": 0.70,
+      "np_notes": "UTK BSN-DNP FNP hybrid; UTC, Tennessee Tech online; Carson-Newman",
+      "underserved_access": 0.90,
+      "underserved_notes": "Gateway to Appalachian TN; 92/95 TN counties HPSA; 10 distressed Appalachian counties nearby"
+    },
+    "Lexington, KY": {
+      "ed_opportunity": 0.60,
+      "ed_notes": "UK Chandler only Level 1 in central/eastern KY; only 4 Level 1 statewide",
+      "np_accessibility": 0.75,
+      "np_notes": "UK hybrid BSN-DNP; Frontier Nursing (first FNP program in US); NKU online",
+      "underserved_access": 0.95,
+      "underserved_notes": "107/120 KY counties HPSA; 54 Appalachian counties; Perry County life expectancy 67 vs national 78.5"
+    },
+    "Los Angeles, CA": {
+      "ed_opportunity": 0.95,
+      "ed_notes": "2 Level 1 (LA General, CHLA pediatric); 10+ Level 2 including Harbor-UCLA, Cedars-Sinai",
+      "np_accessibility": 0.80,
+      "np_notes": "Cal State LA FNP/AGACNP; UCLA new BSN-DNP AGACNP (Fall 2025); USC online FNP",
+      "underserved_access": 0.90,
+      "underserved_notes": "Highest FQHC density in state: 47 orgs, 232 sites; AltaMed serves 240K annually"
+    },
+    "Madison, WI": {
+      "ed_opportunity": 0.55,
+      "ed_notes": "UW Health only Level 1 in Madison, one of only two in Wisconsin",
+      "np_accessibility": 0.70,
+      "np_notes": "UW-Madison DNP #1 in WI; AGACNP evenings/weekends; Herzing online FNP",
+      "underserved_access": 0.60,
+      "underserved_notes": "4 FQHCs near Madison; lower urban underserved density"
+    },
+    "Milwaukee, WI": {
+      "ed_opportunity": 0.60,
+      "ed_notes": "Froedtert only adult Level 1 in eastern WI; one of only two Level 1 in state",
+      "np_accessibility": 0.80,
+      "np_notes": "Marquette hybrid FNP, UW-Milwaukee DNP, Alverno, Concordia affordable MSN",
+      "underserved_access": 0.75,
+      "underserved_notes": "Milwaukee County HPSAs; significant health disparities in inner-city"
+    },
+    "Nashville, TN": {
+      "ed_opportunity": 0.90,
+      "ed_notes": "Two Level 1: Vanderbilt (adult/pediatric), TriStar Skyline; multiple Level 2/3",
+      "np_accessibility": 0.95,
+      "np_notes": "Vanderbilt #2 FNP, #1 AGACNP nationally; hybrid with block intensives; Belmont, Tennessee State",
+      "underserved_access": 0.75,
+      "underserved_notes": "Nashville General serves underserved; 92/95 TN counties HPSA; 190 FQHC sites statewide"
+    },
+    "New Haven, CT": {
+      "ed_opportunity": 0.80,
+      "ed_notes": "Yale-New Haven 1 of only 2 adult Level 1 in CT; also Level 1 Pediatric",
+      "np_accessibility": 0.85,
+      "np_notes": "Yale BSN-to-FNP/AGNP; Southern CT State FNP; CT grants full practice authority",
+      "underserved_access": 0.75,
+      "underserved_notes": "Fair Haven CHC serves 36K+ at 21 locations; 2024 HRSA funding (top 20% nationwide)"
+    },
+    "New York, NY": {
+      "ed_opportunity": 0.95,
+      "ed_notes": "9+ Level 1: NYP, NYU Langone, Lincoln (busiest ED in NYC), Bellevue; highest volume in region",
+      "np_accessibility": 0.85,
+      "np_notes": "Pace hybrid, Columbia DNP-AGACNP, NYU, Long Island University; NY allows full practice authority",
+      "underserved_access": 0.95,
+      "underserved_notes": "Extensive FQHC network: NYC H+H/Gotham Health 30 sites; many HPSAs in Bronx, Brooklyn, Harlem"
+    },
+    "Northridge, CA": {
+      "ed_opportunity": 0.75,
+      "ed_notes": "Northridge Hospital Level 2 - only pediatric trauma in San Fernando Valley; Providence Holy Cross Level 2 nearby",
+      "np_accessibility": 0.55,
+      "np_notes": "CSUN has no FNP/AGACNP; would need Cal State LA, UCLA, or online programs",
+      "underserved_access": 0.70,
+      "underserved_notes": "San Fernando Valley mixed demographics; access to LA County FQHC network"
+    },
+    "Oakland, CA": {
+      "ed_opportunity": 0.85,
+      "ed_notes": "Highland Hospital 1 of only 4 adult Level 1 in Bay Area; UCSF Benioff Children's Level 1 Pediatric",
+      "np_accessibility": 0.80,
+      "np_notes": "Samuel Merritt BSN-to-FNP online; UCSF 8 NP tracks; SF State evening FNP",
+      "underserved_access": 0.85,
+      "underserved_notes": "CHCN serves 285K at 135+ sites; Lifelong Medical Care; Benioff 70%+ government-insured"
+    },
+    "Omaha, NE": {
+      "ed_opportunity": 0.75,
+      "ed_notes": "Nebraska Medicine only ACS-verified Level 1 for adult+pediatric in state; CHI Creighton-Bergan Mercy Level 1",
+      "np_accessibility": 0.70,
+      "np_notes": "Creighton University highly regarded; Clarkson College hybrid",
+      "underserved_access": 0.70,
+      "underserved_notes": "28 FQHCs in Omaha; OneWorld, Charles Drew serve underserved; 123K+ patients statewide"
+    },
+    "Philadelphia, PA": {
+      "ed_opportunity": 0.85,
+      "ed_notes": "5+ Level 1: Temple (busiest penetrating trauma in PA), Penn Presbyterian, Einstein, Jefferson",
+      "np_accessibility": 0.85,
+      "np_notes": "UPenn (top-ranked) hybrid, Drexel mostly online, Widener hybrid, Saint Joseph's online",
+      "underserved_access": 0.85,
+      "underserved_notes": "North Philadelphia MUA; Esperanza 3 sites; 15+ FQHC orgs via Health Federation"
+    },
+    "Phoenix, AZ": {
+      "ed_opportunity": 0.90,
+      "ed_notes": "4 Level 1: St. Joseph's, Banner-UMC, HonorHealth Deer Valley, HonorHealth John C. Lincoln; Phoenix Children's",
+      "np_accessibility": 0.85,
+      "np_notes": "GCU hybrid FNP/AGACNP; U of Arizona hybrid AGACNP; ASU part-time DNP",
+      "underserved_access": 0.85,
+      "underserved_notes": "41 FQHCs in Phoenix; $24.3M county investment 2025; Valleywise Health 11 sites"
+    },
+    "Pittsburgh, PA": {
+      "ed_opportunity": 0.75,
+      "ed_notes": "3 Level 1: UPMC Presbyterian, UPMC Mercy (only combined trauma+burn in western PA), Allegheny General",
+      "np_accessibility": 0.80,
+      "np_notes": "Duquesne mostly online (100% pass rates), Pitt distance DNP, Carlow hybrid evening",
+      "underserved_access": 0.70,
+      "underserved_notes": "22 FQHCs in Allegheny County; Primary Care Health Services 9 sites; some population HPSAs"
+    },
+    "Rochester, NY": {
+      "ed_opportunity": 0.50,
+      "ed_notes": "Strong Memorial only Level 1 in Monroe County/Finger Lakes; includes Golisano Children's Level 1 Pediatric",
+      "np_accessibility": 0.75,
+      "np_notes": "U of Rochester hybrid part-time; St. John Fisher evening; Roberts Wesleyan hybrid",
+      "underserved_access": 0.60,
+      "underserved_notes": "Limited FQHC density; some urban population HPSAs; Anthony Jordan Health Center"
+    },
+    "Seattle, WA": {
+      "ed_opportunity": 0.70,
+      "ed_notes": "Harborview ONLY Level 1 in entire Washington state; Level 2s include MultiCare Tacoma, St. Joseph",
+      "np_accessibility": 0.85,
+      "np_notes": "Seattle University part-time BSN-DNP; UW hybrid DNP; Gonzaga online; WA grants full practice authority",
+      "underserved_access": 0.75,
+      "underserved_notes": "King County FQHCs: Neighborcare 30+ sites, HealthPoint 17 locations; rural eastern WA shortages"
+    },
+    "St. Paul, MN": {
+      "ed_opportunity": 0.85,
+      "ed_notes": "Regions Hospital Level 1 (only in east metro); Twin Cities has 3 adult Level 1 total; Children's MN Level 1 Pediatric",
+      "np_accessibility": 0.80,
+      "np_notes": "U of Minnesota hybrid AGACNP; Metro State online DNP-FNP; full practice authority since 2015",
+      "underserved_access": 0.75,
+      "underserved_notes": "Open Cities, Minnesota Community Care FQHCs; 17 CHCs statewide with 80+ sites"
+    },
+    "Sylvania, OH (Toledo area)": {
+      "ed_opportunity": 0.70,
+      "ed_notes": "ProMedica Toledo Hospital Level 1 (largest in NW Ohio/SE Michigan); Mercy St. Vincent Level 1",
+      "np_accessibility": 0.65,
+      "np_notes": "University of Toledo FNP online, AGACNP hybrid; 20% lower tuition than Cleveland/Columbus",
+      "underserved_access": 0.70,
+      "underserved_notes": "Neighborhood Health Association 50+ years serving Toledo; multiple FQHCs; Lucas County HPSAs"
+    }
+  }
+}
