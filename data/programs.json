@@ -61,7 +61,7 @@
         "start_score": 0.75,
         "cost_score": 0.45,
         "raw_score": 1.35,
-        "rank": 4,
+        "rank": 21,
         "national_percentile": 0.75,
         "location_combined": 5.29
       },
@@ -143,7 +143,7 @@
         "start_score": 1,
         "cost_score": 0.34,
         "raw_score": 1.66,
-        "rank": 3,
+        "rank": 13,
         "national_percentile": 0.92,
         "location_combined": 6.57
       },
@@ -225,7 +225,7 @@
         "start_score": 0.75,
         "cost_score": 0.3,
         "raw_score": 0.67,
-        "rank": 13,
+        "rank": 37,
         "national_percentile": 0.85,
         "location_combined": 6.41
       },
@@ -308,7 +308,7 @@
         "start_score": 0.75,
         "cost_score": 0.08,
         "raw_score": 0.23,
-        "rank": 27,
+        "rank": 51,
         "national_percentile": 0.97,
         "location_combined": 5.96
       },
@@ -390,7 +390,7 @@
         "start_score": 1,
         "cost_score": 0.14,
         "raw_score": 0.76,
-        "rank": 10,
+        "rank": 34,
         "national_percentile": 0.9,
         "location_combined": 6.34
       },
@@ -472,7 +472,7 @@
         "start_score": 0.5,
         "cost_score": 0,
         "raw_score": 0.56,
-        "rank": 16,
+        "rank": 40,
         "national_percentile": 1,
         "location_combined": 5.53
       },
@@ -554,7 +554,7 @@
         "start_score": 0.75,
         "cost_score": 0.12,
         "raw_score": 0.28,
-        "rank": 24,
+        "rank": 48,
         "national_percentile": 0.78,
         "location_combined": 5
       },
@@ -643,7 +643,7 @@
         "start_score": 1,
         "cost_score": 0.33,
         "raw_score": 1.18,
-        "rank": 5,
+        "rank": 25,
         "national_percentile": 0.7,
         "location_combined": 6.56
       },
@@ -728,7 +728,7 @@
         "start_score": 0.75,
         "cost_score": 0.62,
         "raw_score": 0.42,
-        "rank": 20,
+        "rank": 44,
         "national_percentile": 0.55,
         "location_combined": 4.54
       },
@@ -811,7 +811,7 @@
         "start_score": 0.75,
         "cost_score": 0.37,
         "raw_score": 0.06,
-        "rank": 36,
+        "rank": 60,
         "national_percentile": 0.55,
         "location_combined": 4.93
       },
@@ -893,7 +893,7 @@
         "start_score": 0.75,
         "cost_score": 0.32,
         "raw_score": 0.57,
-        "rank": 15,
+        "rank": 39,
         "national_percentile": 0.72,
         "location_combined": 6.59
       },
@@ -983,7 +983,7 @@
         "start_score": 0.5,
         "cost_score": 0.45,
         "raw_score": 0.47,
-        "rank": 19,
+        "rank": 43,
         "national_percentile": 0.82,
         "location_combined": 4.95
       },
@@ -1066,7 +1066,7 @@
         "start_score": 1,
         "cost_score": 0.43,
         "raw_score": 0.75,
-        "rank": 11,
+        "rank": 35,
         "national_percentile": 0.55,
         "location_combined": 6.84
       },
@@ -1148,7 +1148,7 @@
         "start_score": 1,
         "cost_score": 0.42,
         "raw_score": 0.53,
-        "rank": 18,
+        "rank": 42,
         "national_percentile": 0.55,
         "location_combined": 5.58
       },
@@ -1230,7 +1230,7 @@
         "start_score": 1,
         "cost_score": 0.31,
         "raw_score": 0.79,
-        "rank": 9,
+        "rank": 33,
         "national_percentile": 0.65,
         "location_combined": 6.34
       },
@@ -1312,7 +1312,7 @@
         "start_score": 1,
         "cost_score": 0.5,
         "raw_score": 0.69,
-        "rank": 12,
+        "rank": 36,
         "national_percentile": 0.5,
         "location_combined": 6.51
       },
@@ -1394,7 +1394,7 @@
         "start_score": 1,
         "cost_score": 0.44,
         "raw_score": 1.69,
-        "rank": 2,
+        "rank": 12,
         "national_percentile": 0.85,
         "location_combined": 7.95
       },
@@ -1483,7 +1483,7 @@
         "start_score": 1,
         "cost_score": 0.23,
         "raw_score": 0.39,
-        "rank": 21,
+        "rank": 45,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 6.8
@@ -1567,7 +1567,7 @@
         "start_score": 1,
         "cost_score": 0.36,
         "raw_score": 1,
-        "rank": 7,
+        "rank": 30,
         "national_percentile": 0.75,
         "location_combined": 6.1
       },
@@ -1649,7 +1649,7 @@
         "start_score": 1,
         "cost_score": 0.72,
         "raw_score": 1.98,
-        "rank": 1,
+        "rank": 9,
         "national_percentile": 0.8,
         "location_combined": 5.96
       },
@@ -1735,7 +1735,7 @@
         "start_score": 1,
         "cost_score": 0.47,
         "raw_score": 1.11,
-        "rank": 6,
+        "rank": 29,
         "national_percentile": 0.88,
         "online_lab_conf": 1,
         "location_combined": 7.5
@@ -1820,7 +1820,7 @@
         "start_score": 1,
         "cost_score": 0.31,
         "raw_score": 0.22,
-        "rank": 28,
+        "rank": 52,
         "national_percentile": 0.72,
         "location_combined": 6.79
       },
@@ -1907,7 +1907,7 @@
         "start_score": 0.75,
         "cost_score": 0.01,
         "raw_score": 0.02,
-        "rank": 38,
+        "rank": 62,
         "national_percentile": 0.97,
         "online_lab_conf": 0.8,
         "location_combined": 7.06
@@ -2006,7 +2006,7 @@
         "start_score": 0.75,
         "cost_score": 0.63,
         "raw_score": 0.9,
-        "rank": 8,
+        "rank": 31,
         "national_percentile": 0.78,
         "online_lab_conf": 0.8,
         "location_combined": 4.49
@@ -2095,7 +2095,7 @@
         "start_score": 0.5,
         "cost_score": 0.27,
         "raw_score": 0.09,
-        "rank": 34,
+        "rank": 58,
         "national_percentile": 0.71,
         "online_lab_conf": 0.8,
         "location_combined": 6.56
@@ -2184,7 +2184,7 @@
         "start_score": 1,
         "cost_score": 0.63,
         "raw_score": 0.62,
-        "rank": 14,
+        "rank": 38,
         "national_percentile": 0.65,
         "online_lab_conf": 0.8,
         "location_combined": 7.5
@@ -2273,7 +2273,7 @@
         "start_score": 0.75,
         "cost_score": 0.46,
         "raw_score": 0.38,
-        "rank": 22,
+        "rank": 46,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.36
@@ -2361,7 +2361,7 @@
         "start_score": 0.75,
         "cost_score": 0.48,
         "raw_score": 0.24,
-        "rank": 25,
+        "rank": 49,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2449,7 +2449,7 @@
         "start_score": 0.75,
         "cost_score": 0.21,
         "raw_score": 0.07,
-        "rank": 35,
+        "rank": 59,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 7.09
@@ -2538,7 +2538,7 @@
         "start_score": 0.5,
         "cost_score": 0.27,
         "raw_score": 0.04,
-        "rank": 37,
+        "rank": 61,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 4.98
@@ -2626,7 +2626,7 @@
         "start_score": 1,
         "cost_score": 0.38,
         "raw_score": 0.54,
-        "rank": 17,
+        "rank": 41,
         "national_percentile": 0.61,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2715,7 +2715,7 @@
         "start_score": 0.75,
         "cost_score": 0.74,
         "raw_score": 0.24,
-        "rank": 26,
+        "rank": 50,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.31
@@ -2803,7 +2803,7 @@
         "start_score": 0.75,
         "cost_score": 0.11,
         "raw_score": 0.16,
-        "rank": 31,
+        "rank": 55,
         "national_percentile": 0.99,
         "online_lab_conf": 0.8,
         "location_combined": 5.58
@@ -2892,7 +2892,7 @@
         "start_score": 0.75,
         "cost_score": 0.33,
         "raw_score": 0.18,
-        "rank": 29,
+        "rank": 53,
         "national_percentile": 0.94,
         "online_lab_conf": 0.8,
         "location_combined": 6.14
@@ -2982,7 +2982,7 @@
         "start_score": 0.5,
         "cost_score": 0.13,
         "raw_score": 0.15,
-        "rank": 32,
+        "rank": 56,
         "national_percentile": 0.96,
         "online_lab_conf": 1,
         "location_combined": 4.55
@@ -3070,7 +3070,7 @@
         "start_score": 0.5,
         "cost_score": 0.43,
         "raw_score": 0.11,
-        "rank": 33,
+        "rank": 57,
         "national_percentile": 0.79,
         "online_lab_conf": 0.8,
         "location_combined": 4.04
@@ -3159,7 +3159,7 @@
         "start_score": 0.75,
         "cost_score": 0.5,
         "raw_score": 0.38,
-        "rank": 23,
+        "rank": 47,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 7.5
@@ -3247,7 +3247,7 @@
         "start_score": 0.75,
         "cost_score": 0.56,
         "raw_score": 0.18,
-        "rank": 30,
+        "rank": 54,
         "national_percentile": 0.4,
         "online_lab_conf": 0.8,
         "location_combined": 3.4
@@ -3284,6 +3284,1982 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      }
+    },
+    {
+      "id": "slu-stlouis",
+      "name": "Saint Louis University",
+      "type": "ABSN",
+      "location": {
+        "full": "St. Louis, MO"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@slu.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 9.5,
+        "location_boost": 0,
+        "np_pathway": 0.88,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.51,
+        "raw_score": 2.19,
+        "rank": 3,
+        "national_percentile": 0.7,
+        "location_combined": 8.36
+      },
+      "notes": "CCNE accredited; 97% NCLEX pass rate; Spring/Fall starts",
+      "scoring_notes": "Top St. Louis metro - excellent NP pathway",
+      "costs": {
+        "Location": "St. Louis, MO",
+        "Tuition": 52000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 55000,
+        "COL Index": 95,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 22800,
+        "Total Cost": 77800,
+        "Mo. Burn": 4863,
+        "Cost Score": 0.51
+      },
+      "regional": {
+        "ed_opportunity": 0.9,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.88
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 1000,
+        "expected_value_with_commitment": 1000
+      }
+    },
+    {
+      "id": "ohsu-portland",
+      "name": "OHSU",
+      "type": "ABSN",
+      "location": {
+        "full": "Portland, OR"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@ohsu.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-01-10"
+      },
+      "program_details": {
+        "duration_months": 15,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 8.5,
+        "location_boost": 1.25,
+        "np_pathway": 0.82,
+        "prestige": 0.85,
+        "competitiveness": 0.8,
+        "start_score": 1,
+        "cost_score": 0.48,
+        "raw_score": 2.09,
+        "rank": 7,
+        "national_percentile": 0.8,
+        "location_combined": 7.99
+      },
+      "notes": "Tuition Promise locks rate; 15-month intensive; Ashland/Bend/Portland",
+      "scoring_notes": "Full NP practice authority state + food/music/dating scene",
+      "costs": {
+        "Location": "Portland, OR",
+        "Tuition": 46044,
+        "Fees": 2500,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 48544,
+        "COL Index": 130,
+        "Duration (mo)": 15,
+        "Living $/mo": 1500,
+        "Total Living": 29250,
+        "Total Cost": 77794,
+        "Mo. Burn": 5186,
+        "Cost Score": 0.48
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.82
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 450,
+        "expected_value_with_commitment": 450
+      }
+    },
+    {
+      "id": "stedwards-austin",
+      "name": "St. Edward's University",
+      "type": "ABSN",
+      "location": {
+        "full": "Austin, TX"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@stedwards.edu",
+        "deadline": "2025-12-31",
+        "start_date": "2026-08-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 8.5,
+        "location_boost": 1.25,
+        "np_pathway": 0.8,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.47,
+        "raw_score": 1.29,
+        "rank": 23,
+        "national_percentile": 0.65,
+        "location_combined": 7.8
+      },
+      "notes": "Fall 2026 applications open; Private Catholic university",
+      "scoring_notes": "On-the-come-up city + food/music/dating scene",
+      "costs": {
+        "Location": "Austin, TX",
+        "Tuition": 55000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 58000,
+        "COL Index": 115,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 27600,
+        "Total Cost": 85600,
+        "Mo. Burn": 5350,
+        "Cost Score": 0.47
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.7,
+        "np_pathway_calculated": 0.8
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 1000,
+        "expected_value_with_commitment": 1000
+      }
+    },
+    {
+      "id": "uofl-louisville",
+      "name": "University of Louisville",
+      "type": "ABSN",
+      "location": {
+        "full": "Louisville, KY"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@louisville.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 15,
+        "terms": 5,
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Hybrid program; Louisville or Owensboro campus; 500+ clinical hours",
+      "scoring_notes": "Very affordable for residents; strong food scene",
+      "scores": {
+        "location_score": 9,
+        "location_boost": 0.25,
+        "np_pathway": 0.81,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.65,
+        "raw_score": 2.1,
+        "rank": 6,
+        "national_percentile": 0.6,
+        "location_combined": 7.49
+      },
+      "costs": {
+        "Location": "Louisville, KY",
+        "Tuition": 29160,
+        "Fees": 2500,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 31660,
+        "COL Index": 90,
+        "Duration (mo)": 15,
+        "Living $/mo": 1500,
+        "Total Living": 20250,
+        "Total Cost": 51910,
+        "Mo. Burn": 3461,
+        "Cost Score": 0.65
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.85,
+        "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 450,
+        "expected_value_with_commitment": 450
+      }
+    },
+    {
+      "id": "csu-cleveland",
+      "name": "Cleveland State",
+      "type": "ABSN",
+      "location": {
+        "full": "Cleveland, OH"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@csuohio.edu",
+        "deadline": "2026-04-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Online with 2 on-campus residencies; Cleveland Clinic rotations; OH/IN/KY residents",
+      "scoring_notes": "Affordable public option; music city bonus",
+      "scores": {
+        "location_score": 8.5,
+        "location_boost": 0.25,
+        "np_pathway": 0.85,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.67,
+        "raw_score": 2.13,
+        "rank": 4,
+        "national_percentile": 0.55,
+        "location_combined": 7.44
+      },
+      "costs": {
+        "Location": "Cleveland, OH",
+        "Tuition": 21684,
+        "Fees": 8432,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 30116,
+        "COL Index": 95,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 22800,
+        "Total Cost": 52916,
+        "Mo. Burn": 3307,
+        "Cost Score": 0.67
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.85,
+        "np_pathway_calculated": 0.85
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 300,
+        "expected_value_with_commitment": 300
+      }
+    },
+    {
+      "id": "wayne-state-detroit",
+      "name": "Wayne State",
+      "type": "ABSN",
+      "location": {
+        "full": "Detroit, MI"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Healthcare experience (10 hr min)",
+        "addl_prereq_fit": 0.9
+      },
+      "admissions": {
+        "email": "nursing@wayne.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-05-15"
+      },
+      "program_details": {
+        "duration_months": 20,
+        "terms": 5,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "CD2 pathway; Spring/Summer start; 3.0 prereq GPA required",
+      "scoring_notes": "Major medical center access; music city bonus",
+      "scores": {
+        "location_score": 8.5,
+        "location_boost": 0.25,
+        "np_pathway": 0.84,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.6,
+        "raw_score": 1.14,
+        "rank": 28,
+        "national_percentile": 0.65,
+        "location_combined": 7.35
+      },
+      "costs": {
+        "Location": "Detroit, MI",
+        "Tuition": 48231,
+        "Fees": 5017,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 53248,
+        "COL Index": 90,
+        "Duration (mo)": 20,
+        "Living $/mo": 1500,
+        "Total Living": 27000,
+        "Total Cost": 80248,
+        "Mo. Burn": 4012,
+        "Cost Score": 0.6
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.84
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 450,
+        "expected_value_with_commitment": 450
+      }
+    },
+    {
+      "id": "isu-boise",
+      "name": "Idaho State University",
+      "type": "ABSN",
+      "location": {
+        "full": "Meridian, ID (Boise area)"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@isu.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "ISU Meridian Campus; 12-month program; statewide coverage",
+      "scoring_notes": "Full NP practice authority + on-the-come-up + dating bonus",
+      "scores": {
+        "location_score": 9,
+        "location_boost": 1.25,
+        "np_pathway": 0.71,
+        "prestige": 0.65,
+        "competitiveness": 0.9,
+        "start_score": 1,
+        "cost_score": 0.68,
+        "raw_score": 2.88,
+        "rank": 1,
+        "national_percentile": 0.45,
+        "location_combined": 7.28
+      },
+      "costs": {
+        "Location": "Boise, ID",
+        "Tuition": 17283,
+        "Fees": 2500,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 19783,
+        "COL Index": 105,
+        "Duration (mo)": 12,
+        "Living $/mo": 1500,
+        "Total Living": 18900,
+        "Total Cost": 38683,
+        "Mo. Burn": 3224,
+        "Cost Score": 0.68
+      },
+      "regional": {
+        "ed_opportunity": 0.7,
+        "np_accessibility": 0.7,
+        "underserved_access": 0.75,
+        "np_pathway_calculated": 0.71
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 400,
+        "expected_value_with_commitment": 400
+      }
+    },
+    {
+      "id": "clemson-greenville",
+      "name": "Clemson",
+      "type": "ABSN",
+      "location": {
+        "full": "Greenville, SC"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@clemson.edu",
+        "deadline": "2026-02-15",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 20,
+        "terms": 5,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Only 32 students/cohort; Clemson alumni priority; 100% NCLEX pass rate",
+      "scoring_notes": "On-the-come-up city; competitive admission",
+      "scores": {
+        "location_score": 9,
+        "location_boost": 0.5,
+        "np_pathway": 0.76,
+        "prestige": 0.8,
+        "competitiveness": 0.75,
+        "start_score": 1,
+        "cost_score": 0.57,
+        "raw_score": 1.47,
+        "rank": 18,
+        "national_percentile": 0.75,
+        "location_combined": 7.22
+      },
+      "costs": {
+        "Location": "Greenville, SC",
+        "Tuition": 55440,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 58440,
+        "COL Index": 95,
+        "Duration (mo)": 20,
+        "Living $/mo": 1500,
+        "Total Living": 28500,
+        "Total Cost": 86940,
+        "Mo. Burn": 4347,
+        "Cost Score": 0.57
+      },
+      "regional": {
+        "ed_opportunity": 0.75,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.76
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.1
+        },
+        "expected_value_no_commitment": 500,
+        "expected_value_with_commitment": 500
+      }
+    },
+    {
+      "id": "memphis-absn",
+      "name": "University of Memphis",
+      "type": "ABSN",
+      "location": {
+        "full": "Memphis, TN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@memphis.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2026-08-15"
+      },
+      "program_details": {
+        "duration_months": 18,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "TN tuition cap makes extremely affordable; 90% NCLEX; 300+ clinical sites",
+      "scoring_notes": "Food + music city bonuses",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0.5,
+        "np_pathway": 0.84,
+        "prestige": 0.65,
+        "competitiveness": 0.9,
+        "start_score": 0.75,
+        "cost_score": 0.81,
+        "raw_score": 1.53,
+        "rank": 17,
+        "national_percentile": 0.5,
+        "location_combined": 7.14
+      },
+      "costs": {
+        "Location": "Memphis, TN",
+        "Tuition": 5364,
+        "Fees": 5000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 10364,
+        "COL Index": 85,
+        "Duration (mo)": 18,
+        "Living $/mo": 1500,
+        "Total Living": 22950,
+        "Total Cost": 33314,
+        "Mo. Burn": 1851,
+        "Cost Score": 0.81
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.95,
+        "np_pathway_calculated": 0.84
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 1000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 200,
+        "expected_value_with_commitment": 200
+      }
+    },
+    {
+      "id": "unm-albuquerque",
+      "name": "UNM",
+      "type": "ABSN",
+      "location": {
+        "full": "Albuquerque, NM"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Pathophysiology I & II",
+        "addl_prereq_fit": 0.85
+      },
+      "admissions": {
+        "email": "HSC-CON-FinancialAid@salud.unm.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "NM resident preference; Level 1 trauma center access; 92%+ NCLEX",
+      "scoring_notes": "Full NP practice authority state",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0.5,
+        "np_pathway": 0.82,
+        "prestige": 0.7,
+        "competitiveness": 0.9,
+        "start_score": 1,
+        "cost_score": 0.62,
+        "raw_score": 1.86,
+        "rank": 10,
+        "national_percentile": 0.55,
+        "location_combined": 6.97
+      },
+      "costs": {
+        "Location": "Albuquerque, NM",
+        "Tuition": 35149,
+        "Fees": 2500,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 37649,
+        "COL Index": 95,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 22800,
+        "Total Cost": 60449,
+        "Mo. Burn": 3778,
+        "Cost Score": 0.62
+      },
+      "regional": {
+        "ed_opportunity": 0.75,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.95,
+        "np_pathway_calculated": 0.82
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 450,
+        "expected_value_with_commitment": 450
+      }
+    },
+    {
+      "id": "roseman-slc",
+      "name": "Roseman University",
+      "type": "ABSN",
+      "location": {
+        "full": "South Jordan, UT (SLC area)"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@roseman.edu",
+        "deadline": "2026-04-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 18,
+        "terms": 4,
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Hybrid-online + on-campus; 95%+ NCLEX; 97% hired within 6 months",
+      "scoring_notes": "On-the-come-up + dating city bonus",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0.75,
+        "np_pathway": 0.79,
+        "prestige": 0.65,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.56,
+        "raw_score": 1.15,
+        "rank": 27,
+        "national_percentile": 0.5,
+        "location_combined": 6.91
+      },
+      "costs": {
+        "Location": "Salt Lake City, UT",
+        "Tuition": 48000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 51000,
+        "COL Index": 105,
+        "Duration (mo)": 18,
+        "Living $/mo": 1500,
+        "Total Living": 28350,
+        "Total Cost": 79350,
+        "Mo. Burn": 4408,
+        "Cost Score": 0.56
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.75,
+        "np_pathway_calculated": 0.79
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 450,
+        "expected_value_with_commitment": 450
+      }
+    },
+    {
+      "id": "uccs-cosprings",
+      "name": "UCCS",
+      "type": "ABSN",
+      "location": {
+        "full": "Colorado Springs, CO"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Sciences within 10 years; 3.25 GPA required",
+        "addl_prereq_fit": 0.85
+      },
+      "admissions": {
+        "email": "accbsn@uccs.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-05-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Summer start only; CO residents only; CCNE accredited",
+      "scoring_notes": "Full NP practice authority + on-the-come-up + dating bonus",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 1.25,
+        "np_pathway": 0.74,
+        "prestige": 0.65,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.6,
+        "raw_score": 1.16,
+        "rank": 26,
+        "national_percentile": 0.5,
+        "location_combined": 6.85
+      },
+      "costs": {
+        "Location": "Colorado Springs, CO",
+        "Tuition": 35716,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 38716,
+        "COL Index": 105,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 25200,
+        "Total Cost": 63916,
+        "Mo. Burn": 3995,
+        "Cost Score": 0.6
+      },
+      "regional": {
+        "ed_opportunity": 0.75,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.7,
+        "np_pathway_calculated": 0.74
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 300,
+        "expected_value_with_commitment": 300
+      }
+    },
+    {
+      "id": "uab-birmingham",
+      "name": "UAB",
+      "type": "AMNP",
+      "location": {
+        "full": "Birmingham, AL"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@uab.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": "Direct-entry MSN available"
+      },
+      "notes": "Accelerated Master's in Nursing Pathway; major teaching hospital",
+      "scoring_notes": "Top Alabama program; excellent underserved access",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0,
+        "np_pathway": 0.84,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.59,
+        "raw_score": 2.03,
+        "rank": 8,
+        "national_percentile": 0.65,
+        "location_combined": 6.72
+      },
+      "costs": {
+        "Location": "Birmingham, AL",
+        "Tuition": 42000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 45000,
+        "COL Index": 85,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 20400,
+        "Total Cost": 65400,
+        "Mo. Burn": 4088,
+        "Cost Score": 0.59
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.84
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 750,
+        "expected_value_with_commitment": 750
+      }
+    },
+    {
+      "id": "christ-college-dayton",
+      "name": "Christ College of Nursing",
+      "type": "ABSN",
+      "location": {
+        "full": "Cincinnati, OH (near Dayton)"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "admissions@thechristcollege.edu",
+        "deadline": "2026-04-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "15-16 month program; intensive clinical focus",
+      "scoring_notes": "Dayton area coverage; close to Milwaukee",
+      "scores": {
+        "location_score": 9,
+        "location_boost": 0,
+        "np_pathway": 0.75,
+        "prestige": 0.6,
+        "competitiveness": 0.9,
+        "start_score": 1,
+        "cost_score": 0.61,
+        "raw_score": 1.77,
+        "rank": 11,
+        "national_percentile": 0.45,
+        "location_combined": 6.75
+      },
+      "costs": {
+        "Location": "Dayton, OH",
+        "Tuition": 38000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 41000,
+        "COL Index": 90,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 21600,
+        "Total Cost": 62600,
+        "Mo. Burn": 3913,
+        "Cost Score": 0.61
+      },
+      "regional": {
+        "ed_opportunity": 0.7,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.75
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 300,
+        "expected_value_with_commitment": 300
+      }
+    },
+    {
+      "id": "uncc-charlotte",
+      "name": "UNC Charlotte",
+      "type": "ABSN",
+      "location": {
+        "full": "Charlotte, NC"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "CNA I certification required",
+        "addl_prereq_fit": 0.8
+      },
+      "admissions": {
+        "email": "nursing@uncc.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2026-08-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Scholarship auto-eligible; low NC resident tuition; CNA required",
+      "scoring_notes": "On-the-come-up + dating city bonus",
+      "scores": {
+        "location_score": 7.5,
+        "location_boost": 0.75,
+        "np_pathway": 0.81,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.67,
+        "raw_score": 1.28,
+        "rank": 24,
+        "national_percentile": 0.55,
+        "location_combined": 6.68
+      },
+      "costs": {
+        "Location": "Charlotte, NC",
+        "Tuition": 26000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 29000,
+        "COL Index": 100,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 24000,
+        "Total Cost": 53000,
+        "Mo. Burn": 3313,
+        "Cost Score": 0.67
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.75,
+        "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.25
+        },
+        "expected_value_no_commitment": 750,
+        "expected_value_with_commitment": 750
+      }
+    },
+    {
+      "id": "research-college-kc",
+      "name": "Research College of Nursing",
+      "type": "ABSN",
+      "location": {
+        "full": "Kansas City, MO"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "admissions@researchcollege.edu",
+        "deadline": "2026-04-01",
+        "start_date": "2026-05-15"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "HCA Work Loan Forgiveness available; May 2026 fast-track; #1 in KC",
+      "scoring_notes": "Food + music + dating bonuses",
+      "scores": {
+        "location_score": 7.5,
+        "location_boost": 0.75,
+        "np_pathway": 0.8,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.72,
+        "raw_score": 2.13,
+        "rank": 5,
+        "national_percentile": 0.6,
+        "location_combined": 6.6
+      },
+      "costs": {
+        "Location": "Kansas City, MO",
+        "Tuition": 14000,
+        "Fees": 2000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 16000,
+        "COL Index": 95,
+        "Duration (mo)": 12,
+        "Living $/mo": 1500,
+        "Total Living": 17100,
+        "Total Cost": 33100,
+        "Mo. Burn": 2758,
+        "Cost Score": 0.72
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.8
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": {
+          "name": "HCA Work Loan Forgiveness",
+          "amount": 10000,
+          "years": 2
+        },
+        "merit": {
+          "pool": 2000,
+          "probability": 0.2
+        },
+        "expected_value_no_commitment": 400,
+        "expected_value_with_commitment": 10400
+      }
+    },
+    {
+      "id": "georgetown-dc",
+      "name": "Georgetown",
+      "type": "ABSN",
+      "location": {
+        "full": "Washington, DC"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@georgetown.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Hybrid program; 700+ clinical hours; 96-100% NCLEX; Scholarships available",
+      "scoring_notes": "Full NP practice authority (DC) + dating city bonus",
+      "scores": {
+        "location_score": 6.5,
+        "location_boost": 0.75,
+        "np_pathway": 0.89,
+        "prestige": 0.9,
+        "competitiveness": 0.75,
+        "start_score": 1,
+        "cost_score": 0.22,
+        "raw_score": 0.85,
+        "rank": 32,
+        "national_percentile": 0.88,
+        "location_combined": 6.45
+      },
+      "costs": {
+        "Location": "Washington, DC",
+        "Tuition": 65000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 68000,
+        "COL Index": 145,
+        "Duration (mo)": 12,
+        "Living $/mo": 1500,
+        "Total Living": 26100,
+        "Total Cost": 94100,
+        "Mo. Burn": 7842,
+        "Cost Score": 0.22
+      },
+      "regional": {
+        "ed_opportunity": 0.9,
+        "np_accessibility": 0.9,
+        "underserved_access": 0.85,
+        "np_pathway_calculated": 0.89
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 10000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 1500,
+        "expected_value_with_commitment": 1500
+      }
+    },
+    {
+      "id": "uams-littlerock",
+      "name": "UAMS",
+      "type": "ABSN",
+      "location": {
+        "full": "Fayetteville, AR"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "TEAS 65% min required",
+        "addl_prereq_fit": 0.9
+      },
+      "admissions": {
+        "email": "nursing@uams.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-05-15"
+      },
+      "program_details": {
+        "duration_months": 15,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "NW Arkansas campus; Full-tuition scholarships for Fall 2026 (5 ABSN spots)",
+      "scoring_notes": "Chancellor's Scholar opportunity",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0,
+        "np_pathway": 0.79,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 0.75,
+        "cost_score": 0.67,
+        "raw_score": 1.37,
+        "rank": 20,
+        "national_percentile": 0.55,
+        "location_combined": 6.32
+      },
+      "costs": {
+        "Location": "Fayetteville, AR",
+        "Tuition": 27032,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 30032,
+        "COL Index": 85,
+        "Duration (mo)": 15,
+        "Living $/mo": 1500,
+        "Total Living": 19125,
+        "Total Cost": 49157,
+        "Mo. Burn": 3277,
+        "Cost Score": 0.67
+      },
+      "regional": {
+        "ed_opportunity": 0.75,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.79
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": {
+          "name": "Chancellor's Scholar",
+          "amount": 30000,
+          "years": 2
+        },
+        "merit": {
+          "pool": 30000,
+          "probability": 0.05
+        },
+        "expected_value_no_commitment": 1500,
+        "expected_value_with_commitment": 31500
+      }
+    },
+    {
+      "id": "fiu-miami",
+      "name": "FIU",
+      "type": "ABSN",
+      "location": {
+        "full": "Miami, FL"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "3.25 GPA min; TEAS required",
+        "addl_prereq_fit": 0.85
+      },
+      "admissions": {
+        "email": "nursing@fiu.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Most affordable Miami option; 60 students/cohort; 88% NCLEX; 97% grad rate",
+      "scoring_notes": "Food city bonus",
+      "scores": {
+        "location_score": 7,
+        "location_boost": 0.25,
+        "np_pathway": 0.86,
+        "prestige": 0.7,
+        "competitiveness": 0.8,
+        "start_score": 1,
+        "cost_score": 0.69,
+        "raw_score": 1.63,
+        "rank": 15,
+        "national_percentile": 0.6,
+        "location_combined": 6.24
+      },
+      "costs": {
+        "Location": "Miami, FL",
+        "Tuition": 16000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 19000,
+        "COL Index": 130,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 31200,
+        "Total Cost": 50200,
+        "Mo. Burn": 3138,
+        "Cost Score": 0.69
+      },
+      "regional": {
+        "ed_opportunity": 0.9,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.86
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 300,
+        "expected_value_with_commitment": 300
+      }
+    },
+    {
+      "id": "iu-indianapolis",
+      "name": "IU Indianapolis",
+      "type": "ABSN",
+      "location": {
+        "full": "Indianapolis, IN"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "2.7 undergrad GPA; 3.0 prereq GPA",
+        "addl_prereq_fit": 0.9
+      },
+      "admissions": {
+        "email": "nursing@iu.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "#23 nationally (US News); #1 in Indiana; Spring 2026 apps open",
+      "scoring_notes": "Dating city bonus",
+      "scores": {
+        "location_score": 7.5,
+        "location_boost": 0.25,
+        "np_pathway": 0.8,
+        "prestige": 0.8,
+        "competitiveness": 0.8,
+        "start_score": 1,
+        "cost_score": 0.58,
+        "raw_score": 1.65,
+        "rank": 14,
+        "national_percentile": 0.7,
+        "location_combined": 6.2
+      },
+      "costs": {
+        "Location": "Indianapolis, IN",
+        "Tuition": 42000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 45000,
+        "COL Index": 95,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 22800,
+        "Total Cost": 67800,
+        "Mo. Burn": 4238,
+        "Cost Score": 0.58
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.8
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 750,
+        "expected_value_with_commitment": 750
+      }
+    },
+    {
+      "id": "utulsa-absn",
+      "name": "University of Tulsa",
+      "type": "ABSN",
+      "location": {
+        "full": "Tulsa, OK"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "online@utulsa.edu",
+        "deadline": "2026-04-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 21,
+        "terms": 5,
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Online with 1-week on-campus bootcamp; 630 clinical hours; ACEN accredited",
+      "scoring_notes": "Hybrid model good for working professionals",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0,
+        "np_pathway": 0.78,
+        "prestige": 0.65,
+        "competitiveness": 0.9,
+        "start_score": 1,
+        "cost_score": 0.71,
+        "raw_score": 1.32,
+        "rank": 22,
+        "national_percentile": 0.5,
+        "location_combined": 6.24
+      },
+      "costs": {
+        "Location": "Tulsa, OK",
+        "Tuition": 30228,
+        "Fees": 2000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 32228,
+        "COL Index": 90,
+        "Duration (mo)": 21,
+        "Living $/mo": 1500,
+        "Total Living": 28350,
+        "Total Cost": 60578,
+        "Mo. Burn": 2885,
+        "Cost Score": 0.71
+      },
+      "regional": {
+        "ed_opportunity": 0.75,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.85,
+        "np_pathway_calculated": 0.78
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 300,
+        "expected_value_with_commitment": 300
+      }
+    },
+    {
+      "id": "buffalo-absn",
+      "name": "University at Buffalo",
+      "type": "ABSN",
+      "location": {
+        "full": "Buffalo, NY"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@buffalo.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "100% NCLEX pass rate; 600+ clinical hours; DEU model; $180K+ in scholarships",
+      "scoring_notes": "Very affordable for NY residents",
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0,
+        "np_pathway": 0.76,
+        "prestige": 0.7,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.63,
+        "raw_score": 2.29,
+        "rank": 2,
+        "national_percentile": 0.55,
+        "location_combined": 6.08
+      },
+      "costs": {
+        "Location": "Buffalo, NY",
+        "Tuition": 24000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 27000,
+        "COL Index": 95,
+        "Duration (mo)": 12,
+        "Living $/mo": 1500,
+        "Total Living": 17100,
+        "Total Cost": 44100,
+        "Mo. Burn": 3675,
+        "Cost Score": 0.63
+      },
+      "regional": {
+        "ed_opportunity": 0.75,
+        "np_accessibility": 0.75,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.76
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.25
+        },
+        "expected_value_no_commitment": 1250,
+        "expected_value_with_commitment": 1250
+      }
+    },
+    {
+      "id": "uarizona-tucson",
+      "name": "University of Arizona",
+      "type": "ABSN",
+      "location": {
+        "full": "Gilbert, AZ (Tucson metro)"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@arizona.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": 0.9,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Hybrid integrative health focus; 93% NCLEX; Gilbert campus (not Tucson main)",
+      "scoring_notes": "Full NP practice authority state",
+      "scores": {
+        "location_score": 7,
+        "location_boost": 0.5,
+        "np_pathway": 0.81,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 1,
+        "cost_score": 0.58,
+        "raw_score": 1.62,
+        "rank": 16,
+        "national_percentile": 0.65,
+        "location_combined": 6.08
+      },
+      "costs": {
+        "Location": "Tucson, AZ",
+        "Tuition": 40000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 43000,
+        "COL Index": 100,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 24000,
+        "Total Cost": 67000,
+        "Mo. Burn": 4188,
+        "Cost Score": 0.58
+      },
+      "regional": {
+        "ed_opportunity": 0.75,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 3000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 450,
+        "expected_value_with_commitment": 450
+      }
+    },
+    {
+      "id": "ric-providence",
+      "name": "Rhode Island College",
+      "type": "ABSN",
+      "location": {
+        "full": "Providence, RI"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null
+      },
+      "admissions": {
+        "email": "nursing@ric.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-01-15"
+      },
+      "program_details": {
+        "duration_months": 20,
+        "terms": 5,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "notes": "Affordable public option; 5 semesters; RINEC facility",
+      "scoring_notes": "Full NP practice authority state",
+      "scores": {
+        "location_score": 7,
+        "location_boost": 0.5,
+        "np_pathway": 0.81,
+        "prestige": 0.65,
+        "competitiveness": 0.9,
+        "start_score": 1,
+        "cost_score": 0.67,
+        "raw_score": 1.43,
+        "rank": 19,
+        "national_percentile": 0.5,
+        "location_combined": 6.08
+      },
+      "costs": {
+        "Location": "Providence, RI",
+        "Tuition": 29273,
+        "Fees": 2500,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 31773,
+        "COL Index": 115,
+        "Duration (mo)": 20,
+        "Living $/mo": 1500,
+        "Total Living": 34500,
+        "Total Cost": 66273,
+        "Mo. Burn": 3314,
+        "Cost Score": 0.67
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.75,
+        "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 2000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 300,
+        "expected_value_with_commitment": 300
       }
     }
   ],

@@ -1,0 +1,949 @@
+{
+  "methodology": {
+    "location_max": 10,
+    "distance_max": 3,
+    "geography_max": 3,
+    "city_culture_max": 4,
+    "np_pathway_formula": "0.35 × ed_opportunity + 0.40 × np_accessibility + 0.25 × underserved_access",
+    "bonuses": {
+      "np_practice_authority": "+0.5 for states with full NP practice authority",
+      "on_the_come_up": "+0.5 for emerging cities with growth momentum",
+      "food_scene": "+0.25 for cities known for food culture",
+      "music_scene": "+0.25 for cities known for live music",
+      "dating_friendly": "+0.25 for cities with high young professional %, transplant rate, social scene"
+    }
+  },
+  "metros": [
+    {
+      "name": "St. Louis, MO",
+      "population": 2800000,
+      "locationScore": 9.5,
+      "distScore": 3,
+      "geoScore": 3,
+      "cityScore": 3.5,
+      "npPathway": 0.88,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 8.36,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Portland, OR",
+      "population": 2500000,
+      "locationScore": 8.5,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 3.5,
+      "npPathway": 0.82,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0.25,
+        "dating": 0.25,
+        "total": 1.25
+      },
+      "combinedScore": 8,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Austin, TX",
+      "population": 2400000,
+      "locationScore": 8.5,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 3.5,
+      "npPathway": 0.8,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0.5,
+        "food": 0.25,
+        "music": 0.25,
+        "dating": 0.25,
+        "total": 1.25
+      },
+      "combinedScore": 7.75,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Louisville, KY",
+      "population": 1400000,
+      "locationScore": 9,
+      "distScore": 3,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.81,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0,
+        "dating": 0,
+        "total": 0.25
+      },
+      "combinedScore": 7.52,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Cleveland, OH",
+      "population": 2100000,
+      "locationScore": 8.5,
+      "distScore": 3,
+      "geoScore": 2,
+      "cityScore": 3.5,
+      "npPathway": 0.85,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0.25,
+        "dating": 0,
+        "total": 0.25
+      },
+      "combinedScore": 7.44,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Detroit, MI",
+      "population": 4400000,
+      "locationScore": 8.5,
+      "distScore": 3,
+      "geoScore": 2,
+      "cityScore": 3.5,
+      "npPathway": 0.84,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0.25,
+        "dating": 0,
+        "total": 0.25
+      },
+      "combinedScore": 7.37,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Boise, ID",
+      "population": 800000,
+      "locationScore": 9,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 4,
+      "npPathway": 0.71,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0.5,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 1.25
+      },
+      "combinedScore": 7.3,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Greenville, SC",
+      "population": 950000,
+      "locationScore": 9,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 4,
+      "npPathway": 0.76,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0.5,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 7.24,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Memphis, TN",
+      "population": 1400000,
+      "locationScore": 8,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.84,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0.25,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 7.1,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Albuquerque, NM",
+      "population": 950000,
+      "locationScore": 8,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.82,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 6.97,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Salt Lake City, UT",
+      "population": 1300000,
+      "locationScore": 8,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 4,
+      "npPathway": 0.79,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0.5,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 0.75
+      },
+      "combinedScore": 6.89,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Colorado Springs, CO",
+      "population": 750000,
+      "locationScore": 8,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 4,
+      "npPathway": 0.74,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0.5,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 1.25
+      },
+      "combinedScore": 6.82,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Birmingham, AL",
+      "population": 1150000,
+      "locationScore": 8,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.84,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 6.74,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Dayton, OH",
+      "population": 850000,
+      "locationScore": 9,
+      "distScore": 3,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.75,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 6.71,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Charlotte, NC",
+      "population": 2800000,
+      "locationScore": 7.5,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 3.5,
+      "npPathway": 0.81,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0.5,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 0.75
+      },
+      "combinedScore": 6.64,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Kansas City, MO",
+      "population": 2200000,
+      "locationScore": 7.5,
+      "distScore": 3,
+      "geoScore": 1,
+      "cityScore": 3.5,
+      "npPathway": 0.8,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0.25,
+        "dating": 0.25,
+        "total": 0.75
+      },
+      "combinedScore": 6.6,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "San Francisco, CA",
+      "population": 4700000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.87,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0.25,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 6.51,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Washington, DC",
+      "population": 6400000,
+      "locationScore": 6.5,
+      "distScore": 2,
+      "geoScore": 1,
+      "cityScore": 3.5,
+      "npPathway": 0.89,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 0.75
+      },
+      "combinedScore": 6.43,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Little Rock, AR",
+      "population": 750000,
+      "locationScore": 8,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.79,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 6.3,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Miami, FL",
+      "population": 6200000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.86,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0,
+        "dating": 0,
+        "total": 0.25
+      },
+      "combinedScore": 6.24,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Indianapolis, IN",
+      "population": 2100000,
+      "locationScore": 7.5,
+      "distScore": 3,
+      "geoScore": 1,
+      "cityScore": 3.5,
+      "npPathway": 0.8,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 0.25
+      },
+      "combinedScore": 6.2,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Tulsa, OK",
+      "population": 1000000,
+      "locationScore": 8,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.78,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 6.2,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Buffalo, NY",
+      "population": 1200000,
+      "locationScore": 8,
+      "distScore": 3,
+      "geoScore": 2,
+      "cityScore": 3,
+      "npPathway": 0.76,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 6.1,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Tucson, AZ",
+      "population": 1050000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 3,
+      "npPathway": 0.81,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 6.06,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Providence, RI",
+      "population": 1650000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.81,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 6.06,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "San Antonio, TX",
+      "population": 2600000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.86,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 6.04,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Raleigh, NC",
+      "population": 1500000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1,
+      "cityScore": 4,
+      "npPathway": 0.78,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0.5,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 0.75
+      },
+      "combinedScore": 6.03,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Las Vegas, NV",
+      "population": 2300000,
+      "locationScore": 7.5,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 3.5,
+      "npPathway": 0.74,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 5.94,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "San Diego, CA",
+      "population": 3300000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.79,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0,
+        "dating": 0.25,
+        "total": 0.5
+      },
+      "combinedScore": 5.91,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Chattanooga, TN",
+      "population": 600000,
+      "locationScore": 7.5,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 2.5,
+      "npPathway": 0.74,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0.5,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 5.9,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Tampa, FL",
+      "population": 3300000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.79,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0.25,
+        "total": 0.25
+      },
+      "combinedScore": 5.71,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "New Orleans, LA",
+      "population": 1300000,
+      "locationScore": 6.5,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3,
+      "npPathway": 0.81,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0.25,
+        "music": 0.25,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 5.64,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Orlando, FL",
+      "population": 2700000,
+      "locationScore": 7.5,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 3.5,
+      "npPathway": 0.74,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 5.53,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "San Jose, CA",
+      "population": 2000000,
+      "locationScore": 7.5,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 3.5,
+      "npPathway": 0.72,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 5.4,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Asheville, NC",
+      "population": 480000,
+      "locationScore": 6.5,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 2.5,
+      "npPathway": 0.71,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0.5,
+        "food": 0.25,
+        "music": 0,
+        "dating": 0,
+        "total": 0.75
+      },
+      "combinedScore": 5.13,
+      "isOnTheComeUp": true
+    },
+    {
+      "name": "Jacksonville, FL",
+      "population": 1600000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.73,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 5.11,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Honolulu, HI",
+      "population": 1000000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 3,
+      "npPathway": 0.68,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 5.1,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Sacramento, CA",
+      "population": 2400000,
+      "locationScore": 6.5,
+      "distScore": 2,
+      "geoScore": 1,
+      "cityScore": 3.5,
+      "npPathway": 0.76,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.96,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Hartford, CT",
+      "population": 1200000,
+      "locationScore": 6,
+      "distScore": 0,
+      "geoScore": 3,
+      "cityScore": 3,
+      "npPathway": 0.76,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 4.92,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Virginia Beach, VA",
+      "population": 1800000,
+      "locationScore": 7,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3.5,
+      "npPathway": 0.69,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.81,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Grand Rapids, MI",
+      "population": 1100000,
+      "locationScore": 6.5,
+      "distScore": 2.5,
+      "geoScore": 1,
+      "cityScore": 3,
+      "npPathway": 0.73,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.76,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Jacksonville, FL",
+      "population": 1600000,
+      "locationScore": 6.5,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3,
+      "npPathway": 0.73,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.75,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Richmond, VA",
+      "population": 1350000,
+      "locationScore": 6,
+      "distScore": 2,
+      "geoScore": 1,
+      "cityScore": 3,
+      "npPathway": 0.79,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.73,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Oklahoma City, OK",
+      "population": 1450000,
+      "locationScore": 6,
+      "distScore": 2,
+      "geoScore": 1,
+      "cityScore": 3,
+      "npPathway": 0.78,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.65,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Spokane, WA",
+      "population": 600000,
+      "locationScore": 6,
+      "distScore": 2,
+      "geoScore": 3,
+      "cityScore": 1,
+      "npPathway": 0.71,
+      "bonuses": {
+        "npPractice": 0.5,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0.5
+      },
+      "combinedScore": 4.6,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Milwaukee, WI",
+      "population": 1600000,
+      "locationScore": 6.5,
+      "distScore": 1,
+      "geoScore": 2,
+      "cityScore": 3.5,
+      "npPathway": 0.7,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.55,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Akron, OH",
+      "population": 700000,
+      "locationScore": 6.5,
+      "distScore": 2,
+      "geoScore": 1.5,
+      "cityScore": 3,
+      "npPathway": 0.7,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 4.52,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Syracuse, NY",
+      "population": 650000,
+      "locationScore": 5,
+      "distScore": 2,
+      "geoScore": 2,
+      "cityScore": 1,
+      "npPathway": 0.73,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 3.66,
+      "isOnTheComeUp": false
+    },
+    {
+      "name": "Worcester, MA",
+      "population": 950000,
+      "locationScore": 4.5,
+      "distScore": 0,
+      "geoScore": 1.5,
+      "cityScore": 3,
+      "npPathway": 0.74,
+      "bonuses": {
+        "npPractice": 0,
+        "onTheComeUp": 0,
+        "food": 0,
+        "music": 0,
+        "dating": 0,
+        "total": 0
+      },
+      "combinedScore": 3.33,
+      "isOnTheComeUp": false
+    }
+  ]
+}
