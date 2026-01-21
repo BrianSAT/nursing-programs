@@ -1260,9 +1260,9 @@
         "expected_value_with_commitment": 2000
       },
       "plan_fit": {
-        "status": "fits",
+        "status": "ruled_out",
         "reasons": [
-          "Online A&P labs: case-by-case review - verify with school"
+          "Application deadline passed (Jan 14, 2026)"
         ]
       }
     },
@@ -1922,9 +1922,9 @@
         "expected_value_with_commitment": 1000
       },
       "plan_fit": {
-        "status": "fits",
+        "status": "ruled_out",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Application deadline passed (Dec 30, 2025)"
         ]
       }
     },
@@ -3663,9 +3663,9 @@
         "expected_value_with_commitment": 0
       },
       "plan_fit": {
-        "status": "adjust",
+        "status": "ruled_out",
         "reasons": [
-          "May require prereqs complete (not planned) at application - verify with school"
+          "Application deadline passed (Nov 30, 2025)"
         ]
       }
     },
@@ -5632,7 +5632,7 @@
       "plan_fit": {
         "status": "ruled_out",
         "reasons": [
-          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+          "Application deadline passed (Nov 29, 2025)"
         ]
       }
     },
@@ -6130,9 +6130,9 @@
         "expected_value_with_commitment": 42045
       },
       "plan_fit": {
-        "status": "adjust",
+        "status": "ruled_out",
         "reasons": [
-          "May require prereqs complete (not planned) at application - verify with school"
+          "Application deadline passed (Oct 31, 2025)"
         ]
       }
     },
@@ -6438,9 +6438,9 @@
         "expected_value_with_commitment": 0
       },
       "plan_fit": {
-        "status": "fits",
+        "status": "ruled_out",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Application deadline passed (Jan 14, 2026)"
         ]
       }
     },
@@ -6653,9 +6653,9 @@
         "expected_value_with_commitment": 0
       },
       "plan_fit": {
-        "status": "fits",
+        "status": "ruled_out",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Application deadline passed (Oct 14, 2025)"
         ]
       }
     },
@@ -6863,10 +6863,9 @@
         "expected_value_with_commitment": 0
       },
       "plan_fit": {
-        "status": "adjust",
+        "status": "ruled_out",
         "reasons": [
-          "Needs 4 extra courses: English Composition I & II, Federal/US Government, Bible-based Religion, World Religion",
-          "More than 3 courses - may need summer additions or test-outs"
+          "Application deadline passed (Jan 14, 2026)"
         ]
       }
     },
@@ -6977,10 +6976,9 @@
         "expected_value_with_commitment": 0
       },
       "plan_fit": {
-        "status": "fall_required",
+        "status": "ruled_out",
         "reasons": [
-          "Fall 2026 courses needed (3): Pathophysiology, Pharmacology, English Composition I & II",
-          "Online A&P lab policy unclear - verify with school before applying"
+          "Application deadline passed (Nov 30, 2025)"
         ]
       }
     },
@@ -7086,9 +7084,9 @@
         "expected_value_with_commitment": 0
       },
       "plan_fit": {
-        "status": "fall_required",
+        "status": "ruled_out",
         "reasons": [
-          "Fall 2026 courses needed (2): Epidemiology, English Reading & Composition (2 courses)"
+          "Application deadline passed (Oct 31, 2025)"
         ]
       }
     },
@@ -7296,9 +7294,9 @@
         "expected_value_with_commitment": 24000
       },
       "plan_fit": {
-        "status": "fits",
+        "status": "ruled_out",
         "reasons": [
-          "Standard prereqs match your plan"
+          "Application deadline passed (Oct 14, 2025)"
         ]
       }
     }

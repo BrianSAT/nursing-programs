@@ -67,6 +67,9 @@ const summerAdjustments = [
 // Programs requiring COMPLETE prereqs at application (Feb 2026) = ruled out
 // Because user will have everything IN PROGRESS, not complete
 
+// Current date for deadline checking
+const TODAY = new Date('2026-01-21');
+
 function analyzeProgram(program) {
   const extras = program.prerequisites?.extra || [];
   const inProgressOk = program.admissions?.in_progress_ok;
@@ -74,6 +77,19 @@ function analyzeProgram(program) {
 
   let status = 'fits';
   let reasons = [];
+
+  // Check if application deadline has already passed
+  const deadline = program.admissions?.deadline;
+  if (deadline) {
+    const deadlineDate = new Date(deadline);
+    if (deadlineDate < TODAY) {
+      status = 'ruled_out';
+      const deadlineStr = deadlineDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      reasons.push(`Application deadline passed (${deadlineStr})`);
+      program.plan_fit = { status, reasons };
+      return;
+    }
+  }
 
   // Check if program requires complete prereqs at application
   if (inProgressOk === false) {
