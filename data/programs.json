@@ -68,7 +68,8 @@
         "raw_score": 3.08,
         "rank": 1,
         "national_percentile": 0.65,
-        "location_combined": 7.79
+        "location_combined": 7.79,
+        "np_type_multiplier": 1
       },
       "notes": "12-month fast track; $30K scholarship for all admits; UPMC + AHN rotations; 95.6% NCLEX [OOS tuition applied]",
       "scoring_notes": "User's #1 city; on-the-come-up; excellent topology",
@@ -171,7 +172,8 @@
         "raw_score": 2.26,
         "rank": 2,
         "national_percentile": 0.45,
-        "location_combined": 7.28
+        "location_combined": 7.28,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Boise, ID",
@@ -209,6 +211,103 @@
         "reasons": [
           "Needs 5 extra courses: Pathobiology, Pharmacotherapy for Nursing, Intro to Organic & Biochem with Lab, Cultural Diversity, Medical Ethics",
           "More than 3 courses - may need summer additions or test-outs"
+        ]
+      }
+    },
+    {
+      "id": "emory",
+      "name": "Emory",
+      "type": "DABSN",
+      "location": {
+        "full": "Atlanta, GA"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null,
+        "extra": [
+          "General Chemistry I with lab"
+        ],
+        "online_ap_labs": null,
+        "online_lab_notes": "Contact admissions to verify"
+      },
+      "admissions": {
+        "email": "nursingquestions@emory.edu",
+        "deadline": "2026-09-01",
+        "start_date": "2027-01-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply with courses in progress, complete by orientation. <20% acceptance."
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "online_lab_conf": null,
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "DABSN leads directly to NP specialization tracks"
+      },
+      "scores": {
+        "location_score": 7,
+        "location_boost": null,
+        "np_pathway": 0.91,
+        "prestige": 0.95,
+        "competitiveness": 0.9,
+        "start_score": 1,
+        "cost_score": 0.34,
+        "raw_score": 2.22,
+        "rank": 3,
+        "national_percentile": 0.9,
+        "location_combined": 6.34,
+        "np_type_multiplier": 1.2
+      },
+      "notes": "DABSN leads to NP; #2 BSN nat'l; ~$82K; 3 start dates [OOS tuition applied]",
+      "scoring_notes": "Top-10 nationally",
+      "costs": {
+        "Location": "Atlanta, GA",
+        "Tuition": 58000,
+        "Fees": 3500,
+        "Schlrshp Amt": 2250,
+        "Schlrshp %": null,
+        "Net Tuition": 59250,
+        "COL Index": 108,
+        "Duration (mo)": 12,
+        "Living $/mo": 1500,
+        "Total Living": 19440,
+        "Total Cost": 78690,
+        "Mo. Burn": 6558,
+        "Cost Score": 0.34
+      },
+      "regional": {
+        "ed_opportunity": 0.95,
+        "np_accessibility": 0.9,
+        "underserved_access": 0.85,
+        "np_pathway_calculated": 0.91
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 15000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 2250,
+        "expected_value_with_commitment": 2250
+      },
+      "plan_fit": {
+        "status": "fall_required",
+        "reasons": [
+          "Fall 2026 courses needed (1): General Chemistry I with lab",
+          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -263,9 +362,10 @@
         "start_score": 1,
         "cost_score": 0.51,
         "raw_score": 2.17,
-        "rank": 3,
+        "rank": 4,
         "national_percentile": 0.7,
-        "location_combined": 8.36
+        "location_combined": 8.36,
+        "np_type_multiplier": 1
       },
       "notes": "CCNE accredited; 97% NCLEX pass rate; Spring/Fall starts [OOS tuition applied]",
       "scoring_notes": "Top St. Louis metro - excellent NP pathway",
@@ -362,9 +462,10 @@
         "start_score": 1,
         "cost_score": 0.72,
         "raw_score": 1.98,
-        "rank": 4,
+        "rank": 5,
         "national_percentile": 0.8,
-        "location_combined": 5.96
+        "location_combined": 5.96,
+        "np_type_multiplier": 1
       },
       "notes": "Pacesetter BSN 15 mo, 60 prereq hrs, no time limit on prereqs, 3.0 GPA, HESI/TEAS, FREE TUITION if income <$100K (Future Nurses Fund), ~130/cohort, 3 starts/yr",
       "scoring_notes": "Cizik School highly ranked, Texas Medical Center flagship",
@@ -459,9 +560,10 @@
         "start_score": 1,
         "cost_score": 0.61,
         "raw_score": 1.94,
-        "rank": 5,
+        "rank": 6,
         "national_percentile": 0.55,
-        "location_combined": 7.44
+        "location_combined": 7.44,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Cleveland, OH",
@@ -554,9 +656,10 @@
         "start_score": 1,
         "cost_score": 0.52,
         "raw_score": 1.88,
-        "rank": 6,
+        "rank": 7,
         "national_percentile": 0.55,
-        "location_combined": 6.08
+        "location_combined": 6.08,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Buffalo, NY",
@@ -593,102 +696,6 @@
         "status": "fall_required",
         "reasons": [
           "Fall 2026 courses needed (1): Pharmacology"
-        ]
-      }
-    },
-    {
-      "id": "emory",
-      "name": "Emory",
-      "type": "DABSN",
-      "location": {
-        "full": "Atlanta, GA"
-      },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": true,
-          "chem": true,
-          "lifespan": true,
-          "nutrition": true,
-          "psych": true,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
-        },
-        "additional": null,
-        "addl_prereq_fit": null,
-        "extra": [
-          "General Chemistry I with lab"
-        ],
-        "online_ap_labs": null,
-        "online_lab_notes": "Contact admissions to verify"
-      },
-      "admissions": {
-        "email": "nursingquestions@emory.edu",
-        "deadline": "2026-09-01",
-        "start_date": "2027-01-15",
-        "in_progress_ok": true,
-        "app_timing_notes": "Can apply with courses in progress, complete by orientation. <20% acceptance."
-      },
-      "program_details": {
-        "duration_months": 12,
-        "terms": 3,
-        "online_lab_conf": null,
-        "np_pathway_type": "pre_specialty",
-        "np_pathway_notes": "DABSN leads directly to NP specialization tracks"
-      },
-      "scores": {
-        "location_score": 7,
-        "location_boost": null,
-        "np_pathway": 0.91,
-        "prestige": 0.95,
-        "competitiveness": 0.9,
-        "start_score": 1,
-        "cost_score": 0.34,
-        "raw_score": 1.85,
-        "rank": 7,
-        "national_percentile": 0.9,
-        "location_combined": 6.34
-      },
-      "notes": "DABSN leads to NP; #2 BSN nat'l; ~$82K; 3 start dates [OOS tuition applied]",
-      "scoring_notes": "Top-10 nationally",
-      "costs": {
-        "Location": "Atlanta, GA",
-        "Tuition": 58000,
-        "Fees": 3500,
-        "Schlrshp Amt": 2250,
-        "Schlrshp %": null,
-        "Net Tuition": 59250,
-        "COL Index": 108,
-        "Duration (mo)": 12,
-        "Living $/mo": 1500,
-        "Total Living": 19440,
-        "Total Cost": 78690,
-        "Mo. Burn": 6558,
-        "Cost Score": 0.34
-      },
-      "regional": {
-        "ed_opportunity": 0.95,
-        "np_accessibility": 0.9,
-        "underserved_access": 0.85,
-        "np_pathway_calculated": 0.91
-      },
-      "scholarships": {
-        "guaranteed": null,
-        "work_commitment": null,
-        "merit": {
-          "pool": 15000,
-          "probability": 0.15
-        },
-        "expected_value_no_commitment": 2250,
-        "expected_value_with_commitment": 2250
-      },
-      "plan_fit": {
-        "status": "fall_required",
-        "reasons": [
-          "Fall 2026 courses needed (1): General Chemistry I with lab",
-          "Online A&P lab policy unclear - verify with school before applying"
         ]
       }
     },
@@ -746,7 +753,8 @@
         "raw_score": 1.78,
         "rank": 8,
         "national_percentile": 0.45,
-        "location_combined": 6.75
+        "location_combined": 6.75,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Dayton, OH",
@@ -837,7 +845,8 @@
         "raw_score": 1.74,
         "rank": 9,
         "national_percentile": 0.8,
-        "location_combined": 7.99
+        "location_combined": 7.99,
+        "np_type_multiplier": 1
       },
       "notes": "Tuition Promise locks rate; 15-month intensive; Ashland/Bend/Portland [OOS tuition applied]",
       "scoring_notes": "Full NP practice authority state + food/music/dating scene",
@@ -932,7 +941,8 @@
         "raw_score": 1.7,
         "rank": 10,
         "national_percentile": 0.6,
-        "location_combined": 6.6
+        "location_combined": 6.6,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Kansas City, MO",
@@ -1025,7 +1035,8 @@
         "raw_score": 1.6,
         "rank": 11,
         "national_percentile": 0.7,
-        "location_combined": 6.56
+        "location_combined": 6.56,
+        "np_type_multiplier": 1
       },
       "notes": "Hybrid option; Social justice emphasis; 94% NCLEX; Northwestern Memorial rotations [OOS tuition applied]",
       "scoring_notes": "Strong Jesuit program; food + music scene",
@@ -1120,7 +1131,8 @@
         "raw_score": 1.6,
         "rank": 12,
         "national_percentile": 0.55,
-        "location_combined": 7.32
+        "location_combined": 7.32,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Seattle, WA",
@@ -1157,6 +1169,100 @@
         "status": "fall_required",
         "reasons": [
           "Fall 2026 courses needed (1): Organic/Biochemistry (CHM 1360)"
+        ]
+      }
+    },
+    {
+      "id": "duke",
+      "name": "Duke",
+      "type": "MN",
+      "location": {
+        "full": "Durham, NC"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null,
+        "extra": [],
+        "online_ap_labs": "conditional",
+        "online_lab_notes": "Online courses accepted; verify virtual labs"
+      },
+      "admissions": {
+        "email": "sonadmissions@dm.duke.edu",
+        "deadline": "2026-01-15",
+        "start_date": "2026-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Prereqs not required before applying, must complete before enrollment. NOTE: Duke ABSN ending Spring 2026 - only MN available."
+      },
+      "program_details": {
+        "duration_months": 16,
+        "terms": 4,
+        "online_lab_conf": null,
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "MN program with integrated specialty tracks"
+      },
+      "scores": {
+        "location_score": 7.5,
+        "location_boost": null,
+        "np_pathway": 0.8,
+        "prestige": 0.95,
+        "competitiveness": 0.83,
+        "start_score": 0.8,
+        "cost_score": 0.44,
+        "raw_score": 1.6,
+        "rank": 13,
+        "national_percentile": 0.97,
+        "location_combined": 5.96,
+        "np_type_multiplier": 1.2
+      },
+      "notes": "ABSN ended; now MN (Masters); ~$119K total; elite [OOS tuition applied]",
+      "scoring_notes": "#2-3 nationally, elite private",
+      "costs": {
+        "Location": "Durham, NC",
+        "Tuition": 62000,
+        "Fees": 4000,
+        "Schlrshp Amt": 2000,
+        "Schlrshp %": null,
+        "Net Tuition": 64000,
+        "COL Index": 110,
+        "Duration (mo)": 16,
+        "Living $/mo": 1500,
+        "Total Living": 26400,
+        "Total Cost": 90400,
+        "Mo. Burn": 5650,
+        "Cost Score": 0.44
+      },
+      "regional": {
+        "ed_opportunity": 0.8,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.7,
+        "np_pathway_calculated": 0.8
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 20000,
+          "probability": 0.1
+        },
+        "expected_value_no_commitment": 2000,
+        "expected_value_with_commitment": 2000
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Online A&P labs: case-by-case review - verify with school"
         ]
       }
     },
@@ -1207,9 +1313,10 @@
         "start_score": 0.8,
         "cost_score": 0.65,
         "raw_score": 1.55,
-        "rank": 13,
+        "rank": 14,
         "national_percentile": 0.85,
-        "location_combined": 6.41
+        "location_combined": 6.41,
+        "np_type_multiplier": 1
       },
       "notes": "TEAS req; #1 public #4 overall; ~$16.5K tuition [OOS tuition applied]",
       "scoring_notes": "Top-15 public, strong Midwest reputation",
@@ -1304,9 +1411,10 @@
         "start_score": 1,
         "cost_score": 0.45,
         "raw_score": 1.54,
-        "rank": 14,
+        "rank": 15,
         "national_percentile": 0.65,
-        "location_combined": 6.72
+        "location_combined": 6.72,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Birmingham, AL",
@@ -1400,9 +1508,10 @@
         "start_score": 0.8,
         "cost_score": 0.76,
         "raw_score": 1.52,
-        "rank": 15,
+        "rank": 16,
         "national_percentile": 0.5,
-        "location_combined": 7.14
+        "location_combined": 7.14,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Memphis, TN",
@@ -1493,7 +1602,8 @@
         "cost_score": 0.54,
         "raw_score": 1.52,
         "location_combined": 7.98,
-        "rank": 16
+        "rank": 17,
+        "np_type_multiplier": 1
       },
       "notes": "15-month program; 100% NCLEX pass rate; $695/credit (~63 credits); Catholic university",
       "scoring_notes": "Strong clinical placements in UPMC network",
@@ -1586,9 +1696,10 @@
         "start_score": 1,
         "cost_score": 0.5,
         "raw_score": 1.49,
-        "rank": 17,
+        "rank": 18,
         "national_percentile": 0.55,
-        "location_combined": 6.97
+        "location_combined": 6.97,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Albuquerque, NM",
@@ -1679,9 +1790,10 @@
         "start_score": 0.8,
         "cost_score": 0.45,
         "raw_score": 1.44,
-        "rank": 18,
+        "rank": 19,
         "national_percentile": 0.75,
-        "location_combined": 5.29
+        "location_combined": 5.29,
+        "np_type_multiplier": 1
       },
       "notes": "WI resident priority; $45K resident/$60K non-res",
       "scoring_notes": "Strong regional, top-25 public nursing",
@@ -1771,9 +1883,10 @@
         "start_score": 0.8,
         "cost_score": 0.47,
         "raw_score": 1.4,
-        "rank": 19,
+        "rank": 20,
         "national_percentile": 0.65,
-        "location_combined": 7.8
+        "location_combined": 7.8,
+        "np_type_multiplier": 1
       },
       "notes": "Fall 2026 applications open; Private Catholic university",
       "scoring_notes": "On-the-come-up city + food/music/dating scene",
@@ -1864,9 +1977,10 @@
         "start_score": 1,
         "cost_score": 0.67,
         "raw_score": 1.39,
-        "rank": 20,
+        "rank": 21,
         "national_percentile": 0.55,
-        "location_combined": 6.48
+        "location_combined": 6.48,
+        "np_type_multiplier": 1
       },
       "notes": "Hybrid program; Ochsner Nurse Scholar bonus ($30K); Greater NOLA clinical sites [OOS tuition applied]",
       "scoring_notes": "Food + music city; excellent underserved access",
@@ -1962,9 +2076,10 @@
         "start_score": 1,
         "cost_score": 0.28,
         "raw_score": 1.37,
-        "rank": 21,
+        "rank": 22,
         "national_percentile": 0.92,
-        "location_combined": 6.57
+        "location_combined": 6.57,
+        "np_type_multiplier": 1
       },
       "notes": "Competitive; B min sciences; ~$50K (flat rate) [OOS tuition applied]",
       "scoring_notes": "#4 nationally per US News 2024",
@@ -2058,9 +2173,10 @@
         "start_score": 1,
         "cost_score": 0.57,
         "raw_score": 1.35,
-        "rank": 22,
+        "rank": 23,
         "national_percentile": 0.6,
-        "location_combined": 6.24
+        "location_combined": 6.24,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Miami, FL",
@@ -2097,99 +2213,6 @@
         "status": "fall_required",
         "reasons": [
           "Fall 2026 courses needed (1): Chemistry for Health Sciences with lab"
-        ]
-      }
-    },
-    {
-      "id": "duke",
-      "name": "Duke",
-      "type": "MN",
-      "location": {
-        "full": "Durham, NC"
-      },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": true,
-          "chem": true,
-          "lifespan": true,
-          "nutrition": false,
-          "psych": false,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
-        },
-        "additional": null,
-        "addl_prereq_fit": null,
-        "extra": [],
-        "online_ap_labs": "conditional",
-        "online_lab_notes": "Online courses accepted; verify virtual labs"
-      },
-      "admissions": {
-        "email": "sonadmissions@dm.duke.edu",
-        "deadline": "2026-01-15",
-        "start_date": "2026-08-15",
-        "in_progress_ok": true,
-        "app_timing_notes": "Prereqs not required before applying, must complete before enrollment. NOTE: Duke ABSN ending Spring 2026 - only MN available."
-      },
-      "program_details": {
-        "duration_months": 16,
-        "terms": 4,
-        "online_lab_conf": null,
-        "np_pathway_type": "pre_specialty",
-        "np_pathway_notes": "MN program with integrated specialty tracks"
-      },
-      "scores": {
-        "location_score": 7.5,
-        "location_boost": null,
-        "np_pathway": 0.8,
-        "prestige": 0.95,
-        "competitiveness": 0.83,
-        "start_score": 0.8,
-        "cost_score": 0.44,
-        "raw_score": 1.33,
-        "rank": 23,
-        "national_percentile": 0.97,
-        "location_combined": 5.96
-      },
-      "notes": "ABSN ended; now MN (Masters); ~$119K total; elite [OOS tuition applied]",
-      "scoring_notes": "#2-3 nationally, elite private",
-      "costs": {
-        "Location": "Durham, NC",
-        "Tuition": 62000,
-        "Fees": 4000,
-        "Schlrshp Amt": 2000,
-        "Schlrshp %": null,
-        "Net Tuition": 64000,
-        "COL Index": 110,
-        "Duration (mo)": 16,
-        "Living $/mo": 1500,
-        "Total Living": 26400,
-        "Total Cost": 90400,
-        "Mo. Burn": 5650,
-        "Cost Score": 0.44
-      },
-      "regional": {
-        "ed_opportunity": 0.8,
-        "np_accessibility": 0.85,
-        "underserved_access": 0.7,
-        "np_pathway_calculated": 0.8
-      },
-      "scholarships": {
-        "guaranteed": null,
-        "work_commitment": null,
-        "merit": {
-          "pool": 20000,
-          "probability": 0.1
-        },
-        "expected_value_no_commitment": 2000,
-        "expected_value_with_commitment": 2000
-      },
-      "plan_fit": {
-        "status": "fits",
-        "reasons": [
-          "Online A&P labs: case-by-case review - verify with school"
         ]
       }
     },
@@ -2244,7 +2267,8 @@
         "raw_score": 1.3,
         "rank": 24,
         "national_percentile": 0.5,
-        "location_combined": 6.24
+        "location_combined": 6.24,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Tulsa, OK",
@@ -2335,7 +2359,8 @@
         "raw_score": 1.28,
         "rank": 25,
         "national_percentile": 0.6,
-        "location_combined": 7.49
+        "location_combined": 7.49,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Louisville, KY",
@@ -2430,7 +2455,8 @@
         "raw_score": 1.28,
         "rank": 26,
         "national_percentile": 0.65,
-        "location_combined": 6.08
+        "location_combined": 6.08,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Tucson, AZ",
@@ -2519,7 +2545,8 @@
         "cost_score": 0.4,
         "raw_score": 1.27,
         "location_combined": 6.48,
-        "rank": 27
+        "rank": 27,
+        "np_type_multiplier": 1
       },
       "notes": "16mo hybrid program; $69,280 tuition OR FREE via LCMC Nurse Scholars (2yr work commitment); elite program [OOS tuition applied]",
       "scoring_notes": "R1 research university; excellent NOLA clinical sites",
@@ -2562,6 +2589,107 @@
         "status": "fits",
         "reasons": [
           "Standard prereqs match your plan"
+        ]
+      }
+    },
+    {
+      "id": "rush",
+      "name": "Rush",
+      "type": "GEM",
+      "location": {
+        "full": "Chicago, IL",
+        "city": "Chicago",
+        "state": "IL"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": false,
+          "chem": true,
+          "lifespan": false,
+          "nutrition": false,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "None beyond core sciences. Labs recommended but NOT required.",
+        "addl_prereq_fit": 1,
+        "extra": [
+          "3 of 4 prereqs from 4-year institution"
+        ]
+      },
+      "admissions": {
+        "email": "nursing@rushu.rush.edu",
+        "deadline": "2026-10-19",
+        "start_date": "2027-01-04",
+        "in_progress_ok": false,
+        "app_timing_notes": "All prereqs complete with C+ by NursingCAS deadline. Only 4 prereqs!"
+      },
+      "program_details": {
+        "duration_months": 24,
+        "terms": 6,
+        "online_lab_conf": 0.85,
+        "format": "Hybrid (online + in-person)",
+        "degree": "MSN Clinical Nurse Leader",
+        "np_pathway_type": "cnl",
+        "np_pathway_notes": "GEM results in MSN + Clinical Nurse Leader (CNL) certification. CNL focus is care coordination/systems leadership, not direct clinical NP path."
+      },
+      "scores": {
+        "location_score": 8,
+        "location_boost": 0,
+        "np_pathway": 0.94,
+        "prestige": 0.85,
+        "competitiveness": 0.92,
+        "start_score": 1,
+        "cost_score": 0.47,
+        "raw_score": 1.22,
+        "rank": 28,
+        "national_percentile": 0.88,
+        "online_lab_conf": 1,
+        "location_combined": 7.5,
+        "np_type_multiplier": 1.1
+      },
+      "notes": "Excellent NP pathway with Direct Entry option to doctoral programs. Minimal prereqs make this very accessible. 100% NCLEX pass rate. 24-month program is longer than some ABSNs but yields MSN degree. Strong option for NP career track.",
+      "scoring_notes": null,
+      "costs": {
+        "Location": "Chicago, IL",
+        "Net Tuition": 86194,
+        "Tuition": 83694,
+        "Fees": 2500,
+        "COL Index": 115,
+        "Duration (mo)": 24,
+        "Mo. Burn": 5316,
+        "Cost Score": 0.47,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null
+      },
+      "sources": [
+        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses",
+        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses/masters-entry-nursing-msn-non-nurses-admission-guidelines",
+        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/rush-university-33081"
+      ],
+      "regional": {
+        "ed_opportunity": 0.95,
+        "np_accessibility": 0.95,
+        "underserved_access": 0.9,
+        "np_pathway_calculated": 0.94
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "ruled_out",
+        "reasons": [
+          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
       }
     },
@@ -2620,9 +2748,10 @@
         "start_score": 0.8,
         "cost_score": 0.56,
         "raw_score": 1.21,
-        "rank": 28,
+        "rank": 29,
         "national_percentile": 0.55,
-        "location_combined": 6.32
+        "location_combined": 6.32,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Fayetteville, AR",
@@ -2717,9 +2846,10 @@
         "start_score": 1,
         "cost_score": 0.33,
         "raw_score": 1.18,
-        "rank": 29,
+        "rank": 30,
         "national_percentile": 0.7,
-        "location_combined": 6.56
+        "location_combined": 6.56,
+        "np_type_multiplier": 1
       },
       "notes": "Also Charlotte, Providence campuses",
       "scoring_notes": "Good research university, newer ABSN",
@@ -2813,9 +2943,10 @@
         "start_score": 1,
         "cost_score": 0.42,
         "raw_score": 1.17,
-        "rank": 30,
+        "rank": 31,
         "national_percentile": 0.75,
-        "location_combined": 6.1
+        "location_combined": 6.1,
+        "np_type_multiplier": 1
       },
       "notes": "12 mo (5 eight-wk terms), 10-yr latency on sciences, B min on prereqs, 3.0 GPA, Omaha & Phoenix campuses, 93% NCLEX, 48-56 students/cohort [OOS tuition applied]",
       "scoring_notes": "Top 30 per US News, 50-year ABSN track record",
@@ -2908,9 +3039,10 @@
         "start_score": 1,
         "cost_score": 0.45,
         "raw_score": 1.17,
-        "rank": 31,
+        "rank": 32,
         "national_percentile": 0.75,
-        "location_combined": 7.22
+        "location_combined": 7.22,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Greenville, SC",
@@ -3002,9 +3134,10 @@
         "start_score": 1,
         "cost_score": 0.55,
         "raw_score": 1.17,
-        "rank": 32,
+        "rank": 33,
         "national_percentile": 0.5,
-        "location_combined": 6.08
+        "location_combined": 6.08,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Providence, RI",
@@ -3097,9 +3230,10 @@
         "start_score": 1,
         "cost_score": 0.29,
         "raw_score": 1.11,
-        "rank": 33,
+        "rank": 34,
         "national_percentile": 0.85,
-        "location_combined": 7.95
+        "location_combined": 7.95,
+        "np_type_multiplier": 1
       },
       "notes": "3 terms (12 mo), 10-yr prereq latency, B- min on science, 3.0 GPA, $8,333 guaranteed scholarship, 30 students/cohort, rolling admissions [OOS tuition applied]",
       "scoring_notes": "Top 15 nursing program, UPMC affiliation",
@@ -3142,106 +3276,6 @@
         "reasons": [
           "Fall 2026 courses needed (3): Human Genetics (3 cr), Pathophysiology (4 cr), English Composition - technical writing (3 cr)",
           "Online A&P lab policy unclear - verify with school before applying"
-        ]
-      }
-    },
-    {
-      "id": "rush",
-      "name": "Rush",
-      "type": "GEM",
-      "location": {
-        "full": "Chicago, IL",
-        "city": "Chicago",
-        "state": "IL"
-      },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": false,
-          "chem": true,
-          "lifespan": false,
-          "nutrition": false,
-          "psych": false,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
-        },
-        "additional": "None beyond core sciences. Labs recommended but NOT required.",
-        "addl_prereq_fit": 1,
-        "extra": [
-          "3 of 4 prereqs from 4-year institution"
-        ]
-      },
-      "admissions": {
-        "email": "nursing@rushu.rush.edu",
-        "deadline": "2026-10-19",
-        "start_date": "2027-01-04",
-        "in_progress_ok": false,
-        "app_timing_notes": "All prereqs complete with C+ by NursingCAS deadline. Only 4 prereqs!"
-      },
-      "program_details": {
-        "duration_months": 24,
-        "terms": 6,
-        "online_lab_conf": 0.85,
-        "format": "Hybrid (online + in-person)",
-        "degree": "MSN Clinical Nurse Leader",
-        "np_pathway_type": "cnl",
-        "np_pathway_notes": "GEM results in MSN + Clinical Nurse Leader (CNL) certification. CNL focus is care coordination/systems leadership, not direct clinical NP path."
-      },
-      "scores": {
-        "location_score": 8,
-        "location_boost": 0,
-        "np_pathway": 0.94,
-        "prestige": 0.85,
-        "competitiveness": 0.92,
-        "start_score": 1,
-        "cost_score": 0.47,
-        "raw_score": 1.11,
-        "rank": 34,
-        "national_percentile": 0.88,
-        "online_lab_conf": 1,
-        "location_combined": 7.5
-      },
-      "notes": "Excellent NP pathway with Direct Entry option to doctoral programs. Minimal prereqs make this very accessible. 100% NCLEX pass rate. 24-month program is longer than some ABSNs but yields MSN degree. Strong option for NP career track.",
-      "scoring_notes": null,
-      "costs": {
-        "Location": "Chicago, IL",
-        "Net Tuition": 86194,
-        "Tuition": 83694,
-        "Fees": 2500,
-        "COL Index": 115,
-        "Duration (mo)": 24,
-        "Mo. Burn": 5316,
-        "Cost Score": 0.47,
-        "Schlrshp Amt": 0,
-        "Schlrshp %": null
-      },
-      "sources": [
-        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses",
-        "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses/masters-entry-nursing-msn-non-nurses-admission-guidelines",
-        "https://www.usnews.com/best-graduate-schools/top-nursing-schools/rush-university-33081"
-      ],
-      "regional": {
-        "ed_opportunity": 0.95,
-        "np_accessibility": 0.95,
-        "underserved_access": 0.9,
-        "np_pathway_calculated": 0.94
-      },
-      "scholarships": {
-        "guaranteed": null,
-        "work_commitment": null,
-        "merit": {
-          "pool": 0,
-          "probability": 0
-        },
-        "expected_value_no_commitment": 0,
-        "expected_value_with_commitment": 0
-      },
-      "plan_fit": {
-        "status": "ruled_out",
-        "reasons": [
-          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
       }
     },
@@ -3299,7 +3333,8 @@
         "raw_score": 1.11,
         "rank": 35,
         "national_percentile": 0.5,
-        "location_combined": 6.91
+        "location_combined": 6.91,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Salt Lake City, UT",
@@ -3394,7 +3429,8 @@
         "raw_score": 1.11,
         "rank": 36,
         "national_percentile": 0.7,
-        "location_combined": 6.2
+        "location_combined": 6.2,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Indianapolis, IN",
@@ -3487,7 +3523,8 @@
         "raw_score": 1.1,
         "rank": 37,
         "national_percentile": 0.55,
-        "location_combined": 6.68
+        "location_combined": 6.68,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Charlotte, NC",
@@ -3524,6 +3561,111 @@
         "status": "ruled_out",
         "reasons": [
           "Requires: CNA I certification (NC Nurse Aide Registry)"
+        ]
+      }
+    },
+    {
+      "id": "columbia",
+      "name": "Columbia",
+      "type": "DEMSN",
+      "location": {
+        "full": "New York, NY",
+        "city": "New York",
+        "state": "NY"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": false,
+          "lifespan": false,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "All prereqs must be grade B or higher. Stats must be within 5 years. Labs NOT required. Offers OPEN program for prereqs online.",
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "Statistics must be within 5 years"
+        ]
+      },
+      "admissions": {
+        "email": "nursing-admissions@columbia.edu",
+        "deadline": "2025-12-01",
+        "start_date": "2027-06-01",
+        "in_progress_ok": true,
+        "app_timing_notes": "At least 1 science prereq MUST be complete at application.",
+        "start_dates": [
+          "2027-06-01"
+        ],
+        "start_date_notes": "Summer (June) start only"
+      },
+      "program_details": {
+        "duration_months": 15,
+        "terms": 4,
+        "online_lab_conf": null,
+        "format": "Full-time, on-campus",
+        "degree": "MS (NY doesn't offer MSN)",
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "Direct Entry MS allows specialty declaration; seamless to DNP"
+      },
+      "scores": {
+        "location_score": 5,
+        "location_boost": 0,
+        "np_pathway": 0.91,
+        "prestige": 0.92,
+        "competitiveness": 0.84,
+        "start_score": 0.8,
+        "cost_score": null,
+        "raw_score": 1.08,
+        "rank": 38,
+        "national_percentile": 0.96,
+        "online_lab_conf": 1,
+        "location_combined": 4.55,
+        "np_type_multiplier": 1.2
+      },
+      "notes": "ELITE Ivy program but VERY expensive ($87K) + NYC COL (180 index). Historically top-5 ranked. Labs not required is nice. Grade B requirement on prereqs. Will be penalized by your competitiveness formula. NYC may not match your location preferences (high COL, limited outdoor access). [OOS tuition applied]",
+      "scoring_notes": null,
+      "costs": {
+        "Location": "New York, NY",
+        "Net Tuition": 88000,
+        "Tuition": 85000,
+        "Fees": 3000,
+        "COL Index": 180,
+        "Duration (mo)": 15,
+        "Mo. Burn": null,
+        "Cost Score": null,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Total Cost": null
+      },
+      "sources": [
+        "https://www.nursing.columbia.edu/academics/academic-programs/masters-direct-entry-program-non-nurses",
+        "https://www.nursing.columbia.edu/academics/admissions-glance"
+      ],
+      "regional": {
+        "ed_opportunity": 0.95,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.95,
+        "np_pathway_calculated": 0.91
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "adjust",
+        "reasons": [
+          "May require prereqs complete (not planned) at application - verify with school"
         ]
       }
     },
@@ -3576,7 +3718,8 @@
         "cost_score": 0.46,
         "raw_score": 1.04,
         "location_combined": 6.84,
-        "rank": 38
+        "rank": 39,
+        "np_type_multiplier": 1
       },
       "notes": "16mo hybrid; $900/credit (~69 credits = $61,880); Cincinnati campus paused but Columbus/Cleveland available [OOS tuition applied]",
       "scoring_notes": "Jesuit tradition; flexible locations",
@@ -3674,9 +3817,10 @@
         "start_score": 1,
         "cost_score": 0.49,
         "raw_score": 1.02,
-        "rank": 39,
+        "rank": 40,
         "national_percentile": 0.82,
-        "location_combined": 4.95
+        "location_combined": 4.95,
+        "np_type_multiplier": 1
       },
       "notes": "16-mo (4 semesters); $1000 OOS deposit; Top nursing school; Charleston location [OOS tuition applied]",
       "scoring_notes": "Top-ranked nursing school, academic medical center, ~80th percentile",
@@ -3774,9 +3918,10 @@
         "start_score": 1,
         "cost_score": 0.54,
         "raw_score": 1,
-        "rank": 40,
+        "rank": 41,
         "national_percentile": 0.55,
-        "location_combined": 5.53
+        "location_combined": 5.53,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "New York, NY",
@@ -3869,9 +4014,10 @@
         "start_score": 0.8,
         "cost_score": 0.48,
         "raw_score": 0.97,
-        "rank": 41,
+        "rank": 42,
         "national_percentile": 0.65,
-        "location_combined": 7.35
+        "location_combined": 7.35,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Detroit, MI",
@@ -3962,7 +4108,8 @@
         "cost_score": 0.63,
         "raw_score": 0.93,
         "location_combined": 6.45,
-        "rank": 42
+        "rank": 43,
+        "np_type_multiplier": 1
       },
       "notes": "20mo (5 semesters); $664/credit (~65 credits = ~$43,160); hybrid option available [OOS tuition applied]",
       "scoring_notes": "Affordable option in Columbus",
@@ -4056,9 +4203,10 @@
         "start_score": 0.8,
         "cost_score": 0,
         "raw_score": 0.9,
-        "rank": 43,
+        "rank": 44,
         "national_percentile": 1,
-        "location_combined": 5.53
+        "location_combined": 5.53,
+        "np_type_multiplier": 1
       },
       "notes": "Elite program; very competitive",
       "scoring_notes": "#1 US News nursing",
@@ -4097,110 +4245,6 @@
         "status": "fits",
         "reasons": [
           "Online A&P lab policy unclear - verify with school before applying"
-        ]
-      }
-    },
-    {
-      "id": "columbia",
-      "name": "Columbia",
-      "type": "DEMSN",
-      "location": {
-        "full": "New York, NY",
-        "city": "New York",
-        "state": "NY"
-      },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": true,
-          "chem": false,
-          "lifespan": false,
-          "nutrition": true,
-          "psych": false,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
-        },
-        "additional": "All prereqs must be grade B or higher. Stats must be within 5 years. Labs NOT required. Offers OPEN program for prereqs online.",
-        "addl_prereq_fit": 0.8,
-        "extra": [
-          "Statistics must be within 5 years"
-        ]
-      },
-      "admissions": {
-        "email": "nursing-admissions@columbia.edu",
-        "deadline": "2025-12-01",
-        "start_date": "2027-06-01",
-        "in_progress_ok": true,
-        "app_timing_notes": "At least 1 science prereq MUST be complete at application.",
-        "start_dates": [
-          "2027-06-01"
-        ],
-        "start_date_notes": "Summer (June) start only"
-      },
-      "program_details": {
-        "duration_months": 15,
-        "terms": 4,
-        "online_lab_conf": null,
-        "format": "Full-time, on-campus",
-        "degree": "MS (NY doesn't offer MSN)",
-        "np_pathway_type": "pre_specialty",
-        "np_pathway_notes": "Direct Entry MS allows specialty declaration; seamless to DNP"
-      },
-      "scores": {
-        "location_score": 5,
-        "location_boost": 0,
-        "np_pathway": 0.91,
-        "prestige": 0.92,
-        "competitiveness": 0.84,
-        "start_score": 0.8,
-        "cost_score": null,
-        "raw_score": 0.9,
-        "rank": 44,
-        "national_percentile": 0.96,
-        "online_lab_conf": 1,
-        "location_combined": 4.55
-      },
-      "notes": "ELITE Ivy program but VERY expensive ($87K) + NYC COL (180 index). Historically top-5 ranked. Labs not required is nice. Grade B requirement on prereqs. Will be penalized by your competitiveness formula. NYC may not match your location preferences (high COL, limited outdoor access). [OOS tuition applied]",
-      "scoring_notes": null,
-      "costs": {
-        "Location": "New York, NY",
-        "Net Tuition": 88000,
-        "Tuition": 85000,
-        "Fees": 3000,
-        "COL Index": 180,
-        "Duration (mo)": 15,
-        "Mo. Burn": null,
-        "Cost Score": null,
-        "Schlrshp Amt": 0,
-        "Schlrshp %": null,
-        "Total Cost": null
-      },
-      "sources": [
-        "https://www.nursing.columbia.edu/academics/academic-programs/masters-direct-entry-program-non-nurses",
-        "https://www.nursing.columbia.edu/academics/admissions-glance"
-      ],
-      "regional": {
-        "ed_opportunity": 0.95,
-        "np_accessibility": 0.85,
-        "underserved_access": 0.95,
-        "np_pathway_calculated": 0.91
-      },
-      "scholarships": {
-        "guaranteed": null,
-        "work_commitment": null,
-        "merit": {
-          "pool": 0,
-          "probability": 0
-        },
-        "expected_value_no_commitment": 0,
-        "expected_value_with_commitment": 0
-      },
-      "plan_fit": {
-        "status": "adjust",
-        "reasons": [
-          "May require prereqs complete (not planned) at application - verify with school"
         ]
       }
     },
@@ -4257,7 +4301,8 @@
         "raw_score": 0.89,
         "rank": 45,
         "national_percentile": 0.72,
-        "location_combined": 6.59
+        "location_combined": 6.59,
+        "np_type_multiplier": 1
       },
       "notes": "12-mo program; Summer start; Rolling admissions opens Aug; UTMC scholarship $12,776 available [OOS tuition applied]",
       "scoring_notes": "State flagship, solid nursing school, ~70th percentile nationally",
@@ -4365,7 +4410,8 @@
         "rank": 46,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 6.8
+        "location_combined": 6.8,
+        "np_type_multiplier": 1
       },
       "notes": "CLOSE TO PITTSBURGH (your #1 city!). Fast 11-month program. Standard prereqs. Moderate cost. But weaker NP pathway (unranked MSN). Good if you want to be near Pittsburgh during school, then transfer for NP. Philly has good outdoor access to Appalachians. [OOS tuition applied]",
       "scoring_notes": null,
@@ -4463,7 +4509,8 @@
         "raw_score": 0.79,
         "rank": 47,
         "national_percentile": 0.65,
-        "location_combined": 6.34
+        "location_combined": 6.34,
+        "np_type_multiplier": 1
       },
       "notes": "12-mo program; 3 starts; Atlanta; $62K tuition; TEAS required; Georgia Baptist College of Nursing",
       "scoring_notes": "Georgia Baptist College oldest in state, well-respected, ~65th percentile",
@@ -4558,7 +4605,8 @@
         "cost_score": 0.68,
         "raw_score": 0.79,
         "location_combined": 5.6,
-        "rank": 48
+        "rank": 48,
+        "np_type_multiplier": 1
       },
       "notes": "24mo accelerated BSN; ~$30,607 total tuition (OOS); flagship Maryland nursing school [OOS tuition applied]",
       "scoring_notes": "Top 10 public nursing school",
@@ -4654,7 +4702,8 @@
         "raw_score": 0.76,
         "rank": 49,
         "national_percentile": 0.5,
-        "location_combined": 6.85
+        "location_combined": 6.85,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Colorado Springs, CO",
@@ -4746,7 +4795,8 @@
         "raw_score": 0.75,
         "rank": 50,
         "national_percentile": 0.55,
-        "location_combined": 6.84
+        "location_combined": 6.84,
+        "np_type_multiplier": 1
       },
       "notes": "16-mo hybrid; 3 start dates (Jan/May/Sep); St. Paul or Portland locations; $4000 St. Paul scholarship",
       "scoring_notes": "Regional private school, ~55th percentile",
@@ -4843,7 +4893,8 @@
         "raw_score": 0.74,
         "rank": 51,
         "national_percentile": 0.88,
-        "location_combined": 6.45
+        "location_combined": 6.45,
+        "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Washington, DC",
@@ -4946,7 +4997,8 @@
         "rank": 52,
         "national_percentile": 0.78,
         "online_lab_conf": 0.8,
-        "location_combined": 4.49
+        "location_combined": 4.49,
+        "np_type_multiplier": 1
       },
       "notes": "STRONG VALUE option - lower COL, good rankings, standard prereqs. In your 80th percentile sweet spot. Hybrid format gives some flexibility. Lexington is a nice college town but may feel small. Good NP pathway with pioneering DNP program.",
       "scoring_notes": null,
@@ -5046,7 +5098,8 @@
         "raw_score": 0.7,
         "rank": 53,
         "national_percentile": 0.55,
-        "location_combined": 5.32
+        "location_combined": 5.32,
+        "np_type_multiplier": 1
       },
       "notes": "97% NCLEX (2024); Full NP practice authority state; River + mountains; Affordable outdoor city [OOS tuition applied]",
       "scoring_notes": "User favorite - mountain/river access; underrated city",
@@ -5143,7 +5196,8 @@
         "raw_score": 0.69,
         "rank": 54,
         "national_percentile": 0.5,
-        "location_combined": 6.51
+        "location_combined": 6.51,
+        "np_type_multiplier": 1
       },
       "notes": "16-mo hybrid; 3 starts; Phoenix + 7 other states; $54K tuition; Christian worldview; 95%+ NCLEX",
       "scoring_notes": "Large for-profit converted, improving reputation, ~50th percentile",
@@ -5238,7 +5292,8 @@
         "rank": 55,
         "national_percentile": 0.65,
         "online_lab_conf": 0.8,
-        "location_combined": 7.5
+        "location_combined": 7.5,
+        "np_type_multiplier": 1
       },
       "notes": "Lower cost Chicago option. First MENP in Illinois. Offers Balanced Stride option for more flexibility. 75+ clinical sites including guaranteed ICU rotation. Lower prestige but solid outcomes. Good if targeting Chicago area.",
       "scoring_notes": null,
@@ -5342,7 +5397,8 @@
         "rank": 56,
         "national_percentile": 0.61,
         "online_lab_conf": 0.8,
-        "location_combined": 4.31
+        "location_combined": 4.31,
+        "np_type_multiplier": 1
       },
       "notes": "Strong local option if you decide staying in Milwaukee is acceptable. Faster than Rush (15 vs 24 months). Pleasant Prairie campus offers hybrid format. Fixed tuition is nice for budgeting. However, you mentioned wanting to LEAVE Milwaukee - factor that into decision.",
       "scoring_notes": null,
@@ -5440,7 +5496,8 @@
         "raw_score": 0.53,
         "rank": 57,
         "national_percentile": 0.55,
-        "location_combined": 5.58
+        "location_combined": 5.58,
+        "np_type_multiplier": 1
       },
       "notes": "15-mo hybrid; 3 starts (Jan/May/Sep); Baltimore area; $58-62K tuition; FNP & A-GNP at same school",
       "scoring_notes": "Regional private, small nursing school, ~55th percentile",
@@ -5535,7 +5592,8 @@
         "raw_score": 0.5,
         "rank": 58,
         "national_percentile": 0.55,
-        "location_combined": 4.54
+        "location_combined": 4.54,
+        "np_type_multiplier": 1
       },
       "notes": "B- min in sciences [OOS tuition applied]",
       "scoring_notes": "CSU system, regional",
@@ -5637,7 +5695,8 @@
         "rank": 59,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 4.36
+        "location_combined": 4.36,
+        "np_type_multiplier": 1
       },
       "notes": "MADISON BACKUP option. 100% NCLEX pass rate is excellent. Reasonable $45K fixed tuition. Fast 12-month program. BUT: weak NP pathway (BSN only). Close enough to Milwaukee that family pressure might persist. Good value if you just want BSN quickly.",
       "scoring_notes": null,
@@ -5734,7 +5793,8 @@
         "rank": 60,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 7.5
+        "location_combined": 7.5,
+        "np_type_multiplier": 1
       },
       "notes": "Another Chicago option. Lower prestige than Rush/DePaul but similar price. TEAS exam required. 20 months is moderate length. Falls in your 80th percentile sweet spot due to not being elite. Could be good backup Chicago option. [OOS tuition applied]",
       "scoring_notes": null,
@@ -5770,6 +5830,100 @@
         },
         "expected_value_no_commitment": 0,
         "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
+      }
+    },
+    {
+      "id": "uvm-burlington",
+      "name": "UVM",
+      "type": "MEPN",
+      "location": {
+        "full": "Burlington, VT"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null,
+        "extra": [
+          "GRE may be required"
+        ]
+      },
+      "admissions": {
+        "email": "cnhsgrad@uvm.edu",
+        "deadline": "2026-02-01",
+        "start_date": "2027-05-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Max 2 prereqs incomplete at application. MEPN program (not ABSN)."
+      },
+      "program_details": {
+        "duration_months": 36,
+        "terms": 9,
+        "online_lab_conf": 0.85,
+        "np_pathway_type": "pre_specialty",
+        "np_pathway_notes": "Direct entry MSN with NP pathway"
+      },
+      "scores": {
+        "location_score": 6.5,
+        "location_boost": 0.5,
+        "np_pathway": 0.78,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 0.8,
+        "cost_score": 0.58,
+        "raw_score": 0.33,
+        "rank": 61,
+        "national_percentile": 0.6,
+        "location_combined": 5.46,
+        "np_type_multiplier": 1.2
+      },
+      "notes": "MEPN = 1yr prelicensure + 2yr MSN; Full NP practice authority state; 675 clinical hours yr 1 [OOS tuition applied]",
+      "scoring_notes": "Beautiful location; hipster food/craft scene; skiing",
+      "costs": {
+        "Location": "Burlington, VT",
+        "Tuition": 85000,
+        "Fees": 3000,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Net Tuition": 88000,
+        "COL Index": 115,
+        "Duration (mo)": 36,
+        "Living $/mo": 1500,
+        "Total Living": 62100,
+        "Total Cost": 150100,
+        "Mo. Burn": 4169,
+        "Cost Score": 0.58
+      },
+      "regional": {
+        "ed_opportunity": 0.65,
+        "np_accessibility": 0.85,
+        "underserved_access": 0.85,
+        "np_pathway_calculated": 0.78
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 5000,
+          "probability": 0.15
+        },
+        "expected_value_no_commitment": 750,
+        "expected_value_with_commitment": 750
       },
       "plan_fit": {
         "status": "fits",
@@ -5836,10 +5990,11 @@
         "start_score": 1,
         "cost_score": 0.48,
         "raw_score": 0.31,
-        "rank": 61,
+        "rank": 62,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 4.31
+        "location_combined": 4.31,
+        "np_type_multiplier": 1
       },
       "notes": "MILWAUKEE BACKUP but has MESA, AZ option! Could use this to get to Arizona instead of staying in Milwaukee. Dual BSN+MSN is efficient - graduate with master's. 18 months is reasonable. Strong local clinical partnerships. Consider Mesa campus if you want Southwest.",
       "scoring_notes": null,
@@ -5929,9 +6084,10 @@
         "start_score": 0.8,
         "cost_score": 0.12,
         "raw_score": 0.3,
-        "rank": 62,
+        "rank": 63,
         "national_percentile": 0.78,
-        "location_combined": 5
+        "location_combined": 5,
+        "np_type_multiplier": 1
       },
       "notes": "No Chem required",
       "scoring_notes": "Solid regional, NLN Center of Excellence",
@@ -5977,99 +6133,6 @@
         "status": "adjust",
         "reasons": [
           "May require prereqs complete (not planned) at application - verify with school"
-        ]
-      }
-    },
-    {
-      "id": "uvm-burlington",
-      "name": "UVM",
-      "type": "MEPN",
-      "location": {
-        "full": "Burlington, VT"
-      },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": true,
-          "chem": true,
-          "lifespan": true,
-          "nutrition": true,
-          "psych": true,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
-        },
-        "additional": null,
-        "addl_prereq_fit": null,
-        "extra": [
-          "GRE may be required"
-        ]
-      },
-      "admissions": {
-        "email": "cnhsgrad@uvm.edu",
-        "deadline": "2026-02-01",
-        "start_date": "2027-05-15",
-        "in_progress_ok": true,
-        "app_timing_notes": "Max 2 prereqs incomplete at application. MEPN program (not ABSN)."
-      },
-      "program_details": {
-        "duration_months": 36,
-        "terms": 9,
-        "online_lab_conf": 0.85,
-        "np_pathway_type": "pre_specialty",
-        "np_pathway_notes": "Direct entry MSN with NP pathway"
-      },
-      "scores": {
-        "location_score": 6.5,
-        "location_boost": 0.5,
-        "np_pathway": 0.78,
-        "prestige": 0.75,
-        "competitiveness": 0.85,
-        "start_score": 0.8,
-        "cost_score": 0.58,
-        "raw_score": 0.27,
-        "rank": 63,
-        "national_percentile": 0.6,
-        "location_combined": 5.46
-      },
-      "notes": "MEPN = 1yr prelicensure + 2yr MSN; Full NP practice authority state; 675 clinical hours yr 1 [OOS tuition applied]",
-      "scoring_notes": "Beautiful location; hipster food/craft scene; skiing",
-      "costs": {
-        "Location": "Burlington, VT",
-        "Tuition": 85000,
-        "Fees": 3000,
-        "Schlrshp Amt": 0,
-        "Schlrshp %": null,
-        "Net Tuition": 88000,
-        "COL Index": 115,
-        "Duration (mo)": 36,
-        "Living $/mo": 1500,
-        "Total Living": 62100,
-        "Total Cost": 150100,
-        "Mo. Burn": 4169,
-        "Cost Score": 0.58
-      },
-      "regional": {
-        "ed_opportunity": 0.65,
-        "np_accessibility": 0.85,
-        "underserved_access": 0.85,
-        "np_pathway_calculated": 0.78
-      },
-      "scholarships": {
-        "guaranteed": null,
-        "work_commitment": null,
-        "merit": {
-          "pool": 5000,
-          "probability": 0.15
-        },
-        "expected_value_no_commitment": 750,
-        "expected_value_with_commitment": 750
-      },
-      "plan_fit": {
-        "status": "fits",
-        "reasons": [
-          "Standard prereqs match your plan"
         ]
       }
     },
@@ -6130,7 +6193,8 @@
         "rank": 64,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 4.31
+        "location_combined": 4.31,
+        "np_type_multiplier": 1
       },
       "notes": "LOCAL BACKUP option. VERY affordable in-state ($25K). BUT: keeps you in Milwaukee, which you wanted to leave. 24 months is longer than some. Note: UWM does NOT have traditional 12-month ABSN - only this Direct Entry MN. Good safety school if cost is primary concern.",
       "scoring_notes": null,
@@ -6227,7 +6291,8 @@
         "raw_score": 0.22,
         "rank": 65,
         "national_percentile": 0.72,
-        "location_combined": 6.79
+        "location_combined": 6.79,
+        "np_type_multiplier": 1
       },
       "notes": "DEMSN ~18 mo, 3.0 GPA, prereqs within 10 yr (Pharm within 1 yr!), Spring 2027 deadline Sep 15 2026, GRE scholarship available",
       "scoring_notes": "Strong state school, UC Health system",
@@ -6334,7 +6399,8 @@
         "rank": 66,
         "national_percentile": 0.99,
         "online_lab_conf": 0.8,
-        "location_combined": 5.58
+        "location_combined": 5.58,
+        "np_type_multiplier": 1
       },
       "notes": "ELITE program - #1/#2 nationally. However: (1) Your scoring formula PENALIZES elite programs >0.9 percentile, (2) $112K tuition is steep even with scholarship potential, (3) Grade B requirement on prereqs is strict. Worth applying if you want the absolute best NP pathway and can get scholarship money, but may not score well in your system. Deadline for Fall 2026 is Jan 15, 2026 - very soon!",
       "scoring_notes": null,
@@ -6439,7 +6505,8 @@
         "rank": 67,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
-        "location_combined": 7.09
+        "location_combined": 7.09,
+        "np_type_multiplier": 1
       },
       "notes": "LOCATION IS GREAT (Denver/mountains) but PREREQS ARE PROBLEMATIC. You'd need Philosophy + 6 credits of Religious Studies on top of everything else. That's a significant hurdle. Also explicitly rejects some online lab providers. 12-month program is fast. Good NP pathway. Weigh location benefits against prereq burden. [OOS tuition applied]",
       "scoring_notes": null,
@@ -6482,105 +6549,6 @@
         "reasons": [
           "Fall 2026 courses needed (3): Health Care Ethics, English Composition (3 cr), Philosophy (6 cr)",
           "Online A&P lab policy unclear - verify with school before applying"
-        ]
-      }
-    },
-    {
-      "id": "lourdes",
-      "name": "Lourdes",
-      "type": "DEMSN",
-      "location": {
-        "full": "Sylvania, OH (Toledo area)",
-        "city": "Sylvania",
-        "state": "OH"
-      },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": true,
-          "chem": true,
-          "lifespan": true,
-          "nutrition": true,
-          "psych": true,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
-        },
-        "additional": "Verify specific prereqs with Lourdes - limited data available.",
-        "addl_prereq_fit": 0.8,
-        "extra": [
-          "BLS certification (valid 18+ months)"
-        ]
-      },
-      "admissions": {
-        "email": "admissions@lourdes.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2026-08-01",
-        "in_progress_ok": null,
-        "app_timing_notes": "Contact school for in-progress policy."
-      },
-      "program_details": {
-        "duration_months": 15,
-        "terms": 4,
-        "online_lab_conf": null,
-        "format": "On-campus",
-        "degree": "BSN",
-        "np_pathway_type": "standard",
-        "np_pathway_notes": null
-      },
-      "scores": {
-        "location_score": 5,
-        "location_boost": 0,
-        "np_pathway": 0.68,
-        "prestige": 0.4,
-        "competitiveness": 0.6,
-        "start_score": 0.8,
-        "cost_score": null,
-        "raw_score": 0.17,
-        "rank": 68,
-        "national_percentile": 0.4,
-        "online_lab_conf": 0.8,
-        "location_combined": 3.4
-      },
-      "notes": "LOW PRIORITY - limited data available. Small Franciscan school near Toledo. Very low COL (88) could be appealing. But Toledo doesn't match your location preferences (flat, small, not much culture). Weak NP pathway. Only consider if cost is primary driver. [OOS tuition applied]",
-      "scoring_notes": null,
-      "costs": {
-        "Location": "Sylvania, OH",
-        "Net Tuition": 37000,
-        "Tuition": 35000,
-        "Fees": 2000,
-        "COL Index": 88,
-        "Duration (mo)": 15,
-        "Mo. Burn": null,
-        "Cost Score": null,
-        "Schlrshp Amt": 0,
-        "Schlrshp %": null,
-        "Total Cost": null
-      },
-      "sources": [
-        "https://lourdes.edu/nursing/"
-      ],
-      "regional": {
-        "ed_opportunity": 0.7,
-        "np_accessibility": 0.65,
-        "underserved_access": 0.7,
-        "np_pathway_calculated": 0.68
-      },
-      "scholarships": {
-        "guaranteed": null,
-        "work_commitment": null,
-        "merit": {
-          "pool": 0,
-          "probability": 0
-        },
-        "expected_value_no_commitment": 0,
-        "expected_value_with_commitment": 0
-      },
-      "plan_fit": {
-        "status": "fits",
-        "reasons": [
-          "Standard prereqs match your plan"
         ]
       }
     },
@@ -6641,11 +6609,12 @@
         "competitiveness": 0.99,
         "start_score": 0.6,
         "cost_score": null,
-        "raw_score": 0.15,
-        "rank": 69,
+        "raw_score": 0.18,
+        "rank": 68,
         "national_percentile": 0.79,
         "online_lab_conf": 0.8,
-        "location_combined": 4.04
+        "location_combined": 4.04,
+        "np_type_multiplier": 1.2
       },
       "notes": "MINIMAL prereqs (only A&P!) make this very accessible. BUT: 3-year program is LONG, expensive ($124K), and New Haven may not match your location preferences. Yale prestige but nursing school rankings not elite. Actually falls in your 80th percentile sweet spot. Worth considering if you value minimal prereqs and Ivy brand. [OOS tuition applied]",
       "scoring_notes": null,
@@ -6672,6 +6641,106 @@
         "np_accessibility": 0.85,
         "underserved_access": 0.75,
         "np_pathway_calculated": 0.81
+      },
+      "scholarships": {
+        "guaranteed": null,
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 0,
+        "expected_value_with_commitment": 0
+      },
+      "plan_fit": {
+        "status": "fits",
+        "reasons": [
+          "Standard prereqs match your plan"
+        ]
+      }
+    },
+    {
+      "id": "lourdes",
+      "name": "Lourdes",
+      "type": "DEMSN",
+      "location": {
+        "full": "Sylvania, OH (Toledo area)",
+        "city": "Sylvania",
+        "state": "OH"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": true,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": "Verify specific prereqs with Lourdes - limited data available.",
+        "addl_prereq_fit": 0.8,
+        "extra": [
+          "BLS certification (valid 18+ months)"
+        ]
+      },
+      "admissions": {
+        "email": "admissions@lourdes.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2026-08-01",
+        "in_progress_ok": null,
+        "app_timing_notes": "Contact school for in-progress policy."
+      },
+      "program_details": {
+        "duration_months": 15,
+        "terms": 4,
+        "online_lab_conf": null,
+        "format": "On-campus",
+        "degree": "BSN",
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 5,
+        "location_boost": 0,
+        "np_pathway": 0.68,
+        "prestige": 0.4,
+        "competitiveness": 0.6,
+        "start_score": 0.8,
+        "cost_score": null,
+        "raw_score": 0.17,
+        "rank": 69,
+        "national_percentile": 0.4,
+        "online_lab_conf": 0.8,
+        "location_combined": 3.4,
+        "np_type_multiplier": 1
+      },
+      "notes": "LOW PRIORITY - limited data available. Small Franciscan school near Toledo. Very low COL (88) could be appealing. But Toledo doesn't match your location preferences (flat, small, not much culture). Weak NP pathway. Only consider if cost is primary driver. [OOS tuition applied]",
+      "scoring_notes": null,
+      "costs": {
+        "Location": "Sylvania, OH",
+        "Net Tuition": 37000,
+        "Tuition": 35000,
+        "Fees": 2000,
+        "COL Index": 88,
+        "Duration (mo)": 15,
+        "Mo. Burn": null,
+        "Cost Score": null,
+        "Schlrshp Amt": 0,
+        "Schlrshp %": null,
+        "Total Cost": null
+      },
+      "sources": [
+        "https://lourdes.edu/nursing/"
+      ],
+      "regional": {
+        "ed_opportunity": 0.7,
+        "np_accessibility": 0.65,
+        "underserved_access": 0.7,
+        "np_pathway_calculated": 0.68
       },
       "scholarships": {
         "guaranteed": null,
@@ -6755,7 +6824,8 @@
         "rank": 70,
         "national_percentile": 0.71,
         "online_lab_conf": 0.8,
-        "location_combined": 6.56
+        "location_combined": 6.56,
+        "np_type_multiplier": 1
       },
       "notes": "Texas option with strong outcomes. HOWEVER: VERY extensive prereqs including Bible-based Religion, World Religion, English Lit, Federal Govt, History. You'd need to complete significant additional coursework. Lower COL is a plus. May 2026 deadline is VERY soon (Jan 15, 2026).",
       "scoring_notes": null,
@@ -6868,7 +6938,8 @@
         "rank": 71,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
-        "location_combined": 4.98
+        "location_combined": 4.98,
+        "np_type_multiplier": 1
       },
       "notes": "Bay Area option but PROBLEMATIC PREREQS: Pharmacology + Pathophysiology required BEFORE entry. Most programs teach these IN the program. Very high COL (165 index). Distance from Milwaukee is significant. Probably not worth the prereq hassle. [OOS tuition applied]",
       "scoring_notes": null,
@@ -6975,7 +7046,8 @@
         "rank": 72,
         "national_percentile": 0.94,
         "online_lab_conf": 0.8,
-        "location_combined": 6.14
+        "location_combined": 6.14,
+        "np_type_multiplier": 1
       },
       "notes": "VERY competitive (7:1 applicant ratio). Extensive prereqs including full chem sequence + epidemiology. HIGH COL (LA). In-state tuition is reasonable but out-of-state is steep. Good rankings but may be penalized by competitiveness formula. Distance from Milwaukee is significant.",
       "scoring_notes": null,
@@ -7069,7 +7141,8 @@
         "raw_score": 0.1,
         "rank": 73,
         "national_percentile": 0.55,
-        "location_combined": 4.93
+        "location_combined": 4.93,
+        "np_type_multiplier": 1
       },
       "notes": "TEAS required [OOS tuition applied]",
       "scoring_notes": "CSU system, regional",
@@ -7170,11 +7243,12 @@
         "competitiveness": 0.83,
         "start_score": 1,
         "cost_score": 0.01,
-        "raw_score": 0.03,
+        "raw_score": 0.04,
         "rank": 74,
         "national_percentile": 0.97,
         "online_lab_conf": 0.8,
-        "location_combined": 7.06
+        "location_combined": 7.06,
+        "np_type_multiplier": 1.2
       },
       "notes": "Nashville is one of your preferred cities! Elite program with guaranteed NP pathway via MN Prespecialty track. VERY expensive ($136K). May be penalized by your competitiveness formula (top 3%). Strong if you can afford it and want Nashville location + guaranteed NP path.",
       "scoring_notes": null,
