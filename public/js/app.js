@@ -198,13 +198,26 @@ function renderTable() {
     const planFitLabel = getPlanFitLabel(planFitStatus);
     const planFitClass = getPlanFitBadgeClass(planFitStatus);
 
+    // NP pathway badge
+    const npPathwayType = p.program_details?.np_pathway_type || 'standard';
+    let npBadge = '';
+    if (npPathwayType === 'pre_specialty') {
+      npBadge = '<span class="np-badge pre-specialty" title="Direct NP specialization track">→NP</span>';
+    } else if (npPathwayType === 'cnl') {
+      npBadge = '<span class="np-badge cnl" title="Clinical Nurse Leader track">CNL</span>';
+    }
+
+    const durationDisplay = p.program_details?.duration_months
+      ? p.program_details.duration_months + ' mo' + npBadge
+      : '-';
+
     return `
       <tr class="${status === 'needs-data' ? 'needs-data-row' : ''}" onclick="showDetail('${p.id}')">
         <td>${rank != null ? '#' + rank : '-'}</td>
         <td><strong>${p.name}</strong></td>
         <td><span class="type-badge type-${p.type}">${p.type}</span></td>
         <td>${p.location?.full || '-'}</td>
-        <td>${p.program_details?.duration_months ? p.program_details.duration_months + ' mo' : '-'}</td>
+        <td>${durationDisplay}</td>
         <td>${formatDate(p.admissions?.start_date)}</td>
         <td>${formatDate(p.admissions?.deadline)}</td>
         <td id="burn-${p.id}">${formatCurrency(monthlyBurn)}</td>
