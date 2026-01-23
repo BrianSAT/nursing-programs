@@ -458,6 +458,11 @@ function showDetail(id) {
     if (p.program_details?.np_pathway_notes) {
       html += '<div class="np-pathway-note">' + escapeHtml(p.program_details.np_pathway_notes) + '</div>';
     }
+
+    // Transferology note
+    if (p.admissions?.uses_transferology) {
+      html += '<div class="transferology-note">Uses <a href="https://www.transferology.com" target="_blank" class="contact-link">Transferology</a> to validate prerequisite course equivalencies</div>';
+    }
     html += '</div>';
 
     // Scores

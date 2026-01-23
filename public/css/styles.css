@@ -496,6 +496,15 @@ tbody tr {
   color: #166534;
 }
 
+.transferology-note {
+  margin-top: 10px;
+  padding: 10px 12px;
+  background: #eff6ff;
+  border-left: 3px solid #3b82f6;
+  font-size: 0.85rem;
+  color: #1e40af;
+}
+
 /* NP pathway badges for table */
 .np-badge {
   display: inline-block;

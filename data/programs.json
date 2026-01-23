@@ -1015,7 +1015,8 @@
         "deadline": "2026-03-01",
         "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Some in progress OK, ALL complete before starting ABSN."
+        "app_timing_notes": "Some in progress OK, ALL complete before starting ABSN.",
+        "uses_transferology": true
       },
       "program_details": {
         "duration_months": 16,
@@ -1772,7 +1773,8 @@
         "deadline": "2026-09-15",
         "start_date": "2027-05-15",
         "in_progress_ok": true,
-        "app_timing_notes": "All 4 science prereqs complete by Sep 15 deadline; others before start."
+        "app_timing_notes": "All 4 science prereqs complete by Sep 15 deadline; others before start.",
+        "uses_transferology": true
       },
       "program_details": {
         "duration_months": 12,
@@ -5374,7 +5376,8 @@
         "deadline": "2026-09-01",
         "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "May apply while completing, cannot be in progress at program start."
+        "app_timing_notes": "May apply while completing, cannot be in progress at program start.",
+        "uses_transferology": true
       },
       "program_details": {
         "duration_months": 15,
