@@ -544,6 +544,35 @@ tbody tr {
   color: #2563eb;
 }
 
+/* Verification icons in table */
+.verif-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.verif-icon.verified {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.verif-icon.needs-verif {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.verif-icon.unverified {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+
 /* NP pathway badges for table */
 .np-badge {
   display: inline-block;

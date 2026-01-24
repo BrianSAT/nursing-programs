@@ -211,10 +211,21 @@ function renderTable() {
       ? p.program_details.duration_months + ' mo' + npBadge
       : '-';
 
+    // Verification indicator
+    const verifConf = p.verification?.confidence;
+    let verifIcon = '';
+    if (verifConf === 'verified') {
+      verifIcon = '<span class="verif-icon verified" title="Data verified">✓</span>';
+    } else if (verifConf === 'needs_verification') {
+      verifIcon = '<span class="verif-icon needs-verif" title="Needs verification">!</span>';
+    } else {
+      verifIcon = '<span class="verif-icon unverified" title="Unverified">?</span>';
+    }
+
     return `
       <tr class="${status === 'needs-data' ? 'needs-data-row' : ''}" onclick="showDetail('${p.id}')">
         <td>${rank != null ? '#' + rank : '-'}</td>
-        <td><strong>${p.name}</strong></td>
+        <td>${verifIcon}<strong>${p.name}</strong></td>
         <td><span class="type-badge type-${p.type}">${p.type}</span></td>
         <td>${p.location?.full || '-'}</td>
         <td>${durationDisplay}</td>
