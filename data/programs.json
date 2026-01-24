@@ -18,103 +18,6 @@
   },
   "programs": [
     {
-      "id": "duquesne-pittsburgh",
-      "name": "Duquesne",
-      "type": "ABSN",
-      "location": {
-        "full": "Pittsburgh, PA"
-      },
-      "prerequisites": {
-        "standard": {
-          "ap_1_2": true,
-          "micro": true,
-          "stats": true,
-          "chem": true,
-          "lifespan": true,
-          "nutrition": true,
-          "psych": false,
-          "sociology": false,
-          "biology": false,
-          "ethics": false
-        },
-        "additional": null,
-        "addl_prereq_fit": null,
-        "extra": [
-          "Biology OR Chemistry with lab (4 cr)"
-        ]
-      },
-      "admissions": {
-        "email": "nursing@duq.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
-        "in_progress_ok": true,
-        "app_timing_notes": "Can apply before done, all complete before start. Portage Learning accepted."
-      },
-      "program_details": {
-        "duration_months": 12,
-        "terms": 3,
-        "online_lab_conf": null,
-        "np_pathway_type": "standard",
-        "np_pathway_notes": null
-      },
-      "scores": {
-        "location_score": 9,
-        "location_boost": 0.5,
-        "np_pathway": 0.82,
-        "prestige": 0.75,
-        "competitiveness": 0.85,
-        "start_score": 1,
-        "cost_score": 0.62,
-        "raw_score": 3.08,
-        "rank": 1,
-        "national_percentile": 0.65,
-        "location_combined": 7.79,
-        "np_type_multiplier": 1
-      },
-      "notes": "12-month fast track; $30K scholarship for all admits; UPMC + AHN rotations; 95.6% NCLEX [OOS tuition applied]",
-      "scoring_notes": "User's #1 city; on-the-come-up; excellent topology",
-      "costs": {
-        "Location": "Pittsburgh, PA",
-        "Tuition": 55976,
-        "Fees": 3000,
-        "Schlrshp Amt": 30000,
-        "Schlrshp %": null,
-        "Net Tuition": 28976,
-        "COL Index": 95,
-        "Duration (mo)": 12,
-        "Living $/mo": 1500,
-        "Total Living": 17100,
-        "Total Cost": 46076,
-        "Mo. Burn": 3840,
-        "Cost Score": 0.62
-      },
-      "regional": {
-        "ed_opportunity": 0.85,
-        "np_accessibility": 0.8,
-        "underserved_access": 0.8,
-        "np_pathway_calculated": 0.82
-      },
-      "scholarships": {
-        "guaranteed": {
-          "name": "Second Degree Scholarship",
-          "amount": 30000
-        },
-        "work_commitment": null,
-        "merit": {
-          "pool": 0,
-          "probability": 0
-        },
-        "expected_value_no_commitment": 30000,
-        "expected_value_with_commitment": 30000
-      },
-      "plan_fit": {
-        "status": "fall_required",
-        "reasons": [
-          "Fall 2026 courses needed (1): Biology OR Chemistry with lab (4 cr)"
-        ]
-      }
-    },
-    {
       "id": "isu-boise",
       "name": "Idaho State University",
       "type": "ABSN",
@@ -170,7 +73,7 @@
         "start_score": 1,
         "cost_score": 0.53,
         "raw_score": 2.26,
-        "rank": 2,
+        "rank": 1,
         "national_percentile": 0.45,
         "location_combined": 7.28,
         "np_type_multiplier": 1
@@ -265,7 +168,7 @@
         "start_score": 1,
         "cost_score": 0.34,
         "raw_score": 2.22,
-        "rank": 3,
+        "rank": 2,
         "national_percentile": 0.9,
         "location_combined": 6.34,
         "np_type_multiplier": 1.2
@@ -362,7 +265,7 @@
         "start_score": 1,
         "cost_score": 0.51,
         "raw_score": 2.17,
-        "rank": 4,
+        "rank": 3,
         "national_percentile": 0.7,
         "location_combined": 8.36,
         "np_type_multiplier": 1
@@ -462,7 +365,7 @@
         "start_score": 1,
         "cost_score": 0.72,
         "raw_score": 1.98,
-        "rank": 5,
+        "rank": 4,
         "national_percentile": 0.8,
         "location_combined": 5.96,
         "np_type_multiplier": 1
@@ -560,7 +463,7 @@
         "start_score": 1,
         "cost_score": 0.61,
         "raw_score": 1.94,
-        "rank": 6,
+        "rank": 5,
         "national_percentile": 0.55,
         "location_combined": 7.44,
         "np_type_multiplier": 1
@@ -656,7 +559,7 @@
         "start_score": 1,
         "cost_score": 0.52,
         "raw_score": 1.88,
-        "rank": 7,
+        "rank": 6,
         "national_percentile": 0.55,
         "location_combined": 6.08,
         "np_type_multiplier": 1
@@ -696,6 +599,107 @@
         "status": "fall_required",
         "reasons": [
           "Fall 2026 courses needed (1): Pharmacology"
+        ]
+      }
+    },
+    {
+      "id": "duquesne-pittsburgh",
+      "name": "Duquesne",
+      "type": "ABSN",
+      "location": {
+        "full": "Pittsburgh, PA"
+      },
+      "prerequisites": {
+        "standard": {
+          "ap_1_2": true,
+          "micro": true,
+          "stats": true,
+          "chem": true,
+          "lifespan": true,
+          "nutrition": true,
+          "psych": false,
+          "sociology": false,
+          "biology": false,
+          "ethics": false
+        },
+        "additional": null,
+        "addl_prereq_fit": null,
+        "extra": [
+          "Biology OR Chemistry with lab (4 cr)"
+        ]
+      },
+      "admissions": {
+        "email": "nursing@duq.edu",
+        "deadline": "2026-03-01",
+        "start_date": "2027-08-15",
+        "in_progress_ok": true,
+        "app_timing_notes": "Can apply before done, all complete before start. Portage Learning accepted.",
+        "start_dates": [
+          "2027-08-15"
+        ],
+        "start_date_notes": "Fall start only (annually)"
+      },
+      "program_details": {
+        "duration_months": 12,
+        "terms": 3,
+        "online_lab_conf": null,
+        "np_pathway_type": "standard",
+        "np_pathway_notes": null
+      },
+      "scores": {
+        "location_score": 9,
+        "location_boost": 0.5,
+        "np_pathway": 0.82,
+        "prestige": 0.75,
+        "competitiveness": 0.85,
+        "start_score": 0.6,
+        "cost_score": 0.62,
+        "raw_score": 1.85,
+        "rank": 7,
+        "national_percentile": 0.65,
+        "location_combined": 7.79,
+        "np_type_multiplier": 1
+      },
+      "notes": "12-month fast track; $30K scholarship for all admits; UPMC + AHN rotations; 95.6% NCLEX [OOS tuition applied]",
+      "scoring_notes": "User's #1 city; on-the-come-up; excellent topology",
+      "costs": {
+        "Location": "Pittsburgh, PA",
+        "Tuition": 55976,
+        "Fees": 3000,
+        "Schlrshp Amt": 30000,
+        "Schlrshp %": null,
+        "Net Tuition": 28976,
+        "COL Index": 95,
+        "Duration (mo)": 12,
+        "Living $/mo": 1500,
+        "Total Living": 17100,
+        "Total Cost": 46076,
+        "Mo. Burn": 3840,
+        "Cost Score": 0.62
+      },
+      "regional": {
+        "ed_opportunity": 0.85,
+        "np_accessibility": 0.8,
+        "underserved_access": 0.8,
+        "np_pathway_calculated": 0.82
+      },
+      "scholarships": {
+        "guaranteed": {
+          "name": "Second Degree Scholarship",
+          "amount": 30000
+        },
+        "work_commitment": null,
+        "merit": {
+          "pool": 0,
+          "probability": 0
+        },
+        "expected_value_no_commitment": 30000,
+        "expected_value_with_commitment": 30000
+      },
+      "plan_fit": {
+        "status": "fall_required",
+        "reasons": [
+          "Fall 2026 courses needed (1): Biology OR Chemistry with lab (4 cr)"
         ]
       }
     },
