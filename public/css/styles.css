@@ -505,6 +505,45 @@ tbody tr {
   color: #1e40af;
 }
 
+/* Verification status */
+.verification-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.verification-badge.verified {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.verification-badge.needs-verification {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.verification-badge.unverified {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.verification-note {
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #f8fafc;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.verification-note a {
+  color: #2563eb;
+}
+
 /* NP pathway badges for table */
 .np-badge {
   display: inline-block;

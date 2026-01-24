@@ -547,6 +547,36 @@ function showDetail(id) {
       html += '</div>';
     }
 
+    // Verification Status
+    const verif = p.verification || {};
+    html += '<div class="detail-section"><h3>Data Verification</h3>';
+
+    let verifBadgeClass = 'unverified';
+    let verifBadgeText = 'Unverified';
+    if (verif.confidence === 'verified') {
+      verifBadgeClass = 'verified';
+      verifBadgeText = '✓ Verified';
+    } else if (verif.confidence === 'needs_verification') {
+      verifBadgeClass = 'needs-verification';
+      verifBadgeText = '⚠ Needs Verification';
+    }
+
+    html += '<span class="verification-badge ' + verifBadgeClass + '">' + verifBadgeText + '</span>';
+
+    if (verif.last_verified) {
+      html += ' <span style="color: #666; font-size: 0.8rem;">Last verified: ' + verif.last_verified + '</span>';
+    }
+
+    if (verif.notes) {
+      html += '<div class="verification-note">' + escapeHtml(verif.notes) + '</div>';
+    }
+
+    if (verif.sources?.primary) {
+      html += '<div class="verification-note"><a href="' + escapeHtml(verif.sources.primary) + '" target="_blank">View source →</a></div>';
+    }
+
+    html += '</div>';
+
     body.innerHTML = html;
     modal.classList.remove('hidden');
 

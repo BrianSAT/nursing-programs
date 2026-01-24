@@ -50,10 +50,14 @@
       },
       "admissions": {
         "email": "nursing@isu.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
+        "deadline": "2026-02-15",
+        "start_date": "2026-05-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Set A prereqs complete before applying; Set B can be in progress."
+        "app_timing_notes": "Set A prereqs complete before applying; Set B can be in progress.",
+        "start_dates": [
+          "2026-05-15"
+        ],
+        "start_date_notes": "Summer start only (May each year)"
       },
       "program_details": {
         "duration_months": 12,
@@ -115,6 +119,15 @@
           "Needs 5 extra courses: Pathobiology, Pharmacotherapy for Nursing, Intro to Organic & Biochem with Lab, Cultural Diversity, Medical Ethics",
           "More than 3 courses - may need summer additions or test-outs"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.isu.edu/acceleratednursing/"
+        },
+        "notes": "Verified Jan 2026. Applications Nov 15-Feb 15. TEAS required."
       }
     },
     {
@@ -212,6 +225,15 @@
           "Fall 2026 courses needed (1): General Chemistry I with lab",
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://www.nursing.emory.edu/program-details/distance-accelerated-bsn"
+        },
+        "notes": "CONFLICTING INFO - DABSN page says not accepting applications, but deadlines still listed. Contact nursingquestions@emory.edu to verify."
       }
     },
     {
@@ -244,10 +266,15 @@
       },
       "admissions": {
         "email": "nursing@slu.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
+        "deadline": null,
+        "start_date": "2026-05-15",
         "in_progress_ok": false,
-        "app_timing_notes": "ALL prereqs must be complete before program begins."
+        "app_timing_notes": "ALL prereqs must be complete before program begins.",
+        "start_dates": [
+          "2026-05-15"
+        ],
+        "start_date_notes": "May start only (once per year)",
+        "deadline_notes": "Rolling admissions - no fixed deadline. Review begins August, decisions January."
       },
       "program_details": {
         "duration_months": 16,
@@ -308,6 +335,15 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.slu.edu/nursing/degrees/undergraduate/nursing-bs-accelerated.php"
+        },
+        "notes": "Verified Jan 2026. Rolling admissions until cohort full."
       }
     },
     {
@@ -344,10 +380,16 @@
       },
       "admissions": {
         "email": "nursing.students@uth.tmc.edu",
-        "deadline": "2026-09-15",
-        "start_date": "2027-01-18",
+        "deadline": "2026-03-30",
+        "start_date": "2026-08-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Apply with 48/60 credits (16 must be sciences). TX Gov required for out-of-state."
+        "app_timing_notes": "Apply with 48/60 credits (16 must be sciences). TX Gov required for out-of-state.",
+        "start_dates": [
+          "2026-08-15",
+          "2027-01-15",
+          "2027-05-15"
+        ],
+        "start_date_notes": "Fall, Spring, and Summer starts available"
       },
       "program_details": {
         "duration_months": 15,
@@ -409,6 +451,15 @@
           "Fall 2026 courses needed (3): Texas Government, US History (6 hrs), Philosophy/Ethics",
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.uth.edu/programs/application-deadlines"
+        },
+        "notes": "Verified Jan 2026. FREE tuition available via Future Nurses Fund for qualifying students."
       }
     },
     {
@@ -440,10 +491,14 @@
       },
       "admissions": {
         "email": "nursing@csuohio.edu",
-        "deadline": "2026-04-01",
+        "deadline": "2026-06-01",
         "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Only 2 science prereqs must be complete at application."
+        "app_timing_notes": "Only 2 science prereqs must be complete at application.",
+        "start_dates": [
+          "2027-01-15"
+        ],
+        "start_date_notes": "In-person: January only. Online track: Fall and Spring."
       },
       "program_details": {
         "duration_months": 16,
@@ -505,6 +560,15 @@
           "Fall 2026 courses needed (2): Chemistry I & II (2 semesters), Health Care Ethics",
           "May require prereqs complete (not planned) at application - verify with school"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://health.csuohio.edu/undergraduate-programs/accelerated-bsn-program"
+        },
+        "notes": "Verified Jan 2026. 16-month program."
       }
     },
     {
@@ -536,10 +600,14 @@
       },
       "admissions": {
         "email": "nursing@buffalo.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
+        "deadline": "2025-10-01",
+        "start_date": "2026-05-15",
         "in_progress_ok": true,
-        "app_timing_notes": "4 of 9 prereqs complete by Oct 1 deadline. Rest done before May start."
+        "app_timing_notes": "4 of 9 prereqs complete by Oct 1 deadline. Rest done before May start.",
+        "start_dates": [
+          "2026-05-15"
+        ],
+        "start_date_notes": "Summer start only (once per year in May)"
       },
       "program_details": {
         "duration_months": 12,
@@ -596,10 +664,19 @@
         "expected_value_with_commitment": 1250
       },
       "plan_fit": {
-        "status": "fall_required",
+        "status": "ruled_out",
         "reasons": [
-          "Fall 2026 courses needed (1): Pharmacology"
+          "Application deadline passed (Sep 30, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.buffalo.edu/academic-programs/undergraduate-programs/abs/"
+        },
+        "notes": "Verified Jan 2026. DEADLINE PASSED for Summer 2026."
       }
     },
     {
@@ -701,6 +778,12 @@
         "reasons": [
           "Fall 2026 courses needed (1): Biology OR Chemistry with lab (4 cr)"
         ]
+      },
+      "verification": {
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {},
+        "notes": "Manually verified"
       }
     },
     {
@@ -796,6 +879,15 @@
         "reasons": [
           "Fall 2026 courses needed (1): Pathophysiology OR Pharmacology"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://thechristcollege.edu/accelerated-nursing/"
+        },
+        "notes": "DATA GAP - Start dates and deadlines not publicly listed on website. Contact admissions: 513-585-2401"
       }
     },
     {
@@ -826,10 +918,16 @@
       },
       "admissions": {
         "email": "nursing@ohsu.edu",
-        "deadline": "2026-02-01",
-        "start_date": "2027-01-10",
+        "deadline": "2026-01-05",
+        "start_date": "2026-06-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Can apply while completing prerequisites."
+        "app_timing_notes": "Can apply while completing prerequisites.",
+        "start_dates": [
+          "2026-06-15",
+          "2026-09-15",
+          "2027-01-15"
+        ],
+        "start_date_notes": "Portland: Summer, Fall, Winter. Ashland/Bend: Summer only."
       },
       "program_details": {
         "duration_months": 15,
@@ -886,10 +984,19 @@
         "expected_value_with_commitment": 450
       },
       "plan_fit": {
-        "status": "fall_required",
+        "status": "ruled_out",
         "reasons": [
-          "Fall 2026 courses needed (1): Introduction to Genetics (3 cr)"
+          "Application deadline passed (Jan 4, 2026)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.ohsu.edu/school-of-nursing/admissions"
+        },
+        "notes": "Verified Jan 2026. Priority deadline Jan 5."
       }
     },
     {
@@ -923,7 +1030,12 @@
         "deadline": "2026-04-01",
         "start_date": "2026-05-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Apply 12-18 months early to complete remaining prereqs."
+        "app_timing_notes": "Apply 12-18 months early to complete remaining prereqs.",
+        "start_dates": [
+          "2027-01-15",
+          "2026-05-15"
+        ],
+        "start_date_notes": "January and May starts (May is NEW)"
       },
       "program_details": {
         "duration_months": 12,
@@ -988,6 +1100,15 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://researchcollege.edu/admission/"
+        },
+        "notes": "Verified Jan 2026. HCA Work Loan Forgiveness covers ~75% tuition."
       }
     },
     {
@@ -1016,11 +1137,17 @@
       },
       "admissions": {
         "email": "nursing@luc.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
+        "deadline": null,
+        "start_date": "2026-08-15",
         "in_progress_ok": true,
         "app_timing_notes": "Some in progress OK, ALL complete before starting ABSN.",
-        "uses_transferology": true
+        "uses_transferology": true,
+        "start_dates": [
+          "2026-01-15",
+          "2026-08-15"
+        ],
+        "start_date_notes": "January and August starts",
+        "deadline_notes": "Rolling admissions - no fixed deadline"
       },
       "program_details": {
         "duration_months": 16,
@@ -1081,6 +1208,15 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.luc.edu/nursing/admission/apply/absn/"
+        },
+        "notes": "Verified Jan 2026. Hybrid or fully on-campus options."
       }
     },
     {
@@ -1175,6 +1311,16 @@
         "reasons": [
           "Fall 2026 courses needed (1): Organic/Biochemistry (CHM 1360)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://spu.edu/academics/school-of-health-sciences/undergraduate-programs/"
+        },
+        "notes": "NOT AN ABSN PROGRAM - Post-baccalaureate BSN is 6 quarters (2 years), not accelerated.",
+        "program_type_issue": "not_absn"
       }
     },
     {
@@ -1269,6 +1415,16 @@
         "reasons": [
           "Application deadline passed (Jan 14, 2026)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.duke.edu/academic-programs"
+        },
+        "notes": "ABSN PROGRAM ENDED - Final cohort graduates Spring 2026. Replaced by Master of Nursing (MN).",
+        "program_ended": true
       }
     },
     {
@@ -1297,10 +1453,14 @@
       },
       "admissions": {
         "email": "nursing@osu.edu",
-        "deadline": "2027-01-09",
-        "start_date": "2027-05-20",
+        "deadline": "2026-01-09",
+        "start_date": "2026-05-15",
         "in_progress_ok": false,
-        "app_timing_notes": "ALL prereqs complete with B- by application deadline."
+        "app_timing_notes": "ALL prereqs complete with B- by application deadline.",
+        "start_dates": [
+          "2026-05-15"
+        ],
+        "start_date_notes": "Summer start only (once per year)"
       },
       "program_details": {
         "duration_months": 18,
@@ -1360,8 +1520,17 @@
       "plan_fit": {
         "status": "ruled_out",
         "reasons": [
-          "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
+          "Application deadline passed (Jan 8, 2026)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.osu.edu/academics/undergraduate/accelerated-bachelor-science-nursing/"
+        },
+        "notes": "Verified Jan 2026. 18-month hybrid program."
       }
     },
     {
@@ -1457,6 +1626,16 @@
         "reasons": [
           "Fall 2026 courses needed (1): Chemistry I & II with Labs"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.uab.edu/nursing/home/academics/masters/amnp"
+        },
+        "notes": "NOT AN ABSN - UAB offers AMNP (Accelerated Masters in Nursing Pathway) awarding MSN, not BSN.",
+        "program_type_issue": "msn_entry"
       }
     },
     {
@@ -1490,10 +1669,14 @@
       },
       "admissions": {
         "email": "nursing@memphis.edu",
-        "deadline": "2026-03-01",
+        "deadline": "2026-02-15",
         "start_date": "2026-08-15",
         "in_progress_ok": true,
-        "app_timing_notes": "All prereqs in-progress or complete at application, finished before start."
+        "app_timing_notes": "All prereqs in-progress or complete at application, finished before start.",
+        "start_dates": [
+          "2026-08-15"
+        ],
+        "start_date_notes": "Fall start only (once per year)"
       },
       "program_details": {
         "duration_months": 18,
@@ -1554,6 +1737,15 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.memphis.edu/nursing/program-admit/accelerated-bsn/"
+        },
+        "notes": "Verified Jan 2026. 16-18 month program."
       }
     },
     {
@@ -1584,10 +1776,15 @@
       },
       "admissions": {
         "email": "admissions@carlow.edu",
-        "deadline": "2026-04-01",
-        "start_date": "2027-01-15",
+        "deadline": null,
+        "start_date": "2026-08-15",
         "in_progress_ok": null,
-        "app_timing_notes": "A&P must be from same institution and within 7 years."
+        "app_timing_notes": "A&P must be from same institution and within 7 years.",
+        "start_dates": [
+          "2026-08-15"
+        ],
+        "start_date_notes": "Fall start only",
+        "deadline_notes": "Rolling admissions"
       },
       "program_details": {
         "duration_months": 15,
@@ -1647,6 +1844,15 @@
         "reasons": [
           "Fall 2026 courses needed (1): Pathophysiology (3 credits)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.carlow.edu/academic-programs/nursing-degrees/nursing-major-second-degree/"
+        },
+        "notes": "Verified Jan 2026. 15-month program."
       }
     },
     {
@@ -1678,10 +1884,14 @@
       },
       "admissions": {
         "email": "HSC-CON-FinancialAid@salud.unm.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
+        "deadline": "2026-03-15",
+        "start_date": "2026-08-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Case-by-case for missing Patho, Nutrition, or Lifespan."
+        "app_timing_notes": "Case-by-case for missing Patho, Nutrition, or Lifespan.",
+        "start_dates": [
+          "2026-08-15"
+        ],
+        "start_date_notes": "Fall start only (4 consecutive terms)"
       },
       "program_details": {
         "duration_months": 16,
@@ -1742,6 +1952,15 @@
         "reasons": [
           "Fall 2026 courses needed (1): Pathophysiology II (NURS 240)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://hsc.unm.edu/nursing/admissions/"
+        },
+        "notes": "Verified Jan 2026. Application window Nov 1 - Mar 15."
       }
     },
     {
@@ -1778,7 +1997,11 @@
         "start_date": "2027-05-15",
         "in_progress_ok": true,
         "app_timing_notes": "All 4 science prereqs complete by Sep 15 deadline; others before start.",
-        "uses_transferology": true
+        "uses_transferology": true,
+        "start_dates": [
+          "2027-05-15"
+        ],
+        "start_date_notes": "May start only. May 2026 CLOSED, next is May 2027."
       },
       "program_details": {
         "duration_months": 12,
@@ -1840,6 +2063,15 @@
           "Fall 2026 courses needed (1): University Gen Ed Requirements (Communication, Quantitative, Ethnic Studies)",
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.wisc.edu/apply-absn/"
+        },
+        "notes": "Verified Jan 2026. May 2026 deadline PASSED (was Sep 15, 2025)."
       }
     },
     {
@@ -1871,7 +2103,11 @@
         "deadline": "2025-12-31",
         "start_date": "2026-08-15",
         "in_progress_ok": true,
-        "app_timing_notes": "May apply with prereqs in progress, complete before nursing courses."
+        "app_timing_notes": "May apply with prereqs in progress, complete before nursing courses.",
+        "start_dates": [
+          "2026-08-15"
+        ],
+        "start_date_notes": "Fall start only"
       },
       "program_details": {
         "duration_months": 16,
@@ -1932,6 +2168,15 @@
         "reasons": [
           "Application deadline passed (Dec 30, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "high",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.stedwards.edu/academics/programs/nursing-accelerated-bsn"
+        },
+        "notes": "Verified Jan 2026. DEADLINE PASSED for Fall 2026."
       }
     },
     {
@@ -1962,10 +2207,14 @@
       },
       "admissions": {
         "email": "nursing@loyno.edu",
-        "deadline": "2026-04-01",
-        "start_date": "2027-01-15",
+        "deadline": "2025-11-01",
+        "start_date": "2026-01-15",
         "in_progress_ok": null,
-        "app_timing_notes": "Contact school for in-progress policy."
+        "app_timing_notes": "Contact school for in-progress policy.",
+        "start_dates": [
+          "2026-01-15"
+        ],
+        "start_date_notes": "Spring (January) start - primary cohort"
       },
       "program_details": {
         "duration_months": 17,
@@ -2026,10 +2275,19 @@
         "expected_value_with_commitment": 31000
       },
       "plan_fit": {
-        "status": "fall_required",
+        "status": "ruled_out",
         "reasons": [
-          "Fall 2026 courses needed (1): Organic Chemistry with lab"
+          "Application deadline passed (Oct 31, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": "2026-01-21",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.loyno.edu/academics/colleges/college-nursing-health/accelerated-bachelor-science-nursing-hybrid"
+        },
+        "notes": "Verified Jan 2026. 17-month hybrid program."
       }
     },
     {
@@ -2125,6 +2383,13 @@
         "reasons": [
           "Requires: 100 hours healthcare experience (within 12 months)"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2220,6 +2485,13 @@
         "reasons": [
           "Fall 2026 courses needed (1): Chemistry for Health Sciences with lab"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2312,6 +2584,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2404,6 +2683,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2500,6 +2786,13 @@
         "reasons": [
           "Fall 2026 courses needed (1): English Composition"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2596,6 +2889,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2697,6 +2997,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2799,6 +3106,13 @@
         "reasons": [
           "Fall 2026 courses needed (3): English Comp I & II, History, Fine Arts/Humanities (6 hrs)"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2898,6 +3212,13 @@
         "reasons": [
           "Does NOT accept online A&P labs - requires in-person lab completion"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -2992,6 +3313,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3086,6 +3414,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3181,6 +3516,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3283,6 +3625,13 @@
           "Fall 2026 courses needed (3): Human Genetics (3 cr), Pathophysiology (4 cr), English Composition - technical writing (3 cr)",
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3378,6 +3727,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3474,6 +3830,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3568,6 +3931,13 @@
         "reasons": [
           "Requires: CNA I certification (NC Nurse Aide Registry)"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3673,6 +4043,13 @@
         "reasons": [
           "Application deadline passed (Nov 30, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3764,6 +4141,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3868,6 +4252,13 @@
           "Fall 2026 courses needed (1): English Composition (6 semester hrs)",
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "medium",
+        "last_verified": null,
+        "confidence": "needs_verification",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -3965,6 +4356,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4061,6 +4459,13 @@
         "reasons": [
           "Requires: Healthcare experience (10 hrs min)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4154,6 +4559,13 @@
         "reasons": [
           "Fall 2026 courses needed (1): Organic/Biochemistry"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4252,6 +4664,13 @@
         "reasons": [
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4357,6 +4776,13 @@
           "Fall 2026 courses needed (1): Tennessee U.S. History requirement (6 semester hrs or 1 HS unit)",
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4459,6 +4885,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4556,6 +4989,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4651,6 +5091,13 @@
         "reasons": [
           "Fall 2026 courses needed (1): English Composition I & II"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4747,6 +5194,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4842,6 +5296,13 @@
         "reasons": [
           "Fall 2026 courses needed (1): Theology (5 credits, during program)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -4939,6 +5400,13 @@
           "Fall 2026 courses needed (1): Pathophysiology (grade B+ required)",
           "Online A&P labs: case-by-case review - verify with school"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5046,6 +5514,13 @@
         "reasons": [
           "Fall 2026 courses needed (2): General Biology (3 cr), Composition/Communication course"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5145,6 +5620,13 @@
         "reasons": [
           "Requires: 50 hours healthcare experience"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5243,6 +5725,13 @@
         "reasons": [
           "Fall 2026 courses needed (1): Pathophysiology (BIO-322)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5341,6 +5830,13 @@
         "reasons": [
           "Online A&P labs: case-by-case review - verify with school"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5447,6 +5943,13 @@
         "reasons": [
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5544,6 +6047,13 @@
         "reasons": [
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5641,6 +6151,13 @@
         "reasons": [
           "Application deadline passed (Nov 29, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5744,6 +6261,13 @@
         "reasons": [
           "Requires: CNA certification"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5843,6 +6367,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -5937,6 +6468,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6042,6 +6580,13 @@
         "reasons": [
           "Fall 2026 courses needed (1): Abnormal Psychology"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6141,6 +6686,13 @@
         "reasons": [
           "Application deadline passed (Oct 31, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6242,6 +6794,13 @@
         "reasons": [
           "Requires: CNA recommended"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6341,6 +6900,13 @@
           "Fall 2026 courses needed (2): Pathophysiology, Pharmacology with Nursing Component (within 1 YEAR!)",
           "Online A&P labs: case-by-case review - verify with school"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6449,6 +7015,13 @@
         "reasons": [
           "Application deadline passed (Jan 14, 2026)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6557,6 +7130,13 @@
           "Fall 2026 courses needed (3): Health Care Ethics, English Composition (3 cr), Philosophy (6 cr)",
           "Online A&P lab policy unclear - verify with school before applying"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6664,6 +7244,13 @@
         "reasons": [
           "Application deadline passed (Oct 14, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6764,6 +7351,13 @@
         "reasons": [
           "Standard prereqs match your plan"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6874,6 +7468,13 @@
         "reasons": [
           "Application deadline passed (Jan 14, 2026)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -6987,6 +7588,13 @@
         "reasons": [
           "Application deadline passed (Nov 30, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -7095,6 +7703,13 @@
         "reasons": [
           "Application deadline passed (Oct 31, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -7187,6 +7802,13 @@
         "reasons": [
           "Requires complete prereqs at application (Feb 2026) - you will have all in-progress"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     },
     {
@@ -7305,6 +7927,13 @@
         "reasons": [
           "Application deadline passed (Oct 14, 2025)"
         ]
+      },
+      "verification": {
+        "priority": "low",
+        "last_verified": null,
+        "confidence": "unverified",
+        "sources": {},
+        "notes": null
       }
     }
   ],
