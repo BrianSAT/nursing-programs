@@ -53,7 +53,7 @@
         "deadline": "2026-02-15",
         "start_date": "2026-05-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Set A prereqs complete before applying; Set B can be in progress.",
+        "app_timing_notes": "Set A prereqs complete before applying; Set B can be in progress. NOTE: Summer (May) start ONLY. Application deadline Feb 15, 2026. No Jan start available.",
         "start_dates": [
           "2026-05-15"
         ],
@@ -74,10 +74,10 @@
         "np_pathway": 0.71,
         "prestige": 0.65,
         "competitiveness": 0.9,
-        "start_score": 1,
+        "start_score": 0.6,
         "cost_score": 0.53,
-        "raw_score": 2.26,
-        "rank": 1,
+        "raw_score": 1.35,
+        "rank": 20,
         "national_percentile": 0.45,
         "location_combined": 7.28,
         "np_type_multiplier": 1
@@ -122,12 +122,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://www.isu.edu/acceleratednursing/"
         },
-        "notes": "Verified Jan 2026. Applications Nov 15-Feb 15. TEAS required."
+        "notes": "Verified Jan 2026. Applications Nov 15-Feb 15. TEAS required. START SCORE FIXED: Was 1.0, now 0.6 (May-only start, 8mo from Jan 2027 target)."
       }
     },
     {
@@ -181,7 +181,7 @@
         "start_score": 1,
         "cost_score": 0.34,
         "raw_score": 2.22,
-        "rank": 2,
+        "rank": 1,
         "national_percentile": 0.9,
         "location_combined": 6.37,
         "np_type_multiplier": 1.2
@@ -267,9 +267,9 @@
       "admissions": {
         "email": "nursing@slu.edu",
         "deadline": null,
-        "start_date": "2026-05-15",
+        "start_date": "2027-01-15",
         "in_progress_ok": false,
-        "app_timing_notes": "ALL prereqs must be complete before program begins.",
+        "app_timing_notes": "ALL prereqs must be complete before program begins. UPDATED: SLU now offers both Fall and Spring (January) starts. Rolling admissions.",
         "start_dates": [
           "2026-05-15"
         ],
@@ -292,7 +292,7 @@
         "start_score": 1,
         "cost_score": 0.51,
         "raw_score": 2.17,
-        "rank": 3,
+        "rank": 2,
         "national_percentile": 0.7,
         "location_combined": 8.36,
         "np_type_multiplier": 1
@@ -338,12 +338,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://www.slu.edu/nursing/degrees/undergraduate/nursing-bs-accelerated.php"
         },
-        "notes": "Verified Jan 2026. Rolling admissions until cohort full."
+        "notes": "Verified Jan 2026. Rolling admissions until cohort full. START DATE UPDATED: Was May 2026 (old single-start), now Jan 2027 (Spring start confirmed on official site)."
       }
     },
     {
@@ -380,10 +380,10 @@
       },
       "admissions": {
         "email": "nursing.students@uth.tmc.edu",
-        "deadline": "2026-03-30",
-        "start_date": "2026-08-15",
+        "deadline": "2026-09-01",
+        "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Apply with 48/60 credits (16 must be sciences). TX Gov required for out-of-state.",
+        "app_timing_notes": "Apply with 48/60 credits (16 must be sciences). TX Gov required for out-of-state. UPDATED: 3 starts/yr (Spring/Summer/Fall). Spring 2027 deadline Sep 1, 2026.",
         "start_dates": [
           "2026-08-15",
           "2027-01-15",
@@ -407,7 +407,7 @@
         "start_score": 1,
         "cost_score": 0.72,
         "raw_score": 1.98,
-        "rank": 4,
+        "rank": 3,
         "national_percentile": 0.8,
         "location_combined": 5.98,
         "np_type_multiplier": 1
@@ -454,12 +454,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://nursing.uth.edu/programs/application-deadlines"
         },
-        "notes": "Verified Jan 2026. FREE tuition available via Future Nurses Fund for qualifying students."
+        "notes": "Verified Jan 2026. FREE tuition available via Future Nurses Fund for qualifying students. START DATE UPDATED: Was Aug 2026, now Jan 2027 (Spring start). Deadline Sep 1 2026."
       }
     },
     {
@@ -518,7 +518,7 @@
         "start_score": 1,
         "cost_score": 0.61,
         "raw_score": 1.94,
-        "rank": 5,
+        "rank": 4,
         "national_percentile": 0.55,
         "location_combined": 7.44,
         "np_type_multiplier": 1
@@ -600,10 +600,10 @@
       },
       "admissions": {
         "email": "nursing@buffalo.edu",
-        "deadline": "2025-10-01",
-        "start_date": "2026-05-15",
+        "deadline": "2026-10-01",
+        "start_date": "2027-05-15",
         "in_progress_ok": true,
-        "app_timing_notes": "4 of 9 prereqs complete by Oct 1 deadline. Rest done before May start.",
+        "app_timing_notes": "4 of 9 prereqs complete by Oct 1 deadline. Rest done before May start. UPDATED: Summer (May) start ONLY. 2026 deadline passed. Next cohort May 2027, deadline ~Oct 1 2026.",
         "start_dates": [
           "2026-05-15"
         ],
@@ -624,10 +624,10 @@
         "np_pathway": 0.76,
         "prestige": 0.7,
         "competitiveness": 0.85,
-        "start_score": 1,
+        "start_score": 0.8,
         "cost_score": 0.52,
-        "raw_score": 1.88,
-        "rank": 6,
+        "raw_score": 1.5,
+        "rank": 15,
         "national_percentile": 0.55,
         "location_combined": 6.08,
         "np_type_multiplier": 1
@@ -671,12 +671,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://nursing.buffalo.edu/academic-programs/undergraduate-programs/abs/"
         },
-        "notes": "Verified Jan 2026. DEADLINE PASSED for Summer 2026."
+        "notes": "Verified Jan 2026. DEADLINE PASSED for Summer 2026. START DATE UPDATED: Was May 2026 (deadline passed), now May 2027. Start score fixed 1 -> 0.8."
       }
     },
     {
@@ -732,7 +732,7 @@
         "start_score": 0.6,
         "cost_score": 0.62,
         "raw_score": 1.85,
-        "rank": 7,
+        "rank": 5,
         "national_percentile": 0.65,
         "location_combined": 7.79,
         "np_type_multiplier": 1
@@ -838,7 +838,7 @@
         "start_score": 1,
         "cost_score": 0.61,
         "raw_score": 1.78,
-        "rank": 8,
+        "rank": 6,
         "national_percentile": 0.45,
         "location_combined": 6.75,
         "np_type_multiplier": 1
@@ -919,9 +919,9 @@
       "admissions": {
         "email": "nursing@ohsu.edu",
         "deadline": "2026-01-05",
-        "start_date": "2026-06-15",
+        "start_date": "2027-01-04",
         "in_progress_ok": true,
-        "app_timing_notes": "Can apply while completing prerequisites.",
+        "app_timing_notes": "Can apply while completing prerequisites. UPDATED: Portland has 3 starts (Summer/Fall/Winter). Winter 2027 starts Jan 4. Priority deadline Jan 5 2026 (confirm application cycle).",
         "start_dates": [
           "2026-06-15",
           "2026-09-15",
@@ -945,7 +945,7 @@
         "start_score": 1,
         "cost_score": 0.4,
         "raw_score": 1.74,
-        "rank": 9,
+        "rank": 7,
         "national_percentile": 0.8,
         "location_combined": 7.99,
         "np_type_multiplier": 1
@@ -991,12 +991,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://www.ohsu.edu/school-of-nursing/admissions"
         },
-        "notes": "Verified Jan 2026. Priority deadline Jan 5."
+        "notes": "Verified Jan 2026. Priority deadline Jan 5. START DATE UPDATED: Was Jun 2026, now Jan 2027 (Winter start at Portland). Confirm app cycle with admissions."
       }
     },
     {
@@ -1055,7 +1055,7 @@
         "start_score": 0.6,
         "cost_score": 0.72,
         "raw_score": 1.7,
-        "rank": 10,
+        "rank": 8,
         "national_percentile": 0.6,
         "location_combined": 6.6,
         "np_type_multiplier": 1
@@ -1137,10 +1137,10 @@
       },
       "admissions": {
         "email": "nursing@luc.edu",
-        "deadline": null,
-        "start_date": "2026-08-15",
+        "deadline": "2026-11-01",
+        "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Some in progress OK, ALL complete before starting ABSN.",
+        "app_timing_notes": "Some in progress OK, ALL complete before starting ABSN. UPDATED: 2 starts/yr (Jan + Aug). Jan 2027 priority deadline Nov 1, 2026. Rolling admissions.",
         "uses_transferology": true,
         "start_dates": [
           "2026-01-15",
@@ -1165,7 +1165,7 @@
         "start_score": 1,
         "cost_score": 0.53,
         "raw_score": 1.6,
-        "rank": 11,
+        "rank": 9,
         "national_percentile": 0.7,
         "location_combined": 6.56,
         "np_type_multiplier": 1
@@ -1211,12 +1211,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://www.luc.edu/nursing/admission/apply/absn/"
         },
-        "notes": "Verified Jan 2026. Hybrid or fully on-campus options."
+        "notes": "Verified Jan 2026. Hybrid or fully on-campus options. START DATE UPDATED: Was Aug 2026, now Jan 2027 (January cohort available). Priority deadline Nov 1 2026."
       }
     },
     {
@@ -1270,7 +1270,7 @@
         "start_score": 1,
         "cost_score": 0.46,
         "raw_score": 1.6,
-        "rank": 12,
+        "rank": 10,
         "national_percentile": 0.55,
         "location_combined": 7.32,
         "np_type_multiplier": 1
@@ -1372,7 +1372,7 @@
         "start_score": 0.8,
         "cost_score": 0.44,
         "raw_score": 1.6,
-        "rank": 13,
+        "rank": 11,
         "national_percentile": 0.97,
         "location_combined": 6,
         "np_type_multiplier": 1.2
@@ -1453,10 +1453,10 @@
       },
       "admissions": {
         "email": "nursing@osu.edu",
-        "deadline": "2026-01-09",
-        "start_date": "2026-05-15",
+        "deadline": "2027-01-09",
+        "start_date": "2027-05-15",
         "in_progress_ok": false,
-        "app_timing_notes": "ALL prereqs complete with B- by application deadline.",
+        "app_timing_notes": "ALL prereqs complete with B- by application deadline. UPDATED: Summer start ONLY (once/year). 2026 deadline passed. Next cohort Summer 2027, apps open ~Oct 2026, deadline ~Jan 9 2027.",
         "start_dates": [
           "2026-05-15"
         ],
@@ -1478,7 +1478,7 @@
         "start_score": 0.8,
         "cost_score": 0.65,
         "raw_score": 1.55,
-        "rank": 14,
+        "rank": 12,
         "national_percentile": 0.85,
         "location_combined": 6.45,
         "np_type_multiplier": 1
@@ -1525,12 +1525,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://nursing.osu.edu/academics/undergraduate/accelerated-bachelor-science-nursing/"
         },
-        "notes": "Verified Jan 2026. 18-month hybrid program."
+        "notes": "Verified Jan 2026. 18-month hybrid program. START DATE UPDATED: Was May 2026 (deadline passed Jan 9 2026), now May 2027. Start score 0.8 confirmed correct."
       }
     },
     {
@@ -1585,7 +1585,7 @@
         "start_score": 1,
         "cost_score": 0.45,
         "raw_score": 1.54,
-        "rank": 15,
+        "rank": 13,
         "national_percentile": 0.65,
         "location_combined": 6.72,
         "np_type_multiplier": 1
@@ -1696,7 +1696,7 @@
         "start_score": 0.8,
         "cost_score": 0.76,
         "raw_score": 1.52,
-        "rank": 16,
+        "rank": 14,
         "national_percentile": 0.5,
         "location_combined": 7.14,
         "np_type_multiplier": 1
@@ -1779,7 +1779,7 @@
         "deadline": null,
         "start_date": "2026-08-15",
         "in_progress_ok": null,
-        "app_timing_notes": "A&P must be from same institution and within 7 years.",
+        "app_timing_notes": "A&P must be from same institution and within 7 years. NOTE: Fall start ONLY. Rolling admissions. No Jan start available.",
         "start_dates": [
           "2026-08-15"
         ],
@@ -1799,12 +1799,12 @@
         "np_pathway": 0.76,
         "prestige": 0.65,
         "competitiveness": 0.8,
-        "start_score": 1,
+        "start_score": 0.8,
         "national_percentile": 0.6,
         "cost_score": 0.54,
-        "raw_score": 1.52,
+        "raw_score": 1.22,
         "location_combined": 7.98,
-        "rank": 17,
+        "rank": 24,
         "np_type_multiplier": 1
       },
       "notes": "15-month program; 100% NCLEX pass rate; $695/credit (~63 credits); Catholic university",
@@ -1847,12 +1847,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://www.carlow.edu/academic-programs/nursing-degrees/nursing-major-second-degree/"
         },
-        "notes": "Verified Jan 2026. 15-month program."
+        "notes": "Verified Jan 2026. 15-month program. START SCORE FIXED: Was 1, now 0.8 (Fall-only start, 5mo from Jan 2027 target)."
       }
     },
     {
@@ -1887,7 +1887,7 @@
         "deadline": "2026-03-15",
         "start_date": "2026-08-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Case-by-case for missing Patho, Nutrition, or Lifespan.",
+        "app_timing_notes": "Case-by-case for missing Patho, Nutrition, or Lifespan. NOTE: Fall (Aug) start ONLY. Application window Nov 1 - Mar 15. No Jan start available.",
         "start_dates": [
           "2026-08-15"
         ],
@@ -1908,10 +1908,10 @@
         "np_pathway": 0.82,
         "prestige": 0.7,
         "competitiveness": 0.9,
-        "start_score": 1,
+        "start_score": 0.8,
         "cost_score": 0.5,
-        "raw_score": 1.49,
-        "rank": 18,
+        "raw_score": 1.19,
+        "rank": 27,
         "national_percentile": 0.55,
         "location_combined": 6.97,
         "np_type_multiplier": 1
@@ -1955,12 +1955,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://hsc.unm.edu/nursing/admissions/"
         },
-        "notes": "Verified Jan 2026. Application window Nov 1 - Mar 15."
+        "notes": "Verified Jan 2026. Application window Nov 1 - Mar 15. START SCORE FIXED: Was 1, now 0.8 (Fall-only start, 5mo from Jan 2027 target)."
       }
     },
     {
@@ -2019,7 +2019,7 @@
         "start_score": 0.8,
         "cost_score": 0.45,
         "raw_score": 1.44,
-        "rank": 19,
+        "rank": 16,
         "national_percentile": 0.75,
         "location_combined": 5.27,
         "np_type_multiplier": 1
@@ -2125,7 +2125,7 @@
         "start_score": 0.8,
         "cost_score": 0.47,
         "raw_score": 1.4,
-        "rank": 20,
+        "rank": 17,
         "national_percentile": 0.65,
         "location_combined": 7.8,
         "np_type_multiplier": 1
@@ -2207,10 +2207,10 @@
       },
       "admissions": {
         "email": "nursing@loyno.edu",
-        "deadline": "2025-11-01",
-        "start_date": "2026-01-15",
+        "deadline": "2026-11-01",
+        "start_date": "2027-01-15",
         "in_progress_ok": null,
-        "app_timing_notes": "Contact school for in-progress policy.",
+        "app_timing_notes": "Contact school for in-progress policy. UPDATED: Spring (Jan) start only. Annual cohort. Deadline ~Nov 1. Confirm Jan 2027 cohort with school.",
         "start_dates": [
           "2026-01-15"
         ],
@@ -2232,7 +2232,7 @@
         "start_score": 1,
         "cost_score": 0.67,
         "raw_score": 1.39,
-        "rank": 21,
+        "rank": 18,
         "national_percentile": 0.55,
         "location_combined": 6.48,
         "np_type_multiplier": 1
@@ -2282,12 +2282,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "verified",
         "sources": {
           "primary": "https://www.loyno.edu/academics/colleges/college-nursing-health/accelerated-bachelor-science-nursing-hybrid"
         },
-        "notes": "Verified Jan 2026. 17-month hybrid program."
+        "notes": "Verified Jan 2026. 17-month hybrid program. START DATE UPDATED: Was Jan 2026 (passed), now Jan 2027 (expected annual cohort). Confirm with school."
       }
     },
     {
@@ -2340,7 +2340,7 @@
         "start_score": 1,
         "cost_score": 0.28,
         "raw_score": 1.37,
-        "rank": 22,
+        "rank": 19,
         "national_percentile": 0.92,
         "location_combined": 6.54,
         "np_type_multiplier": 1
@@ -2547,7 +2547,7 @@
         "start_score": 1,
         "cost_score": 0.7,
         "raw_score": 1.3,
-        "rank": 23,
+        "rank": 21,
         "national_percentile": 0.5,
         "location_combined": 6.24,
         "np_type_multiplier": 1
@@ -2753,7 +2753,7 @@
         "start_score": 1,
         "cost_score": 0.46,
         "raw_score": 1.28,
-        "rank": 24,
+        "rank": 22,
         "national_percentile": 0.65,
         "location_combined": 6.08,
         "np_type_multiplier": 1
@@ -2854,7 +2854,7 @@
         "cost_score": 0.4,
         "raw_score": 1.27,
         "location_combined": 6.48,
-        "rank": 25,
+        "rank": 23,
         "np_type_multiplier": 1
       },
       "notes": "16mo hybrid program; $69,280 tuition OR FREE via LCMC Nurse Scholars (2yr work commitment); elite program [OOS tuition applied]",
@@ -3075,7 +3075,7 @@
         "start_score": 0.8,
         "cost_score": 0.56,
         "raw_score": 1.21,
-        "rank": 26,
+        "rank": 25,
         "national_percentile": 0.55,
         "location_combined": 6.32,
         "np_type_multiplier": 1
@@ -4461,7 +4461,7 @@
         "start_score": 0.8,
         "cost_score": 0.5988,
         "raw_score": 1.21,
-        "rank": 27,
+        "rank": 26,
         "national_percentile": 0.65,
         "location_combined": 7.35,
         "np_type_multiplier": 1
