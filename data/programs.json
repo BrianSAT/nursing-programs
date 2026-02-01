@@ -183,7 +183,7 @@
         "raw_score": 2.22,
         "rank": 2,
         "national_percentile": 0.9,
-        "location_combined": 6.34,
+        "location_combined": 6.37,
         "np_type_multiplier": 1.2
       },
       "notes": "DABSN leads to NP; #2 BSN nat'l; ~$82K; 3 start dates [OOS tuition applied]",
@@ -228,12 +228,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
-        "confidence": "needs_verification",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
         "sources": {
           "primary": "https://www.nursing.emory.edu/program-details/distance-accelerated-bsn"
         },
-        "notes": "CONFLICTING INFO - DABSN page says not accepting applications, but deadlines still listed. Contact nursingquestions@emory.edu to verify."
+        "notes": "CONFIRMED NOT ACCEPTING APPLICATIONS as of Feb 2026. Website states: not currently accepting applications to DABSN program. Tuition ~2k when active. Program should be ruled out for Spring 2027 planning."
       }
     },
     {
@@ -409,7 +409,7 @@
         "raw_score": 1.98,
         "rank": 4,
         "national_percentile": 0.8,
-        "location_combined": 5.96,
+        "location_combined": 5.98,
         "np_type_multiplier": 1
       },
       "notes": "Pacesetter BSN 15 mo, 60 prereq hrs, no time limit on prereqs, 3.0 GPA, HESI/TEAS, FREE TUITION if income <$100K (Future Nurses Fund), ~130/cohort, 3 starts/yr",
@@ -882,12 +882,12 @@
       },
       "verification": {
         "priority": "high",
-        "last_verified": "2026-01-21",
+        "last_verified": "2026-02-01",
         "confidence": "needs_verification",
         "sources": {
           "primary": "https://thechristcollege.edu/accelerated-nursing/"
         },
-        "notes": "DATA GAP - Start dates and deadlines not publicly listed on website. Contact admissions: 513-585-2401"
+        "notes": "DATA GAP CONFIRMED Feb 2026 - Start dates, deadlines, and tuition not publicly listed on website. Duration is 15 months per website. Must contact admissions at 513-585-2401 for dates and costs."
       }
     },
     {
@@ -1374,7 +1374,7 @@
         "raw_score": 1.6,
         "rank": 13,
         "national_percentile": 0.97,
-        "location_combined": 5.96,
+        "location_combined": 6,
         "np_type_multiplier": 1.2
       },
       "notes": "ABSN ended; now MN (Masters); ~$119K total; elite [OOS tuition applied]",
@@ -1480,7 +1480,7 @@
         "raw_score": 1.55,
         "rank": 14,
         "national_percentile": 0.85,
-        "location_combined": 6.41,
+        "location_combined": 6.45,
         "np_type_multiplier": 1
       },
       "notes": "TEAS req; #1 public #4 overall; ~$16.5K tuition [OOS tuition applied]",
@@ -2021,7 +2021,7 @@
         "raw_score": 1.44,
         "rank": 19,
         "national_percentile": 0.75,
-        "location_combined": 5.29,
+        "location_combined": 5.27,
         "np_type_multiplier": 1
       },
       "notes": "WI resident priority; $45K resident/$60K non-res",
@@ -2342,7 +2342,7 @@
         "raw_score": 1.37,
         "rank": 22,
         "national_percentile": 0.92,
-        "location_combined": 6.57,
+        "location_combined": 6.54,
         "np_type_multiplier": 1
       },
       "notes": "Competitive; B min sciences; ~$50K (flat rate) [OOS tuition applied]",
@@ -2386,10 +2386,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
+        "last_verified": "2026-02-01",
         "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "sources": {
+          "primary": "https://nursing.uw.edu/academics/accelerated-bsn/"
+        },
+        "notes": "Partially verified Feb 2026. Duration 12mo confirmed. Deadline likely Oct 15 (based on prior years, 2027 not yet published). Tuition ~9,664 per third-party source vs \u0007,000 in data - needs official confirmation. Info sessions for 2027 cycle start March 2026."
       }
     },
     {
@@ -2421,10 +2423,10 @@
       },
       "admissions": {
         "email": "nursing@fiu.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
+        "deadline": "2027-05-10",
+        "start_date": "2027-08-15",
         "in_progress_ok": true,
-        "app_timing_notes": "ALL science prereqs complete at application. Up to 2 non-science in progress."
+        "app_timing_notes": "ALL science prereqs complete at application. Up to 2 non-science in progress. CORRECTED: Fall start only. Rolling admissions Aug 7 - May 10."
       },
       "program_details": {
         "duration_months": 16,
@@ -2441,10 +2443,10 @@
         "np_pathway": 0.86,
         "prestige": 0.7,
         "competitiveness": 0.8,
-        "start_score": 1,
+        "start_score": 0.6,
         "cost_score": 0.57,
-        "raw_score": 1.35,
-        "rank": 23,
+        "raw_score": 0.81,
+        "rank": 44,
         "national_percentile": 0.6,
         "location_combined": 6.24,
         "np_type_multiplier": 1
@@ -2487,11 +2489,13 @@
         ]
       },
       "verification": {
-        "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://cnhs.fiu.edu/academics/nursing/undergrad-nursing/programs/ao-bsn/"
+        },
+        "notes": "CRITICAL: Program starts FALL ONLY (not January). Start date 2027-01-15 in data is WRONG - earliest would be Fall 2027 (~Aug 2027). Website says 4 semesters ~12 months (data has 16mo). In-state tuition ~\u0005,832; OOS tuition not listed (data \u0005k may be OOS estimate). Rolling admissions Aug 7 - May 10. Called AO BSN (Accelerated Option). Contact 305-348-7703."
       }
     },
     {
@@ -2543,7 +2547,7 @@
         "start_score": 1,
         "cost_score": 0.7,
         "raw_score": 1.3,
-        "rank": 24,
+        "rank": 23,
         "national_percentile": 0.5,
         "location_combined": 6.24,
         "np_type_multiplier": 1
@@ -2587,10 +2591,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://online.utulsa.edu/programs/undergraduate-degrees/accelerated-bsn/"
+        },
+        "notes": "Verified Feb 2026. Online ABSN, 21 months, 3 starts/year, rolling admissions. Tuition ~\u0000,228 (\u00058/cr x 66 credits) - data has \u0002,228, minor difference possibly due to credit count variation. Textbooks included in tuition. Contact: 918-612-5036."
       }
     },
     {
@@ -2619,10 +2625,10 @@
       },
       "admissions": {
         "email": "nursing@louisville.edu",
-        "deadline": "2026-03-01",
-        "start_date": "2027-01-15",
+        "deadline": "2026-11-15",
+        "start_date": "2027-05-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Minimum 2 science prereqs complete at application."
+        "app_timing_notes": "Minimum 2 science prereqs complete at application. CORRECTED: Mid-May start. Priority deadline Aug 15-Nov 15."
       },
       "program_details": {
         "duration_months": 15,
@@ -2639,10 +2645,10 @@
         "np_pathway": 0.81,
         "prestige": 0.7,
         "competitiveness": 0.85,
-        "start_score": 1,
+        "start_score": 0.8,
         "cost_score": 0.4,
-        "raw_score": 1.28,
-        "rank": 25,
+        "raw_score": 1.03,
+        "rank": 36,
         "national_percentile": 0.6,
         "location_combined": 7.49,
         "np_type_multiplier": 1
@@ -2685,11 +2691,13 @@
         ]
       },
       "verification": {
-        "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.louisville.edu/academics/undergraduate/bsn-accelerated"
+        },
+        "notes": "CRITICAL: Program starts MID-MAY, not January. Start date 2027-01-15 in data is WRONG. 15 months, hybrid format. In-state tuition ~9,160 (54 cr x  /cr). Data has \u0007,000 - likely OOS estimate but needs confirmation. Priority deadline Aug 15 - Nov 15, final through Jan 10. Two locations: Louisville and Owensboro. Contact: 502-852-5825."
       }
     },
     {
@@ -2745,7 +2753,7 @@
         "start_score": 1,
         "cost_score": 0.46,
         "raw_score": 1.28,
-        "rank": 26,
+        "rank": 24,
         "national_percentile": 0.65,
         "location_combined": 6.08,
         "np_type_multiplier": 1
@@ -2789,10 +2797,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
+        "last_verified": "2026-02-01",
         "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "sources": {
+          "primary": "https://nursing.arizona.edu/academics/bachelor-science-nursing-bsn"
+        },
+        "notes": "Partially verified Feb 2026. Gilbert campus = Accelerated Integrative Health Pathway, 15-16 months (data has 16mo, OK). Three starts per year. Tuition not confirmed from official source (\u0000k in data plausible for OOS). Hybrid format: online + in-person. Contact admissions for specific 2027 deadlines and tuition."
       }
     },
     {
@@ -2844,7 +2854,7 @@
         "cost_score": 0.4,
         "raw_score": 1.27,
         "location_combined": 6.48,
-        "rank": 27,
+        "rank": 25,
         "np_type_multiplier": 1
       },
       "notes": "16mo hybrid program; $69,280 tuition OR FREE via LCMC Nurse Scholars (2yr work commitment); elite program [OOS tuition applied]",
@@ -2872,13 +2882,13 @@
       },
       "costs": {
         "Location": "New Orleans, LA",
-        "Tuition": 69280,
-        "Fees": 3000,
+        "Tuition": 64980,
+        "Fees": 4300,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Duration (mo)": 16,
         "Living $/mo": 1500,
-        "Net Tuition": 72280,
+        "Net Tuition": 69280,
         "Total Living": 24000,
         "Total Cost": 96280,
         "Mo. Burn": 6018,
@@ -2892,10 +2902,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.tulane.edu/affordability"
+        },
+        "notes": "Verified Feb 2026. Tuition \u0004,980 (60 cr x ,083/cr), fees ,300 (univ ,416 + nursing ,284), grand total 9,280. Data Tuition field has 9,280 (grand total) with separate Fees ,000 - fees double-counted, should fix. 16 months, starts Jan/May/Sep. Nurse Scholars Program: tuition-free with 2yr LCMC Health commitment. Contact: hscfinaid@tulane.edu."
       }
     },
     {
@@ -2950,11 +2962,11 @@
         "competitiveness": 0.92,
         "start_score": 1,
         "cost_score": 0.47,
-        "raw_score": 1.22,
-        "rank": 28,
+        "raw_score": 1.03,
+        "rank": 37,
         "national_percentile": 0.88,
         "online_lab_conf": 1,
-        "location_combined": 7.5,
+        "location_combined": 7.52,
         "np_type_multiplier": 1.1
       },
       "notes": "Excellent NP pathway with Direct Entry option to doctoral programs. Minimal prereqs make this very accessible. 100% NCLEX pass rate. 24-month program is longer than some ABSNs but yields MSN degree. Strong option for NP career track.",
@@ -3000,10 +3012,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses/"
+        },
+        "notes": "Verified Feb 2026. Spring 2027: preferred deadline Aug 17, 2026; final deadline Oct 19, 2026 (matches data); starts Jan 4, 2027 (matches data). Tuition ~,436/credit, total ~\u0003k consistent with data. 24 months. 100% NCLEX pass rate. Direct Entry Pathway to DNP available. NursingCAS app \u0000 + Rush supplemental \u0000."
       }
     },
     {
@@ -3061,7 +3075,7 @@
         "start_score": 0.8,
         "cost_score": 0.56,
         "raw_score": 1.21,
-        "rank": 29,
+        "rank": 26,
         "national_percentile": 0.55,
         "location_combined": 6.32,
         "np_type_multiplier": 1
@@ -3109,10 +3123,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.uams.edu/future-students/programs/bsn/admissions/application-process/"
+        },
+        "notes": "Verified Feb 2026. 15 months, 4 semesters, 62 credits at Fayetteville (NW Regional Campus). Deadline March 1 confirmed. Start Summer (May) confirmed. In-person only. TEAS required (min 65%). 5 full-tuition Chancellor Scholars scholarships for ABSN (new Fall 2026) with AR work commitment. Tuition data reasonable for OOS."
       }
     },
     {
@@ -3166,9 +3182,9 @@
         "start_score": 1,
         "cost_score": 0.33,
         "raw_score": 1.18,
-        "rank": 30,
+        "rank": 28,
         "national_percentile": 0.7,
-        "location_combined": 6.56,
+        "location_combined": 6.6,
         "np_type_multiplier": 1
       },
       "notes": "Also Charlotte, Providence campuses",
@@ -3215,10 +3231,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://absn.northeastern.edu/admission/tuition-and-fees/"
+        },
+        "notes": "Verified Feb 2026. Tuition $87,569 (67 cr x $1,307/cr) CONFIRMED. 16 months, 3 starts/year (Jan/May/Sep), rolling admissions ~2mo before start. Location is Burlington, MA (not Boston proper). Auto $15,000 scholarship for Burlington students. Also has Fall River (near Providence) and Charlotte locations."
       }
     },
     {
@@ -3268,29 +3286,29 @@
         "prestige": 0.75,
         "competitiveness": 0.95,
         "start_score": 1,
-        "cost_score": 0.42,
-        "raw_score": 1.17,
-        "rank": 31,
+        "cost_score": 0.3585,
+        "raw_score": 1,
+        "rank": 39,
         "national_percentile": 0.75,
-        "location_combined": 6.1,
+        "location_combined": 6.12,
         "np_type_multiplier": 1
       },
       "notes": "12 mo (5 eight-wk terms), 10-yr latency on sciences, B min on prereqs, 3.0 GPA, Omaha & Phoenix campuses, 93% NCLEX, 48-56 students/cohort [OOS tuition applied]",
       "scoring_notes": "Top 30 per US News, 50-year ABSN track record",
       "costs": {
         "Location": "Omaha, NE",
-        "Tuition": 48000,
+        "Tuition": 55425,
         "Fees": 5500,
         "Schlrshp Amt": 500,
         "Schlrshp %": null,
-        "Net Tuition": 53000,
+        "Net Tuition": 60425,
         "COL Index": 92,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 16560,
         "Total Cost": 69560,
-        "Mo. Burn": 5797,
-        "Cost Score": 0.42
+        "Mo. Burn": 6415,
+        "Cost Score": 0.3585
       },
       "regional": {
         "ed_opportunity": 0.75,
@@ -3315,11 +3333,13 @@
         ]
       },
       "verification": {
-        "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.creighton.edu/academics/programs/accelerated-bachelor-science-nursing-absn"
+        },
+        "notes": "TUITION DISCREPANCY: Website shows $55,425 for Aug 2025/Jan 2026 classes vs $48,000 in data. 12 months confirmed. 2 starts: Jan and Aug (Omaha 48/cohort, Phoenix 56/cohort). Fees $4,500-$6,130. Full-tuition scholarship available (Children Nebraska 2yr commitment). 93% NCLEX 5yr avg. Contact: 402.280.2703 / Nursing@creighton.edu TUITION FIXED: Was $48,000, now $55,425 (Aug 2025/Jan 2026 rate)."
       }
     },
     {
@@ -3373,7 +3393,7 @@
         "start_score": 1,
         "cost_score": 0.45,
         "raw_score": 1.17,
-        "rank": 32,
+        "rank": 29,
         "national_percentile": 0.75,
         "location_combined": 7.22,
         "np_type_multiplier": 1
@@ -3417,10 +3437,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
+        "last_verified": "2026-02-01",
         "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "sources": {
+          "primary": "https://www.clemson.edu/cbshs/departments/nursing/degrees/nursing-accelerated-second-degree.html"
+        },
+        "notes": "Partially verified Feb 2026. 20 months confirmed. SC resident cost ~$55,440 vs data $78,000 (likely OOS estimate, needs confirmation). Very competitive: only 32 students/cohort. Greenville campus. Priority to Clemson alumni. 2027 deadlines not yet published."
       }
     },
     {
@@ -3475,7 +3497,7 @@
         "start_score": 1,
         "cost_score": 0.55,
         "raw_score": 1.17,
-        "rank": 33,
+        "rank": 30,
         "national_percentile": 0.5,
         "location_combined": 6.08,
         "np_type_multiplier": 1
@@ -3519,10 +3541,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
+        "last_verified": "2026-02-01",
         "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "sources": {
+          "primary": "https://www.ric.edu/academics/undergraduate-degree-programs/nursing-bsn/nursing-bsn-second-degree-candidates-specifics"
+        },
+        "notes": "Partially verified Feb 2026. 20-month, 5-semester program confirmed. Min 3.0 GPA, prereqs within 10 years. Tuition not confirmed from official source ($52k in data is plausible). No specific 2027 deadlines found. Contact RIC School of Nursing for current rates and deadlines."
       }
     },
     {
@@ -3557,7 +3581,7 @@
       },
       "admissions": {
         "email": "absn@pitt.edu",
-        "deadline": "2026-07-01",
+        "deadline": "2026-08-15",
         "start_date": "2027-01-11",
         "in_progress_ok": null,
         "app_timing_notes": "Rolling admissions. Contact absn@pitt.edu for in-progress policy."
@@ -3578,9 +3602,9 @@
         "start_score": 1,
         "cost_score": 0.29,
         "raw_score": 1.11,
-        "rank": 34,
+        "rank": 31,
         "national_percentile": 0.85,
-        "location_combined": 7.95,
+        "location_combined": 7.98,
         "np_type_multiplier": 1
       },
       "notes": "3 terms (12 mo), 10-yr prereq latency, B- min on science, 3.0 GPA, $8,333 guaranteed scholarship, 30 students/cohort, rolling admissions [OOS tuition applied]",
@@ -3628,10 +3652,13 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.nursing.pitt.edu/programs/accelerated-2nd-degree-bsn",
+          "deadlines": "https://www.nursing.pitt.edu/admissions/upcoming-application-deadlines"
+        },
+        "notes": "Verified Feb 2026. 12 months, 3 terms confirmed. Spring 2027: priority deadline Apr 15, regular deadline Aug 15 (data has Jul 1 - between priority and regular). OOS tuition $2,206/cr; 54 nursing credits = ~$119k at per-credit rate, but data has $72k - may have flat-rate ABSN tuition, needs confirmation. $8,333 guaranteed scholarship confirmed. Rolling admissions, 30/cohort. Contact: absn@pitt.edu"
       }
     },
     {
@@ -3686,7 +3713,7 @@
         "start_score": 1,
         "cost_score": 0.54,
         "raw_score": 1.11,
-        "rank": 35,
+        "rank": 32,
         "national_percentile": 0.5,
         "location_combined": 6.91,
         "np_type_multiplier": 1
@@ -3730,10 +3757,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.roseman.edu/academic-programs/college-of-nursing/accelerated-bachelor-of-science-in-nursing/"
+        },
+        "notes": "Verified Feb 2026. <18 months confirmed. Spring 2027 Hybrid-Online: opens Aug 1 2026, closes Nov 1 2026. On-campus and hybrid-online modalities. Block System (90% mastery required). 95.45% NCLEX pass rate. 96.87% hired within 6 months. 4 starts/year. Data deadline Apr 1 may be for different start - Spring 2027 hybrid closes Nov 1 2026."
       }
     },
     {
@@ -3789,7 +3818,7 @@
         "start_score": 1,
         "cost_score": 0.39,
         "raw_score": 1.11,
-        "rank": 36,
+        "rank": 33,
         "national_percentile": 0.7,
         "location_combined": 6.2,
         "np_type_multiplier": 1
@@ -3833,10 +3862,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
+        "last_verified": "2026-02-01",
         "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "sources": {
+          "primary": "https://nursing.iu.edu/indianapolis/admissions/bsn/accelerated.html"
+        },
+        "notes": "Partially verified Feb 2026. 16 months confirmed. Available at IU Fort Wayne and IU Indianapolis. Min 2.7 GPA, 3.0 prereq GPA. Prior cycle deadline was Dec 1 for Spring (data has Feb 1 - may be slightly off). Tuition $72k not confirmed from official source. Contact: iuinurse@iu.edu"
       }
     },
     {
@@ -3890,7 +3921,7 @@
         "start_score": 0.8,
         "cost_score": 0.54,
         "raw_score": 1.1,
-        "rank": 37,
+        "rank": 34,
         "national_percentile": 0.55,
         "location_combined": 6.68,
         "np_type_multiplier": 1
@@ -3934,11 +3965,15 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
-      }
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.charlotte.edu/absn/"
+        },
+        "notes": "Verified Feb 2026. FALL START ONLY - 4 semesters (Fall-Spring-Summer-Fall) ~16 months. Apps open Nov 15, deadline Jan 31. NC resident tuition ~$14,991 vs data $46,000 (OOS). IMPORTANT: CNA I certification required before admission - unusual requirement. Start date 2026-08-15 in data is for Fall 2026 entry. Contact School of Nursing for OOS rate confirmation. RULED OUT: Requires CNA I certification which applicant will not have."
+      },
+      "ruled_out": true,
+      "ruled_out_reason": "Requires CNA I certification before admission"
     },
     {
       "id": "columbia",
@@ -3996,8 +4031,8 @@
         "competitiveness": 0.84,
         "start_score": 0.8,
         "cost_score": null,
-        "raw_score": 1.08,
-        "rank": 38,
+        "raw_score": 0,
+        "rank": 73,
         "national_percentile": 0.96,
         "online_lab_conf": 1,
         "location_combined": 4.55,
@@ -4046,10 +4081,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
+        "last_verified": "2026-02-01",
         "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "sources": {
+          "primary": "https://www.nursing.columbia.edu/academics/academic-programs/masters-direct-entry-program-non-nurses/"
+        },
+        "notes": "Partially verified Feb 2026. Called MDE (Masters Direct Entry), not DEMSN. 15 months confirmed. Third-party sources say tuition $87,242-$102,806 vs data $85,000 - likely outdated. Recent cycle deadline was Sep 5 2025. Data deadline Dec 1 2025 and start Jun 2027 gap seems large. Check official tuition page for current rates. Contact Columbia Nursing admissions."
       }
     },
     {
@@ -4101,7 +4138,7 @@
         "cost_score": 0.46,
         "raw_score": 1.04,
         "location_combined": 6.84,
-        "rank": 39,
+        "rank": 35,
         "np_type_multiplier": 1
       },
       "notes": "16mo hybrid; $900/credit (~69 credits = $61,880); Cincinnati campus paused but Columbus/Cleveland available [OOS tuition applied]",
@@ -4144,10 +4181,12 @@
       },
       "verification": {
         "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://acceleratednursing.xavier.edu/admissions/tuition-and-fees/"
+        },
+        "notes": "Verified Feb 2026. Total $61,880 CONFIRMED ($900/cr x 63 credits = $56,700 + fees). 16 months, 4 semesters. 3 starts/year (Jan/May/Aug). 3 Ohio locations: Cincinnati, Cleveland, Columbus. Hybrid: online coursework + in-person labs/clinicals. Min 2.7 GPA. Rolling admissions. Contact: 866.890.9467"
       }
     },
     {
@@ -4181,7 +4220,7 @@
       },
       "admissions": {
         "email": "mcdanikf@musc.edu",
-        "deadline": "2027-01-31",
+        "deadline": "2026-09-15",
         "start_date": "2027-01-04",
         "in_progress_ok": true,
         "app_timing_notes": "3 of 4 sciences at application. All done by enrollment.",
@@ -4207,9 +4246,9 @@
         "start_score": 1,
         "cost_score": 0.49,
         "raw_score": 1.02,
-        "rank": 40,
+        "rank": 38,
         "national_percentile": 0.82,
-        "location_combined": 4.95,
+        "location_combined": 4.97,
         "np_type_multiplier": 1
       },
       "notes": "16-mo (4 semesters); $1000 OOS deposit; Top nursing school; Charleston location [OOS tuition applied]",
@@ -4254,11 +4293,13 @@
         ]
       },
       "verification": {
-        "priority": "medium",
-        "last_verified": null,
-        "confidence": "needs_verification",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.musc.edu/admissions/our-programs/accelerated-bsn/"
+        },
+        "notes": "Verified Feb 2026. DEADLINE FIXED: Was 2027-01-31 (AFTER start date - impossible). Spring 2027: Priority Jul 1 - Aug 15 2026, Regular Jul 1 - Sep 15 2026. Start Jan 4 2027 confirmed. 16 months, 4 consecutive semesters, on-campus only. OOS $1,000 non-refundable confirmation fee. Tuition not listed on site (check education.musc.edu/admissions/tuition-fees). Min 3.0 GPA, need 3/4 required science courses at time of application. Contact: 843-792-2536"
       }
     },
     {
@@ -4293,9 +4334,9 @@
       "admissions": {
         "email": "nursing@hunter.cuny.edu",
         "deadline": "2026-02-01",
-        "start_date": "2027-01-15",
+        "start_date": "2027-09-01",
         "in_progress_ok": false,
-        "app_timing_notes": "ALL prereqs complete by end of Spring before Fall. VERY competitive (100 admitted annually)."
+        "app_timing_notes": "ALL prereqs complete by end of Spring before Fall. VERY competitive (100 admitted annually). CORRECTED: Fall semester admission only."
       },
       "program_details": {
         "duration_months": 18,
@@ -4312,12 +4353,12 @@
         "np_pathway": 0.85,
         "prestige": 0.7,
         "competitiveness": 0.8,
-        "start_score": 1,
+        "start_score": 0.6,
         "cost_score": 0.54,
-        "raw_score": 1,
-        "rank": 41,
+        "raw_score": 0.6,
+        "rank": 53,
         "national_percentile": 0.55,
-        "location_combined": 5.53,
+        "location_combined": 5.52,
         "np_type_multiplier": 1
       },
       "costs": {
@@ -4358,11 +4399,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.hunter.cuny.edu/hunter-bellevue-school-of-nursing/prospective-students/undergraduate-nursing-programs/accelerated-second-degree-nursing-program-a2d/"
+        },
+        "notes": "CRITICAL: FALL ADMISSION ONLY. Data has start 2027-01-15 (Jan) which is WRONG - program admits for fall semester only. OOS tuition $31,620 confirmed (51 credits, 18 months). Min 3.2 GPA. Must have baccalaureate by June 1 of entry year. Brookdale Health Sciences Campus, NYC."
       }
     },
     {
@@ -4416,27 +4459,27 @@
         "prestige": 0.75,
         "competitiveness": 0.85,
         "start_score": 0.8,
-        "cost_score": 0.48,
-        "raw_score": 0.97,
-        "rank": 42,
+        "cost_score": 0.5988,
+        "raw_score": 1.21,
+        "rank": 27,
         "national_percentile": 0.65,
         "location_combined": 7.35,
         "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Detroit, MI",
-        "Tuition": 72000,
+        "Tuition": 48231,
         "Fees": 5017,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
-        "Net Tuition": 77017,
+        "Net Tuition": 53248,
         "COL Index": 90,
         "Duration (mo)": 20,
         "Living $/mo": 1500,
         "Total Living": 27000,
         "Total Cost": 104017,
-        "Mo. Burn": 5201,
-        "Cost Score": 0.48
+        "Mo. Burn": 4012,
+        "Cost Score": 0.5988
       },
       "regional": {
         "ed_opportunity": 0.85,
@@ -4461,11 +4504,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.wayne.edu/bsn-second-career"
+        },
+        "notes": "TUITION DISCREPANCY: Web shows ~$48,231 tuition + $5,017 fees = ~$53,248 total vs data $72,000 tuition. 20 months, 5 semesters confirmed. Admitted once/year spring/summer. Transcripts due June 1. Prereqs within 10 years. NursingCAS + secondary app required. TUITION FIXED: Was $72,000, now $48,231."
       }
     },
     {
@@ -4496,10 +4541,10 @@
       },
       "admissions": {
         "email": "nursing@capital.edu",
-        "deadline": "2026-06-01",
-        "start_date": "2027-01-15",
+        "deadline": "2026-12-01",
+        "start_date": "2027-08-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Conditional acceptance with prereqs in progress (proof by March 15)."
+        "app_timing_notes": "Conditional acceptance with prereqs in progress (proof by March 15). CORRECTED: August start only. Priority deadline Dec 1."
       },
       "program_details": {
         "duration_months": 20,
@@ -4514,12 +4559,12 @@
         "np_pathway": 0.86,
         "prestige": 0.6,
         "competitiveness": 0.75,
-        "start_score": 1,
+        "start_score": 0.6,
         "national_percentile": 0.55,
-        "cost_score": 0.63,
-        "raw_score": 0.93,
+        "cost_score": 0.5808,
+        "raw_score": 0.52,
         "location_combined": 6.45,
-        "rank": 43,
+        "rank": 55,
         "np_type_multiplier": 1
       },
       "notes": "20mo (5 semesters); $664/credit (~65 credits = ~$43,160); hybrid option available [OOS tuition applied]",
@@ -4542,17 +4587,17 @@
       },
       "costs": {
         "Location": "Columbus, OH",
-        "Tuition": 43160,
+        "Tuition": 53341,
         "Fees": 2000,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Duration (mo)": 20,
         "Living $/mo": 1500,
-        "Net Tuition": 45160,
+        "Net Tuition": 55341,
         "Total Living": 28500,
         "Total Cost": 73660,
-        "Mo. Burn": 3683,
-        "Cost Score": 0.63
+        "Mo. Burn": 4192,
+        "Cost Score": 0.5808
       },
       "plan_fit": {
         "status": "fall_required",
@@ -4561,11 +4606,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.capital.edu/academics/majors-and-minors/nursing-accelerated-program/"
+        },
+        "notes": "CRITICAL: Starts AUGUST ONLY, not January. Data start 2027-01-15 is WRONG. Tuition $620/cr, total ~$53,341 vs data $43,160 - DISCREPANCY (data too low). 20 months confirmed. Daytime and Flexible Hybrid tracks. Priority deadline Dec 1. Includes 3 masters-level courses. 660 clinical hours. Contact: 614-236-6703. TUITION FIXED: Was $43,160, now $53,341."
       }
     },
     {
@@ -4620,10 +4667,10 @@
         "competitiveness": 0.8,
         "start_score": 0.8,
         "cost_score": 0,
-        "raw_score": 0.9,
-        "rank": 44,
+        "raw_score": 0,
+        "rank": 74,
         "national_percentile": 1,
-        "location_combined": 5.53,
+        "location_combined": 5.52,
         "np_type_multiplier": 1
       },
       "notes": "Elite program; very competitive",
@@ -4666,11 +4713,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://www.nursing.upenn.edu/master-of-professional-nursing/"
+        },
+        "notes": "Program is called MPN (Master of Professional Nursing), not DEMSN. 4 semesters (~17 months). $52,780/yr full-time per USNWR; data $140,000 may include living costs or be for combined MPN/MSN. Deadline moved to Feb 1 (data Feb 2 - close). #1 ranked nursing school (QS). GRE not required. Prereqs by June 15 of enrollment year. Charges per Course Unit (CU)."
       }
     },
     {
@@ -4724,9 +4773,9 @@
         "start_score": 0.8,
         "cost_score": 0.47,
         "raw_score": 0.89,
-        "rank": 45,
+        "rank": 41,
         "national_percentile": 0.72,
-        "location_combined": 6.59,
+        "location_combined": 6.57,
         "np_type_multiplier": 1
       },
       "notes": "12-mo program; Summer start; Rolling admissions opens Aug; UTMC scholarship $12,776 available [OOS tuition applied]",
@@ -4778,11 +4827,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.utk.edu/undergraduate-programs/accelerated-bachelor-of-science-in-nursing-absn/"
+        },
+        "notes": "Verified Feb 2026. 12 months, 47 credits confirmed. Summer start (May) confirmed. App deadline Jan 15, materials Feb 1 (data Mar 1 slightly off). In-state $32,295; OOS likely higher (data $45,000 plausible). 72 students/cohort. Avg admitted GPA 3.45. UTMC BSN Scholars: $12,776 scholarship with 3yr work commitment (8 spots). Two apps required: NursingCAS + UT."
       }
     },
     {
@@ -4837,9 +4888,9 @@
         "prestige": 0.5,
         "competitiveness": 0.7,
         "start_score": 1,
-        "cost_score": null,
-        "raw_score": 0.86,
-        "rank": 46,
+        "cost_score": 0.4175,
+        "raw_score": 0.89,
+        "rank": 42,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 6.8,
@@ -4849,13 +4900,13 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Philadelphia, PA",
-        "Net Tuition": 56036,
-        "Tuition": 52000,
+        "Net Tuition": 64072,
+        "Tuition": 60036,
         "Fees": 4036,
         "COL Index": 112,
         "Duration (mo)": 11,
-        "Mo. Burn": null,
-        "Cost Score": null,
+        "Mo. Burn": 5825,
+        "Cost Score": 0.4175,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Total Cost": null
@@ -4887,11 +4938,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://drexel.edu/admissions/undergrad/nursing-ace"
+        },
+        "notes": "Called ACE (Accelerated Career Entry). TUITION DISCREPANCY: Web ~$60,036-$61,842 vs data $52,000. 11 months, 4 consecutive 10-week terms confirmed. Full-time 5 days/week incl some evenings/weekends. Not eligible for institutional aid. 95.3% NCLEX pass rate. CCNE accredited. Final transcripts due Jan 15 (spring) or Aug 1 (fall). TUITION FIXED: Was $52,000, now $60,036."
       }
     },
     {
@@ -4946,9 +4999,9 @@
         "start_score": 1,
         "cost_score": 0.31,
         "raw_score": 0.79,
-        "rank": 47,
+        "rank": 45,
         "national_percentile": 0.65,
-        "location_combined": 6.34,
+        "location_combined": 6.37,
         "np_type_multiplier": 1
       },
       "notes": "12-mo program; 3 starts; Atlanta; $62K tuition; TEAS required; Georgia Baptist College of Nursing",
@@ -4991,11 +5044,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://absn.mercer.edu/"
+        },
+        "notes": "Verified Feb 2026. 12 months, 56 credits. Tuition ~$59,865 (data $61,773 close enough). 3 starts/year (Jan/May/Aug). Spring deadline Nov 1 confirmed (matches data). Min 3.0 GPA + 3.0 science GPA. TEAS 76+ required. Atlanta learning site at 3350 Riverwood Pkwy. Self-funded program (limited financial aid)."
       }
     },
     {
@@ -5051,7 +5106,7 @@
         "cost_score": 0.68,
         "raw_score": 0.79,
         "location_combined": 5.6,
-        "rank": 48,
+        "rank": 46,
         "np_type_multiplier": 1
       },
       "notes": "24mo accelerated BSN; ~$30,607 total tuition (OOS); flagship Maryland nursing school [OOS tuition applied]",
@@ -5093,11 +5148,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.nursing.umaryland.edu/academics/undergrad/bachelor-of-science-nursing/"
+        },
+        "notes": "Verified Feb 2026. Tuition ~$30,607 confirmed. 2 years (24 months), 4 semesters. Two locations: Baltimore and Rockville. Spring deadline Jul 15 (data Jun 1 slightly off). Min 3.0 GPA. 59 prereq credits required. DC residents eligible for MD in-state tuition at Shady Grove."
       }
     },
     {
@@ -5130,7 +5187,7 @@
       },
       "admissions": {
         "email": "accbsn@uccs.edu",
-        "deadline": "2026-02-01",
+        "deadline": "2026-11-01",
         "start_date": "2027-05-15",
         "in_progress_ok": false,
         "app_timing_notes": "ALL prereqs complete by end of fall semester. 3.25 GPA for competitive admission."
@@ -5151,27 +5208,27 @@
         "prestige": 0.65,
         "competitiveness": 0.85,
         "start_score": 0.8,
-        "cost_score": 0.37,
-        "raw_score": 0.76,
-        "rank": 49,
+        "cost_score": 0.4308,
+        "raw_score": 0.89,
+        "rank": 43,
         "national_percentile": 0.5,
-        "location_combined": 6.85,
+        "location_combined": 6.84,
         "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Colorado Springs, CO",
-        "Tuition": 71854,
+        "Tuition": 62877,
         "Fees": 3000,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
-        "Net Tuition": 74854,
+        "Net Tuition": 65877,
         "COL Index": 105,
         "Duration (mo)": 16,
         "Living $/mo": 1500,
         "Total Living": 25200,
         "Total Cost": 100054,
-        "Mo. Burn": 6253,
-        "Cost Score": 0.37
+        "Mo. Burn": 5692,
+        "Cost Score": 0.4308
       },
       "regional": {
         "ed_opportunity": 0.75,
@@ -5196,11 +5253,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://johnsonbethel.uccs.edu/academics/nursing/accelerated-bsn"
+        },
+        "notes": "DEADLINE WRONG: Apps accepted Sep 1 - Nov 1 only; data has Feb 1. SUMMER START ONLY (May is correct). TUITION DISCREPANCY: Web ~$62,877 vs data $71,854. 16 months confirmed. Must live in Colorado. Min 3.25 GPA, TEAS required. Prereqs within 10 years. Two pathways: bachelors degree or 57+ credits. Contact: accbsn@uccs.edu TUITION FIXED: Was $71,854, now $62,877. DEADLINE FIXED: Was Feb 1, now Nov 1 (apps Sep 1 - Nov 1)."
       }
     },
     {
@@ -5253,9 +5312,9 @@
         "start_score": 1,
         "cost_score": 0.43,
         "raw_score": 0.75,
-        "rank": 50,
+        "rank": 48,
         "national_percentile": 0.55,
-        "location_combined": 6.84,
+        "location_combined": 6.89,
         "np_type_multiplier": 1
       },
       "notes": "16-mo hybrid; 3 start dates (Jan/May/Sep); St. Paul or Portland locations; $4000 St. Paul scholarship",
@@ -5298,11 +5357,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://absn.csp.edu/"
+        },
+        "notes": "Verified Feb 2026. Tuition $1,050/cr x 61 credits = $64,050 CONFIRMED (matches data exactly). 16 months, 4 semesters. 3 starts/year (Jan/May/Sep). Hybrid online + in-person labs/clinicals. Locations: St Paul MN and Portland OR. Min 3.0 GPA, TEAS required. 54 prereq credits needed."
       }
     },
     {
@@ -5356,27 +5417,27 @@
         "prestige": 0.9,
         "competitiveness": 0.75,
         "start_score": 1,
-        "cost_score": 0.19,
-        "raw_score": 0.74,
-        "rank": 51,
+        "cost_score": 0.1206,
+        "raw_score": 0.47,
+        "rank": 58,
         "national_percentile": 0.88,
         "location_combined": 6.45,
         "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Washington, DC",
-        "Tuition": 68000,
+        "Tuition": 76426,
         "Fees": 3000,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
-        "Net Tuition": 71000,
+        "Net Tuition": 79426,
         "COL Index": 145,
         "Duration (mo)": 12,
         "Living $/mo": 1500,
         "Total Living": 26100,
         "Total Cost": 97100,
-        "Mo. Burn": 8092,
-        "Cost Score": 0.19
+        "Mo. Burn": 8794,
+        "Cost Score": 0.1206
       },
       "regional": {
         "ed_opportunity": 0.9,
@@ -5402,11 +5463,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.georgetown.edu/degree-programs/accelerated-bachelor-of-science-in-nursing-program/"
+        },
+        "notes": "TUITION DISCREPANCY: 2025-26 rate $1,442/cr x 53 credits = ~$76,426 vs data $68,000 (data likely outdated). 12 months confirmed. Rolling admissions. Min 3.0 GPA preferred. 10 prereqs, 5 science must be within 5 years with B+ grade. Hybrid format. Scholarships available. Contact: ABSN@georgetown.edu TUITION FIXED: Was $68,000, now $76,426 ($1,442/cr x 53)."
       }
     },
     {
@@ -5467,11 +5530,11 @@
         "competitiveness": 0.98,
         "start_score": 0.6,
         "cost_score": 0.63,
-        "raw_score": 0.72,
-        "rank": 52,
+        "raw_score": 0.9,
+        "rank": 40,
         "national_percentile": 0.78,
         "online_lab_conf": 0.8,
-        "location_combined": 4.49,
+        "location_combined": 4.5,
         "np_type_multiplier": 1
       },
       "notes": "STRONG VALUE option - lower COL, good rankings, standard prereqs. In your 80th percentile sweet spot. Hybrid format gives some flexibility. Lexington is a nice college town but may feel small. Good NP pathway with pioneering DNP program.",
@@ -5516,11 +5579,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.uky.edu/undergraduate-programs/accelerated-bsn"
+        },
+        "notes": "Verified Feb 2026. 16 months, 54-55 credits, 8 consecutive blocks. Fall start only. Deadline March 1 confirmed (matches data). Start Aug 2027 confirmed. 100% NCLEX pass rate. Online coursework + in-person labs/clinicals in Lexington or Ashland KY. Tuition not confirmed (data $35k plausible for in-state). F1/J1 visa holders ineligible."
       }
     },
     {
@@ -5577,7 +5642,7 @@
         "start_score": 0.6,
         "cost_score": 0.51,
         "raw_score": 0.7,
-        "rank": 53,
+        "rank": 49,
         "national_percentile": 0.55,
         "location_combined": 5.32,
         "np_type_multiplier": 1
@@ -5622,12 +5687,16 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
-      }
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://nursing.wsu.edu/"
+        },
+        "notes": "CRITICAL: WSU does NOT appear to offer an ABSN program. Their College of Nursing offers traditional BSN (4-year), RN-BSN, MN, DNP, and PhD only. This program entry may be an error - should be investigated and possibly removed. The traditional BSN is completed at Pullman (2yr) then regional campuses (2yr)."
+      },
+      "ruled_out": true,
+      "ruled_out_reason": "WSU does not appear to offer an ABSN program. Traditional BSN only."
     },
     {
       "id": "gcu",
@@ -5682,9 +5751,9 @@
         "start_score": 1,
         "cost_score": 0.5,
         "raw_score": 0.69,
-        "rank": 54,
+        "rank": 50,
         "national_percentile": 0.5,
-        "location_combined": 6.51,
+        "location_combined": 6.53,
         "np_type_multiplier": 1
       },
       "notes": "16-mo hybrid; 3 starts; Phoenix + 7 other states; $54K tuition; Christian worldview; 95%+ NCLEX",
@@ -5727,17 +5796,19 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.gcu.edu/degree-programs/absn-accelerated-bsn"
+        },
+        "notes": "Verified Feb 2026. Tuition $850/cr x 63 credits = $53,550 CONFIRMED (matches data exactly). 16 months. 3 starts/year, rolling admissions. Hybrid: online + in-person labs/clinicals. Min 3.25 GPA in prereqs (within 7 years). 12 locations across 7 states. 95.57% NCLEX pass rate (2024). Prereqs available online at $425/cr."
       }
     },
     {
       "id": "depaul",
       "name": "DePaul",
-      "type": "ABSN",
+      "type": "DEMSN",
       "location": {
         "full": "Chicago, IL",
         "city": "Chicago",
@@ -5783,14 +5854,14 @@
         "competitiveness": 0.85,
         "start_score": 1,
         "cost_score": 0.63,
-        "raw_score": 0.62,
-        "rank": 55,
+        "raw_score": 0.77,
+        "rank": 47,
         "national_percentile": 0.65,
         "online_lab_conf": 0.8,
-        "location_combined": 7.5,
+        "location_combined": 7.52,
         "np_type_multiplier": 1
       },
-      "notes": "Lower cost Chicago option. First MENP in Illinois. Offers Balanced Stride option for more flexibility. 75+ clinical sites including guaranteed ICU rotation. Lower prestige but solid outcomes. Good if targeting Chicago area.",
+      "notes": "Lower cost Chicago option. First MENP in Illinois. Offers Balanced Stride option for more flexibility. 75+ clinical sites including guaranteed ICU rotation. Lower prestige but solid outcomes. Good if targeting Chicago area. [TYPE CORRECTED: Was ABSN, actually MENP/DEMSN]",
       "scoring_notes": null,
       "costs": {
         "Location": "Chicago, IL",
@@ -5832,11 +5903,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://csh.depaul.edu/student-resources/advising-student-services/pre-health-advising/health-careers/Pages/nursing.aspx"
+        },
+        "notes": "CRITICAL: DePaul does NOT offer an ABSN. Program is MENP (Masters Entry to Nursing Practice), a 2-year masters degree (data type listed as ABSN is WRONG - should be DEMSN/MENP). Tuition $780/cr. Data $45,857 needs recalculation for full program. 97% NCLEX first-attempt pass rate. Lincoln Park campus in-person option."
       }
     },
     {
@@ -5873,10 +5946,10 @@
       },
       "admissions": {
         "email": "nursing@marquette.edu",
-        "deadline": "2026-09-01",
+        "deadline": "2026-11-15",
         "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "May apply while completing, cannot be in progress at program start.",
+        "app_timing_notes": "May apply while completing, cannot be in progress at program start. CORRECTED: Nov 15 (spring Pleasant Prairie), Dec 15 (summer Milwaukee), Feb 15 (fall Pleasant Prairie). Was Sep 1.",
         "uses_transferology": true
       },
       "program_details": {
@@ -5896,11 +5969,11 @@
         "competitiveness": 0.81,
         "start_score": 1,
         "cost_score": 0.38,
-        "raw_score": 0.54,
-        "rank": 56,
+        "raw_score": 0.67,
+        "rank": 52,
         "national_percentile": 0.61,
         "online_lab_conf": 0.8,
-        "location_combined": 4.31,
+        "location_combined": 4.32,
         "np_type_multiplier": 1
       },
       "notes": "Strong local option if you decide staying in Milwaukee is acceptable. Faster than Rush (15 vs 24 months). Pleasant Prairie campus offers hybrid format. Fixed tuition is nice for budgeting. However, you mentioned wanting to LEAVE Milwaukee - factor that into decision.",
@@ -5945,11 +6018,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://mastersnursing.marquette.edu/admissions/"
+        },
+        "notes": "Called Direct Entry MSN (not GEM). Tuition $69,000 confirmed for Spring/Summer 2026 (matches data). 5 semesters (15 months) or 8-semester extended option. 75 credits. DEADLINE DISCREPANCY: Web says Nov 15 (spring, Pleasant Prairie), Dec 15 (summer, Milwaukee), Feb 15 (fall); data has Sep 1. Milwaukee = summer start, in-person. Pleasant Prairie = spring/fall, hybrid-online. $500 deposit. USN ranked #57 nursing masters. DEADLINE FIXED: Was Sep 1, now Nov 15 (spring Pleasant Prairie deadline)."
       }
     },
     {
@@ -6004,9 +6079,9 @@
         "start_score": 1,
         "cost_score": 0.42,
         "raw_score": 0.53,
-        "rank": 57,
+        "rank": 54,
         "national_percentile": 0.55,
-        "location_combined": 5.58,
+        "location_combined": 5.6,
         "np_type_multiplier": 1
       },
       "notes": "15-mo hybrid; 3 starts (Jan/May/Sep); Baltimore area; $58-62K tuition; FNP & A-GNP at same school",
@@ -6049,11 +6124,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://absn.ndm.edu/"
+        },
+        "notes": "Verified Feb 2026. 15 months, 56 credits, 4 semesters confirmed. On-campus $58,550 (matches data), hybrid $61,800. 3 starts/year (Jan/May/Sep), rolling admissions. Min 3.0 GPA. NEW for Summer 2027+: Nutrition and Human Growth & Development prereqs added. CCNE accredited."
       }
     },
     {
@@ -6107,9 +6184,9 @@
         "start_score": 0.8,
         "cost_score": 0.68,
         "raw_score": 0.5,
-        "rank": 58,
+        "rank": 56,
         "national_percentile": 0.55,
-        "location_combined": 4.54,
+        "location_combined": 4.58,
         "np_type_multiplier": 1
       },
       "notes": "B- min in sciences [OOS tuition applied]",
@@ -6153,11 +6230,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.fullerton.edu/programs/acceleratedbsn/"
+        },
+        "notes": "Verified Feb 2026. 5 semesters, 2 years (24 months) confirmed. App window Oct 1 - Nov 30 (data deadline 2025-11-30 correct). Fall start Aug confirmed. Post-bacc tuition rates (very affordable ~$3,588/semester in-state). 765 clinical hours within 50mi of campus. Impacted program. Data $28k probably OOS estimate. Requires CA drivers license and health insurance."
       }
     },
     {
@@ -6215,11 +6294,11 @@
         "competitiveness": 0.7,
         "start_score": 0.8,
         "cost_score": 0.46,
-        "raw_score": 0.4,
-        "rank": 59,
+        "raw_score": 0.5,
+        "rank": 57,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 4.36,
+        "location_combined": 4.34,
         "np_type_multiplier": 1
       },
       "notes": "MADISON BACKUP option. 100% NCLEX pass rate is excellent. Reasonable $45K fixed tuition. Fast 12-month program. BUT: weak NP pathway (BSN only). Close enough to Milwaukee that family pressure might persist. Good value if you just want BSN quickly.",
@@ -6263,11 +6342,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://absn.edgewood.edu/"
+        },
+        "notes": "Verified Feb 2026. Now called Edgewood University. 12 months, 58 credits. Tuition $45,000 confirmed (matches data). Fall and Spring starts, 21 students/cohort. In-person or online option (online requires 3 campus visits + WI residency). 100% NCLEX pass rate (Fall 2024). NursingCAS for online track. CCNE accredited."
       }
     },
     {
@@ -6319,25 +6400,25 @@
         "prestige": 0.5,
         "competitiveness": 0.7,
         "start_score": 0.8,
-        "cost_score": null,
-        "raw_score": 0.4,
-        "rank": 60,
+        "cost_score": 0.6755,
+        "raw_score": 0.68,
+        "rank": 51,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 7.5,
+        "location_combined": 7.52,
         "np_type_multiplier": 1
       },
       "notes": "Another Chicago option. Lower prestige than Rush/DePaul but similar price. TEAS exam required. 20 months is moderate length. Falls in your 80th percentile sweet spot due to not being elite. Could be good backup Chicago option. [OOS tuition applied]",
       "scoring_notes": null,
       "costs": {
         "Location": "Chicago, IL",
-        "Net Tuition": 44000,
-        "Tuition": 42000,
+        "Net Tuition": 64900,
+        "Tuition": 62900,
         "Fees": 2000,
         "COL Index": 115,
         "Duration (mo)": 20,
-        "Mo. Burn": null,
-        "Cost Score": null,
+        "Mo. Burn": 3245,
+        "Cost Score": 0.6755,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Total Cost": null
@@ -6369,11 +6450,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://degree.northpark.edu/online-programs/healthcare-nursing/msn/demsn-direct-entry/"
+        },
+        "notes": "TUITION DISCREPANCY: Web shows $925/cr x 68 credits = $62,900 vs data $42,000 - data is SIGNIFICANTLY too low. 20 months, 5 semesters confirmed. 100% NCLEX pass rate (2024). Multiple starts/year. Alumni 20% discount, Swedish Hospital employees 30% discount. Chicago campus. Min 3.0 GPA, prereqs within 7 years. TUITION FIXED: Was $42,000, now $62,900 ($925/cr x 68)."
       }
     },
     {
@@ -6470,11 +6553,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://www.uvm.edu/cnhs/nursing/direct-entry-master-science-nursing-program-non-nursing-majors-mepn"
+        },
+        "notes": "Called MEPN (Masters Entry Program in Nursing). 1yr on-campus pre-licensure (34.25 cr, 675 clinical hrs) + 1yr+ online masters = ~36 months total (matches data). Deadline: Nov 1 early, Mar 30 final (data Feb 1 is between). No GRE. Min 3.0 GPA, prereqs within 7 years. 100% NCLEX pass rate (2023). No F-1/J-1 visa. No NY clinical placements. Tuition data $85k not confirmed."
       }
     },
     {
@@ -6534,11 +6619,11 @@
         "competitiveness": 0.7,
         "start_score": 1,
         "cost_score": 0.48,
-        "raw_score": 0.31,
-        "rank": 62,
+        "raw_score": 0.39,
+        "rank": 60,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 4.31,
+        "location_combined": 4.32,
         "np_type_multiplier": 1
       },
       "notes": "MILWAUKEE BACKUP but has MESA, AZ option! Could use this to get to Arizona instead of staying in Milwaukee. Dual BSN+MSN is efficient - graduate with master's. 18 months is reasonable. Strong local clinical partnerships. Consider Mesa campus if you want Southwest.",
@@ -6582,11 +6667,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.alverno.edu/demsn"
+        },
+        "notes": "Verified Feb 2026. Program is DEMSN (BSN+MSN combined), not ABSN - data type may need updating. Tuition $825/cr x 77 credits = $63,525 CONFIRMED (matches data). 18-20 months. Milwaukee WI and Mesa AZ locations. Also has 2+2 BSN pathway. ATI fee $720/semester. CCNE accredited."
       }
     },
     {
@@ -6636,9 +6723,9 @@
         "start_score": 0.8,
         "cost_score": 0.12,
         "raw_score": 0.3,
-        "rank": 63,
+        "rank": 64,
         "national_percentile": 0.78,
-        "location_combined": 5,
+        "location_combined": 5.04,
         "np_type_multiplier": 1
       },
       "notes": "No Chem required",
@@ -6688,11 +6775,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://son.rochester.edu/academics/accelerated-nursing-programs/absn/"
+        },
+        "notes": "Verified Feb 2026. 12-month ABSN. Tuition $81,630 + fees ~$6,300 confirmed (matches data). Deadline Nov 1 confirmed. 12-month and 24-month options. UR Nursing Scholars: FULL TUITION coverage with 3yr work commitment at UR Medicine (Strong Memorial, Highland, or F.F. Thompson). Extended through 2027! Min 2.8 GPA."
       }
     },
     {
@@ -6748,11 +6837,11 @@
         "competitiveness": 0.7,
         "start_score": 0.8,
         "cost_score": 0.74,
-        "raw_score": 0.26,
-        "rank": 64,
+        "raw_score": 0.32,
+        "rank": 62,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
-        "location_combined": 4.31,
+        "location_combined": 4.32,
         "np_type_multiplier": 1
       },
       "notes": "LOCAL BACKUP option. VERY affordable in-state ($25K). BUT: keeps you in Milwaukee, which you wanted to leave. 24 months is longer than some. Note: UWM does NOT have traditional 12-month ABSN - only this Direct Entry MN. Good safety school if cost is primary concern.",
@@ -6796,11 +6885,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://uwm.edu/nursing/academics/mn-direct-entry/"
+        },
+        "notes": "Verified Feb 2026. Called Direct Entry Master of Nursing (MN). 15 months pre-licensure then additional for masters. In-state $12,728/yr, OOS $26,158/yr. Data $25,456 appears to be in-state 2yr total (matches). Priority deadline Feb 1 (fall) or Aug 1 (spring) confirmed. Midwest Tuition Rate available for IL/IN/IA/KS/MI/MO/NE/ND/OH/SD. USN #73 nursing masters. $500k+ in nursing scholarships annually."
       }
     },
     {
@@ -6855,9 +6946,9 @@
         "start_score": 1,
         "cost_score": 0.31,
         "raw_score": 0.22,
-        "rank": 65,
+        "rank": 67,
         "national_percentile": 0.72,
-        "location_combined": 6.79,
+        "location_combined": 6.84,
         "np_type_multiplier": 1
       },
       "notes": "DEMSN ~18 mo, 3.0 GPA, prereqs within 10 yr (Pharm within 1 yr!), Spring 2027 deadline Sep 15 2026, GRE scholarship available",
@@ -6902,11 +6993,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://www.nursing.uc.edu/academic-programs/accelerated-direct-entry-msn.html"
+        },
+        "notes": "Partially verified Feb 2026. Accelerated Direct-Entry MSN, 5 semesters. Spring and summer starts. Data tuition $96,749 not confirmed from web (online MSN rate is ~$457-467/cr, accelerated may differ). Prereqs within 10 years, min B- grade. Pharmacology within 1 year. $300 matriculation fee. NursingCAS application. Metro/non-OH residents can get in-state after establishing residency."
       }
     },
     {
@@ -6968,11 +7061,11 @@
         "competitiveness": 0.81,
         "start_score": 1,
         "cost_score": 0.11,
-        "raw_score": 0.22,
-        "rank": 66,
+        "raw_score": 0.27,
+        "rank": 65,
         "national_percentile": 0.99,
         "online_lab_conf": 0.8,
-        "location_combined": 5.58,
+        "location_combined": 5.6,
         "np_type_multiplier": 1
       },
       "notes": "ELITE program - #1/#2 nationally. However: (1) Your scoring formula PENALIZES elite programs >0.9 percentile, (2) $112K tuition is steep even with scholarship potential, (3) Grade B requirement on prereqs is strict. Worth applying if you want the absolute best NP pathway and can get scholarship money, but may not score well in your system. Deadline for Fall 2026 is Jan 15, 2026 - very soon!",
@@ -7017,11 +7110,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.jhu.edu/programs/masters-entry/"
+        },
+        "notes": "Verified Feb 2026. MSN Entry into Nursing, 4 semesters. Tuition $28,000/semester x 4 = $112,000 CONFIRMED (matches data). Duration ~16 months confirmed. Priority deadline Jan 15 confirmed (matches data). Early Decision Nov 1. Scholarships $5k to full tuition. Clinicals within 60mi of Baltimore. Full-time on-site commitment required."
       }
     },
     {
@@ -7080,25 +7175,25 @@
         "prestige": 0.55,
         "competitiveness": 0.75,
         "start_score": 0.8,
-        "cost_score": null,
-        "raw_score": 0.18,
-        "rank": 67,
+        "cost_score": 0.6597,
+        "raw_score": 0.46,
+        "rank": 59,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
-        "location_combined": 7.09,
+        "location_combined": 7.11,
         "np_type_multiplier": 1
       },
       "notes": "LOCATION IS GREAT (Denver/mountains) but PREREQS ARE PROBLEMATIC. You'd need Philosophy + 6 credits of Religious Studies on top of everything else. That's a significant hurdle. Also explicitly rejects some online lab providers. 12-month program is fast. Good NP pathway. Weigh location benefits against prereq burden. [OOS tuition applied]",
       "scoring_notes": null,
       "costs": {
         "Location": "Denver, CO",
-        "Net Tuition": 74500,
-        "Tuition": 72000,
+        "Net Tuition": 40836,
+        "Tuition": 38336,
         "Fees": 2500,
         "COL Index": 108,
         "Duration (mo)": 12,
-        "Mo. Burn": null,
-        "Cost Score": null,
+        "Mo. Burn": 3403,
+        "Cost Score": 0.6597,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Total Cost": null
@@ -7132,11 +7227,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.regis.edu/academics/majors-and-programs/undergraduate/nursing-bsn-accelerated"
+        },
+        "notes": "TUITION DISCREPANCY: Web shows $599/cr x 64 credits = ~$38,336 vs data $72,000. 12 months confirmed. Deadlines: Jun 15 (Jan start), Sep 15 (May start) - data Sep 15/May start matches. Denver on-campus only. 750+ clinical hours. Min 2.75 GPA. NursingCAS application. Primarily loan-based financial aid for second-degree students. TUITION FIXED: Was $72,000, now $38,336 ($599/cr x 64)."
       }
     },
     {
@@ -7195,25 +7292,25 @@
         "prestige": 0.8,
         "competitiveness": 0.99,
         "start_score": 0.6,
-        "cost_score": null,
-        "raw_score": 0.18,
+        "cost_score": 0.4457,
+        "raw_score": 0.21,
         "rank": 68,
         "national_percentile": 0.79,
         "online_lab_conf": 0.8,
-        "location_combined": 4.04,
+        "location_combined": 4.05,
         "np_type_multiplier": 1.2
       },
       "notes": "MINIMAL prereqs (only A&P!) make this very accessible. BUT: 3-year program is LONG, expensive ($124K), and New Haven may not match your location preferences. Yale prestige but nursing school rankings not elite. Actually falls in your 80th percentile sweet spot. Worth considering if you value minimal prereqs and Ivy brand. [OOS tuition applied]",
       "scoring_notes": null,
       "costs": {
         "Location": "New Haven, CT",
-        "Net Tuition": 54000,
-        "Tuition": 48000,
+        "Net Tuition": 199539,
+        "Tuition": 193539,
         "Fees": 6000,
         "COL Index": 140,
         "Duration (mo)": 36,
-        "Mo. Burn": null,
-        "Cost Score": null,
+        "Mo. Burn": 5543,
+        "Cost Score": 0.4457,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Total Cost": null
@@ -7246,11 +7343,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://nursing.yale.edu/academics/graduate-entry-pre-specialty-nursing-gepn"
+        },
+        "notes": "TUITION DISCREPANCY: Data has $48,000 total but Yale tuition is ~$64,513/YEAR. For 3-year GEPN program total would be ~$193k. Data is drastically wrong. Called GEPN (Graduate Entry Pre-Specialty in Nursing). 3 years (36 months confirmed): BSN prep + specialty MSN. 80%+ students get scholarship support. No GRE required. Contact: ysn.admissions@yale.edu TUITION FIXED: Was $48,000, now $193,539 (~$64,513/yr x 3yr)."
       }
     },
     {
@@ -7289,7 +7388,7 @@
         "app_timing_notes": "Contact school for in-progress policy."
       },
       "program_details": {
-        "duration_months": 15,
+        "duration_months": 20,
         "terms": 4,
         "online_lab_conf": null,
         "format": "On-campus",
@@ -7304,9 +7403,9 @@
         "prestige": 0.4,
         "competitiveness": 0.6,
         "start_score": 0.8,
-        "cost_score": null,
-        "raw_score": 0.17,
-        "rank": 69,
+        "cost_score": 0.759,
+        "raw_score": 0.24,
+        "rank": 66,
         "national_percentile": 0.4,
         "online_lab_conf": 0.8,
         "location_combined": 3.4,
@@ -7316,13 +7415,13 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Sylvania, OH",
-        "Net Tuition": 37000,
-        "Tuition": 35000,
+        "Net Tuition": 48200,
+        "Tuition": 46200,
         "Fees": 2000,
         "COL Index": 88,
-        "Duration (mo)": 15,
-        "Mo. Burn": null,
-        "Cost Score": null,
+        "Duration (mo)": 20,
+        "Mo. Burn": 2410,
+        "Cost Score": 0.759,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Total Cost": null
@@ -7353,11 +7452,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://lourdes.edu/direct-entry-to-master-of-science-in-nursing/"
+        },
+        "notes": "MULTIPLE DISCREPANCIES: (1) Duration: web says 20 months, data has 15mo. (2) Tuition: $685-700/cr x 66 credits = ~$45-46k vs data $35,000. DEMSN, 66 credits. Hybrid format. Min 3.0 GPA last 60 credits. Sylvania OH (Toledo area). Prereq min 2.75 GPA, no grade below C-. Contact: 800-878-3210. TUITION FIXED: Was $35,000, now $46,200. DURATION FIXED: Was 15mo, now 20mo."
       }
     },
     {
@@ -7421,8 +7522,8 @@
         "competitiveness": 0.91,
         "start_score": 0.8,
         "cost_score": 0.27,
-        "raw_score": 0.14,
-        "rank": 70,
+        "raw_score": 0.18,
+        "rank": 69,
         "national_percentile": 0.71,
         "online_lab_conf": 0.8,
         "location_combined": 6.56,
@@ -7470,11 +7571,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://onlinenursing.baylor.edu/programs/accelerated-bsn-online"
+        },
+        "notes": "Verified Feb 2026. TWO PATHWAYS: Distance ABSN ($68,100, online, TX residents, 12mo, 62 credits) and FastBacc ($58,100, on-campus Dallas, starts May). Data tuition $68,100 matches Distance ABSN. 2 intakes/yr (Jan/Aug) for distance. Min 3.0 prereq GPA, 2.75 science GPA. HESI exam required. FAFSA code 003545. Contact: 888-227-5901."
       }
     },
     {
@@ -7540,9 +7643,9 @@
         "prestige": 0.5,
         "competitiveness": 0.75,
         "start_score": 1,
-        "cost_score": null,
-        "raw_score": 0.14,
-        "rank": 71,
+        "cost_score": 0.5655,
+        "raw_score": 0.32,
+        "rank": 63,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 4.98,
@@ -7552,13 +7655,13 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Oakland, CA",
-        "Net Tuition": 97000,
-        "Tuition": 95000,
+        "Net Tuition": 52138,
+        "Tuition": 50138,
         "Fees": 2000,
         "COL Index": 165,
         "Duration (mo)": 12,
-        "Mo. Burn": null,
-        "Cost Score": null,
+        "Mo. Burn": 4345,
+        "Cost Score": 0.5655,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
         "Total Cost": null
@@ -7590,11 +7693,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://www.samuelmerritt.edu/college-nursing/accelerated-bachelor-science-nursing"
+        },
+        "notes": "TUITION DISCREPANCY: Web shows ~$50,138/yr vs data $95,000 total. 12 months, 3 semesters confirmed. 4 CA campuses: Oakland, Sacramento, Fresno, San Mateo. Deadlines: Mar 16 (Summer), Jun 15 (Fall). Data deadline Dec 1 may be off. Min 3.0 GPA last 60 units + 3.0 science GPA. HESI A2 75%+ or TEAS 65%+. NursingCAS. $350 deposit. 64% get scholarships (avg $13,376). TUITION FIXED: Was $95,000, now $50,138 (2025 rate)."
       }
     },
     {
@@ -7655,11 +7760,11 @@
         "competitiveness": 0.86,
         "start_score": 0.6,
         "cost_score": 0.33,
-        "raw_score": 0.14,
-        "rank": 72,
+        "raw_score": 0.18,
+        "rank": 70,
         "national_percentile": 0.94,
         "online_lab_conf": 0.8,
-        "location_combined": 6.14,
+        "location_combined": 6.16,
         "np_type_multiplier": 1
       },
       "notes": "VERY competitive (7:1 applicant ratio). Extensive prereqs including full chem sequence + epidemiology. HIGH COL (LA). In-state tuition is reasonable but out-of-state is steep. Good rankings but may be penalized by competitiveness formula. Distance from Milwaukee is significant.",
@@ -7705,11 +7810,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "needs_verification",
+        "sources": {
+          "primary": "https://www.nursing.ucla.edu/programs-admissions/academic-programs/master-of-science-entry"
+        },
+        "notes": "Called MECN (Masters Entry Clinical Nursing). 2-year MSN, full-time on-campus only. 4-5 days/week including evenings/Saturdays. Deadline Nov 1 confirmed (matches data for Fall 2026). Tuition is UC system rates (CA resident much less than OOS). Data $99,016 not confirmed - check official tuition page. Prereqs must be done by Dec of prior year. HRSA grants and Moseley scholarships available (need-based)."
       }
     },
     {
@@ -7757,27 +7864,27 @@
         "prestige": 0.7,
         "competitiveness": 0.75,
         "start_score": 0.8,
-        "cost_score": 0.62,
-        "raw_score": 0.1,
-        "rank": 73,
+        "cost_score": 0.3701,
+        "raw_score": 0.06,
+        "rank": 71,
         "national_percentile": 0.55,
-        "location_combined": 4.93,
+        "location_combined": 4.95,
         "np_type_multiplier": 1
       },
       "notes": "TEAS required [OOS tuition applied]",
       "scoring_notes": "CSU system, regional",
       "costs": {
         "Location": "Northridge, CA",
-        "Tuition": 26000,
+        "Tuition": 62988,
         "Fees": 0,
-        "Net Tuition": 26000,
+        "Net Tuition": 62988,
         "COL Index": 140,
         "Duration (mo)": 15,
         "Living $/mo": 1500,
         "Total Living": 31500,
         "Total Cost": 57500,
-        "Mo. Burn": 3833,
-        "Cost Score": 0.62,
+        "Mo. Burn": 6299,
+        "Cost Score": 0.3701,
         "Schlrshp Amt": 0,
         "Schlrshp %": null
       },
@@ -7804,11 +7911,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "high",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://tsengcollege.csun.edu/programs/ABSN"
+        },
+        "notes": "TUITION DISCREPANCY: Web shows $62,988 total vs data $26,000. Self-support program through Tseng College (NOT regular CSU tuition). 15 months, 4 semesters, 58 units confirmed. 3.21+ GPA (BA) or 3.0+ (MA). No TEAS required. Science prereqs within 7 years. App closes when capacity reached - apply ASAP. Does NOT use Cal State Apply. CCNE accredited. Contact: absn@csun.edu TUITION FIXED: Was $26,000, now $62,988 (self-support Tseng College)."
       }
     },
     {
@@ -7871,10 +7980,10 @@
         "start_score": 1,
         "cost_score": 0.01,
         "raw_score": 0.04,
-        "rank": 74,
+        "rank": 72,
         "national_percentile": 0.97,
         "online_lab_conf": 0.8,
-        "location_combined": 7.06,
+        "location_combined": 7.04,
         "np_type_multiplier": 1.2
       },
       "notes": "Nashville is one of your preferred cities! Elite program with guaranteed NP pathway via MN Prespecialty track. VERY expensive ($136K). May be penalized by your competitiveness formula (top 3%). Strong if you can afford it and want Nashville location + guaranteed NP path.",
@@ -7929,11 +8038,13 @@
         ]
       },
       "verification": {
-        "priority": "low",
-        "last_verified": null,
-        "confidence": "unverified",
-        "sources": {},
-        "notes": null
+        "priority": "medium",
+        "last_verified": "2026-02-01",
+        "confidence": "verified",
+        "sources": {
+          "primary": "https://nursing.vanderbilt.edu/programs/mn/"
+        },
+        "notes": "Verified Feb 2026. MN program, 4 semesters, 66 credits. Tuition $2,057/cr x 66 = $135,762 CONFIRMED (matches data exactly). Admits Jan and Aug. Fall priority Oct 15, Spring priority Jul 15. Data deadline Oct 15 matches for Spring 2027 or Fall 2027 priority. MN Prespecialty path available for guaranteed specialty spot. Full-time, face-to-face, must live near Nashville. No BSN required. Contact: VUSN-Admissions@vanderbilt.edu"
       }
     }
   ],

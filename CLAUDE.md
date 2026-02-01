@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Nursing Program Evaluation Matrix** - a Node.js/Express web application for evaluating and comparing 40 Accelerated BSN programs for Spring 2027 entry. Replaces an Excel spreadsheet with a version-controlled, filterable web interface.
+**Nursing Program Evaluation Matrix** - a Node.js/Express web application for evaluating and comparing 74 nursing programs (58 ABSN, 10 DEMSN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM, 1 MEPN) for Spring 2027 entry. Replaces an Excel spreadsheet with a version-controlled, filterable web interface.
 
 ## Build Commands
 
@@ -28,7 +28,7 @@ public/
   css/styles.css        # Styling including modal, type badges
   js/app.js             # Frontend: filtering, sorting, detail modal
 data/
-  programs.json         # 40 programs from Excel export (22 complete, 18 needs data)
+  programs.json         # 74 programs with scoring and verification data
   schema.json           # JSON Schema v7
 ```
 
@@ -36,8 +36,9 @@ data/
 
 **Table View**
 - Columns: Rank, Program, Type, Location, Duration, Start Date, Deadline, $/Month, Score, Status
-- Color-coded type badges (ABSN/DEMSN/DABSN/MN/GEM)
-- "Needs Data" rows shown with reduced opacity
+- Color-coded type badges (ABSN/DEMSN/DABSN/MN/GEM/AMNP/MEPN)
+- Verification icons on program names
+- Deadline checking — programs with passed deadlines flagged
 
 **Filtering & Sorting**
 - Filter by: program type, data completeness (complete/needs data)
@@ -49,7 +50,12 @@ data/
 - Full scores breakdown (raw score, location, prestige, NP pathway, etc.)
 - Cost breakdown (tuition, fees, net tuition, monthly burn, scholarships)
 - Prerequisites grid with additional requirements
+- Transferology notes
 - Contact email
+
+**Data Verification**
+- Comprehensive verification system for program data accuracy
+- Verification status tracked per program
 
 ## API Endpoints
 
@@ -61,8 +67,8 @@ data/
 
 ## Data Notes
 
-- Scores are pre-calculated from Excel export in `data/programs.json`
-- 22 programs have complete scoring data, 18 marked as "needs data"
+- All 74 programs have scoring and verification data in `data/programs.json`
+- Program types: 58 ABSN, 10 DEMSN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM, 1 MEPN
 - Duplicate IDs exist: `rush` (GEM + DEMSN), `vanderbilt-mn` (MN + DEMSN)
 - Cost fields use Excel column names: `Mo. Burn`, `Schlrshp Amt`, `COL Index`
 
@@ -139,8 +145,9 @@ This ensures that when sorting by "location", programs in regions with better NP
 
 | File | Purpose |
 |------|---------|
-| `data/programs.json` | Main program data with scores |
+| `data/programs.json` | Main program data with scores and verification |
 | `data/regional-data.json` | Regional NP pathway viability data (ed_opportunity, np_accessibility, underserved_access) for each metro area |
+| `data/metro-scores.json` | Metro area scoring data |
 | `data/schema.json` | JSON Schema for validation |
 
 ```
