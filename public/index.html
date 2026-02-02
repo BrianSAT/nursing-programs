@@ -8,61 +8,78 @@
 </head>
 <body>
   <header>
-    <h1>Nursing Program Evaluation Matrix</h1>
-    <p>Comparing ABSN programs for Spring 2027</p>
+    <div class="header-row">
+      <div>
+        <h1>Nursing Program Evaluation Matrix</h1>
+        <p>Comparing ABSN programs for Spring 2027</p>
+      </div>
+      <button id="panel-toggle" class="panel-toggle-btn" onclick="CoursesPanel.togglePanel()">My Courses</button>
+    </div>
   </header>
 
-  <main>
-    <div class="controls">
-      <input type="text" id="search" placeholder="Search programs or locations...">
-      <select id="type-filter">
-        <option value="">All Types</option>
-        <option value="ABSN">ABSN</option>
-        <option value="DEMSN">DEMSN</option>
-        <option value="DABSN">DABSN</option>
-        <option value="MN">MN</option>
-        <option value="GEM">GEM</option>
-      </select>
-      <select id="data-filter">
-        <option value="">All Data Status</option>
-        <option value="complete">Complete Only</option>
-        <option value="needs-data">Needs Data</option>
-      </select>
-      <select id="fit-filter">
-        <option value="">All Plan Fit</option>
-        <option value="fits">Fits Plan</option>
-        <option value="fall_required">Fall Classes Required</option>
-        <option value="adjust">Needs Adjustment</option>
-        <option value="ruled_out">Ruled Out</option>
-      </select>
-    </div>
+  <div class="app-layout">
+    <main>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Search programs or locations...">
+        <select id="type-filter">
+          <option value="">All Types</option>
+          <option value="ABSN">ABSN</option>
+          <option value="DEMSN">DEMSN</option>
+          <option value="DABSN">DABSN</option>
+          <option value="MN">MN</option>
+          <option value="GEM">GEM</option>
+        </select>
+        <select id="data-filter">
+          <option value="">All Data Status</option>
+          <option value="complete">Complete Only</option>
+          <option value="needs-data">Needs Data</option>
+        </select>
+        <div class="fit-checkboxes">
+          <label class="fit-cb"><input type="checkbox" value="fits" checked>Fits Plan</label>
+          <label class="fit-cb"><input type="checkbox" value="fall_required" checked>Fall Classes</label>
+          <label class="fit-cb"><input type="checkbox" value="adjust" checked>Adjust</label>
+          <label class="fit-cb"><input type="checkbox" value="ruled_out">Ruled Out</label>
+        </div>
+      </div>
 
-    <div class="stats" id="stats"></div>
+      <div class="stats" id="stats"></div>
 
-    <table id="programs-table">
-      <thead>
-        <tr>
-          <th class="sortable" data-sort="rank">Rank</th>
-          <th class="sortable" data-sort="name">Program</th>
-          <th class="sortable" data-sort="type">Type</th>
-          <th class="sortable" data-sort="location">Location</th>
-          <th class="sortable" data-sort="duration">Duration</th>
-          <th class="sortable" data-sort="start_date">Start Date</th>
-          <th class="sortable" data-sort="deadline">Deadline</th>
-          <th class="sortable" data-sort="monthly_burn">$/Month</th>
-          <th>Work Commit</th>
-          <th class="sortable sort-desc" data-sort="raw_score">Score</th>
-          <th class="sortable" data-sort="plan_fit">Plan Fit</th>
-          <th class="sortable" data-sort="status">Status</th>
-        </tr>
-      </thead>
-      <tbody id="programs-body">
-      </tbody>
-    </table>
+      <table id="programs-table">
+        <thead>
+          <tr>
+            <th class="sortable" data-sort="rank">Rank</th>
+            <th class="sortable" data-sort="name">Program</th>
+            <th class="sortable" data-sort="type">Type</th>
+            <th class="sortable" data-sort="location">Location</th>
+            <th class="sortable" data-sort="duration">Duration</th>
+            <th class="sortable" data-sort="start_date">Start Date</th>
+            <th class="sortable" data-sort="deadline">Deadline</th>
+            <th class="sortable" data-sort="monthly_burn">$/Month</th>
+            <th>Work Commit</th>
+            <th class="sortable sort-desc" data-sort="raw_score">Score</th>
+            <th class="sortable" data-sort="plan_fit">Plan Fit</th>
+            <th class="sortable" data-sort="status">Status</th>
+          </tr>
+        </thead>
+        <tbody id="programs-body">
+        </tbody>
+      </table>
 
-    <div id="loading">Loading programs...</div>
-    <div id="error" class="hidden"></div>
-  </main>
+      <div id="loading">Loading programs...</div>
+      <div id="error" class="hidden"></div>
+    </main>
+
+    <!-- My Courses Side Panel -->
+    <aside id="courses-panel" class="courses-panel">
+      <div class="panel-tabs">
+        <button class="panel-tab active">My Courses</button>
+        <button class="panel-tab disabled" disabled title="Coming soon">To Do</button>
+      </div>
+      <div id="courses-panel-content" class="panel-body">
+        <div class="panel-loading">Loading courses...</div>
+      </div>
+    </aside>
+  </div>
 
   <!-- Detail Modal -->
   <div id="modal" class="modal hidden">
@@ -84,6 +101,8 @@
     </div>
   </div>
 
+  <script src="/js/plan-fit-engine.js"></script>
+  <script src="/js/courses.js"></script>
   <script src="/js/app.js"></script>
 </body>
 </html>

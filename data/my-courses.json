@@ -1,0 +1,387 @@
+{
+  "semesters": {
+    "spring1_2026": {
+      "label": "Spring 1 2026",
+      "end_date": "2026-03-13"
+    },
+    "spring2_2026": {
+      "label": "Spring 2 2026",
+      "end_date": "2026-05-16"
+    },
+    "summer_2026": {
+      "label": "Summer 2026",
+      "end_date": "2026-08-15"
+    },
+    "fall_2026": {
+      "label": "Fall 2026",
+      "end_date": "2026-12-15"
+    }
+  },
+  "courses": [
+    {
+      "id": "wctc-chem-806134",
+      "name": "Chemistry 806-134",
+      "institution": "WCTC",
+      "semester": "spring1_2026",
+      "status": "in_progress",
+      "tags": [
+        "chem",
+        "gen_chem_lab"
+      ],
+      "online": false,
+      "has_lab": true,
+      "credits": 4
+    },
+    {
+      "id": "wctc-gap-806177",
+      "name": "General A&P 806-177",
+      "institution": "WCTC",
+      "semester": "spring1_2026",
+      "status": "in_progress",
+      "tags": [
+        "ap1"
+      ],
+      "online": true,
+      "has_lab": true,
+      "credits": 4
+    },
+    {
+      "id": "wctc-stats-804189",
+      "name": "Statistics 804-189",
+      "institution": "WCTC",
+      "semester": "spring1_2026",
+      "status": "in_progress",
+      "tags": [
+        "stats"
+      ],
+      "online": true,
+      "has_lab": false,
+      "credits": 3
+    },
+    {
+      "id": "matc-lifespan-psych238",
+      "name": "Lifespan Psychology PSYCH-238",
+      "institution": "MATC",
+      "semester": "spring2_2026",
+      "status": "planned",
+      "tags": [
+        "lifespan"
+      ],
+      "online": true,
+      "has_lab": false,
+      "credits": 3
+    },
+    {
+      "id": "wctc-aap-806179",
+      "name": "Advanced A&P 806-179",
+      "institution": "WCTC",
+      "semester": "spring2_2026",
+      "status": "planned",
+      "tags": [
+        "ap2"
+      ],
+      "online": true,
+      "has_lab": true,
+      "credits": 4
+    },
+    {
+      "id": "matc-micro-biosci197",
+      "name": "Microbiology BIOSCI-197",
+      "institution": "MATC",
+      "semester": "summer_2026",
+      "status": "planned",
+      "tags": [
+        "micro"
+      ],
+      "online": false,
+      "has_lab": true,
+      "credits": 4
+    },
+    {
+      "id": "clep-nutrition",
+      "name": "Nutrition CLEP Exam",
+      "institution": "CLEP",
+      "semester": "summer_2026",
+      "status": "planned",
+      "tags": [
+        "nutrition"
+      ],
+      "online": false,
+      "has_lab": false,
+      "credits": 3
+    }
+  ],
+  "transcript": [
+    {
+      "id": "uw-philos101",
+      "name": "PHILOS 101 - Introduction to Philosophy",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "ethics",
+        "philosophy"
+      ],
+      "grade": "AB",
+      "credits": 3
+    },
+    {
+      "id": "uw-anthro104",
+      "name": "ANTHRO 104 - Cultural Anthropology",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "sociology",
+        "cultural_diversity"
+      ],
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "id": "uw-polisci104",
+      "name": "POLI SCI 104 - Intro to American Politics",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "us_government"
+      ],
+      "grade": "AB",
+      "credits": 4
+    },
+    {
+      "id": "uw-edpsych320",
+      "name": "ED PSYCH 320 - Human Development and Learning",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "lifespan"
+      ],
+      "grade": "A",
+      "credits": 3,
+      "notes": "Developmental psychology focus — may not satisfy 'general psychology' requirement"
+    },
+    {
+      "id": "uw-comarts100",
+      "name": "COM ARTS 100 - Intro to Speech Composition",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "speech_comm"
+      ],
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "id": "uw-stat301",
+      "name": "STAT 301 - Intro to Statistical Methods",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "stats"
+      ],
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "id": "uw-math221",
+      "name": "MATH 221 - Calculus and Analytic Geometry I",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "college_algebra"
+      ],
+      "grade": "BC",
+      "credits": 5,
+      "notes": "Calculus I — satisfies college algebra requirement"
+    },
+    {
+      "id": "uw-history247",
+      "name": "HISTORY 247 - American Business History",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "history"
+      ],
+      "grade": "AB",
+      "credits": 3,
+      "notes": "American Business History — may not satisfy standard US History survey requirement"
+    },
+    {
+      "id": "uw-english100",
+      "name": "ENGLISH 100 - Intro to College Composition",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "english_comp"
+      ],
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "id": "uw-botany240",
+      "name": "BOTANY 240 - Plants and Man",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "id": "uw-geology101",
+      "name": "GEOLOGY 101 - Intro to Geology",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "id": "uw-geology103",
+      "name": "GEOLOGY 103 - Geological Perspectives",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "AB",
+      "credits": 2
+    },
+    {
+      "id": "uw-econ101",
+      "name": "ECON 101 - Principles of Microeconomics",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "B",
+      "credits": 4
+    },
+    {
+      "id": "uw-econ102",
+      "name": "ECON 102 - Principles of Macroeconomics",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "BC",
+      "credits": 3
+    },
+    {
+      "id": "uw-econ310",
+      "name": "ECON 310 - Intermediate Macroeconomics",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "id": "uw-econ311",
+      "name": "ECON 311 - Intermediate Microeconomics",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "BC",
+      "credits": 3
+    },
+    {
+      "id": "uw-econ405",
+      "name": "ECON 405 - Economic Forecasting",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "id": "uw-psych202",
+      "name": "PSYCH 202 - Intro to Psychology",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "psych"
+      ],
+      "grade": "AB",
+      "credits": 3
+    },
+    {
+      "id": "uw-sociology134",
+      "name": "SOC 134 - Intro to Sociology",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "sociology"
+      ],
+      "grade": "B",
+      "credits": 3
+    },
+    {
+      "id": "uw-afroamer154",
+      "name": "AFRO AMER 154 - Intro to African American Studies",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "cultural_diversity"
+      ],
+      "grade": "AB",
+      "credits": 3
+    },
+    {
+      "id": "uw-curric375",
+      "name": "CURRIC 375 - Curriculum and Instruction Seminar",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "id": "uw-edpol200",
+      "name": "ED POL 200 - Schooling and Educational Policy",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "AB",
+      "credits": 3
+    },
+    {
+      "id": "uw-relig101",
+      "name": "RELIG 101 - Intro to World Religions",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "fine_arts"
+      ],
+      "grade": "A",
+      "credits": 3,
+      "notes": "World Religions — may satisfy humanities/religion requirements"
+    },
+    {
+      "id": "uw-music113",
+      "name": "MUSIC 113 - Music in Performance",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "fine_arts"
+      ],
+      "grade": "A",
+      "credits": 3
+    },
+    {
+      "id": "uw-journ201",
+      "name": "JOURN 201 - Intro to Mass Communication",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [],
+      "grade": "AB",
+      "credits": 3
+    },
+    {
+      "id": "uw-journ202",
+      "name": "JOURN 202 - Reporting and Writing",
+      "institution": "UW-Madison",
+      "status": "completed",
+      "tags": [
+        "english_comp"
+      ],
+      "grade": "A",
+      "credits": 3,
+      "notes": "Journalism writing — may count as additional English composition"
+    }
+  ]
+}

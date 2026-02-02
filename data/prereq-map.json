@@ -1,0 +1,719 @@
+{
+  "_meta": {
+    "description": "Maps prerequisites.extra strings from programs.json to standardized tags",
+    "types": ["course", "exam", "certification", "experience", "document", "policy", "institutional"],
+    "logic_values": ["single", "or", "and"],
+    "notes": "tags arrays use inner arrays for OR groups: [[a,b]] means a OR b; [a,b] means a AND b"
+  },
+  "mappings": {
+    "ATI TEAS (7th ed)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "ATI TEAS 7th edition"
+    },
+    "ATI TEAS (within 24 months)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "TEAS score must be within 24 months"
+    },
+    "ATI TEAS exam": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false
+    },
+    "TEAS exam": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false
+    },
+    "TEAS exam (58.7% min, waived with bachelor's)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "Waived with bachelor's degree — user has BA from UW-Madison"
+    },
+    "TEAS exam (58.7% Proficient min)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false
+    },
+    "TEAS exam (65% min)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "65% minimum score"
+    },
+    "TEAS exam (65% min, proficiency all areas)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "65% minimum, proficiency required in all sections"
+    },
+    "TEAS exam (70% min)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "70% minimum score"
+    },
+    "TEAS (76% min)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "76% minimum score — competitive cutoff"
+    },
+    "TEAS VII (70% total, 62% science min)": {
+      "tags": ["teas"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "70% total, 62% science minimum"
+    },
+    "HESI A2 (75% cumulative and each subsection)": {
+      "tags": ["hesi"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "75% cumulative and per-subsection"
+    },
+    "HESI A2 (English 80+, Math 80+)": {
+      "tags": ["hesi"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "English 80+, Math 80+"
+    },
+    "HESI A2 exam": {
+      "tags": ["hesi"],
+      "type": "exam",
+      "hard_blocker": false
+    },
+    "HESI A2 or TEAS": {
+      "tags": [["hesi", "teas"]],
+      "type": "exam",
+      "logic": "or",
+      "hard_blocker": false
+    },
+    "GRE (297 combined) or GMAT (480)": {
+      "tags": ["gre"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "GRE 297 combined or GMAT 480"
+    },
+    "GRE if GPA <3.0": {
+      "tags": ["gre"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "Only required if GPA below 3.0"
+    },
+    "GRE may be required": {
+      "tags": ["gre"],
+      "type": "exam",
+      "hard_blocker": false,
+      "notes": "May be required — check with school"
+    },
+    "NLN NEX exam": {
+      "tags": ["nln_nex"],
+      "type": "exam",
+      "hard_blocker": false
+    },
+    "BLS certification (valid 18+ months)": {
+      "tags": ["bls"],
+      "type": "certification",
+      "hard_blocker": false,
+      "notes": "Must be valid for 18+ months"
+    },
+    "AHA BLS/CPR": {
+      "tags": ["bls"],
+      "type": "certification",
+      "hard_blocker": false
+    },
+    "100 hours healthcare experience (within 12 months)": {
+      "tags": ["healthcare_exp"],
+      "type": "experience",
+      "hard_blocker": true,
+      "notes": "100 hours within past 12 months — user does not have"
+    },
+    "50 hours healthcare experience": {
+      "tags": ["healthcare_exp"],
+      "type": "experience",
+      "hard_blocker": true,
+      "notes": "50 hours — user does not have"
+    },
+    "Healthcare experience (10 hrs min)": {
+      "tags": ["healthcare_exp"],
+      "type": "experience",
+      "hard_blocker": true,
+      "notes": "10 hours minimum — user does not have"
+    },
+    "RSN course": {
+      "tags": ["rsn"],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "Institutional requirement — may be taken during program"
+    },
+    "CNA I certification (NC Nurse Aide Registry)": {
+      "tags": ["cna"],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "NC-specific CNA I — user does not have"
+    },
+    "CNA certification": {
+      "tags": ["cna"],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "CNA certification — user does not have"
+    },
+    "CNA recommended": {
+      "tags": ["cna"],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "Listed as recommended but often functionally required"
+    },
+    "Chemistry I & II (2 semesters)": {
+      "tags": ["chem_sequence"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Requires 2-semester chemistry sequence"
+    },
+    "Chemistry I & II with Labs": {
+      "tags": ["chem_sequence", "gen_chem_lab"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "2-semester chemistry with labs"
+    },
+    "Chemistry for Health Sciences with lab": {
+      "tags": ["chem", "gen_chem_lab"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "General Chemistry I with lab": {
+      "tags": ["chem", "gen_chem_lab"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "General Chemistry I with Lab (4 cr)": {
+      "tags": ["chem", "gen_chem_lab"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "4 credits required"
+    },
+    "General Chemistry with lab (4 cr)": {
+      "tags": ["chem", "gen_chem_lab"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "4 credits required"
+    },
+    "Organic Chemistry with lab": {
+      "tags": ["organic_chem"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Organic/Biochemistry": {
+      "tags": ["organic_chem", "biochemistry"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Organic/Biochemistry (CHM 1360)": {
+      "tags": ["organic_chem", "biochemistry"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Biology OR Chemistry with lab (4 cr)": {
+      "tags": [["biology", "chem"]],
+      "type": "course",
+      "logic": "or",
+      "hard_blocker": false,
+      "notes": "Either biology or chemistry with lab, 4 credits"
+    },
+    "General Biology (3 cr)": {
+      "tags": ["gen_biology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Two-semester Chemistry sequence": {
+      "tags": ["chem_sequence"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "2-semester sequence required"
+    },
+    "Intro to Organic & Biochem with Lab": {
+      "tags": ["organic_chem", "biochemistry"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Biochemistry": {
+      "tags": ["biochemistry"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Pathophysiology": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Pathophysiology (3 credits)": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Pathophysiology (4 cr)": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "4 credits"
+    },
+    "Pathophysiology (BIO-322)": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Pathophysiology (NUR 2030)": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Pathophysiology (grade B+ required)": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Grade B+ required",
+      "grade_req": "B+"
+    },
+    "Pathophysiology II (NURS 240)": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Pathophysiology II"
+    },
+    "Pathophysiology OR Pharmacology": {
+      "tags": [["pathophysiology", "pharmacology"]],
+      "type": "course",
+      "logic": "or",
+      "hard_blocker": false
+    },
+    "Pathobiology": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Equivalent to pathophysiology"
+    },
+    "Pharmacology": {
+      "tags": ["pharmacology"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Pharmacology with Nursing Component (within 1 YEAR!)": {
+      "tags": ["pharmacology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Must include nursing component; must be within 1 year of start",
+      "recency": "1_year"
+    },
+    "Pharmacotherapy for Nursing": {
+      "tags": ["pharmacology"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Applied Physiology": {
+      "tags": ["pathophysiology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "May count as pathophysiology equivalent"
+    },
+    "Anatomy must be taken BEFORE Physiology (cannot be same semester)": {
+      "tags": [],
+      "type": "policy",
+      "hard_blocker": false,
+      "notes": "Sequencing requirement — A&P 1 must precede A&P 2"
+    },
+    "Human Genetics (3 cr)": {
+      "tags": ["genetics"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Introduction to Genetics (3 cr)": {
+      "tags": ["genetics"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Genetics": {
+      "tags": ["genetics"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Abnormal Psychology": {
+      "tags": ["abnormal_psych"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Abnormal Psychology/Psychopathology": {
+      "tags": ["abnormal_psych"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Epidemiology": {
+      "tags": ["epidemiology"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Statistics must be within 5 years": {
+      "tags": [],
+      "type": "policy",
+      "hard_blocker": false,
+      "notes": "Stats recency requirement — user's UW stats from ~2016, may need current enrollment",
+      "recency": "5_years",
+      "applies_to": "stats"
+    },
+    "English Composition": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "English Comp I & II": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Two semesters of English composition"
+    },
+    "English Composition (3 cr)": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "English Composition (6 semester hrs)": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "6 semester hours — 2 courses"
+    },
+    "English Composition - technical writing (3 cr)": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Technical writing variant, 3 credits"
+    },
+    "English Composition I & II": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Two courses required"
+    },
+    "English Reading & Composition (2 courses)": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "2 courses"
+    },
+    "English Literature": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Literature course — may be additional to composition"
+    },
+    "Speech/Technical Writing": {
+      "tags": ["speech_comm"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Oral Communication (CSU GE A.1)": {
+      "tags": ["speech_comm"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "CSU GE Area A.1"
+    },
+    "Written Composition (CSU GE A.2)": {
+      "tags": ["english_comp"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "CSU GE Area A.2"
+    },
+    "Written and Oral Communication": {
+      "tags": ["english_comp", "speech_comm"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "History": {
+      "tags": ["history"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "History (3 cr)": {
+      "tags": ["history"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Tennessee U.S. History requirement (6 semester hrs or 1 HS unit)": {
+      "tags": ["history", "us_government"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Tennessee-specific — 6 semester hours or 1 high school unit"
+    },
+    "Federal/US Government": {
+      "tags": ["us_government"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "US History (6 hrs)": {
+      "tags": ["history"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "6 hours — 2 courses"
+    },
+    "American History/Political Science": {
+      "tags": [["history", "us_government"]],
+      "type": "course",
+      "logic": "or",
+      "hard_blocker": false
+    },
+    "U.S. Constitution course (3 cr)": {
+      "tags": ["us_government"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Texas Government": {
+      "tags": ["tx_government"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Texas-specific requirement"
+    },
+    "Philosophy/Ethics": {
+      "tags": [["philosophy", "ethics"]],
+      "type": "course",
+      "logic": "or",
+      "hard_blocker": false
+    },
+    "Philosophy (6 cr)": {
+      "tags": ["philosophy"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "6 credits — 2 courses"
+    },
+    "Ethics (Religion/Philosophy)": {
+      "tags": [["ethics", "philosophy"]],
+      "type": "course",
+      "logic": "or",
+      "hard_blocker": false
+    },
+    "Health Care Ethics": {
+      "tags": ["ethics"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Healthcare-specific ethics"
+    },
+    "Medical Ethics": {
+      "tags": ["ethics"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Medical-specific ethics"
+    },
+    "Theology/Religion (3 cr)": {
+      "tags": ["theology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Theology (5 credits, during program)": {
+      "tags": ["theology"],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "Taken during program — not a prereq to complete beforehand"
+    },
+    "Bible-based Religion": {
+      "tags": ["theology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Bible-specific — may not accept world religions"
+    },
+    "World Religion": {
+      "tags": ["theology"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Religious Studies (6 cr)": {
+      "tags": ["theology"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "6 credits — 2 courses"
+    },
+    "Christian Worldview (CWV-101)": {
+      "tags": ["theology"],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "Institutional requirement — specific course"
+    },
+    "Fine Arts (3 cr)": {
+      "tags": ["fine_arts"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "3 credits"
+    },
+    "Fine Arts/Humanities (6 hrs)": {
+      "tags": ["fine_arts"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "6 hours — 2 courses"
+    },
+    "Visual & Performing Arts": {
+      "tags": ["fine_arts"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Arts/Humanities course": {
+      "tags": ["fine_arts"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Lifespan Development": {
+      "tags": ["lifespan"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Lifespan Development OR Developmental Psych specifically": {
+      "tags": ["lifespan"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Specifically developmental psych — user's ED PSYCH 320 should qualify"
+    },
+    "Developmental/Health Psychology": {
+      "tags": ["lifespan"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Behavioral Science (Psych, Sociology, or Anthropology)": {
+      "tags": [["psych", "sociology"]],
+      "type": "course",
+      "logic": "or",
+      "hard_blocker": false,
+      "notes": "Any behavioral science course"
+    },
+    "Interpersonal Communication": {
+      "tags": ["speech_comm"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "University Gen Ed Requirements (Communication, Quantitative, Ethnic Studies)": {
+      "tags": ["english_comp", "college_algebra", "cultural_diversity"],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "Institutional gen-ed — likely satisfied by BA degree"
+    },
+    "Critical Thinking (CSU GE A.3)": {
+      "tags": ["critical_thinking"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "CSU GE Area A.3"
+    },
+    "Cultural Diversity": {
+      "tags": ["cultural_diversity"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "NUTR 2050 (must take at Clemson)": {
+      "tags": ["nutrition"],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "Must be taken at Clemson specifically"
+    },
+    "Resume": {
+      "tags": [],
+      "type": "document",
+      "hard_blocker": false
+    },
+    "3 letters of recommendation": {
+      "tags": [],
+      "type": "document",
+      "hard_blocker": false
+    },
+    "Admissions statement": {
+      "tags": [],
+      "type": "document",
+      "hard_blocker": false
+    },
+    "Letter of Interest": {
+      "tags": [],
+      "type": "document",
+      "hard_blocker": false
+    },
+    "Two reference letters": {
+      "tags": [],
+      "type": "document",
+      "hard_blocker": false
+    },
+    "College Algebra": {
+      "tags": ["college_algebra"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "College Math/Algebra": {
+      "tags": ["college_algebra"],
+      "type": "course",
+      "hard_blocker": false
+    },
+    "Finite Math (or Calculus)": {
+      "tags": ["college_algebra"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "User has Calculus I — satisfies this"
+    },
+    "RIC Math Competency": {
+      "tags": ["college_algebra"],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "RIC-specific competency"
+    },
+    "RIC Writing Requirement": {
+      "tags": ["english_comp"],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "RIC-specific writing requirement"
+    },
+    "60 credit hrs Liberal Arts & Sciences": {
+      "tags": [],
+      "type": "institutional",
+      "hard_blocker": false,
+      "notes": "User has BA from UW-Madison — satisfies this"
+    },
+    "3 of 4 prereqs from 4-year institution": {
+      "tags": [],
+      "type": "policy",
+      "hard_blocker": false,
+      "notes": "Institutional policy — user's prereqs are from tech colleges, may need verification"
+    },
+    "Colorado residency required": {
+      "tags": ["residency"],
+      "type": "policy",
+      "hard_blocker": true,
+      "notes": "User is WI resident — does not qualify"
+    },
+    "Grade B+ required starting Fall 2025": {
+      "tags": [],
+      "type": "policy",
+      "hard_blocker": false,
+      "notes": "Grade requirement for prereq courses starting Fall 2025"
+    },
+    "Composition/Communication course": {
+      "tags": [["english_comp", "speech_comm"]],
+      "type": "course",
+      "logic": "or",
+      "hard_blocker": false
+    },
+    "Foreign language (2 semesters)": {
+      "tags": ["foreign_language"],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "2 semesters — user may need to check UW transcript"
+    },
+    "Starting Summer 2027: Nutrition and Human Growth added": {
+      "tags": [],
+      "type": "policy",
+      "hard_blocker": false,
+      "notes": "Future requirement — not applicable for Spring 2027 entry"
+    }
+  }
+}

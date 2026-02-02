@@ -2,26 +2,53 @@ let programs = [];
 let programsMap = {};
 let currentSort = { column: 'raw_score', direction: 'desc' };
 let workCommitmentEnabled = {}; // Track per-program: { programId: true/false }
+let computedPlanFit = {}; // Computed plan-fit results from engine
+let prereqMap = null; // Loaded prereq-map.json
 
 async function loadPrograms() {
   const loading = document.getElementById('loading');
   const error = document.getElementById('error');
 
   try {
-    const response = await fetch('/api/programs');
-    if (!response.ok) throw new Error('Failed to load programs');
+    // Load programs, courses, and prereq-map in parallel
+    const [programsRes, courseData, prereqMapRes] = await Promise.all([
+      fetch('/api/programs').then(r => { if (!r.ok) throw new Error('Failed to load programs'); return r.json(); }),
+      CoursesPanel.loadCourseData(),
+      fetch('/api/prereq-map').then(r => { if (!r.ok) throw new Error('Failed to load prereq-map'); return r.json(); })
+    ]);
 
-    const data = await response.json();
-    programs = data.programs;
+    programs = programsRes.programs;
     programsMap = {};
     programs.forEach(p => programsMap[p.id] = p);
+    prereqMap = prereqMapRes;
+
+    // Run plan-fit engine
+    computedPlanFit = PlanFitEngine.evaluateAll(programs, courseData, prereqMap);
+
     loading.classList.add('hidden');
     renderTable();
+
+    // Render courses panel if open
+    CoursesPanel.renderPanel();
   } catch (e) {
     loading.classList.add('hidden');
     error.textContent = 'Error loading programs: ' + e.message;
     error.classList.remove('hidden');
   }
+}
+
+// Called by courses.js when courses change
+function reEvaluateAndRender() {
+  const courseData = CoursesPanel.getCourseData();
+  if (courseData && prereqMap && programs.length > 0) {
+    computedPlanFit = PlanFitEngine.evaluateAll(programs, courseData, prereqMap);
+    renderTable();
+  }
+}
+
+function getPlanFit(program) {
+  // Use computed plan-fit if available, fall back to stored
+  return computedPlanFit[program.id] || program.plan_fit || {};
 }
 
 function getDataStatus(program) {
@@ -84,7 +111,11 @@ function renderTable() {
   const search = document.getElementById('search').value.toLowerCase();
   const typeFilter = document.getElementById('type-filter').value;
   const dataFilter = document.getElementById('data-filter').value;
-  const fitFilter = document.getElementById('fit-filter').value;
+  // Gather checked plan-fit categories
+  const fitChecked = new Set();
+  document.querySelectorAll('.fit-checkboxes input[type="checkbox"]').forEach(cb => {
+    if (cb.checked) fitChecked.add(cb.value);
+  });
 
   let filtered = programs.filter(p => {
     // Search filter
@@ -101,11 +132,7 @@ function renderTable() {
       (dataFilter === 'complete' && status === 'complete') ||
       (dataFilter === 'needs-data' && status === 'needs-data');
 
-    // Plan fit filter
-    const planFit = p.plan_fit?.status || '';
-    const fitMatch = !fitFilter || planFit === fitFilter;
-
-    return searchMatch && typeMatch && dataMatch && fitMatch;
+    return searchMatch && typeMatch && dataMatch;
   });
 
   // Sort based on currentSort
@@ -127,7 +154,7 @@ function renderTable() {
           ? valA.localeCompare(valB)
           : valB.localeCompare(valA);
       case 'location':
-        // Sort by combined location score (location_score × np_pathway), not alphabetically
+        // Sort by combined location score (location_score x np_pathway), not alphabetically
         valA = a.scores?.location_combined ?? 0;
         valB = b.scores?.location_combined ?? 0;
         break;
@@ -164,8 +191,8 @@ function renderTable() {
       case 'plan_fit':
         // Sort order: fits (best) > fall_required > adjust > ruled_out (worst)
         const fitOrder = { fits: 1, fall_required: 2, adjust: 3, ruled_out: 4, '': 5 };
-        valA = fitOrder[a.plan_fit?.status || ''] || 5;
-        valB = fitOrder[b.plan_fit?.status || ''] || 5;
+        valA = fitOrder[getPlanFit(a).status || ''] || 5;
+        valB = fitOrder[getPlanFit(b).status || ''] || 5;
         break;
       case 'raw_score':
       default:
@@ -176,6 +203,11 @@ function renderTable() {
     // Numeric comparison
     return currentSort.direction === 'asc' ? valA - valB : valB - valA;
   });
+
+  // Stable partition: checked fit categories first, unchecked after
+  const prioritized = filtered.filter(p => fitChecked.has(getPlanFit(p).status || ''));
+  const deprioritized = filtered.filter(p => !fitChecked.has(getPlanFit(p).status || ''));
+  filtered = prioritized.concat(deprioritized);
 
   // Update stats
   const complete = filtered.filter(p => getDataStatus(p) === 'complete').length;
@@ -194,7 +226,8 @@ function renderTable() {
       ? `<input type="checkbox" class="work-commit-checkbox" data-program-id="${p.id}" ${isChecked} onclick="event.stopPropagation(); toggleWorkCommit('${p.id}', this)">`
       : '-';
 
-    const planFitStatus = p.plan_fit?.status || '';
+    const planFit = getPlanFit(p);
+    const planFitStatus = planFit.status || '';
     const planFitLabel = getPlanFitLabel(planFitStatus);
     const planFitClass = getPlanFitBadgeClass(planFitStatus);
 
@@ -215,7 +248,7 @@ function renderTable() {
     const verifConf = p.verification?.confidence;
     let verifIcon = '';
     if (verifConf === 'verified') {
-      verifIcon = '<span class="verif-icon verified" title="Data verified">✓</span>';
+      verifIcon = '<span class="verif-icon verified" title="Data verified">&#10003;</span>';
     } else if (verifConf === 'needs_verification') {
       verifIcon = '<span class="verif-icon needs-verif" title="Needs verification">!</span>';
     } else {
@@ -245,7 +278,9 @@ function renderTable() {
 document.getElementById('search').addEventListener('input', renderTable);
 document.getElementById('type-filter').addEventListener('change', renderTable);
 document.getElementById('data-filter').addEventListener('change', renderTable);
-document.getElementById('fit-filter').addEventListener('change', renderTable);
+document.querySelectorAll('.fit-checkboxes input[type="checkbox"]').forEach(cb => {
+  cb.addEventListener('change', renderTable);
+});
 
 // Work-commitment checkbox toggle (per-program)
 function toggleWorkCommit(programId, checkbox) {
@@ -391,10 +426,11 @@ function showDetail(id) {
     if (scores.rank) html += ' &bull; Rank #' + scores.rank;
     html += '</div></div>';
 
-    // Plan Fit Status
-    if (p.plan_fit?.status) {
-      const fitStatus = p.plan_fit.status;
-      const fitReasons = p.plan_fit.reasons || [];
+    // Plan Fit Status — uses computed plan fit
+    const planFit = getPlanFit(p);
+    if (planFit.status) {
+      const fitStatus = planFit.status;
+      const fitReasons = planFit.reasons || [];
       let fitTitle = 'Plan Status Unknown';
       let fitBoxClass = '';
 
@@ -420,6 +456,15 @@ function showDetail(id) {
           html += '<li>' + escapeHtml(reason) + '</li>';
         });
         html += '</ul>';
+      }
+      // Show warnings if any
+      const fitWarnings = planFit.warnings || [];
+      if (fitWarnings.length > 0) {
+        html += '<div class="plan-fit-warnings">';
+        fitWarnings.forEach(function(warning) {
+          html += '<div class="plan-fit-warning">' + escapeHtml(warning) + '</div>';
+        });
+        html += '</div>';
       }
       html += '</div>';
     }
@@ -566,10 +611,10 @@ function showDetail(id) {
     let verifBadgeText = 'Unverified';
     if (verif.confidence === 'verified') {
       verifBadgeClass = 'verified';
-      verifBadgeText = '✓ Verified';
+      verifBadgeText = '&#10003; Verified';
     } else if (verif.confidence === 'needs_verification') {
       verifBadgeClass = 'needs-verification';
-      verifBadgeText = '⚠ Needs Verification';
+      verifBadgeText = '&#9888; Needs Verification';
     }
 
     html += '<span class="verification-badge ' + verifBadgeClass + '">' + verifBadgeText + '</span>';
@@ -583,7 +628,7 @@ function showDetail(id) {
     }
 
     if (verif.sources?.primary) {
-      html += '<div class="verification-note"><a href="' + escapeHtml(verif.sources.primary) + '" target="_blank">View source →</a></div>';
+      html += '<div class="verification-note"><a href="' + escapeHtml(verif.sources.primary) + '" target="_blank">View source &rarr;</a></div>';
     }
 
     html += '</div>';
@@ -658,8 +703,8 @@ function showWorkCommitPopup(program) {
       <div class="notes">${escapeHtml(wc.notes)}</div>
       <div class="calculation">
         <strong>Impact:</strong><br>
-        Monthly burn: ${formatCurrency(baseBurn)} → ${formatCurrency(newBurn)} (-${formatCurrency(monthlyBenefit)}/mo)<br>
-        Score: ${oldRawScore.toFixed(2)} → ${newRawScore.toFixed(2)} (+${scoreDiff.toFixed(2)})
+        Monthly burn: ${formatCurrency(baseBurn)} &rarr; ${formatCurrency(newBurn)} (-${formatCurrency(monthlyBenefit)}/mo)<br>
+        Score: ${oldRawScore.toFixed(2)} &rarr; ${newRawScore.toFixed(2)} (+${scoreDiff.toFixed(2)})
         ${wc.competitive ? '<br><small>(Using 50% expected value due to competitive selection)</small>' : ''}
       </div>
     </div>
