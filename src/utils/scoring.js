@@ -11,6 +11,14 @@
  *
  * KEY SCORING CONCEPTS:
  *
+ * - location_score (0-9.5+): Auto-calculated by data/metro-scoring.js (v2 rubric)
+ *   Components: distance(3) + geography(2.5) + desirability(3) + bonuses(1) + manual_bonus
+ *   Desirability = cool_factor(0-2) + size_preference(0-1)
+ *   Bonuses = food(0.25) + events(0.25) + dating(0.25) + student_vibe(0.25)
+ *   Manual: user overrides (e.g. Pittsburgh +1) and regional penalties (FL -0.5, Deep South -0.25)
+ *
+ * - location_boost (0-0.5): NP practice authority only (+0.5 for full NP states)
+ *
  * - competitiveness: Peaks at 80th percentile. Being TOO elite (100th) is penalized
  *   equally to being too easy (60th). Formula: 1 - |national_percentile - 0.8|
  *
@@ -25,6 +33,8 @@
  *     - underserved_access: Proximity to underserved populations / HPSAs / FQHCs (0-1)
  *
  * - cost_score: Monthly burn rate normalized. Programs over $10K/month score 0.
+ *
+ * WORKFLOW: Edit metro-scoring.js → node metro-scoring.js → node sync-programs.js
  */
 
 const DEFAULT_WEIGHTS = {
