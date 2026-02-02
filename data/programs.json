@@ -77,7 +77,7 @@
         "start_score": 0.5,
         "cost_score": 0.53,
         "raw_score": 0.6,
-        "rank": 48,
+        "rank": 49,
         "national_percentile": 0.45,
         "location_combined": 5.32,
         "np_type_multiplier": 1
@@ -181,7 +181,7 @@
         "start_score": 1,
         "cost_score": 0.34,
         "raw_score": 1.69,
-        "rank": 5,
+        "rank": 6,
         "national_percentile": 0.9,
         "location_combined": 5.73,
         "np_type_multiplier": 1.2
@@ -292,7 +292,7 @@
         "start_score": 1,
         "cost_score": 0.51,
         "raw_score": 1.73,
-        "rank": 4,
+        "rank": 5,
         "national_percentile": 0.7,
         "location_combined": 6.64,
         "np_type_multiplier": 1
@@ -518,7 +518,7 @@
         "start_score": 1,
         "cost_score": 0.61,
         "raw_score": 1.43,
-        "rank": 14,
+        "rank": 15,
         "national_percentile": 0.55,
         "location_combined": 5.92,
         "np_type_multiplier": 1
@@ -732,7 +732,7 @@
         "start_score": 0.5,
         "cost_score": 0.62,
         "raw_score": 1.5,
-        "rank": 10,
+        "rank": 11,
         "national_percentile": 0.65,
         "location_combined": 7.63,
         "np_type_multiplier": 1
@@ -945,7 +945,7 @@
         "start_score": 1,
         "cost_score": 0.4,
         "raw_score": 1.82,
-        "rank": 3,
+        "rank": 4,
         "national_percentile": 0.8,
         "location_combined": 7.22,
         "np_type_multiplier": 1
@@ -1027,10 +1027,10 @@
       },
       "admissions": {
         "email": "admissions@researchcollege.edu",
-        "deadline": "2026-04-01",
-        "start_date": "2026-05-15",
+        "deadline": "2026-09-01",
+        "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Apply 12-18 months early to complete remaining prereqs.",
+        "app_timing_notes": "Apply 12-18 months early to complete remaining prereqs. Jan 2027 start — deadline estimated ~Sep 2026 (verify with admissions). May 2026 start deadline was Apr 1.",
         "start_dates": [
           "2027-01-15",
           "2026-05-15"
@@ -1052,10 +1052,10 @@
         "np_pathway": 0.8,
         "prestige": 0.7,
         "competitiveness": 0.8,
-        "start_score": 0.5,
+        "start_score": 1,
         "cost_score": 0.72,
-        "raw_score": 1.08,
-        "rank": 27,
+        "raw_score": 2.15,
+        "rank": 2,
         "national_percentile": 0.6,
         "location_combined": 5.3,
         "np_type_multiplier": 1
@@ -1165,7 +1165,7 @@
         "start_score": 1,
         "cost_score": 0.53,
         "raw_score": 2.07,
-        "rank": 2,
+        "rank": 3,
         "national_percentile": 0.7,
         "location_combined": 7.15,
         "np_type_multiplier": 1
@@ -1270,7 +1270,7 @@
         "start_score": 1,
         "cost_score": 0.46,
         "raw_score": 1.18,
-        "rank": 21,
+        "rank": 22,
         "national_percentile": 0.55,
         "location_combined": 6.58,
         "np_type_multiplier": 1
@@ -1478,7 +1478,7 @@
         "start_score": 0.75,
         "cost_score": 0.65,
         "raw_score": 1.65,
-        "rank": 7,
+        "rank": 8,
         "national_percentile": 0.85,
         "location_combined": 5.27,
         "np_type_multiplier": 1
@@ -1585,7 +1585,7 @@
         "start_score": 1,
         "cost_score": 0.45,
         "raw_score": 1.21,
-        "rank": 20,
+        "rank": 21,
         "national_percentile": 0.65,
         "location_combined": 5.67,
         "np_type_multiplier": 1
@@ -1696,7 +1696,7 @@
         "start_score": 0.75,
         "cost_score": 0.76,
         "raw_score": 1.31,
-        "rank": 17,
+        "rank": 18,
         "national_percentile": 0.5,
         "location_combined": 6.72,
         "np_type_multiplier": 1
@@ -1804,7 +1804,7 @@
         "cost_score": 0.54,
         "raw_score": 1.12,
         "location_combined": 7.07,
-        "rank": 25,
+        "rank": 26,
         "np_type_multiplier": 1
       },
       "notes": "15-month program; 100% NCLEX pass rate; $695/credit (~63 credits); Catholic university",
@@ -2019,7 +2019,7 @@
         "start_score": 0.75,
         "cost_score": 0.45,
         "raw_score": 1.13,
-        "rank": 22,
+        "rank": 23,
         "national_percentile": 0.75,
         "location_combined": 4.45,
         "np_type_multiplier": 1
@@ -2125,7 +2125,7 @@
         "start_score": 0.75,
         "cost_score": 0.47,
         "raw_score": 1.13,
-        "rank": 23,
+        "rank": 24,
         "national_percentile": 0.65,
         "location_combined": 7.24,
         "np_type_multiplier": 1
@@ -2232,7 +2232,7 @@
         "start_score": 1,
         "cost_score": 0.67,
         "raw_score": 1.65,
-        "rank": 8,
+        "rank": 9,
         "national_percentile": 0.55,
         "location_combined": 6.28,
         "np_type_multiplier": 1
@@ -2340,7 +2340,7 @@
         "start_score": 1,
         "cost_score": 0.3,
         "raw_score": 1.49,
-        "rank": 12,
+        "rank": 13,
         "national_percentile": 0.92,
         "location_combined": 6.58,
         "np_type_multiplier": 1
@@ -2447,7 +2447,7 @@
         "start_score": 0.5,
         "cost_score": 0.57,
         "raw_score": 0.59,
-        "rank": 49,
+        "rank": 50,
         "national_percentile": 0.6,
         "location_combined": 4.99,
         "np_type_multiplier": 1
@@ -2856,7 +2856,7 @@
         "cost_score": 0.42,
         "raw_score": 1.59,
         "location_combined": 6.28,
-        "rank": 9,
+        "rank": 10,
         "np_type_multiplier": 1
       },
       "notes": "16mo hybrid program; $69,280 tuition OR FREE via LCMC Nurse Scholars (2yr work commitment); elite program [OOS tuition applied]",
@@ -2965,7 +2965,7 @@
         "start_score": 1,
         "cost_score": 0.47,
         "raw_score": 1.5,
-        "rank": 11,
+        "rank": 12,
         "national_percentile": 0.88,
         "online_lab_conf": 1,
         "location_combined": 8.2,
@@ -3290,7 +3290,7 @@
         "start_score": 1,
         "cost_score": 0.36,
         "raw_score": 1.12,
-        "rank": 26,
+        "rank": 27,
         "national_percentile": 0.75,
         "location_combined": 4.38,
         "np_type_multiplier": 1
@@ -3500,7 +3500,7 @@
         "start_score": 1,
         "cost_score": 0.55,
         "raw_score": 0.59,
-        "rank": 50,
+        "rank": 51,
         "national_percentile": 0.5,
         "location_combined": 4.7,
         "np_type_multiplier": 1
@@ -3605,7 +3605,7 @@
         "start_score": 1,
         "cost_score": 0.29,
         "raw_score": 1.67,
-        "rank": 6,
+        "rank": 7,
         "national_percentile": 0.85,
         "location_combined": 7.07,
         "np_type_multiplier": 1
@@ -4143,7 +4143,7 @@
         "cost_score": 0.45,
         "raw_score": 1.13,
         "location_combined": 5.44,
-        "rank": 24,
+        "rank": 25,
         "np_type_multiplier": 1
       },
       "notes": "16mo hybrid; $900/credit (~69 credits = $61,880); Cincinnati campus paused but Columbus/Cleveland available [OOS tuition applied]",
@@ -4251,7 +4251,7 @@
         "start_score": 1,
         "cost_score": 0.49,
         "raw_score": 1.35,
-        "rank": 15,
+        "rank": 16,
         "national_percentile": 0.82,
         "location_combined": 4.44,
         "np_type_multiplier": 1
@@ -4361,7 +4361,7 @@
         "start_score": 0.5,
         "cost_score": 0.54,
         "raw_score": 0.62,
-        "rank": 47,
+        "rank": 48,
         "national_percentile": 0.55,
         "location_combined": 5.78,
         "np_type_multiplier": 1
@@ -4569,7 +4569,7 @@
         "cost_score": 0.57,
         "raw_score": 0.34,
         "location_combined": 5.27,
-        "rank": 65,
+        "rank": 66,
         "np_type_multiplier": 1
       },
       "notes": "20mo (5 semesters); $664/credit (~65 credits = ~$43,160); hybrid option available [OOS tuition applied]",
@@ -4778,7 +4778,7 @@
         "start_score": 0.75,
         "cost_score": 0.47,
         "raw_score": 1.27,
-        "rank": 19,
+        "rank": 20,
         "national_percentile": 0.72,
         "location_combined": 5.66,
         "np_type_multiplier": 1
@@ -5111,7 +5111,7 @@
         "cost_score": 0.71,
         "raw_score": 1.32,
         "location_combined": 4.9,
-        "rank": 16,
+        "rank": 17,
         "np_type_multiplier": 1
       },
       "notes": "24mo accelerated BSN; ~$30,607 total tuition (OOS); flagship Maryland nursing school [OOS tuition applied]",
@@ -5424,7 +5424,7 @@
         "start_score": 1,
         "cost_score": 0.12,
         "raw_score": 0.54,
-        "rank": 52,
+        "rank": 53,
         "national_percentile": 0.88,
         "location_combined": 5.46,
         "np_type_multiplier": 1
@@ -5860,7 +5860,7 @@
         "start_score": 1,
         "cost_score": 0.63,
         "raw_score": 1.31,
-        "rank": 18,
+        "rank": 19,
         "national_percentile": 0.65,
         "online_lab_conf": 0.8,
         "location_combined": 8.2,
@@ -6084,7 +6084,7 @@
         "start_score": 1,
         "cost_score": 0.42,
         "raw_score": 0.64,
-        "rank": 46,
+        "rank": 47,
         "national_percentile": 0.55,
         "location_combined": 4.9,
         "np_type_multiplier": 1
@@ -6189,7 +6189,7 @@
         "start_score": 0.75,
         "cost_score": 0.68,
         "raw_score": 0.55,
-        "rank": 51,
+        "rank": 52,
         "national_percentile": 0.55,
         "location_combined": 4.1,
         "np_type_multiplier": 1
@@ -6277,10 +6277,15 @@
       },
       "admissions": {
         "email": "nursing@edgewood.edu",
-        "deadline": "2026-06-01",
-        "start_date": "2026-09-01",
+        "deadline": "2026-11-01",
+        "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Pathophysiology may be completed during first session."
+        "app_timing_notes": "Pathophysiology may be completed during first session. Spring 2027 start — deadline estimated ~Nov 2026 (verify with admissions). Fall deadline was Jun 1.",
+        "start_dates": [
+          "2026-09-01",
+          "2027-01-15"
+        ],
+        "start_date_notes": "Fall and Spring starts"
       },
       "program_details": {
         "duration_months": 12,
@@ -6297,10 +6302,10 @@
         "np_pathway": 0.62,
         "prestige": 0.5,
         "competitiveness": 0.7,
-        "start_score": 0.75,
+        "start_score": 1,
         "cost_score": 0.46,
-        "raw_score": 0.54,
-        "rank": 53,
+        "raw_score": 0.71,
+        "rank": 46,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.45,
@@ -6513,7 +6518,7 @@
         "start_score": 0.75,
         "cost_score": 0.58,
         "raw_score": 0.32,
-        "rank": 66,
+        "rank": 67,
         "national_percentile": 0.6,
         "location_combined": 4.85,
         "np_type_multiplier": 1.2
@@ -6625,7 +6630,7 @@
         "start_score": 1,
         "cost_score": 0.48,
         "raw_score": 0.38,
-        "rank": 63,
+        "rank": 64,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 3.04,
@@ -6820,10 +6825,15 @@
       },
       "admissions": {
         "email": "nursing@uwm.edu",
-        "deadline": "2026-02-01",
-        "start_date": "2026-08-01",
+        "deadline": "2026-08-01",
+        "start_date": "2027-01-15",
         "in_progress_ok": true,
-        "app_timing_notes": "Don't need prereqs to apply, complete before start. B+ required in all prereqs."
+        "app_timing_notes": "Don't need prereqs to apply, complete before start. B+ required in all prereqs. Spring 2027 start — priority deadline Aug 1 (confirmed in verification notes).",
+        "start_dates": [
+          "2026-08-01",
+          "2027-01-15"
+        ],
+        "start_date_notes": "Fall and Spring starts; priority deadlines Feb 1 (fall) and Aug 1 (spring)"
       },
       "program_details": {
         "duration_months": 24,
@@ -6840,10 +6850,10 @@
         "np_pathway": 0.72,
         "prestige": 0.5,
         "competitiveness": 0.7,
-        "start_score": 0.75,
+        "start_score": 1,
         "cost_score": 0.74,
-        "raw_score": 0.29,
-        "rank": 68,
+        "raw_score": 0.39,
+        "rank": 63,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 3.04,
@@ -6951,7 +6961,7 @@
         "start_score": 1,
         "cost_score": 0.52,
         "raw_score": 1.47,
-        "rank": 13,
+        "rank": 14,
         "national_percentile": 0.72,
         "location_combined": 5.44,
         "np_type_multiplier": 1
@@ -7067,7 +7077,7 @@
         "start_score": 1,
         "cost_score": 0.11,
         "raw_score": 0.32,
-        "rank": 67,
+        "rank": 68,
         "national_percentile": 0.99,
         "online_lab_conf": 0.8,
         "location_combined": 4.9,
@@ -7766,7 +7776,7 @@
         "start_score": 0.5,
         "cost_score": 0.33,
         "raw_score": 0.36,
-        "rank": 64,
+        "rank": 65,
         "national_percentile": 0.94,
         "online_lab_conf": 0.8,
         "location_combined": 5.91,

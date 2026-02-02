@@ -314,29 +314,16 @@ function toggleWorkCommit(programId, checkbox) {
 }
 
 // Recalculate raw score with new cost score
-function recalculateRawScore(program, costScore) {
-  const scores = program.scores || {};
-  const details = program.program_details || {};
-  const costs = program.costs || {};
+// Uses ratio scaling: since cost_score is a multiplicative factor in the formula,
+// we can adjust the stored raw_score by (newCostScore / storedCostScore) rather than
+// recomputing everything (which won't match scores imported from Excel).
+function recalculateRawScore(program, newCostScore) {
+  const storedRawScore = program.scores?.raw_score;
+  const storedCostScore = program.scores?.cost_score;
 
-  const base = (scores.location_score || 5) + (scores.location_boost || 0);
-  const prereqFit = program.prerequisites?.addl_prereq_fit || 1.0;
-  const onlineLabConf = scores.online_lab_conf || details.online_lab_conf || 1.0;
-  const npPathway = scores.np_pathway || 0.5;
-  const prestige = scores.prestige || 1.0;
-  const competitiveness = scores.competitiveness || 1.0;
-  const startScore = scores.start_score || 1.0;
+  if (storedRawScore == null || !storedCostScore) return storedRawScore;
 
-  // Time factor
-  const duration = costs['Duration (mo)'] || details.duration_months || 12;
-  let timeFactor = 1.0;
-  if (duration >= 32) timeFactor = 0.2;       // 80% penalty
-  else if (duration >= 24) timeFactor = 0.4;  // 60% penalty
-  else if (duration >= 17) timeFactor = 0.6;  // 40% penalty
-  else if (duration >= 13) timeFactor = 0.8;  // 20% penalty
-
-  const rawScore = base * prereqFit * onlineLabConf * npPathway * prestige * competitiveness * startScore * timeFactor * costScore;
-  return Math.round(rawScore * 100) / 100;
+  return Math.round((storedRawScore / storedCostScore * newCostScore) * 100) / 100;
 }
 
 // Column header sorting
@@ -568,12 +555,15 @@ function showDetail(id) {
     // Work-commitment section
     if (scholarships.work_commitment) {
       const wc = scholarships.work_commitment;
+      const modalWcName = wc.program_name || wc.name || 'Work-Commitment Scholarship';
+      const modalWcYears = wc.commitment_years || wc.years || '?';
+      const modalWcEmployer = wc.employer ? ' at ' + escapeHtml(wc.employer) : '';
       html += '<div class="work-commit-card" style="margin-top: 15px;">';
       html += '<h3 style="margin: 0 0 8px 0;">Work-Commitment Option Available</h3>';
       html += '<div class="amount">' + formatCurrency(wc.amount) + '</div>';
-      html += '<div class="details"><strong>' + escapeHtml(wc.program_name) + '</strong><br>';
-      html += wc.commitment_years + '-year commitment at ' + escapeHtml(wc.employer) + '</div>';
-      html += '<div class="notes">' + escapeHtml(wc.notes) + '</div>';
+      html += '<div class="details"><strong>' + escapeHtml(modalWcName) + '</strong><br>';
+      html += modalWcYears + '-year commitment' + modalWcEmployer + '</div>';
+      if (wc.notes) html += '<div class="notes">' + escapeHtml(wc.notes) + '</div>';
       html += '</div>';
     }
     html += '</div>';
@@ -692,19 +682,24 @@ function showWorkCommitPopup(program) {
   const newRawScore = recalculateRawScore(program, newCostScore);
   const scoreDiff = newRawScore - oldRawScore;
 
+  const wcName = wc.program_name || wc.name || 'Work-Commitment Scholarship';
+  const wcYears = wc.commitment_years || wc.years || '?';
+  const wcEmployer = wc.employer ? ' at ' + escapeHtml(wc.employer) : '';
+  const wcNotes = wc.notes ? `<div class="notes">${escapeHtml(wc.notes)}</div>` : '';
+
   container.innerHTML = `
     <div class="work-commit-card">
       <h3>${escapeHtml(program.name)}</h3>
       <div class="amount">${formatCurrency(wc.amount)} scholarship</div>
       <div class="details">
-        <strong>${escapeHtml(wc.program_name)}</strong><br>
-        ${wc.commitment_years}-year commitment at ${escapeHtml(wc.employer)}
+        <strong>${escapeHtml(wcName)}</strong><br>
+        ${wcYears}-year commitment${wcEmployer}
       </div>
-      <div class="notes">${escapeHtml(wc.notes)}</div>
+      ${wcNotes}
       <div class="calculation">
         <strong>Impact:</strong><br>
         Monthly burn: ${formatCurrency(baseBurn)} &rarr; ${formatCurrency(newBurn)} (-${formatCurrency(monthlyBenefit)}/mo)<br>
-        Score: ${oldRawScore.toFixed(2)} &rarr; ${newRawScore.toFixed(2)} (+${scoreDiff.toFixed(2)})
+        Score: ${oldRawScore.toFixed(2)} &rarr; ${newRawScore.toFixed(2)} (${scoreDiff >= 0 ? '+' : ''}${scoreDiff.toFixed(2)})
         ${wc.competitive ? '<br><small>(Using 50% expected value due to competitive selection)</small>' : ''}
       </div>
     </div>
