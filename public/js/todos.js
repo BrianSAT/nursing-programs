@@ -760,7 +760,7 @@ const TodoPanel = (function () {
     var programId = program.id;
     var programName = program.name;
 
-    // If no application_requirements, create a research task and alert user
+    // If no application_requirements, create a research task, queue for research, and alert user
     if (!reqs || reqs.research_status === 'pending') {
       var researchMsg = reqs ? 'partial' : 'missing';
       if (!taskExistsForProgram(programId, 'research') && !taskExistsForProgram(programId, 'verify')) {
@@ -778,7 +778,22 @@ const TodoPanel = (function () {
           completed_at: null
         });
       }
-      alert(programName + ' added to tracked programs.\n\nApplication requirements have not been fully researched for this program. A "Research requirements" task has been added to your To Do list.');
+      // Queue for research
+      try {
+        await fetch('/api/research-queue', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            program_id: programId,
+            program_name: programName,
+            reason: 'No application_requirements data',
+            fields_needed: ['fee', 'system', 'essays', 'references', 'exam', 'certifications', 'resume', 'background_check', 'interview', 'deposit', 'unique']
+          })
+        });
+      } catch (e) {
+        console.error('Error queuing for research:', e);
+      }
+      alert(programName + ' added to tracked programs.\n\nApplication requirements have not been researched. Queued for research \u2014 Claude Code will pick this up next session.');
       await loadTodoData();
       return;
     }
@@ -1044,12 +1059,42 @@ const TodoPanel = (function () {
       newTaskCount++;
     }
 
+    // Queue for research if partial data
+    if (reqs.research_status === 'partial') {
+      var missingFields = [];
+      if (reqs.fee == null) missingFields.push('fee');
+      if (!reqs.system) missingFields.push('system');
+      if (!reqs.essays || reqs.essays.length === 0) missingFields.push('essays');
+      if (!reqs.references) missingFields.push('references');
+      if (reqs.exam === undefined) missingFields.push('exam');
+      if (!reqs.certifications) missingFields.push('certifications');
+      if (reqs.resume == null) missingFields.push('resume');
+      if (reqs.background_check == null) missingFields.push('background_check');
+      if (!reqs.interview) missingFields.push('interview');
+      if (reqs.deposit === undefined) missingFields.push('deposit');
+      if (!reqs.unique) missingFields.push('unique');
+      try {
+        await fetch('/api/research-queue', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            program_id: programId,
+            program_name: programName,
+            reason: 'Partial application_requirements data',
+            fields_needed: missingFields.length > 0 ? missingFields : ['verify_all']
+          })
+        });
+      } catch (e) {
+        console.error('Error queuing for research:', e);
+      }
+    }
+
     // Reload data to pick up all new tasks
     await loadTodoData();
 
     // Notify user
     var researchNote = reqs.research_status === 'partial'
-      ? '\n\nNote: Application requirements research is partial — some details may be incomplete.'
+      ? '\n\nSome application requirements are incomplete. Queued for verification.'
       : '';
     alert(programName + ' added to tracked programs.\n' + newTaskCount + ' new tasks generated.' + researchNote);
   }

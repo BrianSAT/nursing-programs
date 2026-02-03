@@ -6,6 +6,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Nursing Program Evaluation Matrix** - a Node.js/Express web application for evaluating and comparing 101 nursing programs (79 ABSN, 14 DEMSN, 3 MEPN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM) for Spring 2027 entry. Replaces an Excel spreadsheet with a version-controlled, filterable web interface.
 
+## Re-orientation Checklist
+
+When resuming work on this project, check these items:
+
+1. **Research queue**: Read `data/research-queue.json` — if `pending` is non-empty, report the programs that need application requirements researched and offer to handle them
+2. **Overdue tasks**: Check `data/my-todos.json` for tasks with passed due dates
+
 ## Build Commands
 
 ```bash
@@ -23,6 +30,7 @@ src/
   routes/programs.js    # REST API (CRUD for programs.json)
   routes/courses.js     # REST API (CRUD for my-courses.json)
   routes/todos.js       # REST API (CRUD for my-todos.json)
+  routes/research-queue.js # REST API (GET/POST/DELETE for research-queue.json)
   utils/scoring.js      # Scoring algorithm (for future recalculation)
   utils/validate-data.js
 public/
@@ -36,6 +44,7 @@ data/
   programs.json         # 101 programs with scoring and verification data
   my-courses.json       # User's transcript + current/planned courses
   my-todos.json         # Tracked programs + consolidated task list
+  research-queue.json   # Queue of programs needing app requirements research
   prereq-map.json       # Maps prerequisites.extra strings → standardized tags
   seed-todos.js         # Script to regenerate my-todos.json from programs.json
   schema.json           # JSON Schema v7
@@ -103,6 +112,9 @@ data/
 - `POST /api/todos/tasks` - Create a new task
 - `PUT /api/todos/tasks/:id` - Update a task (status, title, notes, due_date)
 - `DELETE /api/todos/tasks/:id` - Delete a task
+- `GET /api/research-queue` - Load research queue (pending + completed)
+- `POST /api/research-queue` - Queue a program for research (idempotent)
+- `DELETE /api/research-queue/:programId` - Mark program research as completed
 
 ## Data Notes
 
@@ -294,6 +306,7 @@ This ensures that when sorting by "location", programs in regions with better NP
 | `data/programs.json` | Main program data with scores and verification |
 | `data/my-courses.json` | User's transcript (26 UW-Madison courses) + 7 current/planned courses |
 | `data/my-todos.json` | Tracked programs (12, with app_status) + granular task list (~80 auto-generated) |
+| `data/research-queue.json` | Queue of programs needing application requirements research |
 | `data/seed-todos.js` | Script to regenerate my-todos.json from programs.json |
 | `data/prereq-map.json` | Maps ~110 prerequisites.extra strings to standardized tags |
 | `data/regional-data.json` | Regional NP pathway viability data per metro area |

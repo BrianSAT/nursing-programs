@@ -3,6 +3,7 @@ const path = require('path');
 const programRoutes = require('./routes/programs');
 const courseRoutes = require('./routes/courses');
 const todoRoutes = require('./routes/todos');
+const researchQueueRoutes = require('./routes/research-queue');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -15,6 +16,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use('/api/programs', programRoutes);
 app.use('/api/courses', courseRoutes);
 app.use('/api/todos', todoRoutes);
+app.use('/api/research-queue', researchQueueRoutes);
 
 // Serve prereq-map data
 app.get('/api/prereq-map', (req, res) => {

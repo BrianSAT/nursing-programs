@@ -9,23 +9,11 @@
       "app_status": "not_started"
     },
     {
-      "id": "emory",
-      "app_status": "not_started"
-    },
-    {
       "id": "research-college-kc",
       "app_status": "not_started"
     },
     {
       "id": "loyola-chicago",
-      "app_status": "not_started"
-    },
-    {
-      "id": "ohsu-portland",
-      "app_status": "not_started"
-    },
-    {
-      "id": "ohio-state",
       "app_status": "not_started"
     },
     {
@@ -37,15 +25,11 @@
       "app_status": "not_started"
     },
     {
-      "id": "slu-stlouis",
-      "app_status": "not_started"
-    },
-    {
       "id": "loyola-nola",
       "app_status": "not_started"
     },
     {
-      "id": "rush",
+      "id": "duquesne-pittsburgh",
       "app_status": "not_started"
     }
   ],
