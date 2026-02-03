@@ -77,7 +77,7 @@
         "start_score": 0.5,
         "cost_score": 0.53,
         "raw_score": 0.6,
-        "rank": 49,
+        "rank": 48,
         "national_percentile": 0.45,
         "location_combined": 5.32,
         "np_type_multiplier": 1
@@ -1372,7 +1372,7 @@
         "start_score": 0.75,
         "cost_score": 0.44,
         "raw_score": 0.78,
-        "rank": 41,
+        "rank": 40,
         "national_percentile": 0.97,
         "location_combined": 4.06,
         "np_type_multiplier": 1.2
@@ -2447,7 +2447,7 @@
         "start_score": 0.5,
         "cost_score": 0.57,
         "raw_score": 0.59,
-        "rank": 50,
+        "rank": 49,
         "national_percentile": 0.6,
         "location_combined": 4.99,
         "np_type_multiplier": 1
@@ -2548,7 +2548,7 @@
         "start_score": 1,
         "cost_score": 0.7,
         "raw_score": 0.78,
-        "rank": 42,
+        "rank": 41,
         "national_percentile": 0.5,
         "location_combined": 4.88,
         "np_type_multiplier": 1
@@ -2754,7 +2754,7 @@
         "start_score": 1,
         "cost_score": 0.32,
         "raw_score": 0.81,
-        "rank": 40,
+        "rank": 39,
         "national_percentile": 0.65,
         "location_combined": 5.2,
         "np_type_multiplier": 1
@@ -3077,7 +3077,7 @@
         "start_score": 0.75,
         "cost_score": 0.56,
         "raw_score": 0.78,
-        "rank": 43,
+        "rank": 42,
         "national_percentile": 0.55,
         "location_combined": 4.74,
         "np_type_multiplier": 1
@@ -3395,7 +3395,7 @@
         "start_score": 0.75,
         "cost_score": 0.32,
         "raw_score": 0.47,
-        "rank": 61,
+        "rank": 59,
         "national_percentile": 0.75,
         "location_combined": 5.13,
         "np_type_multiplier": 1
@@ -3500,7 +3500,7 @@
         "start_score": 1,
         "cost_score": 0.55,
         "raw_score": 0.59,
-        "rank": 51,
+        "rank": 50,
         "national_percentile": 0.5,
         "location_combined": 4.7,
         "np_type_multiplier": 1
@@ -3924,7 +3924,7 @@
         "start_score": 0.75,
         "cost_score": 0.54,
         "raw_score": 0.78,
-        "rank": 44,
+        "rank": 43,
         "national_percentile": 0.55,
         "location_combined": 4.84,
         "np_type_multiplier": 1
@@ -4035,7 +4035,7 @@
         "start_score": 0.75,
         "cost_score": 0,
         "raw_score": 0,
-        "rank": 73,
+        "rank": 72,
         "national_percentile": 0.96,
         "online_lab_conf": 1,
         "location_combined": 6.19,
@@ -4337,11 +4337,11 @@
         ]
       },
       "admissions": {
-        "email": "nursing@hunter.cuny.edu",
-        "deadline": "2026-02-01",
-        "start_date": "2027-09-01",
+        "email": "prenursingadvising@hunter.cuny.edu",
+        "deadline": "2027-02-01",
+        "start_date": "2027-08-28",
         "in_progress_ok": false,
-        "app_timing_notes": "ALL prereqs complete by end of Spring before Fall. VERY competitive (100 admitted annually). CORRECTED: Fall semester admission only."
+        "app_timing_notes": "ALL prereqs complete by June 1 before Fall start. VERY competitive (100 admitted annually). FALL ADMISSION ONLY. App window opens Nov 30, closes Feb 1. NursingCAS + CUNY transfer app required. NEX exam by Feb 28."
       },
       "program_details": {
         "duration_months": 18,
@@ -4361,7 +4361,7 @@
         "start_score": 0.5,
         "cost_score": 0.54,
         "raw_score": 0.62,
-        "rank": 48,
+        "rank": 47,
         "national_percentile": 0.55,
         "location_combined": 5.78,
         "np_type_multiplier": 1
@@ -4464,27 +4464,27 @@
         "prestige": 0.75,
         "competitiveness": 0.85,
         "start_score": 0.75,
-        "cost_score": 0.6,
-        "raw_score": 0.84,
-        "rank": 39,
+        "cost_score": 0.34,
+        "raw_score": 0.47,
+        "rank": 60,
         "national_percentile": 0.65,
         "location_combined": 5.85,
         "np_type_multiplier": 1
       },
       "costs": {
         "Location": "Detroit, MI",
-        "Tuition": 48231,
+        "Tuition": 100355,
         "Fees": 5017,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
-        "Net Tuition": 53248,
+        "Net Tuition": 105372,
         "COL Index": 90,
         "Duration (mo)": 20,
         "Living $/mo": 1500,
         "Total Living": 27000,
-        "Total Cost": 104017,
-        "Mo. Burn": 4012,
-        "Cost Score": 0.5988
+        "Total Cost": 132372,
+        "Mo. Burn": 6619,
+        "Cost Score": 0.34
       },
       "regional": {
         "ed_opportunity": 0.85,
@@ -4515,7 +4515,7 @@
         "sources": {
           "primary": "https://nursing.wayne.edu/bsn-second-career"
         },
-        "notes": "TUITION DISCREPANCY: Web shows ~$48,231 tuition + $5,017 fees = ~$53,248 total vs data $72,000 tuition. 20 months, 5 semesters confirmed. Admitted once/year spring/summer. Transcripts due June 1. Prereqs within 10 years. NursingCAS + secondary app required. TUITION FIXED: Was $72,000, now $48,231."
+        "notes": "20 months, 5 semesters confirmed. Admitted once/year spring/summer. Transcripts due June 1. Prereqs within 10 years. NursingCAS + secondary app required. TUITION: In-state ~$48,231 + $5,017 fees = ~$53,248. OUT-OF-STATE ~$100,355 + $5,017 fees = ~$105,372. Using OOS rate (user cannot get MI in-state)."
       }
     },
     {
@@ -4569,7 +4569,7 @@
         "cost_score": 0.57,
         "raw_score": 0.34,
         "location_combined": 5.27,
-        "rank": 66,
+        "rank": 65,
         "np_type_multiplier": 1
       },
       "notes": "20mo (5 semesters); $664/credit (~65 credits = ~$43,160); hybrid option available [OOS tuition applied]",
@@ -4673,7 +4673,7 @@
         "start_score": 0.75,
         "cost_score": 0,
         "raw_score": 0,
-        "rank": 74,
+        "rank": 73,
         "national_percentile": 1,
         "location_combined": 5,
         "np_type_multiplier": 1
@@ -4895,7 +4895,7 @@
         "start_score": 1,
         "cost_score": 0.25,
         "raw_score": 0.44,
-        "rank": 62,
+        "rank": 61,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 5,
@@ -5215,7 +5215,7 @@
         "start_score": 0.75,
         "cost_score": 0.43,
         "raw_score": 0.48,
-        "rank": 59,
+        "rank": 57,
         "national_percentile": 0.5,
         "location_combined": 4.38,
         "np_type_multiplier": 1
@@ -5424,7 +5424,7 @@
         "start_score": 1,
         "cost_score": 0.12,
         "raw_score": 0.54,
-        "rank": 53,
+        "rank": 52,
         "national_percentile": 0.88,
         "location_combined": 5.46,
         "np_type_multiplier": 1
@@ -5647,7 +5647,7 @@
         "start_score": 0.5,
         "cost_score": 0.51,
         "raw_score": 0.51,
-        "rank": 55,
+        "rank": 54,
         "national_percentile": 0.55,
         "location_combined": 5.15,
         "np_type_multiplier": 1
@@ -5698,7 +5698,7 @@
         "sources": {
           "primary": "https://nursing.wsu.edu/"
         },
-        "notes": "CRITICAL: WSU does NOT appear to offer an ABSN program. Their College of Nursing offers traditional BSN (4-year), RN-BSN, MN, DNP, and PhD only. This program entry may be an error - should be investigated and possibly removed. The traditional BSN is completed at Pullman (2yr) then regional campuses (2yr). RESOLVED: Program ruled out - WSU does not offer ABSN. Data retained for completeness."
+        "notes": "NOT ACCEPTING - PROGRAM DOES NOT EXIST. WSU does NOT offer an ABSN program. College of Nursing offers only traditional BSN (4-year), RN-BSN, MN, DNP, PhD. Confirmed Feb 2026 via web research. Data retained for reference only."
       },
       "ruled_out": true,
       "ruled_out_reason": "WSU does not appear to offer an ABSN program. Traditional BSN only."
@@ -5756,7 +5756,7 @@
         "start_score": 1,
         "cost_score": 0.5,
         "raw_score": 0.71,
-        "rank": 45,
+        "rank": 44,
         "national_percentile": 0.5,
         "location_combined": 5.41,
         "np_type_multiplier": 1
@@ -5975,7 +5975,7 @@
         "start_score": 1,
         "cost_score": 0.38,
         "raw_score": 0.49,
-        "rank": 58,
+        "rank": 56,
         "national_percentile": 0.61,
         "online_lab_conf": 0.8,
         "location_combined": 3.04,
@@ -6084,7 +6084,7 @@
         "start_score": 1,
         "cost_score": 0.42,
         "raw_score": 0.64,
-        "rank": 47,
+        "rank": 46,
         "national_percentile": 0.55,
         "location_combined": 4.9,
         "np_type_multiplier": 1
@@ -6189,7 +6189,7 @@
         "start_score": 0.75,
         "cost_score": 0.68,
         "raw_score": 0.55,
-        "rank": 52,
+        "rank": 51,
         "national_percentile": 0.55,
         "location_combined": 4.1,
         "np_type_multiplier": 1
@@ -6305,7 +6305,7 @@
         "start_score": 1,
         "cost_score": 0.46,
         "raw_score": 0.71,
-        "rank": 46,
+        "rank": 45,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 4.45,
@@ -6412,7 +6412,7 @@
         "start_score": 0.75,
         "cost_score": 0.5,
         "raw_score": 0.54,
-        "rank": 54,
+        "rank": 53,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 8.2,
@@ -6518,7 +6518,7 @@
         "start_score": 0.75,
         "cost_score": 0.58,
         "raw_score": 0.32,
-        "rank": 67,
+        "rank": 66,
         "national_percentile": 0.6,
         "location_combined": 4.85,
         "np_type_multiplier": 1.2
@@ -6630,7 +6630,7 @@
         "start_score": 1,
         "cost_score": 0.48,
         "raw_score": 0.38,
-        "rank": 64,
+        "rank": 63,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 3.04,
@@ -6733,7 +6733,7 @@
         "start_score": 0.75,
         "cost_score": 0.12,
         "raw_score": 0.27,
-        "rank": 69,
+        "rank": 68,
         "national_percentile": 0.78,
         "location_combined": 3.73,
         "np_type_multiplier": 1
@@ -6853,7 +6853,7 @@
         "start_score": 1,
         "cost_score": 0.74,
         "raw_score": 0.39,
-        "rank": 63,
+        "rank": 62,
         "national_percentile": 0.5,
         "online_lab_conf": 0.8,
         "location_combined": 3.04,
@@ -7077,7 +7077,7 @@
         "start_score": 1,
         "cost_score": 0.11,
         "raw_score": 0.32,
-        "rank": 68,
+        "rank": 67,
         "national_percentile": 0.99,
         "online_lab_conf": 0.8,
         "location_combined": 4.9,
@@ -7309,7 +7309,7 @@
         "start_score": 0.5,
         "cost_score": 0.24,
         "raw_score": 0.08,
-        "rank": 71,
+        "rank": 70,
         "national_percentile": 0.79,
         "online_lab_conf": 0.8,
         "location_combined": 3.24,
@@ -7420,7 +7420,7 @@
         "start_score": 0.75,
         "cost_score": 0.63,
         "raw_score": 0.24,
-        "rank": 70,
+        "rank": 69,
         "national_percentile": 0.4,
         "online_lab_conf": 0.8,
         "location_combined": 4.2,
@@ -7538,7 +7538,7 @@
         "start_score": 0.75,
         "cost_score": 0.27,
         "raw_score": 0.5,
-        "rank": 56,
+        "rank": 55,
         "national_percentile": 0.71,
         "online_lab_conf": 0.8,
         "location_combined": 3.87,
@@ -7658,9 +7658,9 @@
         "prestige": 0.5,
         "competitiveness": 0.75,
         "start_score": 1,
-        "cost_score": 0.32,
-        "raw_score": 0.5,
-        "rank": 57,
+        "cost_score": 0,
+        "raw_score": 0,
+        "rank": 74,
         "national_percentile": 0.55,
         "online_lab_conf": 0.5,
         "location_combined": 4.19,
@@ -7670,16 +7670,16 @@
       "scoring_notes": null,
       "costs": {
         "Location": "Oakland, CA",
-        "Net Tuition": 52138,
-        "Tuition": 50138,
+        "Net Tuition": 92000,
+        "Tuition": 90000,
         "Fees": 2000,
         "COL Index": 165,
         "Duration (mo)": 12,
-        "Mo. Burn": 4345,
-        "Cost Score": 0.5655,
+        "Mo. Burn": 10317,
+        "Cost Score": 0,
         "Schlrshp Amt": 0,
         "Schlrshp %": null,
-        "Total Cost": null
+        "Total Cost": 121700
       },
       "sources": [
         "https://www.samuelmerritt.edu/college-nursing/accelerated-bachelor-science-nursing",
@@ -7714,7 +7714,7 @@
         "sources": {
           "primary": "https://www.samuelmerritt.edu/college-nursing/accelerated-bachelor-science-nursing"
         },
-        "notes": "TUITION DISCREPANCY: Web shows ~$50,138/yr vs data $95,000 total. 12 months, 3 semesters confirmed. 4 CA campuses: Oakland, Sacramento, Fresno, San Mateo. Deadlines: Mar 16 (Summer), Jun 15 (Fall). Data deadline Dec 1 may be off. Min 3.0 GPA last 60 units + 3.0 science GPA. HESI A2 75%+ or TEAS 65%+. NursingCAS. $350 deposit. 64% get scholarships (avg $13,376). TUITION FIXED: Was $95,000, now $50,138 (2025 rate)."
+        "notes": "12 months, 3 semesters confirmed. 4 CA campuses: Oakland, Sacramento, Fresno, San Mateo. Deadlines: Mar 16 (Summer), Jun 15 (Fall). Data deadline Dec 1 may be off. Min 3.0 GPA last 60 units + 3.0 science GPA. HESI A2 75%+ or TEAS 65%+. NursingCAS. $350 deposit. 64% get scholarships (avg $13,376). TUITION: $50,138/yr is IPEDS university-wide average, NOT ABSN-specific. Actual ABSN total ~$89,128 (2023-24 confirmed) to ~$90,000. Private school — no in-state/OOS difference. Using $90,000. Monthly burn >$10K with Oakland COL = cost_score 0."
       }
     },
     {
@@ -7776,7 +7776,7 @@
         "start_score": 0.5,
         "cost_score": 0.33,
         "raw_score": 0.36,
-        "rank": 65,
+        "rank": 64,
         "national_percentile": 0.94,
         "online_lab_conf": 0.8,
         "location_combined": 5.91,
@@ -7881,7 +7881,7 @@
         "start_score": 0.75,
         "cost_score": 0.37,
         "raw_score": 0.48,
-        "rank": 60,
+        "rank": 58,
         "national_percentile": 0.55,
         "location_combined": 4.44,
         "np_type_multiplier": 1
@@ -7995,7 +7995,7 @@
         "start_score": 1,
         "cost_score": 0.01,
         "raw_score": 0.06,
-        "rank": 72,
+        "rank": 71,
         "national_percentile": 0.97,
         "online_lab_conf": 0.8,
         "location_combined": 8.18,
