@@ -102,6 +102,9 @@ data/
 - Program types: 58 ABSN, 10 DEMSN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM, 1 MEPN
 - Duplicate IDs exist: `rush` (GEM + DEMSN), `vanderbilt-mn` (MN + DEMSN)
 - Cost fields use Excel column names: `Mo. Burn`, `Schlrshp Amt`, `COL Index`
+- **Tuition rule:** Use in-state rates for Wisconsin and Texas schools only (user can establish residency). All other public schools use out-of-state rates. Private schools have no in-state/OOS distinction.
+- WI in-state: UW-Milwaukee ($25,456). TX in-state: UT Health Houston ($18,000).
+- When verifying tuition discrepancies, always check whether the source is quoting in-state vs out-of-state
 
 ### my-courses.json Structure
 
@@ -142,11 +145,14 @@ Find the best ABSN program for transitioning to become a **triage nurse in an un
 
 ### Formula
 ```
+adjusted_cost = cost_score × (1 + max(0, prestige - 0.8) × 2)
 raw_score = (location_score + boost) × prereq_fit × online_lab_conf × np_pathway
-            × prestige × competitiveness × start_score × time_factor × cost_score
+            × prestige × competitiveness × start_score × time_factor × adjusted_cost
 ```
 
 All factors are multiplied together (weights default to 1.0). A zero in any factor zeros the entire score.
+
+**Prestige ROI adjustment (k=2):** Schools above 80th percentile prestige get partial cost relief, reflecting higher career ROI of prestigious degrees. Prestige 0.85 → 10% relief, 0.90 → 20%, 0.95 → 30%, 1.0 → 40%. Schools at or below 0.80 prestige bear full cost penalty. This prevents random expensive private schools from ranking alongside elite institutions.
 
 ### Factor Definitions
 
@@ -160,7 +166,7 @@ All factors are multiplied together (weights default to 1.0). A zero in any fact
 | `competitiveness` | 0-1 | Ease of admission (sweet spot = 80th percentile) | `1 - |national_percentile - 0.8|` |
 | `start_score` | 0-1 | How well start date aligns with target (Jan 2027) | Calculated from start_date |
 | `time_factor` | 0.2-1 | Preference for shorter programs | ≤12mo=1.0, 13-16mo=0.8, 17-23mo=0.6, 24-31mo=0.4, ≥32mo=0.2 |
-| `cost_score` | 0-1 | Affordability (lower monthly burn = higher score) | `max(0, 1 - monthly_burn/10000)` |
+| `cost_score` | 0-1 | Affordability (lower monthly burn = higher score) | `max(0, 1 - monthly_burn/10000)`, then adjusted by prestige ROI |
 | `np_pathway` | 0-1 | Regional viability for BSN→NP transition | See below |
 
 ### Location Score Rubric (v2)

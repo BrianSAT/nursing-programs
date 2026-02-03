@@ -103,6 +103,13 @@ function calcRawScore(scores, program) {
   const monthlyBurn = (netTuition + totalLiving) / duration;
   const costScore = Math.max(0, 1 - (monthlyBurn / 10000));
 
+  // Prestige ROI adjustment: high-prestige schools (>0.8) get partial cost relief
+  // because their degrees have higher career ROI. k=2 means prestige 0.85 → 10% relief,
+  // 0.90 → 20%, 0.95 → 30%, 1.0 → 40%. Schools at or below 0.80 get zero relief.
+  const prestigeK = 2;
+  const prestigeBonus = Math.max(0, prestige - 0.8) * prestigeK;
+  const adjustedCostScore = Math.min(1, costScore * (1 + prestigeBonus));
+
   const rawScore = (locationScore + locationBoost)
     * prereqFit
     * onlineLabConf
@@ -111,7 +118,7 @@ function calcRawScore(scores, program) {
     * competitiveness
     * startScore
     * timeFactor
-    * costScore;
+    * adjustedCostScore;
 
   return {
     raw_score: Math.round(rawScore * 100) / 100,
