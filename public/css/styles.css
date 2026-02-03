@@ -33,7 +33,12 @@ header p {
   color: #666;
 }
 
-/* Panel toggle button */
+/* Header buttons */
+.header-buttons {
+  display: flex;
+  gap: 8px;
+}
+
 .panel-toggle-btn {
   padding: 8px 16px;
   background: #2563eb;
@@ -48,6 +53,22 @@ header p {
 
 .panel-toggle-btn:hover {
   background: #1d4ed8;
+}
+
+.panel-toggle-btn.outline {
+  background: white;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.panel-toggle-btn.outline:hover {
+  background: #eff6ff;
+}
+
+.panel-toggle-btn.active {
+  background: #1d4ed8;
+  color: white;
+  border-color: #1d4ed8;
 }
 
 /* App layout: main + side panel */
@@ -688,16 +709,16 @@ tbody tr {
   border: 1px solid #fcd34d;
 }
 
-/* ===== MY COURSES SIDE PANEL ===== */
+/* ===== SIDE PANEL ===== */
 
-.courses-panel {
+.side-panel {
   width: 0;
   overflow: hidden;
   transition: width 0.3s ease;
   flex-shrink: 0;
 }
 
-.courses-panel.open {
+.side-panel.open {
   width: 380px;
   overflow-y: auto;
   max-height: calc(100vh - 100px);
@@ -706,37 +727,6 @@ tbody tr {
   border: 1px solid #e5e5e5;
   border-radius: 8px;
   background: white;
-}
-
-/* Panel tabs */
-.panel-tabs {
-  display: flex;
-  border-bottom: 1px solid #e5e5e5;
-  background: #f8f8f8;
-  border-radius: 8px 8px 0 0;
-}
-
-.panel-tab {
-  flex: 1;
-  padding: 10px 12px;
-  border: none;
-  background: none;
-  font-size: 0.85rem;
-  font-weight: 500;
-  cursor: pointer;
-  color: #666;
-  border-bottom: 2px solid transparent;
-}
-
-.panel-tab.active {
-  color: #2563eb;
-  border-bottom-color: #2563eb;
-  background: white;
-}
-
-.panel-tab.disabled {
-  color: #ccc;
-  cursor: not-allowed;
 }
 
 /* Panel body */
@@ -1173,6 +1163,17 @@ tbody tr {
   font-weight: 500;
 }
 
+.todo-hide-overdue {
+  margin-left: auto;
+  color: #2563eb;
+  cursor: pointer;
+  font-size: 0.72rem;
+}
+
+.todo-hide-overdue:hover {
+  text-decoration: underline;
+}
+
 /* Time buckets */
 .todo-bucket {
   margin-bottom: 14px;
@@ -1482,13 +1483,13 @@ tbody tr {
     padding: 15px;
   }
 
-  .courses-panel.open {
+  .side-panel.open {
     width: 320px;
   }
 }
 
 @media (max-width: 768px) {
-  .courses-panel.open {
+  .side-panel.open {
     position: fixed;
     top: 0;
     right: 0;

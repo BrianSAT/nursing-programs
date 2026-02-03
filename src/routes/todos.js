@@ -23,6 +23,22 @@ router.get('/', (req, res) => {
   res.json(data);
 });
 
+// PUT update top-level settings (tracked_programs, settings)
+router.put('/', (req, res) => {
+  const data = loadTodos();
+  const updates = req.body;
+
+  if (updates.tracked_programs) {
+    data.tracked_programs = updates.tracked_programs;
+  }
+  if (updates.settings) {
+    data.settings = { ...data.settings, ...updates.settings };
+  }
+
+  saveTodos(data);
+  res.json(data);
+});
+
 // POST create a new task
 router.post('/tasks', (req, res) => {
   const data = loadTodos();

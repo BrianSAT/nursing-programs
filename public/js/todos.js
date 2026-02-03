@@ -12,6 +12,8 @@ const TodoPanel = (function () {
   let filterProgram = ''; // '' = all programs
   let expandedTaskId = null;
   let showingAddForm = false;
+  let overdueHidden = false;
+  let overduePromptShown = false;
 
   const CATEGORIES = ['application', 'document', 'exam', 'verification', 'course', 'custom'];
 
@@ -29,12 +31,80 @@ const TodoPanel = (function () {
       const response = await fetch('/api/todos');
       if (!response.ok) throw new Error('Failed to load todos');
       todoData = await response.json();
+      // Check for overdue application tasks on first load
+      if (!overduePromptShown) {
+        overduePromptShown = true;
+        checkOverduePrograms();
+      }
       return todoData;
     } catch (e) {
       console.error('Error loading todo data:', e);
       todoData = { tracked_programs: [], tasks: [], settings: {} };
       return todoData;
     }
+  }
+
+  function checkOverduePrograms() {
+    if (!todoData) return;
+    // Find application tasks that are overdue (deadline has passed)
+    const overdueApps = (todoData.tasks || []).filter(t =>
+      t.category === 'application' &&
+      t.status === 'pending' &&
+      t.due_date &&
+      daysDiff(t.due_date) < 0
+    );
+    if (overdueApps.length === 0) return;
+
+    const programNames = overdueApps.map(t => {
+      const pid = (t.applies_to || [])[0];
+      return pid ? getProgramName(pid) : t.title;
+    });
+
+    const msg = 'The following programs have passed deadlines:\n\n' +
+      programNames.map(n => '  - ' + n).join('\n') +
+      '\n\nWould you like to delist them (remove from tracked)?';
+
+    if (confirm(msg)) {
+      delistOverduePrograms(overdueApps);
+    }
+  }
+
+  async function delistOverduePrograms(overdueTasks) {
+    for (const task of overdueTasks) {
+      const programIds = task.applies_to || [];
+      // Skip the application task
+      await apiUpdateTask(task.id, { status: 'skipped' });
+
+      // Remove program from tracked list and skip all its tasks
+      for (const pid of programIds) {
+        todoData.tracked_programs = (todoData.tracked_programs || []).filter(p => p !== pid);
+        // Mark all tasks that only apply to this program as skipped
+        for (const t of (todoData.tasks || [])) {
+          if (t.applies_to && t.applies_to.length === 1 && t.applies_to[0] === pid && t.status === 'pending') {
+            await apiUpdateTask(t.id, { status: 'skipped' });
+          }
+        }
+        // Remove program from applies_to of cross-program tasks
+        for (const t of (todoData.tasks || [])) {
+          if (t.applies_to && t.applies_to.includes(pid) && t.applies_to.length > 1) {
+            const newApplies = t.applies_to.filter(p => p !== pid);
+            await apiUpdateTask(t.id, { applies_to: newApplies });
+          }
+        }
+      }
+    }
+    // Save updated tracked_programs
+    try {
+      await fetch('/api/todos', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tracked_programs: todoData.tracked_programs })
+      });
+    } catch (e) {
+      // tracked_programs update via full save — handled below
+    }
+    await loadTodoData();
+    renderPanel();
   }
 
   function getProgramName(programId) {
@@ -140,6 +210,9 @@ const TodoPanel = (function () {
       html += '<span class="todo-stat due-soon">' + stats.dueSoon + ' due soon</span>';
     }
     html += '<span class="todo-stat">' + stats.total + ' total</span>';
+    if (stats.overdue > 0) {
+      html += '<span class="todo-hide-overdue" onclick="TodoPanel.toggleHideOverdue()">' + (overdueHidden ? 'Show overdue' : 'Hide overdue') + '</span>';
+    }
     html += '</div>';
     html += '</div>';
 
@@ -171,6 +244,7 @@ const TodoPanel = (function () {
 
       for (const bucket of BUCKET_ORDER) {
         if (buckets[bucket].length === 0) continue;
+        if (bucket === 'overdue' && overdueHidden) continue;
         const bucketClass = bucket === 'overdue' ? ' bucket-overdue' : '';
         html += '<div class="todo-bucket' + bucketClass + '">';
         html += '<div class="todo-bucket-header">' + BUCKET_LABELS[bucket] + ' <span class="todo-bucket-count">' + buckets[bucket].length + '</span></div>';
@@ -359,6 +433,11 @@ const TodoPanel = (function () {
 
   // ===== INTERACTIONS =====
 
+  function toggleHideOverdue() {
+    overdueHidden = !overdueHidden;
+    renderPanel();
+  }
+
   function setFilter(programId) {
     filterProgram = programId;
     expandedTaskId = null;
@@ -503,6 +582,7 @@ const TodoPanel = (function () {
   return {
     loadTodoData,
     renderPanel,
+    toggleHideOverdue,
     setFilter,
     toggleExpand,
     toggleStatus,

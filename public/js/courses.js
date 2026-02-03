@@ -108,7 +108,7 @@ const CoursesPanel = (function () {
   function togglePanel() {
     // Delegate to global togglePanel
     if (typeof window.togglePanel === 'function') {
-      window.togglePanel();
+      window.togglePanel('courses');
     }
   }
 

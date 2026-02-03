@@ -720,48 +720,46 @@ document.getElementById('work-commit-modal').addEventListener('click', (e) => {
   if (e.target.id === 'work-commit-modal') closeWorkCommitModal();
 });
 
-// ===== PANEL & TAB MANAGEMENT =====
+// ===== PANEL MANAGEMENT =====
 
 let panelOpen = false;
-let activeTab = 'courses'; // 'courses' or 'todos'
+let activeTab = null; // 'courses' or 'todos'
 
-function togglePanel() {
-  panelOpen = !panelOpen;
-  const panel = document.getElementById('courses-panel');
+function togglePanel(tab) {
+  const panel = document.getElementById('side-panel');
   const mainContent = document.querySelector('main');
-  const toggleBtn = document.getElementById('panel-toggle');
-
-  if (panelOpen) {
-    panel.classList.add('open');
-    mainContent.classList.add('panel-open');
-    toggleBtn.textContent = 'My Courses \u2715';
-    if (activeTab === 'courses') {
-      CoursesPanel.renderPanel();
-    } else {
-      TodoPanel.renderPanel();
-    }
-  } else {
-    panel.classList.remove('open');
-    mainContent.classList.remove('panel-open');
-    toggleBtn.textContent = 'My Courses';
-  }
-}
-
-function switchPanelTab(tab) {
-  activeTab = tab;
-  const tabs = document.querySelectorAll('.panel-tab');
+  const btnCourses = document.getElementById('btn-courses');
+  const btnTodos = document.getElementById('btn-todos');
   const coursesContent = document.getElementById('courses-panel-content');
   const todosContent = document.getElementById('todos-panel-content');
 
-  tabs.forEach(t => t.classList.remove('active'));
+  // If clicking the same tab that's open, close the panel
+  if (panelOpen && activeTab === tab) {
+    panelOpen = false;
+    activeTab = null;
+    panel.classList.remove('open');
+    mainContent.classList.remove('panel-open');
+    btnCourses.classList.remove('active');
+    btnTodos.classList.remove('active');
+    return;
+  }
 
+  // Open or switch tab
+  panelOpen = true;
+  activeTab = tab;
+  panel.classList.add('open');
+  mainContent.classList.add('panel-open');
+
+  // Update button states
+  btnCourses.classList.toggle('active', tab === 'courses');
+  btnTodos.classList.toggle('active', tab === 'todos');
+
+  // Show correct content
   if (tab === 'courses') {
-    tabs[0].classList.add('active');
     coursesContent.classList.remove('hidden');
     todosContent.classList.add('hidden');
     CoursesPanel.renderPanel();
   } else {
-    tabs[1].classList.add('active');
     coursesContent.classList.add('hidden');
     todosContent.classList.remove('hidden');
     TodoPanel.renderPanel();

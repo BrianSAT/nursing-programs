@@ -13,7 +13,10 @@
         <h1>Nursing Program Evaluation Matrix</h1>
         <p>Comparing ABSN programs for Spring 2027</p>
       </div>
-      <button id="panel-toggle" class="panel-toggle-btn" onclick="togglePanel()">My Courses</button>
+      <div class="header-buttons">
+        <button id="btn-courses" class="panel-toggle-btn" onclick="togglePanel('courses')">My Courses</button>
+        <button id="btn-todos" class="panel-toggle-btn outline" onclick="togglePanel('todos')">To Do</button>
+      </div>
     </div>
   </header>
 
@@ -70,11 +73,7 @@
     </main>
 
     <!-- My Courses Side Panel -->
-    <aside id="courses-panel" class="courses-panel">
-      <div class="panel-tabs">
-        <button class="panel-tab active" onclick="switchPanelTab('courses')">My Courses</button>
-        <button class="panel-tab" onclick="switchPanelTab('todos')">To Do</button>
-      </div>
+    <aside id="side-panel" class="side-panel">
       <div id="courses-panel-content" class="panel-body">
         <div class="panel-loading">Loading courses...</div>
       </div>
