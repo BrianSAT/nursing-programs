@@ -13,20 +13,26 @@ const path = require('path');
 const programsData = JSON.parse(fs.readFileSync(path.join(__dirname, 'programs.json'), 'utf-8'));
 const prereqMap = JSON.parse(fs.readFileSync(path.join(__dirname, 'prereq-map.json'), 'utf-8'));
 const programs = programsData.programs;
+const today = '2026-02-02';
 
-// Sort by rank, take top 10 with valid ranks
+// Sort by rank, take top 10 that are NOT ruled out and whose deadline hasn't passed
 const ranked = programs
   .filter(p => p.scores && p.scores.rank != null)
   .sort((a, b) => a.scores.rank - b.scores.rank)
+  .filter(p => {
+    const planFit = p.plan_fit ? p.plan_fit.status : null;
+    const deadline = p.admissions ? p.admissions.deadline : null;
+    const deadlinePassed = deadline && deadline < today;
+    return planFit !== 'ruled_out' && !deadlinePassed;
+  })
   .slice(0, 10);
 
-console.log('Top 10 programs by rank:');
+console.log('Top 10 non-ruled-out programs:');
 ranked.forEach(p => {
-  console.log(`  #${p.scores.rank} ${p.name} (${p.id}) — deadline: ${p.admissions?.deadline}`);
+  console.log(`  #${p.scores.rank} ${p.name} (${p.id}) — plan_fit: ${p.plan_fit?.status}, deadline: ${p.admissions?.deadline}`);
 });
 
 const trackedIds = ranked.map(p => p.id);
-const today = '2026-02-02';
 let taskCounter = 0;
 
 function nextId() {
