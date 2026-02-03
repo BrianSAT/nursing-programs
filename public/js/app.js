@@ -339,9 +339,13 @@ function updateApplyStats() {
   const el = document.getElementById('apply-stats');
   if (!el) return;
   const count = TodoPanel.getTrackedProgramIds ? TodoPanel.getTrackedProgramIds().length : 0;
-  const fees = TodoPanel.getTrackedFeeTotal ? TodoPanel.getTrackedFeeTotal(programsMap) : 0;
+  const feeData = TodoPanel.getTrackedFeeTotal ? TodoPanel.getTrackedFeeTotal(programsMap) : { total: 0, unknownCount: 0 };
   if (count > 0) {
-    el.innerHTML = ` | <strong>${count} apps tracked</strong> | Est. fees: <strong>$${fees.toLocaleString()}</strong>`;
+    let feeText = '$' + feeData.total.toLocaleString();
+    if (feeData.unknownCount > 0) {
+      feeText += '+ <span style="color:#f59e0b;">(' + feeData.unknownCount + ' unsourced)</span>';
+    }
+    el.innerHTML = ` | <strong>${count} apps tracked</strong> | Est. fees: <strong>${feeText}</strong>`;
   } else {
     el.innerHTML = '';
   }

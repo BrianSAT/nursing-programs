@@ -1074,13 +1074,16 @@ const TodoPanel = (function () {
   function getTrackedFeeTotal(programsMapRef) {
     const ids = getTrackedProgramIds();
     let total = 0;
+    let unknownCount = 0;
     for (const id of ids) {
       const prog = programsMapRef && programsMapRef[id];
       if (prog && prog.application_requirements && prog.application_requirements.fee != null) {
         total += prog.application_requirements.fee;
+      } else {
+        unknownCount++;
       }
     }
-    return total;
+    return { total: total, unknownCount: unknownCount };
   }
 
   return {
