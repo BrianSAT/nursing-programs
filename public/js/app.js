@@ -327,7 +327,8 @@ function toggleWorkCommit(programId, checkbox) {
 // Apply checkbox toggle (per-program)
 async function toggleApply(programId, checkbox) {
   if (checkbox.checked) {
-    await TodoPanel.addTrackedProgram(programId);
+    const program = programsMap[programId];
+    await TodoPanel.addTrackedProgram(programId, program);
   } else {
     await TodoPanel.removeTrackedProgram(programId);
   }
@@ -601,14 +602,28 @@ function showDetail(id) {
     }
     html += '</div>';
 
-    // Prerequisites
+    // Split prerequisites.extra into course prereqs vs application requirements
+    const courseExtras = [];
+    const appExtras = [];
+    const nonCourseTypes = { exam: 1, certification: 1, experience: 1, document: 1, policy: 1 };
+    if (p.prerequisites?.extra && p.prerequisites.extra.length > 0) {
+      p.prerequisites.extra.forEach(function(extraReq) {
+        const mapping = prereqMap && prereqMap[extraReq];
+        if (mapping && nonCourseTypes[mapping.type]) {
+          appExtras.push(extraReq);
+        } else {
+          courseExtras.push(extraReq);
+        }
+      });
+    }
+
+    // Prerequisites (courses only)
     html += '<div class="detail-section"><h3>Prerequisites</h3>';
     html += '<div class="prereq-grid">' + prereqHtml + '</div>';
 
-    // Extra/unconventional prereqs (shown in red)
-    if (p.prerequisites?.extra && p.prerequisites.extra.length > 0) {
+    if (courseExtras.length > 0) {
       html += '<div class="prereq-grid" style="margin-top: 10px;">';
-      p.prerequisites.extra.forEach(function(extraReq) {
+      courseExtras.forEach(function(extraReq) {
         html += '<span class="prereq-tag extra">' + escapeHtml(extraReq) + '</span>';
       });
       html += '</div>';
@@ -619,41 +634,48 @@ function showDetail(id) {
     }
     html += '</div>';
 
-    // Application Requirements
-    if (p.application_requirements) {
-      const appReq = p.application_requirements;
+    // Application Requirements (always shown)
+    const appReq = p.application_requirements || null;
+    const hasAppReq = appReq != null;
+    const hasAppExtras = appExtras.length > 0;
+
+    if (hasAppReq || hasAppExtras) {
       html += '<div class="detail-section"><h3>Application Requirements</h3>';
 
-      // Fee + System row
-      html += '<div class="detail-grid">';
-      html += buildDetailItem('Application Fee', appReq.fee != null ? '$' + appReq.fee : '-');
-      const systemLabels = { nursingcas: 'NursingCAS', direct: 'Direct', both: 'NursingCAS + Direct' };
-      html += buildDetailItem('Application System', systemLabels[appReq.system] || appReq.system || '-');
-      html += '</div>';
+      // Fee + System row (structured data only)
+      if (hasAppReq) {
+        html += '<div class="detail-grid">';
+        html += buildDetailItem('Application Fee', appReq.fee != null ? '$' + appReq.fee : '-');
+        const systemLabels = { nursingcas: 'NursingCAS', direct: 'Direct', both: 'NursingCAS + Direct' };
+        html += buildDetailItem('Application System', systemLabels[appReq.system] || appReq.system || '-');
+        html += '</div>';
+      }
 
-      // Key requirements
+      // Key requirements from structured data
       const reqItems = [];
-      if (appReq.exam) {
-        const examLabels = { teas: 'TEAS', hesi: 'HESI A2', teas_or_hesi: 'TEAS or HESI', gre: 'GRE' };
-        reqItems.push('<strong>Entrance Exam:</strong> ' + (examLabels[appReq.exam] || appReq.exam));
-      }
-      const interviewLabels = { none: 'None', required: 'Required', optional: 'Optional', by_invitation: 'By invitation' };
-      if (appReq.interview && appReq.interview !== 'none') {
-        reqItems.push('<strong>Interview:</strong> ' + (interviewLabels[appReq.interview] || appReq.interview));
-      }
-      if (appReq.references && appReq.references.count > 0) {
-        let refText = appReq.references.count + ' ' + (appReq.references.type || 'references');
-        if (appReq.references.notes) refText += ' — ' + escapeHtml(appReq.references.notes);
-        reqItems.push('<strong>References:</strong> ' + refText);
-      }
-      if (appReq.certifications && appReq.certifications.length > 0) {
-        reqItems.push('<strong>Certifications:</strong> ' + appReq.certifications.map(function(c) { return c.toUpperCase(); }).join(', '));
-      }
-      if (appReq.resume) {
-        reqItems.push('<strong>Resume/CV:</strong> Required');
-      }
-      if (appReq.background_check) {
-        reqItems.push('<strong>Background Check:</strong> Required');
+      if (hasAppReq) {
+        if (appReq.exam) {
+          const examLabels = { teas: 'TEAS', hesi: 'HESI A2', teas_or_hesi: 'TEAS or HESI', gre: 'GRE' };
+          reqItems.push('<strong>Entrance Exam:</strong> ' + (examLabels[appReq.exam] || appReq.exam));
+        }
+        const interviewLabels = { none: 'None', required: 'Required', optional: 'Optional', by_invitation: 'By invitation' };
+        if (appReq.interview && appReq.interview !== 'none') {
+          reqItems.push('<strong>Interview:</strong> ' + (interviewLabels[appReq.interview] || appReq.interview));
+        }
+        if (appReq.references && appReq.references.count > 0) {
+          let refText = appReq.references.count + ' ' + (appReq.references.type || 'references');
+          if (appReq.references.notes) refText += ' — ' + escapeHtml(appReq.references.notes);
+          reqItems.push('<strong>References:</strong> ' + refText);
+        }
+        if (appReq.certifications && appReq.certifications.length > 0) {
+          reqItems.push('<strong>Certifications:</strong> ' + appReq.certifications.map(function(c) { return c.toUpperCase(); }).join(', '));
+        }
+        if (appReq.resume) {
+          reqItems.push('<strong>Resume/CV:</strong> Required');
+        }
+        if (appReq.background_check) {
+          reqItems.push('<strong>Background Check:</strong> Required');
+        }
       }
 
       if (reqItems.length > 0) {
@@ -662,8 +684,17 @@ function showDetail(id) {
         html += '</div>';
       }
 
-      // Essays
-      if (appReq.essays && appReq.essays.length > 0) {
+      // Non-course extras from prerequisites.extra (for all programs)
+      if (hasAppExtras) {
+        html += '<div class="prereq-grid" style="margin-top: 10px;">';
+        appExtras.forEach(function(extraReq) {
+          html += '<span class="prereq-tag extra">' + escapeHtml(extraReq) + '</span>';
+        });
+        html += '</div>';
+      }
+
+      // Essays (structured data only)
+      if (hasAppReq && appReq.essays && appReq.essays.length > 0) {
         html += '<div style="margin-top: 12px;"><strong style="font-size: 0.85rem;">Essays:</strong>';
         html += '<ul style="margin: 4px 0 0 0; padding-left: 20px;">';
         appReq.essays.forEach(function(essay) {
@@ -680,7 +711,7 @@ function showDetail(id) {
       }
 
       // Deposit callout
-      if (appReq.deposit) {
+      if (hasAppReq && appReq.deposit) {
         html += '<div style="margin-top: 12px; padding: 10px 12px; background: #fffbeb; border-left: 3px solid #f59e0b; border-radius: 4px; font-size: 0.88rem;">';
         html += '<strong>Enrollment Deposit:</strong> $' + appReq.deposit.amount.toLocaleString();
         if (appReq.deposit.timing) html += ' — ' + escapeHtml(appReq.deposit.timing);
@@ -690,7 +721,7 @@ function showDetail(id) {
       }
 
       // Unique requirements
-      if (appReq.unique && appReq.unique.length > 0) {
+      if (hasAppReq && appReq.unique && appReq.unique.length > 0) {
         html += '<div style="margin-top: 12px; padding: 10px 12px; background: #fef2f2; border-left: 3px solid #ef4444; border-radius: 4px;">';
         html += '<strong style="font-size: 0.85rem; color: #991b1b;">Unique Requirements:</strong>';
         html += '<ul style="margin: 4px 0 0 0; padding-left: 20px;">';
@@ -701,12 +732,12 @@ function showDetail(id) {
       }
 
       // System notes
-      if (appReq.system_notes) {
+      if (hasAppReq && appReq.system_notes) {
         html += '<div style="margin-top: 8px; font-size: 0.8rem; color: #666; font-style: italic;">' + escapeHtml(appReq.system_notes) + '</div>';
       }
 
       // Research status
-      if (appReq.research_status) {
+      if (hasAppReq && appReq.research_status) {
         const statusColors = { complete: '#16a34a', partial: '#f59e0b', pending: '#94a3b8' };
         const statusLabels = { complete: 'Complete', partial: 'Partial', pending: 'Pending' };
         const rsColor = statusColors[appReq.research_status] || '#94a3b8';

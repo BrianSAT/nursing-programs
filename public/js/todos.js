@@ -665,7 +665,7 @@ const TodoPanel = (function () {
     return getTrackedProgramIds().includes(programId);
   }
 
-  async function addTrackedProgram(programId) {
+  async function addTrackedProgram(programId, program) {
     if (!todoData) return;
     if (isTracked(programId)) return;
     todoData.tracked_programs = todoData.tracked_programs || [];
@@ -676,10 +676,382 @@ const TodoPanel = (function () {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ tracked_programs: todoData.tracked_programs })
       });
+      // Generate tasks for the newly tracked program
+      if (program) {
+        await generateTasksForProgram(program);
+      }
       renderPanel();
     } catch (e) {
       console.error('Error adding tracked program:', e);
     }
+  }
+
+  // ===== TASK GENERATION FOR NEW TRACKED PROGRAMS =====
+
+  const LEAD_DAYS = {
+    exam: 30, personal_statement: 14, resume: 14, bls: 30,
+    transcript: 4, reference: 30, nursingcas_setup: 14,
+    background_check: 14, supplemental_essay: 14
+  };
+
+  function subtractDays(dateStr, days) {
+    const d = new Date(dateStr + 'T00:00:00');
+    d.setDate(d.getDate() - days);
+    return d.toISOString().split('T')[0];
+  }
+
+  function nextTaskId() {
+    const tasks = (todoData && todoData.tasks) || [];
+    const maxNum = tasks.reduce(function(max, t) {
+      const m = t.id.match(/^task-(\d+)$/);
+      return m ? Math.max(max, parseInt(m[1])) : max;
+    }, 0);
+    return 'task-' + String(maxNum + 1).padStart(3, '0');
+  }
+
+  function getEffectiveDeadline(program) {
+    var deadline = program.admissions && program.admissions.deadline;
+    if (deadline) return deadline;
+    var startDate = program.admissions && program.admissions.start_date;
+    if (startDate) return subtractDays(startDate, 120);
+    return null;
+  }
+
+  function taskExistsForProgram(programId, titleSubstring) {
+    var tasks = (todoData && todoData.tasks) || [];
+    return tasks.find(function(t) {
+      return t.status !== 'skipped' && t.title.toLowerCase().includes(titleSubstring.toLowerCase()) &&
+        (t.applies_to || []).includes(programId);
+    });
+  }
+
+  function findCrossTask(titleSubstring) {
+    var tasks = (todoData && todoData.tasks) || [];
+    return tasks.find(function(t) {
+      return t.status !== 'skipped' && t.title.toLowerCase().includes(titleSubstring.toLowerCase());
+    });
+  }
+
+  async function apiCreateTask(task) {
+    try {
+      var response = await fetch('/api/todos/tasks', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(task)
+      });
+      if (!response.ok) {
+        console.error('Failed to create task:', task.title);
+      }
+    } catch (e) {
+      console.error('Error creating task:', e);
+    }
+  }
+
+  async function addProgramToCrossTask(existingTask, programId) {
+    if ((existingTask.applies_to || []).includes(programId)) return;
+    var newAppliesTo = (existingTask.applies_to || []).concat([programId]);
+    await apiUpdateTask(existingTask.id, { applies_to: newAppliesTo });
+  }
+
+  async function generateTasksForProgram(program) {
+    var reqs = program.application_requirements || null;
+    var deadline = getEffectiveDeadline(program);
+    var today = new Date().toISOString().split('T')[0];
+    var programId = program.id;
+    var programName = program.name;
+
+    // If no application_requirements, create a research task and alert user
+    if (!reqs || reqs.research_status === 'pending') {
+      var researchMsg = reqs ? 'partial' : 'missing';
+      if (!taskExistsForProgram(programId, 'research') && !taskExistsForProgram(programId, 'verify')) {
+        await apiCreateTask({
+          id: nextTaskId(),
+          title: 'Research ' + programName + ' application requirements',
+          category: 'verification',
+          status: 'pending',
+          due_date: deadline ? subtractDays(deadline, 45) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'Application requirements data is ' + researchMsg + '. Visit the program website to confirm: fees, essays, references, exam requirements, certifications, and deadlines.',
+          auto_generated: true,
+          created_at: today,
+          completed_at: null
+        });
+      }
+      alert(programName + ' added to tracked programs.\n\nApplication requirements have not been fully researched for this program. A "Research requirements" task has been added to your To Do list.');
+      await loadTodoData();
+      return;
+    }
+
+    var newTaskCount = 0;
+
+    // --- Cross-program tasks: add this program to existing or create new ---
+
+    // TEAS exam
+    if (reqs.exam === 'teas' || reqs.exam === 'teas_or_hesi') {
+      var existing = findCrossTask('take teas');
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Take TEAS exam', category: 'exam', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.exam) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'Register at atitesting.com. Score valid 24 months.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // HESI exam
+    if (reqs.exam === 'hesi' || reqs.exam === 'teas_or_hesi') {
+      var existing = findCrossTask('take hesi');
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Take HESI A2 exam', category: 'exam', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.exam) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'Register through your testing center.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // Personal statement (transferable)
+    var hasTransferablePS = (reqs.essays || []).some(function(e) { return e.type === 'personal_statement' && e.transferable; });
+    if (hasTransferablePS) {
+      var existing = findCrossTask('personal statement');
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Write personal statement', category: 'document', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.personal_statement) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'Most programs want: why nursing, career goals, relevant experience. Reusable across programs.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // Resume
+    if (reqs.resume) {
+      var existing = findCrossTask('resume');
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Prepare resume/CV', category: 'document', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.resume) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'Highlight healthcare-relevant experience, volunteer work, education.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // BLS certification
+    if ((reqs.certifications || []).includes('bls')) {
+      var existing = findCrossTask('bls');
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Complete BLS certification', category: 'verification', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.bls) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'American Heart Association BLS for Healthcare Providers. Valid 2 years.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // NursingCAS setup
+    if (reqs.system === 'nursingcas' || reqs.system === 'both') {
+      var existing = findCrossTask('nursingcas account');
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Set up NursingCAS account', category: 'application', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.nursingcas_setup) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'Create account at nursingcas.liaisoncas.com. Upload transcripts, enter coursework.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // Background check
+    if (reqs.background_check) {
+      var existing = findCrossTask('background check');
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Complete background check', category: 'verification', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.background_check) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: 'Most programs use CastleBranch or similar.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // Reference letters — add to existing cross-tasks or create new
+    var refsNeeded = (reqs.references && reqs.references.count) || 0;
+    for (var i = 1; i <= refsNeeded; i++) {
+      var existing = findCrossTask('reference letter #' + i);
+      if (existing) {
+        await addProgramToCrossTask(existing, programId);
+      } else {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Request reference letter #' + i, category: 'document', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.reference) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: (reqs.references && reqs.references.notes) || 'Academic or professional.',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // --- Per-school tasks ---
+
+    // Submit application
+    var systemLabel = reqs.system === 'nursingcas' ? 'NursingCAS'
+      : reqs.system === 'both' ? 'NursingCAS + supplemental'
+      : reqs.system === 'direct' ? 'direct'
+      : 'application';
+
+    if (!taskExistsForProgram(programId, 'submit')) {
+      await apiCreateTask({
+        id: nextTaskId(), title: 'Submit ' + systemLabel + ' application — ' + programName,
+        category: 'application', status: 'pending',
+        due_date: deadline, due_reason: deadline ? programName + ' deadline' : '',
+        applies_to: [programId], notes: reqs.system_notes || '',
+        auto_generated: true, created_at: today, completed_at: null
+      });
+      newTaskCount++;
+    }
+
+    // Application fee
+    if (reqs.fee && !taskExistsForProgram(programId, 'fee')) {
+      await apiCreateTask({
+        id: nextTaskId(), title: 'Pay ' + programName + ' application fee ($' + reqs.fee + ')',
+        category: 'fee', status: 'pending',
+        due_date: deadline, due_reason: deadline ? programName + ' deadline' : '',
+        applies_to: [programId], notes: reqs.system_notes || '',
+        auto_generated: true, created_at: today, completed_at: null
+      });
+      newTaskCount++;
+    }
+
+    // Supplemental essays (non-transferable)
+    var supplementals = (reqs.essays || []).filter(function(e) { return !e.transferable; });
+    for (var si = 0; si < supplementals.length; si++) {
+      var essay = supplementals[si];
+      if (!taskExistsForProgram(programId, essay.label || essay.type)) {
+        await apiCreateTask({
+          id: nextTaskId(), title: 'Write ' + programName + ' essay: ' + (essay.label || essay.type),
+          category: 'document', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, LEAD_DAYS.supplemental_essay) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId],
+          notes: essay.word_range ? 'Word range: ' + essay.word_range[0] + '-' + essay.word_range[1] : '',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // Interview prep
+    if ((reqs.interview === 'required' || reqs.interview === 'by_invitation') && !taskExistsForProgram(programId, 'interview')) {
+      await apiCreateTask({
+        id: nextTaskId(), title: 'Prepare for ' + programName + ' interview',
+        category: 'application', status: 'pending',
+        due_date: null, due_reason: reqs.interview === 'by_invitation' ? 'After invitation received' : '',
+        applies_to: [programId],
+        notes: reqs.interview === 'by_invitation'
+          ? 'Interview by invitation only. Prepare: why this program, career goals, clinical interests.'
+          : 'Prepare: why this program, career goals, clinical interests.',
+        auto_generated: true, created_at: today, completed_at: null
+      });
+      newTaskCount++;
+    }
+
+    // Deposit
+    if (reqs.deposit && !taskExistsForProgram(programId, 'deposit')) {
+      await apiCreateTask({
+        id: nextTaskId(), title: 'Pay ' + programName + ' enrollment deposit ($' + reqs.deposit.amount + ')',
+        category: 'fee', status: 'pending',
+        due_date: null, due_reason: reqs.deposit.timing || 'After admission',
+        applies_to: [programId],
+        notes: (reqs.deposit.refundable ? 'Refundable' : 'Non-refundable') + '. ' + (reqs.deposit.timing || ''),
+        auto_generated: true, created_at: today, completed_at: null
+      });
+      newTaskCount++;
+    }
+
+    // Unique requirements (skip informational items)
+    var uniques = reqs.unique || [];
+    for (var ui = 0; ui < uniques.length; ui++) {
+      var item = uniques[ui];
+      var lower = item.toLowerCase();
+      if (lower.includes('max ') || lower.includes('all prereqs') || lower.includes('summer start only') || lower.includes('rolling admissions')) continue;
+      if (!taskExistsForProgram(programId, item.substring(0, 30))) {
+        await apiCreateTask({
+          id: nextTaskId(), title: programName + ': ' + item,
+          category: 'verification', status: 'pending',
+          due_date: deadline ? subtractDays(deadline, 30) : null,
+          due_reason: deadline ? programName + ' deadline' : '',
+          applies_to: [programId], notes: '',
+          auto_generated: true, created_at: today, completed_at: null
+        });
+        newTaskCount++;
+      }
+    }
+
+    // Verification task for programs without verified data
+    var verifConf = program.verification && program.verification.confidence;
+    if (verifConf !== 'verified' && !taskExistsForProgram(programId, 'verify')) {
+      await apiCreateTask({
+        id: nextTaskId(), title: 'Verify ' + programName + ' requirements',
+        category: 'verification', status: 'pending',
+        due_date: deadline ? subtractDays(deadline, 45) : null,
+        due_reason: deadline ? programName + ' deadline' : '',
+        applies_to: [programId],
+        notes: 'Confidence: ' + (verifConf || 'unknown') + '. Check official website for current prereqs and deadlines.',
+        auto_generated: true, created_at: today, completed_at: null
+      });
+      newTaskCount++;
+    }
+
+    // Reload data to pick up all new tasks
+    await loadTodoData();
+
+    // Notify user
+    var researchNote = reqs.research_status === 'partial'
+      ? '\n\nNote: Application requirements research is partial — some details may be incomplete.'
+      : '';
+    alert(programName + ' added to tracked programs.\n' + newTaskCount + ' new tasks generated.' + researchNote);
   }
 
   async function removeTrackedProgram(programId) {
