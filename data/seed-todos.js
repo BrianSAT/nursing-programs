@@ -40,6 +40,12 @@ function subtractDays(dateStr, days) {
   return d.toISOString().split('T')[0];
 }
 
+// Return the earliest future deadline from a list of date strings
+function earliestFutureDeadline(deadlines) {
+  const sorted = deadlines.filter(d => d && d >= today).sort();
+  return sorted[0] || null;
+}
+
 function formatDeadlineReason(program) {
   const deadline = program.admissions?.deadline;
   if (!deadline) return '';
@@ -80,8 +86,8 @@ const tasks = [];
 // 1. TEAS exam
 const teasPrograms = analysis.filter(a => a.requiresTEAS);
 if (teasPrograms.length > 0) {
-  const deadlines = teasPrograms.filter(a => a.deadline).map(a => a.deadline).sort();
-  const earliest = deadlines[0];
+  const deadlines = teasPrograms.filter(a => a.deadline).map(a => a.deadline);
+  const earliest = earliestFutureDeadline(deadlines);
   const dueDate = earliest ? subtractDays(earliest, 30) : null;
   const drivingProgram = teasPrograms.find(a => a.deadline === earliest);
 
@@ -103,8 +109,8 @@ if (teasPrograms.length > 0) {
 // 2. HESI exam
 const hesiPrograms = analysis.filter(a => a.requiresHESI);
 if (hesiPrograms.length > 0) {
-  const deadlines = hesiPrograms.filter(a => a.deadline).map(a => a.deadline).sort();
-  const earliest = deadlines[0];
+  const deadlines = hesiPrograms.filter(a => a.deadline).map(a => a.deadline);
+  const earliest = earliestFutureDeadline(deadlines);
   const dueDate = earliest ? subtractDays(earliest, 30) : null;
   const drivingProgram = hesiPrograms.find(a => a.deadline === earliest);
 
@@ -126,8 +132,8 @@ if (hesiPrograms.length > 0) {
 // 3. Personal statement / essay
 const essayPrograms = analysis.filter(a => a.requiresEssay);
 if (essayPrograms.length > 0) {
-  const deadlines = essayPrograms.filter(a => a.deadline).map(a => a.deadline).sort();
-  const earliest = deadlines[0];
+  const deadlines = essayPrograms.filter(a => a.deadline).map(a => a.deadline);
+  const earliest = earliestFutureDeadline(deadlines);
   const dueDate = earliest ? subtractDays(earliest, 14) : null;
   const drivingProgram = essayPrograms.find(a => a.deadline === earliest);
 
@@ -148,8 +154,8 @@ if (essayPrograms.length > 0) {
 
 // 4. Transcripts - one per institution
 const institutions = ['UW-Madison', 'WCTC', 'MATC'];
-const allDeadlines = analysis.filter(a => a.deadline).map(a => a.deadline).sort();
-const earliestDeadline = allDeadlines[0];
+const allDeadlines = analysis.filter(a => a.deadline).map(a => a.deadline);
+const earliestDeadline = earliestFutureDeadline(allDeadlines);
 
 for (const inst of institutions) {
   const dueDate = earliestDeadline ? subtractDays(earliestDeadline, 21) : null;
@@ -173,8 +179,8 @@ for (const inst of institutions) {
 // 5. BLS certification
 const blsPrograms = analysis.filter(a => a.requiresBLS);
 if (blsPrograms.length > 0) {
-  const deadlines = blsPrograms.filter(a => a.deadline).map(a => a.deadline).sort();
-  const earliest = deadlines[0];
+  const deadlines = blsPrograms.filter(a => a.deadline).map(a => a.deadline);
+  const earliest = earliestFutureDeadline(deadlines);
   const dueDate = earliest ? subtractDays(earliest, 30) : null;
   const drivingProgram = blsPrograms.find(a => a.deadline === earliest);
 

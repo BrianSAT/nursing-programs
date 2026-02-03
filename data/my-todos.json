@@ -48,8 +48,8 @@
       "title": "Request UW-Madison transcripts",
       "category": "document",
       "status": "pending",
-      "due_date": "2025-12-15",
-      "due_reason": "OHSU deadline Jan 4",
+      "due_date": "2026-02-22",
+      "due_reason": "Tulane University deadline Mar 14",
       "applies_to": [
         "uthealth-houston",
         "emory",
@@ -72,8 +72,8 @@
       "title": "Request WCTC transcripts",
       "category": "document",
       "status": "pending",
-      "due_date": "2025-12-15",
-      "due_reason": "OHSU deadline Jan 4",
+      "due_date": "2026-02-22",
+      "due_reason": "Tulane University deadline Mar 14",
       "applies_to": [
         "uthealth-houston",
         "emory",
@@ -96,8 +96,8 @@
       "title": "Request MATC transcripts",
       "category": "document",
       "status": "pending",
-      "due_date": "2025-12-15",
-      "due_reason": "OHSU deadline Jan 4",
+      "due_date": "2026-02-22",
+      "due_reason": "Tulane University deadline Mar 14",
       "applies_to": [
         "uthealth-houston",
         "emory",
