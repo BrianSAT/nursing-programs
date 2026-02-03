@@ -8,7 +8,6 @@
 const CoursesPanel = (function () {
 
   let courseData = null; // { semesters, courses, transcript }
-  let panelOpen = false;
   let editingCourseId = null;
   let transcriptExpanded = false;
 
@@ -107,20 +106,9 @@ const CoursesPanel = (function () {
   }
 
   function togglePanel() {
-    panelOpen = !panelOpen;
-    const panel = document.getElementById('courses-panel');
-    const mainContent = document.querySelector('main');
-    const toggleBtn = document.getElementById('panel-toggle');
-
-    if (panelOpen) {
-      panel.classList.add('open');
-      mainContent.classList.add('panel-open');
-      toggleBtn.textContent = 'My Courses ✕';
-      renderPanel();
-    } else {
-      panel.classList.remove('open');
-      mainContent.classList.remove('panel-open');
-      toggleBtn.textContent = 'My Courses';
+    // Delegate to global togglePanel
+    if (typeof window.togglePanel === 'function') {
+      window.togglePanel();
     }
   }
 
@@ -489,6 +477,6 @@ const CoursesPanel = (function () {
     toggleTag,
     onNameInput,
     getCourseData: function () { return courseData; },
-    get panelOpen() { return panelOpen; }
+    get panelOpen() { return typeof panelOpen !== 'undefined' ? panelOpen : false; }
   };
 })();

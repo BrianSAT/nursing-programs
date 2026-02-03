@@ -1,0 +1,273 @@
+{
+  "tracked_programs": [
+    "uthealth-houston",
+    "emory",
+    "research-college-kc",
+    "loyola-chicago",
+    "ohsu-portland",
+    "ohio-state",
+    "pitt",
+    "tulane-nola",
+    "slu-stlouis",
+    "loyola-nola"
+  ],
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Take TEAS exam",
+      "category": "exam",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline Aug 31",
+      "applies_to": [
+        "uthealth-houston",
+        "research-college-kc"
+      ],
+      "notes": "Register at atitesting.com. Score valid 24 months.",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-002",
+      "title": "Take HESI A2 exam",
+      "category": "exam",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline Aug 31",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "Register through your testing center. Check which version each school requires.",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-003",
+      "title": "Request UW-Madison transcripts",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2025-12-15",
+      "due_reason": "OHSU deadline Jan 4",
+      "applies_to": [
+        "uthealth-houston",
+        "emory",
+        "research-college-kc",
+        "loyola-chicago",
+        "ohsu-portland",
+        "ohio-state",
+        "pitt",
+        "tulane-nola",
+        "slu-stlouis",
+        "loyola-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-004",
+      "title": "Request WCTC transcripts",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2025-12-15",
+      "due_reason": "OHSU deadline Jan 4",
+      "applies_to": [
+        "uthealth-houston",
+        "emory",
+        "research-college-kc",
+        "loyola-chicago",
+        "ohsu-portland",
+        "ohio-state",
+        "pitt",
+        "tulane-nola",
+        "slu-stlouis",
+        "loyola-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-005",
+      "title": "Request MATC transcripts",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2025-12-15",
+      "due_reason": "OHSU deadline Jan 4",
+      "applies_to": [
+        "uthealth-houston",
+        "emory",
+        "research-college-kc",
+        "loyola-chicago",
+        "ohsu-portland",
+        "ohio-state",
+        "pitt",
+        "tulane-nola",
+        "slu-stlouis",
+        "loyola-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-006",
+      "title": "Submit application — UTHealth Houston",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-007",
+      "title": "Submit application — Emory",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "Emory deadline",
+      "applies_to": [
+        "emory"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-008",
+      "title": "Submit application — Research College of Nursing",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "Research College of Nursing deadline",
+      "applies_to": [
+        "research-college-kc"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-009",
+      "title": "Submit application — Loyola Chicago",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-11-01",
+      "due_reason": "Loyola Chicago deadline",
+      "applies_to": [
+        "loyola-chicago"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-010",
+      "title": "Submit application — OHSU",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-01-05",
+      "due_reason": "OHSU deadline",
+      "applies_to": [
+        "ohsu-portland"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-011",
+      "title": "Submit application — Ohio State",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2027-01-09",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-012",
+      "title": "Submit application — Pitt",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-08-15",
+      "due_reason": "Pitt deadline",
+      "applies_to": [
+        "pitt"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-013",
+      "title": "Submit application — Tulane University",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-03-15",
+      "due_reason": "Tulane University deadline",
+      "applies_to": [
+        "tulane-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-014",
+      "title": "Submit application — Saint Louis University",
+      "category": "application",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    },
+    {
+      "id": "task-015",
+      "title": "Submit application — Loyola New Orleans",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-11-01",
+      "due_reason": "Loyola New Orleans deadline",
+      "applies_to": [
+        "loyola-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-02",
+      "completed_at": null
+    }
+  ],
+  "settings": {
+    "transcript_lead_days": 21,
+    "default_view": "timeline"
+  }
+}

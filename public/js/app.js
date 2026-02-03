@@ -28,6 +28,9 @@ async function loadPrograms() {
     loading.classList.add('hidden');
     renderTable();
 
+    // Load todo data
+    TodoPanel.loadTodoData();
+
     // Render courses panel if open
     CoursesPanel.renderPanel();
   } catch (e) {
@@ -716,5 +719,53 @@ function closeWorkCommitModal() {
 document.getElementById('work-commit-modal').addEventListener('click', (e) => {
   if (e.target.id === 'work-commit-modal') closeWorkCommitModal();
 });
+
+// ===== PANEL & TAB MANAGEMENT =====
+
+let panelOpen = false;
+let activeTab = 'courses'; // 'courses' or 'todos'
+
+function togglePanel() {
+  panelOpen = !panelOpen;
+  const panel = document.getElementById('courses-panel');
+  const mainContent = document.querySelector('main');
+  const toggleBtn = document.getElementById('panel-toggle');
+
+  if (panelOpen) {
+    panel.classList.add('open');
+    mainContent.classList.add('panel-open');
+    toggleBtn.textContent = 'My Courses \u2715';
+    if (activeTab === 'courses') {
+      CoursesPanel.renderPanel();
+    } else {
+      TodoPanel.renderPanel();
+    }
+  } else {
+    panel.classList.remove('open');
+    mainContent.classList.remove('panel-open');
+    toggleBtn.textContent = 'My Courses';
+  }
+}
+
+function switchPanelTab(tab) {
+  activeTab = tab;
+  const tabs = document.querySelectorAll('.panel-tab');
+  const coursesContent = document.getElementById('courses-panel-content');
+  const todosContent = document.getElementById('todos-panel-content');
+
+  tabs.forEach(t => t.classList.remove('active'));
+
+  if (tab === 'courses') {
+    tabs[0].classList.add('active');
+    coursesContent.classList.remove('hidden');
+    todosContent.classList.add('hidden');
+    CoursesPanel.renderPanel();
+  } else {
+    tabs[1].classList.add('active');
+    coursesContent.classList.add('hidden');
+    todosContent.classList.remove('hidden');
+    TodoPanel.renderPanel();
+  }
+}
 
 loadPrograms();
