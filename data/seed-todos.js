@@ -156,9 +156,10 @@ if (essayPrograms.length > 0) {
 const institutions = ['UW-Madison', 'WCTC', 'MATC'];
 const allDeadlines = analysis.filter(a => a.deadline).map(a => a.deadline);
 const earliestDeadline = earliestFutureDeadline(allDeadlines);
+const transcriptLeadDays = 4; // Parchment electronic transcripts are near-instant
 
 for (const inst of institutions) {
-  const dueDate = earliestDeadline ? subtractDays(earliestDeadline, 21) : null;
+  const dueDate = earliestDeadline ? subtractDays(earliestDeadline, transcriptLeadDays) : null;
   const drivingProgram = analysis.find(a => a.deadline === earliestDeadline);
 
   tasks.push({
@@ -243,7 +244,7 @@ const output = {
   tracked_programs: trackedIds,
   tasks: tasks,
   settings: {
-    transcript_lead_days: 21,
+    transcript_lead_days: 4,
     default_view: 'timeline'
   }
 };

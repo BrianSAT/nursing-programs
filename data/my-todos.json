@@ -48,7 +48,7 @@
       "title": "Request UW-Madison transcripts",
       "category": "document",
       "status": "pending",
-      "due_date": "2026-02-22",
+      "due_date": "2026-03-11",
       "due_reason": "Tulane University deadline Mar 14",
       "applies_to": [
         "uthealth-houston",
@@ -72,7 +72,7 @@
       "title": "Request WCTC transcripts",
       "category": "document",
       "status": "pending",
-      "due_date": "2026-02-22",
+      "due_date": "2026-03-11",
       "due_reason": "Tulane University deadline Mar 14",
       "applies_to": [
         "uthealth-houston",
@@ -96,7 +96,7 @@
       "title": "Request MATC transcripts",
       "category": "document",
       "status": "pending",
-      "due_date": "2026-02-22",
+      "due_date": "2026-03-11",
       "due_reason": "Tulane University deadline Mar 14",
       "applies_to": [
         "uthealth-houston",
@@ -267,7 +267,7 @@
     }
   ],
   "settings": {
-    "transcript_lead_days": 21,
+    "transcript_lead_days": 4,
     "default_view": "timeline"
   }
 }
