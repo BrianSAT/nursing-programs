@@ -14,7 +14,8 @@ async function loadPrograms() {
     const [programsRes, courseData, prereqMapRes] = await Promise.all([
       fetch('/api/programs').then(r => { if (!r.ok) throw new Error('Failed to load programs'); return r.json(); }),
       CoursesPanel.loadCourseData(),
-      fetch('/api/prereq-map').then(r => { if (!r.ok) throw new Error('Failed to load prereq-map'); return r.json(); })
+      fetch('/api/prereq-map').then(r => { if (!r.ok) throw new Error('Failed to load prereq-map'); return r.json(); }),
+      TodoPanel.loadTodoData()
     ]);
 
     programs = programsRes.programs;
@@ -27,9 +28,6 @@ async function loadPrograms() {
 
     loading.classList.add('hidden');
     renderTable();
-
-    // Load todo data
-    TodoPanel.loadTodoData();
 
     // Render courses panel if open
     CoursesPanel.renderPanel();
@@ -197,6 +195,10 @@ function renderTable() {
         valA = fitOrder[getPlanFit(a).status || ''] || 5;
         valB = fitOrder[getPlanFit(b).status || ''] || 5;
         break;
+      case 'apply':
+        valA = TodoPanel.isTracked && TodoPanel.isTracked(a.id) ? 1 : 0;
+        valB = TodoPanel.isTracked && TodoPanel.isTracked(b.id) ? 1 : 0;
+        break;
       case 'raw_score':
       default:
         valA = a.scores?.raw_score ?? -1;
@@ -215,7 +217,8 @@ function renderTable() {
   // Update stats
   const complete = filtered.filter(p => getDataStatus(p) === 'complete').length;
   const needsData = filtered.length - complete;
-  stats.textContent = `Showing ${filtered.length} programs (${complete} complete, ${needsData} needs data)`;
+  stats.innerHTML = `Showing ${filtered.length} programs (${complete} complete, ${needsData} needs data)<span id="apply-stats"></span>`;
+  updateApplyStats();
 
   // Render rows
   tbody.innerHTML = filtered.map(p => {
@@ -258,8 +261,13 @@ function renderTable() {
       verifIcon = '<span class="verif-icon unverified" title="Unverified">?</span>';
     }
 
+    const isApplyTracked = TodoPanel.isTracked ? TodoPanel.isTracked(p.id) : false;
+    const applyChecked = isApplyTracked ? 'checked' : '';
+    const applyCell = `<input type="checkbox" class="apply-checkbox" data-program-id="${p.id}" ${applyChecked} onclick="event.stopPropagation(); toggleApply('${p.id}', this)">`;
+
     return `
       <tr class="${status === 'needs-data' ? 'needs-data-row' : ''}" onclick="showDetail('${p.id}')">
+        <td class="apply-cell">${applyCell}</td>
         <td>${rank != null ? '#' + rank : '-'}</td>
         <td>${verifIcon}<strong>${p.name}</strong></td>
         <td><span class="type-badge type-${p.type}">${p.type}</span></td>
@@ -313,6 +321,28 @@ function toggleWorkCommit(programId, checkbox) {
   const scoreCell = document.getElementById('score-' + programId);
   if (scoreCell) {
     scoreCell.textContent = newRawScore != null ? newRawScore.toFixed(2) : '-';
+  }
+}
+
+// Apply checkbox toggle (per-program)
+async function toggleApply(programId, checkbox) {
+  if (checkbox.checked) {
+    await TodoPanel.addTrackedProgram(programId);
+  } else {
+    await TodoPanel.removeTrackedProgram(programId);
+  }
+  updateApplyStats();
+}
+
+function updateApplyStats() {
+  const el = document.getElementById('apply-stats');
+  if (!el) return;
+  const count = TodoPanel.getTrackedProgramIds ? TodoPanel.getTrackedProgramIds().length : 0;
+  const fees = TodoPanel.getTrackedFeeTotal ? TodoPanel.getTrackedFeeTotal(programsMap) : 0;
+  if (count > 0) {
+    el.innerHTML = ` | <strong>${count} apps tracked</strong> | Est. fees: <strong>$${fees.toLocaleString()}</strong>`;
+  } else {
+    el.innerHTML = '';
   }
 }
 
@@ -588,6 +618,107 @@ function showDetail(id) {
       html += '<div style="margin-top: 10px; font-size: 0.9rem; color: #666;"><strong>Additional:</strong> ' + escapeHtml(p.prerequisites.additional) + '</div>';
     }
     html += '</div>';
+
+    // Application Requirements
+    if (p.application_requirements) {
+      const appReq = p.application_requirements;
+      html += '<div class="detail-section"><h3>Application Requirements</h3>';
+
+      // Fee + System row
+      html += '<div class="detail-grid">';
+      html += buildDetailItem('Application Fee', appReq.fee != null ? '$' + appReq.fee : '-');
+      const systemLabels = { nursingcas: 'NursingCAS', direct: 'Direct', both: 'NursingCAS + Direct' };
+      html += buildDetailItem('Application System', systemLabels[appReq.system] || appReq.system || '-');
+      html += '</div>';
+
+      // Key requirements
+      const reqItems = [];
+      if (appReq.exam) {
+        const examLabels = { teas: 'TEAS', hesi: 'HESI A2', teas_or_hesi: 'TEAS or HESI', gre: 'GRE' };
+        reqItems.push('<strong>Entrance Exam:</strong> ' + (examLabels[appReq.exam] || appReq.exam));
+      }
+      const interviewLabels = { none: 'None', required: 'Required', optional: 'Optional', by_invitation: 'By invitation' };
+      if (appReq.interview && appReq.interview !== 'none') {
+        reqItems.push('<strong>Interview:</strong> ' + (interviewLabels[appReq.interview] || appReq.interview));
+      }
+      if (appReq.references && appReq.references.count > 0) {
+        let refText = appReq.references.count + ' ' + (appReq.references.type || 'references');
+        if (appReq.references.notes) refText += ' — ' + escapeHtml(appReq.references.notes);
+        reqItems.push('<strong>References:</strong> ' + refText);
+      }
+      if (appReq.certifications && appReq.certifications.length > 0) {
+        reqItems.push('<strong>Certifications:</strong> ' + appReq.certifications.map(function(c) { return c.toUpperCase(); }).join(', '));
+      }
+      if (appReq.resume) {
+        reqItems.push('<strong>Resume/CV:</strong> Required');
+      }
+      if (appReq.background_check) {
+        reqItems.push('<strong>Background Check:</strong> Required');
+      }
+
+      if (reqItems.length > 0) {
+        html += '<div style="margin-top: 10px; font-size: 0.9rem; line-height: 1.8;">';
+        reqItems.forEach(function(item) { html += '<div>' + item + '</div>'; });
+        html += '</div>';
+      }
+
+      // Essays
+      if (appReq.essays && appReq.essays.length > 0) {
+        html += '<div style="margin-top: 12px;"><strong style="font-size: 0.85rem;">Essays:</strong>';
+        html += '<ul style="margin: 4px 0 0 0; padding-left: 20px;">';
+        appReq.essays.forEach(function(essay) {
+          let essayText = escapeHtml(essay.label || essay.type);
+          if (essay.word_range && essay.word_range[0] != null && essay.word_range[1] != null) {
+            essayText += ' <span style="color:#888;">(' + essay.word_range[0] + '–' + essay.word_range[1] + ' words)</span>';
+          }
+          if (essay.transferable) {
+            essayText += ' <span style="background:#dcfce7; color:#166534; padding:1px 6px; border-radius:3px; font-size:0.72rem; font-weight:500;">Reusable</span>';
+          }
+          html += '<li style="font-size: 0.88rem; margin-bottom: 3px;">' + essayText + '</li>';
+        });
+        html += '</ul></div>';
+      }
+
+      // Deposit callout
+      if (appReq.deposit) {
+        html += '<div style="margin-top: 12px; padding: 10px 12px; background: #fffbeb; border-left: 3px solid #f59e0b; border-radius: 4px; font-size: 0.88rem;">';
+        html += '<strong>Enrollment Deposit:</strong> $' + appReq.deposit.amount.toLocaleString();
+        if (appReq.deposit.timing) html += ' — ' + escapeHtml(appReq.deposit.timing);
+        if (appReq.deposit.refundable === false) html += ' <span style="color:#dc2626;">(non-refundable)</span>';
+        else if (appReq.deposit.refundable === true) html += ' <span style="color:#16a34a;">(refundable)</span>';
+        html += '</div>';
+      }
+
+      // Unique requirements
+      if (appReq.unique && appReq.unique.length > 0) {
+        html += '<div style="margin-top: 12px; padding: 10px 12px; background: #fef2f2; border-left: 3px solid #ef4444; border-radius: 4px;">';
+        html += '<strong style="font-size: 0.85rem; color: #991b1b;">Unique Requirements:</strong>';
+        html += '<ul style="margin: 4px 0 0 0; padding-left: 20px;">';
+        appReq.unique.forEach(function(req) {
+          html += '<li style="font-size: 0.85rem; color: #991b1b; margin-bottom: 2px;">' + escapeHtml(req) + '</li>';
+        });
+        html += '</ul></div>';
+      }
+
+      // System notes
+      if (appReq.system_notes) {
+        html += '<div style="margin-top: 8px; font-size: 0.8rem; color: #666; font-style: italic;">' + escapeHtml(appReq.system_notes) + '</div>';
+      }
+
+      // Research status
+      if (appReq.research_status) {
+        const statusColors = { complete: '#16a34a', partial: '#f59e0b', pending: '#94a3b8' };
+        const statusLabels = { complete: 'Complete', partial: 'Partial', pending: 'Pending' };
+        const rsColor = statusColors[appReq.research_status] || '#94a3b8';
+        const rsLabel = statusLabels[appReq.research_status] || appReq.research_status;
+        html += '<div style="margin-top: 8px;">';
+        html += '<span style="display:inline-block; padding:2px 8px; border-radius:12px; font-size:0.72rem; font-weight:500; background:' + rsColor + '22; color:' + rsColor + ';">Research: ' + rsLabel + '</span>';
+        if (appReq.research_date) html += ' <span style="color:#888; font-size:0.75rem;">' + appReq.research_date + '</span>';
+        html += '</div>';
+      }
+
+      html += '</div>';
+    }
 
     // Contact
     if (p.admissions?.email) {

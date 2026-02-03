@@ -15,16 +15,56 @@ const TodoPanel = (function () {
   let overdueHidden = false;
   let overduePromptShown = false;
 
-  const CATEGORIES = ['application', 'document', 'exam', 'verification', 'course', 'custom'];
+  const CATEGORIES = ['application', 'document', 'exam', 'fee', 'verification', 'course', 'custom'];
 
   const CATEGORY_LABELS = {
     application: 'application',
     document: 'document',
     exam: 'exam',
+    fee: 'fee',
     verification: 'verification',
     course: 'course',
     custom: 'custom'
   };
+
+  const APP_STATUS_LABELS = {
+    not_started: 'Not Started',
+    in_progress: 'In Progress',
+    submitted: 'Submitted',
+    accepted: 'Accepted',
+    withdrawn: 'Withdrawn'
+  };
+
+  const APP_STATUS_COLORS = {
+    not_started: '#94a3b8',
+    in_progress: '#f59e0b',
+    submitted: '#3b82f6',
+    accepted: '#22c55e',
+    withdrawn: '#ef4444'
+  };
+
+  // Normalize tracked_programs: supports both string[] and object[] formats
+  function getTrackedProgramIds() {
+    if (!todoData || !todoData.tracked_programs) return [];
+    return todoData.tracked_programs.map(p => typeof p === 'string' ? p : p.id);
+  }
+
+  function getTrackedProgramObj(programId) {
+    if (!todoData || !todoData.tracked_programs) return null;
+    for (const p of todoData.tracked_programs) {
+      if (typeof p === 'string') {
+        if (p === programId) return { id: p, app_status: 'not_started' };
+      } else {
+        if (p.id === programId) return p;
+      }
+    }
+    return null;
+  }
+
+  function getAppStatus(programId) {
+    const obj = getTrackedProgramObj(programId);
+    return obj ? (obj.app_status || 'not_started') : 'not_started';
+  }
 
   async function loadTodoData() {
     try {
@@ -77,7 +117,7 @@ const TodoPanel = (function () {
 
       // Remove program from tracked list and skip all its tasks
       for (const pid of programIds) {
-        todoData.tracked_programs = (todoData.tracked_programs || []).filter(p => p !== pid);
+        todoData.tracked_programs = (todoData.tracked_programs || []).filter(p => (typeof p === 'string' ? p : p.id) !== pid);
         // Mark all tasks that only apply to this program as skipped
         for (const t of (todoData.tasks || [])) {
           if (t.applies_to && t.applies_to.length === 1 && t.applies_to[0] === pid && t.status === 'pending') {
@@ -193,13 +233,31 @@ const TodoPanel = (function () {
     html += '<div class="todo-header-row">';
     html += '<select class="todo-filter" onchange="TodoPanel.setFilter(this.value)">';
     html += '<option value="">All Programs</option>';
-    for (const pid of (todoData.tracked_programs || [])) {
+    for (const pid of getTrackedProgramIds()) {
       const selected = pid === filterProgram ? ' selected' : '';
-      html += '<option value="' + escapeHtml(pid) + '"' + selected + '>' + escapeHtml(getProgramName(pid)) + '</option>';
+      const status = getAppStatus(pid);
+      const statusLabel = APP_STATUS_LABELS[status] || status;
+      const statusSuffix = status !== 'not_started' ? ' [' + statusLabel + ']' : '';
+      html += '<option value="' + escapeHtml(pid) + '"' + selected + '>' + escapeHtml(getProgramName(pid)) + statusSuffix + '</option>';
     }
     html += '</select>';
     html += '<button class="todo-add-btn" onclick="TodoPanel.showAddForm()">+ Add Task</button>';
     html += '</div>';
+
+    // App status changer (when a program is selected)
+    if (filterProgram) {
+      const currentStatus = getAppStatus(filterProgram);
+      html += '<div class="todo-app-status">';
+      html += '<label>App Status:</label>';
+      html += '<select class="todo-app-status-select" onchange="TodoPanel.updateAppStatus(\'' + escapeHtml(filterProgram) + '\', this.value)">';
+      for (const [val, label] of Object.entries(APP_STATUS_LABELS)) {
+        const sel = val === currentStatus ? ' selected' : '';
+        html += '<option value="' + val + '"' + sel + '>' + label + '</option>';
+      }
+      html += '</select>';
+      html += '<span class="todo-app-status-dot" style="background:' + (APP_STATUS_COLORS[currentStatus] || '#94a3b8') + '"></span>';
+      html += '</div>';
+    }
 
     // Stats line
     html += '<div class="todo-stats">';
@@ -304,7 +362,7 @@ const TodoPanel = (function () {
       subtitle = CATEGORY_LABELS[task.category] || task.category;
     } else if (appliesTo.length === 1) {
       subtitle = escapeHtml(getProgramName(appliesTo[0]));
-    } else if (todoData.tracked_programs && appliesTo.length === todoData.tracked_programs.length) {
+    } else if (appliesTo.length === getTrackedProgramIds().length) {
       subtitle = 'all programs';
     } else {
       subtitle = appliesTo.length + ' programs';
@@ -412,7 +470,7 @@ const TodoPanel = (function () {
     html += '<div class="form-field">';
     html += '<label>Applies to <span class="form-hint">(click to select)</span></label>';
     html += '<div class="todo-program-chips">';
-    for (const pid of (todoData.tracked_programs || [])) {
+    for (const pid of getTrackedProgramIds()) {
       html += '<span class="todo-program-chip selectable" data-pid="' + escapeHtml(pid) + '" onclick="TodoPanel.toggleProgramChip(this)">' + escapeHtml(getProgramName(pid)) + '</span>';
     }
     html += '</div>';
@@ -467,6 +525,30 @@ const TodoPanel = (function () {
 
   async function updateDueDate(taskId, dueDate) {
     await apiUpdateTask(taskId, { due_date: dueDate || null });
+  }
+
+  async function updateAppStatus(programId, newStatus) {
+    if (!todoData) return;
+    // Update the tracked_programs entry
+    const programs = todoData.tracked_programs || [];
+    const updated = programs.map(p => {
+      const pid = typeof p === 'string' ? p : p.id;
+      if (pid === programId) {
+        return { id: pid, app_status: newStatus };
+      }
+      return typeof p === 'string' ? { id: p, app_status: 'not_started' } : p;
+    });
+    todoData.tracked_programs = updated;
+    try {
+      await fetch('/api/todos', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tracked_programs: updated })
+      });
+      renderPanel();
+    } catch (e) {
+      alert('Error updating app status: ' + e.message);
+    }
   }
 
   async function deleteTask(taskId) {
@@ -579,6 +661,56 @@ const TodoPanel = (function () {
     }
   }
 
+  function isTracked(programId) {
+    return getTrackedProgramIds().includes(programId);
+  }
+
+  async function addTrackedProgram(programId) {
+    if (!todoData) return;
+    if (isTracked(programId)) return;
+    todoData.tracked_programs = todoData.tracked_programs || [];
+    todoData.tracked_programs.push({ id: programId, app_status: 'not_started' });
+    try {
+      await fetch('/api/todos', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tracked_programs: todoData.tracked_programs })
+      });
+      renderPanel();
+    } catch (e) {
+      console.error('Error adding tracked program:', e);
+    }
+  }
+
+  async function removeTrackedProgram(programId) {
+    if (!todoData) return;
+    todoData.tracked_programs = (todoData.tracked_programs || []).filter(p =>
+      (typeof p === 'string' ? p : p.id) !== programId
+    );
+    try {
+      await fetch('/api/todos', {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ tracked_programs: todoData.tracked_programs })
+      });
+      renderPanel();
+    } catch (e) {
+      console.error('Error removing tracked program:', e);
+    }
+  }
+
+  function getTrackedFeeTotal(programsMapRef) {
+    const ids = getTrackedProgramIds();
+    let total = 0;
+    for (const id of ids) {
+      const prog = programsMapRef && programsMapRef[id];
+      if (prog && prog.application_requirements && prog.application_requirements.fee != null) {
+        total += prog.application_requirements.fee;
+      }
+    }
+    return total;
+  }
+
   return {
     loadTodoData,
     renderPanel,
@@ -589,11 +721,17 @@ const TodoPanel = (function () {
     updateStatus,
     updateNotes,
     updateDueDate,
+    updateAppStatus,
     deleteTask,
     showAddForm,
     cancelAddForm,
     toggleProgramChip,
     saveNewTask,
-    getTodoData: function () { return todoData; }
+    getTodoData: function () { return todoData; },
+    isTracked,
+    addTrackedProgram,
+    removeTrackedProgram,
+    getTrackedFeeTotal,
+    getTrackedProgramIds: function () { return getTrackedProgramIds(); }
   };
 })();

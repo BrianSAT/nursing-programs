@@ -1,15 +1,53 @@
 {
   "tracked_programs": [
-    "uthealth-houston",
-    "emory",
-    "research-college-kc",
-    "loyola-chicago",
-    "pitt",
-    "tulane-nola",
-    "duquesne-pittsburgh",
-    "musc",
-    "u-cincinnati",
-    "csu-cleveland"
+    {
+      "id": "u-miami",
+      "app_status": "not_started"
+    },
+    {
+      "id": "uthealth-houston",
+      "app_status": "not_started"
+    },
+    {
+      "id": "emory",
+      "app_status": "not_started"
+    },
+    {
+      "id": "research-college-kc",
+      "app_status": "not_started"
+    },
+    {
+      "id": "loyola-chicago",
+      "app_status": "not_started"
+    },
+    {
+      "id": "ohsu-portland",
+      "app_status": "not_started"
+    },
+    {
+      "id": "ohio-state",
+      "app_status": "not_started"
+    },
+    {
+      "id": "pitt",
+      "app_status": "not_started"
+    },
+    {
+      "id": "tulane-nola",
+      "app_status": "not_started"
+    },
+    {
+      "id": "slu-stlouis",
+      "app_status": "not_started"
+    },
+    {
+      "id": "loyola-nola",
+      "app_status": "not_started"
+    },
+    {
+      "id": "rush",
+      "app_status": "not_started"
+    }
   ],
   "tasks": [
     {
@@ -18,14 +56,14 @@
       "category": "exam",
       "status": "pending",
       "due_date": "2026-08-02",
-      "due_reason": "UTHealth Houston deadline Aug 31",
+      "due_reason": "UTHealth Houston deadline Sep 1",
       "applies_to": [
         "uthealth-houston",
         "research-college-kc"
       ],
       "notes": "Register at atitesting.com. Score valid 24 months.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
@@ -34,165 +72,260 @@
       "category": "exam",
       "status": "pending",
       "due_date": "2026-08-02",
-      "due_reason": "UTHealth Houston deadline Aug 31",
+      "due_reason": "UTHealth Houston deadline Sep 1",
       "applies_to": [
         "uthealth-houston"
       ],
       "notes": "Register through your testing center. Check which version each school requires.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-003",
-      "title": "Request UW-Madison transcripts",
+      "title": "Write personal statement",
       "category": "document",
       "status": "pending",
-      "due_date": "2026-02-25",
-      "due_reason": "Duquesne deadline Feb 28",
+      "due_date": "2026-08-01",
+      "due_reason": "Pitt deadline Aug 15",
       "applies_to": [
-        "uthealth-houston",
-        "emory",
-        "research-college-kc",
-        "loyola-chicago",
         "pitt",
-        "tulane-nola",
-        "duquesne-pittsburgh",
-        "musc",
-        "u-cincinnati",
-        "csu-cleveland"
+        "uthealth-houston",
+        "research-college-kc",
+        "slu-stlouis",
+        "u-miami",
+        "rush",
+        "loyola-chicago",
+        "loyola-nola",
+        "ohio-state"
       ],
-      "notes": "",
+      "notes": "Most programs want: why nursing, career goals, relevant experience. Reusable across programs.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-004",
-      "title": "Request WCTC transcripts",
+      "title": "Prepare resume/CV",
       "category": "document",
       "status": "pending",
-      "due_date": "2026-02-25",
-      "due_reason": "Duquesne deadline Feb 28",
+      "due_date": "2026-08-01",
+      "due_reason": "Pitt deadline Aug 15",
       "applies_to": [
-        "uthealth-houston",
-        "emory",
-        "research-college-kc",
-        "loyola-chicago",
         "pitt",
-        "tulane-nola",
-        "duquesne-pittsburgh",
-        "musc",
-        "u-cincinnati",
-        "csu-cleveland"
+        "uthealth-houston",
+        "u-miami",
+        "rush",
+        "loyola-chicago"
       ],
-      "notes": "",
+      "notes": "Highlight healthcare-relevant experience, volunteer work, education. One resume works for all programs.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-005",
-      "title": "Request MATC transcripts",
-      "category": "document",
+      "title": "Complete BLS certification",
+      "category": "verification",
       "status": "pending",
-      "due_date": "2026-02-25",
-      "due_reason": "Duquesne deadline Feb 28",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline Sep 1",
       "applies_to": [
         "uthealth-houston",
-        "emory",
-        "research-college-kc",
-        "loyola-chicago",
-        "pitt",
-        "tulane-nola",
-        "duquesne-pittsburgh",
-        "musc",
-        "u-cincinnati",
-        "csu-cleveland"
+        "slu-stlouis",
+        "u-miami",
+        "ohio-state"
       ],
-      "notes": "",
+      "notes": "American Heart Association BLS for Healthcare Providers. Valid 2 years.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-006",
-      "title": "Submit application — UTHealth Houston",
-      "category": "application",
+      "title": "Request UW-Madison transcripts",
+      "category": "document",
       "status": "pending",
-      "due_date": "2026-09-01",
-      "due_reason": "UTHealth Houston deadline",
+      "due_date": "2026-03-11",
+      "due_reason": "Tulane University deadline Mar 15",
       "applies_to": [
-        "uthealth-houston"
+        "u-miami",
+        "uthealth-houston",
+        "emory",
+        "research-college-kc",
+        "loyola-chicago",
+        "ohsu-portland",
+        "ohio-state",
+        "pitt",
+        "tulane-nola",
+        "slu-stlouis",
+        "loyola-nola",
+        "rush"
       ],
       "notes": "",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-007",
-      "title": "Submit application — Emory",
-      "category": "application",
+      "title": "Request WCTC transcripts",
+      "category": "document",
       "status": "pending",
-      "due_date": "2026-09-01",
-      "due_reason": "Emory deadline",
+      "due_date": "2026-03-11",
+      "due_reason": "Tulane University deadline Mar 15",
       "applies_to": [
-        "emory"
+        "u-miami",
+        "uthealth-houston",
+        "emory",
+        "research-college-kc",
+        "loyola-chicago",
+        "ohsu-portland",
+        "ohio-state",
+        "pitt",
+        "tulane-nola",
+        "slu-stlouis",
+        "loyola-nola",
+        "rush"
       ],
       "notes": "",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-008",
-      "title": "Submit application — Research College of Nursing",
-      "category": "application",
+      "title": "Request MATC transcripts",
+      "category": "document",
       "status": "pending",
-      "due_date": "2026-09-01",
-      "due_reason": "Research College of Nursing deadline",
+      "due_date": "2026-03-11",
+      "due_reason": "Tulane University deadline Mar 15",
       "applies_to": [
-        "research-college-kc"
+        "u-miami",
+        "uthealth-houston",
+        "emory",
+        "research-college-kc",
+        "loyola-chicago",
+        "ohsu-portland",
+        "ohio-state",
+        "pitt",
+        "tulane-nola",
+        "slu-stlouis",
+        "loyola-nola",
+        "rush"
       ],
       "notes": "",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-009",
-      "title": "Submit application — Loyola Chicago",
+      "title": "Set up NursingCAS account",
       "category": "application",
       "status": "pending",
-      "due_date": "2026-11-01",
-      "due_reason": "Loyola Chicago deadline",
+      "due_date": "2026-08-01",
+      "due_reason": "Pitt deadline Aug 15",
       "applies_to": [
-        "loyola-chicago"
+        "pitt",
+        "uthealth-houston",
+        "research-college-kc",
+        "slu-stlouis",
+        "u-miami",
+        "rush",
+        "loyola-nola"
       ],
-      "notes": "",
+      "notes": "Create account at nursingcas.liaisoncas.com. Upload transcripts, enter coursework. Shared across all NursingCAS schools.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-010",
-      "title": "Submit application — Pitt",
-      "category": "application",
+      "title": "Complete background check",
+      "category": "verification",
       "status": "pending",
-      "due_date": "2026-08-15",
-      "due_reason": "Pitt deadline",
+      "due_date": "2026-03-01",
+      "due_reason": "Tulane University deadline Mar 15",
       "applies_to": [
-        "pitt"
+        "tulane-nola",
+        "pitt",
+        "uthealth-houston",
+        "research-college-kc",
+        "slu-stlouis",
+        "u-miami",
+        "rush",
+        "loyola-chicago",
+        "loyola-nola",
+        "ohio-state"
       ],
-      "notes": "",
+      "notes": "Most programs use CastleBranch or similar. One check may satisfy multiple programs.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-011",
-      "title": "Submit application — Tulane University",
+      "title": "Request reference letter #1",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2026-07-16",
+      "due_reason": "Pitt deadline Aug 15",
+      "applies_to": [
+        "pitt",
+        "uthealth-houston",
+        "research-college-kc",
+        "slu-stlouis",
+        "u-miami",
+        "rush",
+        "loyola-chicago",
+        "loyola-nola"
+      ],
+      "notes": "Reference letter 1. Two professional recommendation letters",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-012",
+      "title": "Request reference letter #2",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2026-07-16",
+      "due_reason": "Pitt deadline Aug 15",
+      "applies_to": [
+        "pitt",
+        "uthealth-houston",
+        "research-college-kc",
+        "u-miami",
+        "rush",
+        "loyola-chicago",
+        "loyola-nola"
+      ],
+      "notes": "Reference letter 2. Two professional recommendation letters",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-013",
+      "title": "Request reference letter #3",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline Sep 1",
+      "applies_to": [
+        "uthealth-houston",
+        "rush"
+      ],
+      "notes": "Reference letter 3. Digital reference forms via NursingCAS",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-014",
+      "title": "Submit direct application — Tulane University",
       "category": "application",
       "status": "pending",
       "due_date": "2026-03-15",
@@ -200,69 +333,999 @@
       "applies_to": [
         "tulane-nola"
       ],
-      "notes": "",
+      "notes": "Direct application via SoPA portal (applysopa.tulane.edu). Counselor-guided 5-step process. NOT NursingCAS.",
       "auto_generated": true,
-      "created_at": "2026-02-02",
-      "completed_at": null
-    },
-    {
-      "id": "task-012",
-      "title": "Submit application — Duquesne",
-      "category": "application",
-      "status": "pending",
-      "due_date": "2026-03-01",
-      "due_reason": "Duquesne deadline",
-      "applies_to": [
-        "duquesne-pittsburgh"
-      ],
-      "notes": "",
-      "auto_generated": true,
-      "created_at": "2026-02-02",
-      "completed_at": null
-    },
-    {
-      "id": "task-013",
-      "title": "Submit application — MUSC",
-      "category": "application",
-      "status": "pending",
-      "due_date": "2026-09-15",
-      "due_reason": "MUSC deadline",
-      "applies_to": [
-        "musc"
-      ],
-      "notes": "",
-      "auto_generated": true,
-      "created_at": "2026-02-02",
-      "completed_at": null
-    },
-    {
-      "id": "task-014",
-      "title": "Submit application — U Cincinnati",
-      "category": "application",
-      "status": "pending",
-      "due_date": "2026-09-15",
-      "due_reason": "U Cincinnati deadline",
-      "applies_to": [
-        "u-cincinnati"
-      ],
-      "notes": "",
-      "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
       "completed_at": null
     },
     {
       "id": "task-015",
-      "title": "Submit application — Cleveland State",
-      "category": "application",
+      "title": "Pay Tulane University application fee ($40)",
+      "category": "fee",
       "status": "pending",
-      "due_date": "2026-06-01",
-      "due_reason": "Cleveland State deadline",
+      "due_date": "2026-03-15",
+      "due_reason": "Tulane University deadline",
       "applies_to": [
-        "csu-cleveland"
+        "tulane-nola"
+      ],
+      "notes": "Direct application via SoPA portal (applysopa.tulane.edu). Counselor-guided 5-step process. NOT NursingCAS.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-016",
+      "title": "Pay Tulane University enrollment deposit ($25)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "April 10, 2026 (Summer 2026 cohort)",
+      "applies_to": [
+        "tulane-nola"
+      ],
+      "notes": "Non-refundable. April 10, 2026 (Summer 2026 cohort)",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-017",
+      "title": "Tulane University: 2-minute personal video submission (replaces written essay — 3 prompts)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-02-13",
+      "due_reason": "Tulane University deadline",
+      "applies_to": [
+        "tulane-nola"
       ],
       "notes": "",
       "auto_generated": true,
-      "created_at": "2026-02-02",
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-018",
+      "title": "Tulane University: LCMC Nurse Scholars application (separate, deadline Mar 5 — full tuition, 2yr LCMC commitment)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-02-13",
+      "due_reason": "Tulane University deadline",
+      "applies_to": [
+        "tulane-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-019",
+      "title": "Tulane University: Counselor-guided admission process",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-02-13",
+      "due_reason": "Tulane University deadline",
+      "applies_to": [
+        "tulane-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-020",
+      "title": "Tulane University: Technical Standards digital acknowledgment required",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-02-13",
+      "due_reason": "Tulane University deadline",
+      "applies_to": [
+        "tulane-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-021",
+      "title": "Tulane University: LSBN Student License Application for clinical courses",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-02-13",
+      "due_reason": "Tulane University deadline",
+      "applies_to": [
+        "tulane-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-022",
+      "title": "Submit NursingCAS application — Pitt",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-08-15",
+      "due_reason": "Pitt deadline",
+      "applies_to": [
+        "pitt"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS undergraduate fee. No supplemental fee. NursingCAS blackout window May 2 – Aug 14.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-023",
+      "title": "Pay Pitt application fee ($65)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2026-08-15",
+      "due_reason": "Pitt deadline",
+      "applies_to": [
+        "pitt"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS undergraduate fee. No supplemental fee. NursingCAS blackout window May 2 – Aug 14.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-024",
+      "title": "Pay Pitt enrollment deposit ($250)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "upon acceptance of admission",
+      "applies_to": [
+        "pitt"
+      ],
+      "notes": "Non-refundable. upon acceptance of admission",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-025",
+      "title": "Pitt: $8,333 guaranteed scholarship for all ABSN students",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-07-16",
+      "due_reason": "Pitt deadline",
+      "applies_to": [
+        "pitt"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-026",
+      "title": "Pitt: 4 PA clearances required (Acts 33/34/73/168) — FBI fingerprint can take 12 weeks",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-07-16",
+      "due_reason": "Pitt deadline",
+      "applies_to": [
+        "pitt"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-027",
+      "title": "Submit NursingCAS application — UTHealth Houston",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "NursingCAS application (called 'NCAS' on Cizik site). $65 NursingCAS fee.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-028",
+      "title": "Pay UTHealth Houston application fee ($65)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "NursingCAS application (called 'NCAS' on Cizik site). $65 NursingCAS fee.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-029",
+      "title": "Prepare for UTHealth Houston interview",
+      "category": "application",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "After invitation received",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "Interview by invitation only. Prepare: why this program, career goals, clinical interests.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-030",
+      "title": "UTHealth Houston: Texas Government course (mandatory, all students)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-031",
+      "title": "UTHealth Houston: Must reside in TX before first day of class",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-032",
+      "title": "UTHealth Houston: Cannot sponsor F-1 visas",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-033",
+      "title": "UTHealth Houston: Future Nurses Fund — free tuition if income <$100K",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-034",
+      "title": "UTHealth Houston: DPS/FBI fingerprinting via IdentoGo",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "UTHealth Houston deadline",
+      "applies_to": [
+        "uthealth-houston"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-035",
+      "title": "Submit NursingCAS application — Research College of Nursing",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "Research College of Nursing deadline",
+      "applies_to": [
+        "research-college-kc"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS undergraduate fee. No supplemental fee found.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-036",
+      "title": "Pay Research College of Nursing application fee ($65)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "Research College of Nursing deadline",
+      "applies_to": [
+        "research-college-kc"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS undergraduate fee. No supplemental fee found.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-037",
+      "title": "Research College of Nursing: HCA Work Loan Forgiveness (up to 75% tuition, 2yr commitment)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "Research College of Nursing deadline",
+      "applies_to": [
+        "research-college-kc"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-038",
+      "title": "Research College of Nursing: Drug screen: marijuana = auto-fail regardless of documentation",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-02",
+      "due_reason": "Research College of Nursing deadline",
+      "applies_to": [
+        "research-college-kc"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-039",
+      "title": "Submit NursingCAS application — Saint Louis University",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-09-17",
+      "due_reason": "Saint Louis University deadline",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS fee (undergrad rate).",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-040",
+      "title": "Pay Saint Louis University application fee ($65)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2026-09-17",
+      "due_reason": "Saint Louis University deadline",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS fee (undergrad rate).",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-041",
+      "title": "Pay Saint Louis University enrollment deposit ($500)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "After admission offer",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "Non-refundable. After admission offer",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-042",
+      "title": "Saint Louis University: Theology/Religion (3 cr) Jesuit core",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-18",
+      "due_reason": "Saint Louis University deadline",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-043",
+      "title": "Saint Louis University: History (3 cr) Jesuit core",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-18",
+      "due_reason": "Saint Louis University deadline",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-044",
+      "title": "Saint Louis University: Fine Arts (3 cr) Jesuit core",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-18",
+      "due_reason": "Saint Louis University deadline",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-045",
+      "title": "Saint Louis University: Philosophy/Ethics (3 cr) Jesuit core",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-18",
+      "due_reason": "Saint Louis University deadline",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-046",
+      "title": "Saint Louis University: May start only (once/year)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-08-18",
+      "due_reason": "Saint Louis University deadline",
+      "applies_to": [
+        "slu-stlouis"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-047",
+      "title": "Submit NursingCAS application — University of Miami",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-10-01",
+      "due_reason": "University of Miami deadline",
+      "applies_to": [
+        "u-miami"
+      ],
+      "notes": "NursingCAS application. $80 app fee.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-048",
+      "title": "Pay University of Miami application fee ($80)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2026-10-01",
+      "due_reason": "University of Miami deadline",
+      "applies_to": [
+        "u-miami"
+      ],
+      "notes": "NursingCAS application. $80 app fee.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-049",
+      "title": "Pay University of Miami enrollment deposit ($1000)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "2 weeks post-admission",
+      "applies_to": [
+        "u-miami"
+      ],
+      "notes": "Non-refundable. 2 weeks post-admission",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-050",
+      "title": "University of Miami: Mandatory online pre-immersion course",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "University of Miami deadline",
+      "applies_to": [
+        "u-miami"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-051",
+      "title": "University of Miami: Science prereqs within 10 years",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-09-01",
+      "due_reason": "University of Miami deadline",
+      "applies_to": [
+        "u-miami"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-052",
+      "title": "Submit NursingCAS + supplemental application — Rush",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-10-19",
+      "due_reason": "Rush deadline",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "NursingCAS $85 (graduate rate) + Rush supplemental $40. Two-step process.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-053",
+      "title": "Pay Rush application fee ($125)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2026-10-19",
+      "due_reason": "Rush deadline",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "NursingCAS $85 (graduate rate) + Rush supplemental $40. Two-step process.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-054",
+      "title": "Prepare for Rush interview",
+      "category": "application",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "After invitation received",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "Interview by invitation only. Prepare: why this program, career goals, clinical interests.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-055",
+      "title": "Rush: 3 of 4 prereqs from 4-year institution (verify)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-09-19",
+      "due_reason": "Rush deadline",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-056",
+      "title": "Rush: MSN Clinical Nurse Leader degree",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-09-19",
+      "due_reason": "Rush deadline",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-057",
+      "title": "Rush: Direct Entry Pathway to DNP available",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-09-19",
+      "due_reason": "Rush deadline",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-058",
+      "title": "Rush: Only 4 prereqs required",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-09-19",
+      "due_reason": "Rush deadline",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-059",
+      "title": "Rush: CastleBranch compliance portal post-acceptance",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-09-19",
+      "due_reason": "Rush deadline",
+      "applies_to": [
+        "rush"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-060",
+      "title": "Submit direct application — Loyola Chicago",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-11-01",
+      "due_reason": "Loyola Chicago deadline",
+      "applies_to": [
+        "loyola-chicago"
+      ],
+      "notes": "Direct Loyola portal (not NursingCAS). No application fee.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-061",
+      "title": "Loyola Chicago: No application fee",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-10-02",
+      "due_reason": "Loyola Chicago deadline",
+      "applies_to": [
+        "loyola-chicago"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-062",
+      "title": "Loyola Chicago: Science prereqs within 5 years",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-10-02",
+      "due_reason": "Loyola Chicago deadline",
+      "applies_to": [
+        "loyola-chicago"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-063",
+      "title": "Loyola Chicago: Dedicated enrollment advisor assigned",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-10-02",
+      "due_reason": "Loyola Chicago deadline",
+      "applies_to": [
+        "loyola-chicago"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-064",
+      "title": "Loyola Chicago: Prerequisite completion form required",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-10-02",
+      "due_reason": "Loyola Chicago deadline",
+      "applies_to": [
+        "loyola-chicago"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-065",
+      "title": "Submit NursingCAS application — Loyola New Orleans",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2026-11-01",
+      "due_reason": "Loyola New Orleans deadline",
+      "applies_to": [
+        "loyola-nola"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS undergraduate fee. Loyola supplemental fee appears $0. Note: ABSN page also links to grad.loyno.edu portal — may require both.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-066",
+      "title": "Pay Loyola New Orleans application fee ($65)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2026-11-01",
+      "due_reason": "Loyola New Orleans deadline",
+      "applies_to": [
+        "loyola-nola"
+      ],
+      "notes": "NursingCAS application. $65 NursingCAS undergraduate fee. Loyola supplemental fee appears $0. Note: ABSN page also links to grad.loyno.edu portal — may require both.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-067",
+      "title": "Loyola New Orleans: Ochsner Nurse Scholar application (separate, up to $30K with 3yr Ochsner commitment, opens May)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-10-02",
+      "due_reason": "Loyola New Orleans deadline",
+      "applies_to": [
+        "loyola-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-068",
+      "title": "Loyola New Orleans: Individualized gap analysis for plan of study",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-10-02",
+      "due_reason": "Loyola New Orleans deadline",
+      "applies_to": [
+        "loyola-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-069",
+      "title": "Loyola New Orleans: LSBN background check required for clinical courses",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-10-02",
+      "due_reason": "Loyola New Orleans deadline",
+      "applies_to": [
+        "loyola-nola"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-070",
+      "title": "Submit direct application — Ohio State",
+      "category": "application",
+      "status": "pending",
+      "due_date": "2027-01-09",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "Direct OSU portal (go.osu.edu/absn-admissions). $60 application fee.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-071",
+      "title": "Pay Ohio State application fee ($60)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": "2027-01-09",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "Direct OSU portal (go.osu.edu/absn-admissions). $60 application fee.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-072",
+      "title": "Write Ohio State essay: OSU supplemental essay 1",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2026-12-26",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-073",
+      "title": "Write Ohio State essay: OSU supplemental essay 2",
+      "category": "document",
+      "status": "pending",
+      "due_date": "2026-12-26",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-074",
+      "title": "Prepare for Ohio State interview",
+      "category": "application",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "Prepare: why this program, career goals, clinical interests.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-075",
+      "title": "Pay Ohio State enrollment deposit ($100)",
+      "category": "fee",
+      "status": "pending",
+      "due_date": null,
+      "due_reason": "14 days after admission decision (late March)",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "Non-refundable. 14 days after admission decision (late March)",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-076",
+      "title": "Ohio State: HireVue async video interview (3 questions, 1 attempt)",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-12-10",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-077",
+      "title": "Ohio State: No deferment permitted",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-12-10",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-078",
+      "title": "Ohio State: Mandatory May orientation",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-12-10",
+      "due_reason": "Ohio State deadline",
+      "applies_to": [
+        "ohio-state"
+      ],
+      "notes": "",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-079",
+      "title": "Check Emory application status",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-05-04",
+      "due_reason": "Periodic check",
+      "applies_to": [
+        "emory"
+      ],
+      "notes": "Program marked as NOT ACCEPTING as of Feb 2026. Check periodically for reopening.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
+      "completed_at": null
+    },
+    {
+      "id": "task-080",
+      "title": "Research OHSU next application cycle",
+      "category": "verification",
+      "status": "pending",
+      "due_date": "2026-02-17",
+      "due_reason": "Deadline passed — verify next cycle",
+      "applies_to": [
+        "ohsu-portland"
+      ],
+      "notes": "Previous deadline: 2026-01-05. Can apply while completing prerequisites. UPDATED: Portland has 3 starts (Summer/Fall/Winter). Winter 2027 starts Jan 4. Priority deadline Jan 5 2026 (confirm application cycle).. Check for next start date and updated deadline.",
+      "auto_generated": true,
+      "created_at": "2026-02-03",
       "completed_at": null
     }
   ],

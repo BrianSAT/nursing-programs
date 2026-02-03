@@ -118,6 +118,96 @@
           "type": "string",
           "format": "date",
           "description": "When this record was last verified/updated"
+        },
+
+        "application_requirements": {
+          "type": "object",
+          "description": "Structured application requirements for task generation",
+          "properties": {
+            "system": {
+              "type": "string",
+              "enum": ["nursingcas", "direct", "both"],
+              "description": "Application system used"
+            },
+            "system_notes": {
+              "type": "string",
+              "description": "Details about application system and fees breakdown"
+            },
+            "fee": {
+              "type": ["number", "null"],
+              "description": "Total application fee in USD"
+            },
+            "essays": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": { "type": "string", "enum": ["personal_statement", "supplemental"] },
+                  "label": { "type": "string" },
+                  "word_range": {
+                    "type": ["array", "null"],
+                    "items": { "type": "integer" },
+                    "minItems": 2,
+                    "maxItems": 2
+                  },
+                  "transferable": { "type": "boolean", "description": "Can be reused across programs" }
+                },
+                "required": ["type", "label", "transferable"]
+              }
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "count": { "type": "integer", "minimum": 0 },
+                "type": { "type": "string", "description": "letters, forms, or either" },
+                "notes": { "type": "string" }
+              },
+              "required": ["count"]
+            },
+            "resume": { "type": "boolean" },
+            "exam": {
+              "type": ["string", "null"],
+              "description": "Required entrance exam: teas, hesi, gre, teas_or_hesi, or null"
+            },
+            "certifications": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "Required certifications (e.g., bls)"
+            },
+            "background_check": { "type": "boolean" },
+            "immunizations": { "type": "boolean" },
+            "interview": {
+              "type": "string",
+              "enum": ["none", "required", "optional", "by_invitation"],
+              "description": "Interview requirement"
+            },
+            "deposit": {
+              "type": ["object", "null"],
+              "properties": {
+                "amount": { "type": "number" },
+                "timing": { "type": "string" },
+                "refundable": { "type": "boolean" }
+              }
+            },
+            "unique": {
+              "type": "array",
+              "items": { "type": "string" },
+              "description": "School-specific unique requirements"
+            },
+            "research_status": {
+              "type": "string",
+              "enum": ["complete", "partial", "pending"],
+              "description": "How thoroughly requirements have been researched"
+            },
+            "research_date": {
+              "type": "string",
+              "format": "date"
+            },
+            "research_source": {
+              "type": "string",
+              "description": "URL of primary source for requirements"
+            }
+          }
         }
       }
     }

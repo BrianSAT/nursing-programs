@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Nursing Program Evaluation Matrix** - a Node.js/Express web application for evaluating and comparing 74 nursing programs (58 ABSN, 10 DEMSN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM, 1 MEPN) for Spring 2027 entry. Replaces an Excel spreadsheet with a version-controlled, filterable web interface.
+**Nursing Program Evaluation Matrix** - a Node.js/Express web application for evaluating and comparing 101 nursing programs (79 ABSN, 14 DEMSN, 3 MEPN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM) for Spring 2027 entry. Replaces an Excel spreadsheet with a version-controlled, filterable web interface.
 
 ## Build Commands
 
@@ -33,7 +33,7 @@ public/
   js/courses.js         # My Courses side panel UI
   js/todos.js           # To Do side panel UI (task tracker)
 data/
-  programs.json         # 74 programs with scoring and verification data
+  programs.json         # 101 programs with scoring and verification data
   my-courses.json       # User's transcript + current/planned courses
   my-todos.json         # Tracked programs + consolidated task list
   prereq-map.json       # Maps prerequisites.extra strings → standardized tags
@@ -106,8 +106,8 @@ data/
 
 ## Data Notes
 
-- All 74 programs have scoring and verification data in `data/programs.json`
-- Program types: 58 ABSN, 10 DEMSN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM, 1 MEPN
+- All 101 programs have scoring and verification data in `data/programs.json`
+- Program types: 79 ABSN, 14 DEMSN, 3 MEPN, 2 MN, 1 DABSN, 1 AMNP, 1 GEM
 - Duplicate IDs exist: `rush` (GEM + DEMSN), `vanderbilt-mn` (MN + DEMSN)
 - Cost fields use Excel column names: `Mo. Burn`, `Schlrshp Amt`, `COL Index`
 - **Tuition rule:** Use in-state rates for Wisconsin and Texas schools only (user can establish residency). All other public schools use out-of-state rates. Private schools have no in-state/OOS distinction.
@@ -128,15 +128,53 @@ data/
 
 ```json
 {
-  "tracked_programs": ["uthealth-houston", "pitt", ...],
+  "tracked_programs": [
+    { "id": "u-miami", "app_status": "not_started" },
+    { "id": "pitt", "app_status": "in_progress" }
+  ],
   "tasks": [{
     "id": "task-001", "title", "category", "status",
     "due_date", "due_reason", "applies_to": ["program-id", ...],
     "notes", "auto_generated", "created_at", "completed_at"
   }],
-  "settings": { "transcript_lead_days": 21, "default_view": "timeline" }
+  "settings": { "transcript_lead_days": 4, "default_view": "timeline" }
 }
 ```
+
+Valid `app_status` values: `"not_started"`, `"in_progress"`, `"submitted"`, `"accepted"`, `"withdrawn"`
+
+**Note:** Frontend handles both string[] and object[] formats for backward compatibility.
+
+### application_requirements Structure (in programs.json)
+
+```json
+"application_requirements": {
+  "system": "nursingcas",
+  "system_notes": "NursingCAS $75 + school fee $50",
+  "fee": 125,
+  "essays": [
+    { "type": "personal_statement", "label": "Personal statement", "word_range": [250, 650], "transferable": true },
+    { "type": "supplemental", "label": "Why U Miami nursing?", "word_range": null, "transferable": false }
+  ],
+  "references": { "count": 2, "type": "letters", "notes": "Academic or professional" },
+  "resume": true,
+  "exam": "teas",
+  "certifications": ["bls"],
+  "background_check": true,
+  "immunizations": false,
+  "interview": "none",
+  "deposit": { "amount": 1000, "timing": "2 weeks post-admission", "refundable": false },
+  "unique": [],
+  "research_status": "complete",
+  "research_date": "2026-02-03",
+  "research_source": "https://..."
+}
+```
+
+- `system`: "nursingcas", "direct", or "both"
+- `exam`: "teas", "hesi", "teas_or_hesi", "gre", or null
+- `interview`: "none", "required", "optional", "by_invitation"
+- `research_status`: "complete", "partial", "pending"
 
 ### prereq-map.json Structure
 
@@ -255,7 +293,7 @@ This ensures that when sorting by "location", programs in regions with better NP
 |------|---------|
 | `data/programs.json` | Main program data with scores and verification |
 | `data/my-courses.json` | User's transcript (26 UW-Madison courses) + 7 current/planned courses |
-| `data/my-todos.json` | Tracked programs (10) + consolidated task list (15 auto-generated) |
+| `data/my-todos.json` | Tracked programs (12, with app_status) + granular task list (~80 auto-generated) |
 | `data/seed-todos.js` | Script to regenerate my-todos.json from programs.json |
 | `data/prereq-map.json` | Maps ~110 prerequisites.extra strings to standardized tags |
 | `data/regional-data.json` | Regional NP pathway viability data per metro area |
@@ -269,7 +307,7 @@ monthly_burn = (tuition + fees - scholarships + living_costs) / duration_months
 cost_score = max(0, 1 - monthly_burn / 10000)
 ```
 
-## Implementation Status (as of Feb 2, 2026)
+## Implementation Status (as of Feb 3, 2026)
 
 ### Just Completed: My Courses Panel + Plan-Fit Engine
 
@@ -277,7 +315,7 @@ Commit `653a336` — 9 files changed, 2789 insertions. All pushed to `origin/mas
 
 **What works:**
 - Server starts clean (`npm run dev`), all endpoints serve correctly
-- Plan-fit engine evaluates all 74 programs against user's course tags
+- Plan-fit engine evaluates all 101 programs against user's course tags
 - Engine tested via Node.js: 24 fits, 21 fall_required, 0 adjust, 29 ruled_out
 - CRUD API tested: POST creates course, DELETE removes it, both trigger JSON file writes
 - Side panel HTML/CSS is wired up, toggle button in header works
@@ -310,30 +348,79 @@ Commit `653a336` — 9 files changed, 2789 insertions. All pushed to `origin/mas
 ### Phase 1.7: To Do Tab — Task Tracker
 
 **What it does:**
-- "To Do" tab in side panel shows consolidated task list across 10 tracked programs
+- "To Do" tab in side panel shows consolidated task list across 12 tracked programs
 - Tasks aggregated by type: "Take TEAS exam" appears once (not per-program), due date driven by earliest needing program
 - Timeline view groups tasks into time buckets: Overdue, This Week, Next 2 Weeks, This Month, 2-3 Months, Later, No Date
-- Program filter dropdown shows only tasks relevant to a specific school
+- Program filter dropdown shows only tasks relevant to a specific school, with app_status badge
 - Task cards: checkbox toggle (pending/done), click to expand (notes, due date edit, status, applies-to list, delete)
 - Add Task form for custom tasks with category, due date, program multi-select
 - Stats bar: overdue count, due-soon count, total active tasks
+- App status tracking per school (not_started → in_progress → submitted → accepted/withdrawn)
 
 **Data model** (`data/my-todos.json`):
-- `tracked_programs`: array of 10 program IDs (top-ranked)
+- `tracked_programs`: array of 12 program objects `{ id, app_status }` (backward-compatible with string[])
 - `tasks`: array of task objects with id, title, category, status, due_date, due_reason, applies_to, notes, auto_generated
-- Categories: application, document, exam, verification, course, custom
+- Categories: application, document, exam, fee, verification, course, custom
 - Statuses: pending, in_progress, done, skipped
 
-**Auto-generated tasks** (via `node data/seed-todos.js`):
-- Cross-program: Take TEAS/HESI, transcripts (per institution), personal statement, BLS certification
-- Per-program: Submit application, verify requirements (if not verified)
-- Due dates computed from earliest applicable deadline minus lead days
+**Auto-generated tasks** (via `node data/seed-todos.js`, ~80 tasks):
+- Cross-program consolidated: TEAS exam, HESI A2, personal statement, resume/CV, BLS certification, transcripts (per institution), NursingCAS account setup, background check
+- Quantity-aware reference letters: #1 and #2 for all programs, #3 added when Rush (needs 3) deadline approaches
+- Per-school decomposed: Submit application (with system label), pay application fee ($amount), school-specific supplemental essays, interview prep, enrollment deposit, unique requirements
+- NOT ACCEPTING check: periodic verification task for Emory
+- Deadline roll-forward: verification task for OHSU (deadline passed >14 days)
+- Synthetic deadlines: rolling programs get start_date - 120 days
+
+**Lead days for due date computation:**
+
+| Component | Lead Days | Consolidation |
+|-----------|-----------|---------------|
+| Exams (TEAS/HESI) | 30 | One task, earliest requiring program |
+| Personal statement | 14 | One task, reusable across programs |
+| Resume/CV | 14 | One task, reusable |
+| BLS certification | 30 | One task, earliest requiring program |
+| Transcripts | 4 | One per institution, earliest deadline |
+| Reference letters | 30 | Quantity-aware: incremental by deadline |
+| NursingCAS setup | 14 | One task, earliest NursingCAS program |
+| Background check | 14 | One task if any program requires it |
+| Supplemental essays | 14 | One per school-specific essay |
 
 **Architecture:**
 - Panel toggle and tab switching managed globally in app.js (`togglePanel()`, `switchPanelTab()`)
 - CoursesPanel.togglePanel() delegates to global togglePanel()
 - TodoPanel IIFE (todos.js) mirrors CoursesPanel pattern
 - API: `/api/todos` CRUD routes in `src/routes/todos.js`
+- `application_requirements` added to 12 programs in programs.json (structured data for task generation)
+- Seed script reads `application_requirements` with fallback to `prerequisites.extra` regex matching
+
+### Phase 1.8: Application Component Decomposition (Just Completed)
+
+Broke down monolithic "Submit application" tasks into granular, actionable components for top 12 programs.
+
+**What changed:**
+- `programs.json`: Added `application_requirements` to 12 programs (U Miami, UTHealth Houston, Emory, Research College KC, Loyola Chicago, OHSU, Ohio State, Pitt, Tulane, SLU, Loyola NOLA, Rush)
+- `seed-todos.js`: Major rewrite — reads structured `application_requirements`, generates ~80 granular tasks with cross-program consolidation and quantity-aware scheduling
+- `my-todos.json`: Regenerated with 80 tasks, `tracked_programs` now objects with `app_status`
+- `todos.js`: Added fee category, app_status tracking UI, backward-compatible tracked_programs handling
+- `schema.json`: Added `application_requirements` definition
+- `CLAUDE.md`: Updated documentation
+
+**Tracked programs (Cohort Ranks 1-12):**
+
+| # | Program | ID | Deadline | Status |
+|---|---------|-----|----------|--------|
+| 1 | U Miami | u-miami | Oct 1, 2026 | Active |
+| 2 | UTHealth Houston | uthealth-houston | Sep 1, 2026 | Active |
+| 3 | Emory | emory | Sep 1, 2026 | NOT ACCEPTING |
+| 4 | Research College KC | research-college-kc | Sep 1, 2026 | Active |
+| 5 | Loyola Chicago | loyola-chicago | Nov 1, 2026 | Active |
+| 6 | OHSU | ohsu-portland | Jan 5, 2026 | Deadline passed |
+| 7 | Ohio State | ohio-state | Jan 9, 2027 | Active |
+| 8 | Pitt | pitt | Aug 15, 2026 | Active (rolling) |
+| 9 | Tulane | tulane-nola | Mar 15, 2026 | Active (urgent) |
+| 10 | SLU | slu-stlouis | Rolling (~Sep 17) | Active |
+| 11 | Loyola NOLA | loyola-nola | Nov 1, 2026 | Active |
+| 12 | Rush | rush | Oct 19, 2026 | Active |
 
 ## Next Phases
 
