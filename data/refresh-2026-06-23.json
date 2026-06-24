@@ -1,0 +1,2650 @@
+[
+  {
+    "id": "uthealth-houston",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-09-01",
+    "start_date": "2027-01-15",
+    "duration_months": 15,
+    "tuition_total": 18000,
+    "tuition_basis": "in-state",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "American Government, Texas Government, U.S. History (Texas core curriculum) required of all applicants",
+    "us_news_note": "Cizik BSN ranked No. 1 in Texas; tied No. 26 nationally (US News 2025 edition); top 5% of schools",
+    "national_percentile": 0.95,
+    "confidence": "high",
+    "changed": [
+      "scholarship_amt",
+      "prereqs_additional",
+      "national_percentile",
+      "us_news_note"
+    ],
+    "sources": [
+      "https://nursing.uth.edu/programs/bsn/pacesetter/",
+      "https://nursing.uth.edu/programs/application-deadlines",
+      "https://nursing.uth.edu/financial/future-nurses-fund"
+    ],
+    "notes": "Future Nurses Fund may make tuition+fees FREE for qualifying TX residents (AGI <$100k, no prior bachelor-s, 3.0 prereq GPA, auto via FAFSA) — conditional/residency+income-gated, so scholarship_amt set to 0 for cost scoring. Verify eligibility; could be a near-free option if you establish TX residency. Pacesetter ABSN active with an open Spring 2027 cohort (15-month/60-credit). New Future Nurses Fund (Spring 2026) makes tuition+fees free for TX residents with AGI <$100k, full-time, no prior bachelor's, 3.0 prereq GPA. Bursar tuition page 403; baseline in-state tuition retained."
+  },
+  {
+    "id": "emory",
+    "still_active": false,
+    "accepting_spring_2027": false,
+    "deadline": "2026-08-01",
+    "start_date": "2027-08-15",
+    "duration_months": 12,
+    "tuition_total": 70300,
+    "tuition_basis": "private-flat",
+    "fees": 2248,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026: Emory BSN ranked No. 2 nationally; master's programs No. 1",
+    "national_percentile": 0.99,
+    "confidence": "medium",
+    "changed": [
+      "still_active",
+      "accepting_spring_2027",
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "scholarship_amt",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.nursing.emory.edu/pages/application-deadlines",
+      "https://www.nursing.emory.edu/academics-and-admissions",
+      "https://www.nursing.emory.edu/pages/tuition-financial-aid-and-scholarships"
+    ],
+    "notes": "DABSN/accelerated distance BSN no longer on Emory's current program pages (old DABSN page 404s; site lists only Traditional BSN + BSN Transfer) — appears discontinued/restructured. No Spring 2027 BSN intake; next BSN cohort Fall 2027 (Round 1 deadline Aug 1, 2026)."
+  },
+  {
+    "id": "research-college-kc",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-01",
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 45000,
+    "tuition_basis": "private-flat",
+    "fees": 4670,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Pathophysiology; non-nursing bachelor's degree required; ATI TEAS Proficient within 24 months; GPA 3.0+",
+    "us_news_note": "No standalone US News national BSN ranking for this small private college",
+    "national_percentile": 0.6,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees",
+      "deadline",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://researchcollege.edu/programs/accelerated-bsn/",
+      "https://researchcollege.edu/admission/",
+      "https://researchcollege.edu/admission/tuition/"
+    ],
+    "notes": "ABSN is a 12-month, 53-credit program with January and May starts; Jan 2027 (Spring) cohort deadline Oct 1, 2026. Official estimated total cost is $49,670 ($675/credit + fees); baseline was too low. HCA Work Loan Forgiveness ($30,375) is conditional on 2-year work commitment, not a standard scholarship."
+  },
+  {
+    "id": "loyola-chicago",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-15",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 72120,
+    "tuition_basis": "private-flat",
+    "fees": 2200,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Jesuit core: theology/religious knowledge (3cr), philosophical knowledge (3cr), historical or literary inquiry (3cr); science prereqs within 5 years",
+    "us_news_note": "US News 2026 BSN: #13 nationally, top 2% of 686 programs, 4th among private universities",
+    "national_percentile": 0.98,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.luc.edu/nursing/admission/apply/absn/",
+      "https://www.luc.edu/bursar/tuitionfees/2026-2027/absn/"
+    ],
+    "notes": "Active private 16-month ABSN with both Aug (Fall) and Jan (Spring) cohorts; Spring deadline Nov 15 (not Nov 1). 2026-2027 tuition $72,120 total ($18,030/term x4), far above $45,000 baseline; fees ~$2,200. US News BSN #13."
+  },
+  {
+    "id": "ohsu-portland",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": null,
+    "start_date": "2027-01-04",
+    "duration_months": 15,
+    "tuition_total": 58752,
+    "tuition_basis": "out-of-state",
+    "fees": 65,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "OHSU unranked in US News Best Nursing Schools (Master's); #33 (tie) DNP; specialty strength (#3 Nurse-Midwifery)",
+    "national_percentile": 0.8,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "deadline",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://www.ohsu.edu/school-of-nursing/accelerated-bachelor-science-programs",
+      "https://www.ohsu.edu/school-of-nursing/admissions"
+    ],
+    "notes": "OHSU runs a 15-month Accelerated B.S. (prior non-nursing degree required); Portland has a Winter 2027 intake, but its application cycle (priority Jan 5, 2026) is CLOSED and reopens Aug 2026, so NOT currently accepting for the Jan 2027 cohort. Out-of-state $816/credit x 72 = $58,752; only $65 application fee published."
+  },
+  {
+    "id": "ohio-state",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-09",
+    "start_date": "2027-05-15",
+    "duration_months": 18,
+    "tuition_total": 101600,
+    "tuition_basis": "out-of-state",
+    "fees": 6800,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "BSN ranks #1 among public institutions and #4 overall (US News 2026, third consecutive year)",
+    "national_percentile": 0.99,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027",
+      "tuition_total",
+      "fees",
+      "scholarship_amt",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.osu.edu/academics/undergraduate/accelerated-bachelor-science-nursing/admissions",
+      "https://registrar.osu.edu/student-hub/tuition-and-fees/undergraduate-tuition-and-fees/undergraduate-fees-students-that-began-summer-2025-or-after/"
+    ],
+    "notes": "ABSN is SUMMER-ENTRY ONLY, admitted once per year; no Spring/January 2027 cohort. Next intake Summer 2027 (apps open Oct 1, 2026). Out-of-state tuition from registrar non-resident nursing rate ($1,721.96/cr x 59 cr)."
+  },
+  {
+    "id": "pitt",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-08-15",
+    "start_date": "2027-01-11",
+    "duration_months": 12,
+    "tuition_total": 79431,
+    "tuition_basis": "out-of-state",
+    "fees": 2655,
+    "scholarship_amt": 8000,
+    "prereqs_additional": "Genetics, Pathophysiology",
+    "us_news_note": "BSN tied #8 nationally (US News 2026 Best Undergraduate Nursing, Sept 2025)",
+    "national_percentile": 0.98,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees",
+      "scholarship_amt",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.nursing.pitt.edu/academics/accelerated-2nd-degree-bsn-absn/",
+      "https://www.tuition.pitt.edu/undergraduate/tuition/pittsburgh/school-nursing"
+    ],
+    "notes": "Out-of-state tuition recomputed $26,477/term x 3 = $79,431 (54 credits, ~12 months); fees $885/term x 3 = $2,655; both higher than baseline. Spring/January 2027 cohort active (deadline Aug 15, start Jan 11). Conway scholarship ~$8,000/yr. BSN #8 nationally."
+  },
+  {
+    "id": "tulane-nola",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": null,
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 64980,
+    "tuition_basis": "private-flat",
+    "fees": 4300,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Tulane BSN launched Fall 2024, no dedicated US News BSN ranking yet; Tulane University #69/436 National Universities (2026)",
+    "national_percentile": 0.85,
+    "confidence": "high",
+    "changed": [
+      "deadline"
+    ],
+    "sources": [
+      "https://nursing.tulane.edu/affordability",
+      "https://nursing.tulane.edu/program-overview"
+    ],
+    "notes": "Tulane ABSN active (launched Fall 2024), 16 months, admits 3x/yr (Fall/Spring/Summer) so Jan 2027 Spring cohort available; tuition ($64,980, 60 credits @ $1,083) and fees ($4,300) confirmed. Deadlines not published (rolling), so baseline 2026-03-15 changed to null."
+  },
+  {
+    "id": "slu-stlouis",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": null,
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 51940,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Theology/Religion (3cr), Philosophy/Ethics (3cr), Fine Arts (3cr), humanities elective; English Comp II and Oral Communication; prereqs grade C or higher",
+    "us_news_note": "US News 2026: SLU nursing Master's No. 61/146, DNP No. 97/159; SLU cites undergrad BSN top 7% (No. 43 of 694)",
+    "national_percentile": 0.93,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.slu.edu/nursing/degrees/undergraduate/nursing-bs-accelerated.php",
+      "https://catalog.slu.edu/colleges-schools/nursing/nursing-bs-accelerated/"
+    ],
+    "notes": "Official page confirms rolling admission (no deadline), fall AND spring starts (Spring 2027 available), 12-month/3-semester, total tuition $51,940 (49 credits x $1,060). Fees not published so baseline $3,000 retained at lower confidence."
+  },
+  {
+    "id": "loyola-nola",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-01",
+    "start_date": "2027-01-15",
+    "duration_months": 17,
+    "tuition_total": 51300,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No US News BSN/undergraduate ranking found; ranked only for online graduate (MSN) nursing (~No. 48)",
+    "national_percentile": 0.55,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "duration_months"
+    ],
+    "sources": [
+      "https://www.loyno.edu/academics/colleges/college-nursing-health/accelerated-bachelor-science-nursing-hybrid",
+      "https://bulletin.loyno.edu/undergraduate/cnh/nursing"
+    ],
+    "notes": "Active hybrid ABSN, 54 credits over 17 months with Jan and Aug starts; Jan 2027 (Spring) cohort open, Nov 1 deadline. Tuition per-credit ($950 x 54 = $51,300), materially higher than $27,804 baseline. No guaranteed institutional scholarship."
+  },
+  {
+    "id": "rush",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-19",
+    "start_date": "2027-01-04",
+    "duration_months": 24,
+    "tuition_total": 85396,
+    "tuition_basis": "private-flat",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026: Master's No. 29 (tie)/147; Online Master's #9/201; DNP #3",
+    "national_percentile": 0.8,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.rushu.rush.edu/college-nursing/programs-admissions/masters-entry-nursing-msn-non-nurses",
+      "https://www.rushu.rush.edu/student-life/student-affairs/student-business-office/tuition/2026-2027-tuition-rates"
+    ],
+    "notes": "GEM (Direct Entry MSN for non-nurses, Clinical Nurse Leader) active with a Spring 2027 cohort: deadline Oct 19, 2026, start Jan 4, 2027. Total tuition 74 term hours x $1,154/credit (2026-2027) = $85,396, up from baseline; fees not confirmed so baseline retained."
+  },
+  {
+    "id": "uw-seattle",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-15",
+    "start_date": "2027-03-29",
+    "duration_months": 12,
+    "tuition_total": 53720,
+    "tuition_basis": "in-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "100+ hrs paid/volunteer healthcare experience within 12 mo of applying; 3.0 GPA in natural-science prereqs",
+    "us_news_note": "Ranked #8 (tie) in 2026 Best Undergraduate Nursing (BSN)",
+    "national_percentile": 0.99,
+    "confidence": "high",
+    "changed": [
+      "start_date",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.uw.edu/academics/accelerated-bsn/",
+      "https://nursing.uw.edu/admissions/costs/"
+    ],
+    "notes": "ABSN is fee-based flat PCE rate (same regardless of residency); latest posted Spring 2026 rate $13,430/qtr x4 = $53,720; Spring 2027 rate not yet published and may rise. Spring cohort begins UW Spring quarter (~late Mar 2027), not Jan."
+  },
+  {
+    "id": "duquesne-pittsburgh",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-06-01",
+    "start_date": "2027-08-15",
+    "duration_months": 12,
+    "tuition_total": 68742,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 30000,
+    "prereqs_additional": "Human Growth & Development across lifespan; Nutrition",
+    "us_news_note": "Ranked #74 (tie) in 2026 Best Undergraduate Nursing (BSN)",
+    "national_percentile": 0.89,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.duq.edu/academics/colleges-and-schools/nursing/undergraduate-programs/second-degree-bsn/admissions.php",
+      "https://www.duq.edu/admission-and-aid/tuition-and-fees/undergraduate-tuition-and-fees-rates.php"
+    ],
+    "notes": "Fall-only (August start); NO Spring 2027 cohort - next available Fall 2027 (~Aug 2027). 12-month track tuition $22,914/term x3 = $68,742, up from $55,976. Up to $30,000 Discover Award + Conway Scholars."
+  },
+  {
+    "id": "musc",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-09-01",
+    "start_date": "2027-01-04",
+    "duration_months": 16,
+    "tuition_total": 58060,
+    "tuition_basis": "out-of-state",
+    "fees": 2400,
+    "scholarship_amt": 500,
+    "prereqs_additional": "",
+    "us_news_note": "No. 45 (tie)/147 in US News Best Nursing Schools: Master's (2026)",
+    "national_percentile": 0.69,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "prereqs_additional",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.musc.edu/admissions/application-process/accelerated-bsn",
+      "https://education.musc.edu/admissions-aid/tuition-fees/2025-26"
+    ],
+    "notes": "Spring 2027 active: priority deadline Sep 1, 2026 (standard Oct 1). Out-of-state $14,515/sem x4 = $58,060. English Comp required only for applicants without prior bachelor's, so dropped for direct-entry ABSN. $500 scholarship retained at lower confidence."
+  },
+  {
+    "id": "u-cincinnati",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-09-15",
+    "start_date": "2027-01-11",
+    "duration_months": 20,
+    "tuition_total": 71140,
+    "tuition_basis": "out-of-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Pathophysiology, Pharmacology (nursing component; pharmacology within 1 yr of application)",
+    "us_news_note": "No. 41 (tie)/147 in US News Best Nursing Schools: Master's (2026)",
+    "national_percentile": 0.72,
+    "confidence": "high",
+    "changed": [
+      "tuition_total"
+    ],
+    "sources": [
+      "https://www.nursing.uc.edu/academic-programs/accelerated-direct-entry-msn/admissions.html",
+      "https://www.nursing.uc.edu/academic-programs/accelerated-direct-entry-msn/tuition-fees.html"
+    ],
+    "notes": "Spring 2027 confirmed: deadline Sep 15, 2026, start Jan 11, 2027. 64-credit, 5 full-time semesters; out-of-state $14,228/sem x5 = $71,140 (up from $58,337 in-state/older)."
+  },
+  {
+    "id": "csu-cleveland",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-06-01",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 30885,
+    "tuition_basis": "out-of-state",
+    "fees": 8432,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No distinct US News BSN rank located for CSU's undergraduate BSN",
+    "national_percentile": 0.55,
+    "confidence": "high",
+    "changed": [],
+    "sources": [
+      "https://health.csuohio.edu/undergraduate-programs/accelerated-bsn-program",
+      "https://onlinelearning.csuohio.edu/tuition"
+    ],
+    "notes": "In-person ABSN unchanged: June 1 deadline, January (Spring) start, 4 consecutive semesters (~16 mo). Out-of-state tuition $30,885 and fees $8,432 confirmed (rates 8/28/2025)."
+  },
+  {
+    "id": "umd-baltimore",
+    "still_active": false,
+    "accepting_spring_2027": true,
+    "deadline": "2026-09-01",
+    "start_date": "2027-01-15",
+    "duration_months": 20,
+    "tuition_total": 106795,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Science courses within last 10 years; nutrition + human growth/development required",
+    "us_news_note": "No. 17/147 in US News 2026 Best Nursing Schools: Master's",
+    "national_percentile": 0.88,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "duration_months",
+      "tuition_total",
+      "national_percentile",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.nursing.umaryland.edu/academics/grad/msn-entry-into-nursing/",
+      "https://www.nursing.umaryland.edu/admissions/apply/"
+    ],
+    "notes": "MATERIAL CHANGE: UMSON offers NO bachelor's-level accelerated second-degree ABSN; figures reflect the MSN Entry-into-Nursing (master's), the only second-degree pathway. Spring 2027 open (Priority Jul 15, 2026; Regular Sep 1). Out-of-state $1,643/cr x65 = $106,795."
+  },
+  {
+    "id": "memphis-absn",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-15",
+    "start_date": "2027-08-15",
+    "duration_months": 16,
+    "tuition_total": 35100,
+    "tuition_basis": "out-of-state",
+    "fees": 5000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Loewenberg #41/201 Best Online Master's; undergraduate BSN not separately ranked",
+    "national_percentile": 0.5,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total"
+    ],
+    "sources": [
+      "https://www.memphis.edu/nursing/program-admit/accelerated-bsn/absnprogram.php",
+      "https://www.memphis.edu/usbs/fees/2526fees/ug_nonresident.pdf"
+    ],
+    "notes": "Fall-only; NO Spring 2027 cohort. Next Fall 2027 (apply Sep 15, 2026 - Feb 15, 2027; start ~Aug 2027). Out-of-state 60 nursing credits x $585/cr = $35,100 (prior $15,384 was in-state)."
+  },
+  {
+    "id": "depaul",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2027-01-15",
+    "start_date": "2027-01-04",
+    "duration_months": 24,
+    "tuition_total": 91164,
+    "tuition_basis": "private-flat",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Inorganic chem w/lab + one of organic chem OR biochemistry OR microbiology w/lab (all w/labs, within 7 yrs)",
+    "us_news_note": "No. 103/147 in US News Best Nursing Schools: Master's (2026)",
+    "national_percentile": 0.3,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total",
+      "prereqs_additional",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.depaul.edu/academics/programs/nursing-menp/admission",
+      "https://www.depaul.edu/tuition-and-aid/graduate-and-professional-tuition-and-fees"
+    ],
+    "notes": "Accelerated MENP starts all 4 quarters incl Winter (~early Jan), so ~Jan 2027 entry is the Winter quarter (deadline Jan 15). Tuition restated to TOTAL program: 107 qtr credits x $852/cr = $91,164 (prior $45,857 was annual)."
+  },
+  {
+    "id": "utk",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-12-01",
+    "start_date": "2027-06-01",
+    "duration_months": 12,
+    "tuition_total": 57806,
+    "tuition_basis": "out-of-state",
+    "fees": 3216,
+    "scholarship_amt": 12776,
+    "prereqs_additional": "Separate Anatomy & Physiology (not combined)",
+    "us_news_note": "UTK College of Nursing ~No. 47 (tie)/147 US News Best Nursing Schools: DNP (2026)",
+    "national_percentile": 0.68,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "scholarship_amt",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.utk.edu/undergraduate-programs/accelerated-bachelor-of-science-in-nursing-absn/",
+      "https://nursing.utk.edu/undergraduate-tuition-fees/"
+    ],
+    "notes": "ABSN is SUMMER-ONLY (12 mo, 47 cr); NO Spring 2027/January cohort. Next cohort Summer 2027 (~June 1), deadline Dec 1, 2026. Out-of-state recomputed = $57,806. New $12,776 ABSN Scholars (UTMC) scholarship."
+  },
+  {
+    "id": "uab-birmingham",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-08-31",
+    "start_date": "2027-01-13",
+    "duration_months": 12,
+    "tuition_total": 92568,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "College-level math (Pre-Calculus, Finite Math, or higher)",
+    "us_news_note": "UAB No. 8 (tie)/147 US News 2026 Best Nursing Schools: Master's (also No. 9 DNP)",
+    "national_percentile": 0.95,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.uab.edu/nursing/home/academics/masters/amnp",
+      "https://www.uab.edu/cost-aid/cost/detailed-tuition-fees"
+    ],
+    "notes": "AMNP confirmed Spring/January-start ONLY, 3 semesters, 58 credit hours. Spring 2027 deadlines: priority Jun 1, 2026 / regular Aug 31, 2026. Out-of-state 2026-27 non-resident $1,596/cr x58 = $92,568."
+  },
+  {
+    "id": "spu-seattle",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-01-15",
+    "start_date": "2027-01-15",
+    "duration_months": 15,
+    "tuition_total": 48000,
+    "tuition_basis": "private-flat",
+    "fees": 921,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "SPU not individually ranked in US News 2026 Best BSN list",
+    "national_percentile": 0.55,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "fees"
+    ],
+    "sources": [
+      "https://spu.edu/academics/college-applied-natural-sciences/undergraduate-programs/nursing/bsn-application-instructions",
+      "https://spu.edu/student-financial-services/costs/undergrad-tuition-fees/20267-undergrad-tuition-fees"
+    ],
+    "notes": "Post-baccalaureate/second-degree BSN with Autumn and Winter (~January) starts, so a Winter/Spring 2027 cohort is available. Official deadline Jan 15 (not Mar 1); 2026-27 mandatory fees ~$921/yr."
+  },
+  {
+    "id": "uw-madison",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-09-15",
+    "start_date": "2027-05-15",
+    "duration_months": 12,
+    "tuition_total": 45000,
+    "tuition_basis": "in-state",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Ranked #8 of 686 BSN programs in 2026 US News (top tier)",
+    "national_percentile": 0.99,
+    "confidence": "high",
+    "changed": [
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.wisc.edu/undergraduate/bsn-accelerated/",
+      "https://nursing.wisc.edu/tuition-fees/"
+    ],
+    "notes": "12-month ABSN, flat $45,000 in-state. Single cohort/yr starts early May (apply May 1-Sep 15), so no ~Jan/Spring 2027 entry; next start May 2027. Now #8/686 in 2026 US News."
+  },
+  {
+    "id": "stedwards-austin",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-05-31",
+    "start_date": "2026-08-15",
+    "duration_months": 13,
+    "tuition_total": 54978,
+    "tuition_basis": "private-flat",
+    "fees": 3738,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "BSN (CCNE-accredited, newer) not individually ranked; university #5 Best Regional Universities West",
+    "national_percentile": 0.65,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://www.stedwards.edu/academics/programs/nursing-accelerated-bsn",
+      "https://www.stedwards.edu/cost-aid/undergraduate-tuition-fees"
+    ],
+    "notes": "ABSN is FALL-ONLY, so no Spring 2027 entry; next cohort Fall 2026 (~mid-Aug), deadline May 31, 2026. Tuition $1,078/credit x 51 = $54,978; program fees ~$3,738. Post-bacc students do not qualify for merit scholarships."
+  },
+  {
+    "id": "xavier-cincinnati",
+    "still_active": false,
+    "accepting_spring_2027": false,
+    "deadline": "2026-04-15",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 56700,
+    "tuition_basis": "private-flat",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Xavier University ranked #135 in Nursing (BSN) in 2026 US News",
+    "national_percentile": 0.8,
+    "confidence": "medium",
+    "changed": [
+      "still_active",
+      "accepting_spring_2027",
+      "tuition_total",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.xavier.edu/financial-aid/absn/absn-cost",
+      "https://www.xavier.edu/college-of-nursing/"
+    ],
+    "notes": "The CINCINNATI ABSN site is no longer active: Xavier now lists only Columbus and Cleveland as enrolling locations. A Jan 2027 cohort would be at Columbus/Cleveland, NOT Cincinnati. Now #135/686 in 2026 US News."
+  },
+  {
+    "id": "carlow-pittsburgh",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": null,
+    "start_date": "2026-08-15",
+    "duration_months": 15,
+    "tuition_total": 43785,
+    "tuition_basis": "private-flat",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Pathophysiology",
+    "us_news_note": "Not ranked in US News Best BSN top list",
+    "national_percentile": 0.6,
+    "confidence": "medium",
+    "changed": [
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.carlow.edu/academic-programs/nursing-degrees/nursing-major-second-degree/",
+      "https://www.carlow.edu/admissions-aid/tuition-financial-aid/tuition-fees-25-26/"
+    ],
+    "notes": "Active 15-month Second-Degree BSN, Fall-only via rolling admissions, so no Spring 2027 cohort; next start August. Official tuition $695/credit x 63 = $43,785 (matches baseline); Pathophysiology required beyond standard."
+  },
+  {
+    "id": "creighton",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-01",
+    "start_date": "2027-01-04",
+    "duration_months": 12,
+    "tuition_total": 55425,
+    "tuition_basis": "private-flat",
+    "fees": 5500,
+    "scholarship_amt": 500,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026 #40 Best Undergraduate Nursing (BSN), top ~6%",
+    "national_percentile": 0.95,
+    "confidence": "high",
+    "changed": [
+      "prereqs_additional",
+      "national_percentile",
+      "us_news_note"
+    ],
+    "sources": [
+      "https://www.creighton.edu/cost-aid/find-costs/nursing-absn-costs",
+      "https://www.creighton.edu/academics/programs/accelerated-bachelor-science-nursing-absn"
+    ],
+    "notes": "January (Spring 2027) cohort confirmed; final deadline Oct 1, 2026 (priority Sept 1). Official prereqs require General Chemistry but NOT organic/biochemistry, so baseline 'Organic/Biochemistry' removed. US News #40 BSN."
+  },
+  {
+    "id": "iu-indianapolis",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-15",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 72000,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026 #13 Best Undergraduate Nursing (BSN), up 26 spots; #1 in Indiana",
+    "national_percentile": 0.98,
+    "confidence": "medium",
+    "changed": [
+      "national_percentile",
+      "us_news_note"
+    ],
+    "sources": [
+      "https://nursing.iu.edu/indianapolis/admissions/bsn/accelerated.html",
+      "https://nursing.iu.edu/about/rankings-stats.html"
+    ],
+    "notes": "IU Indianapolis (formerly IUPUI) ABSN active with a Spring cohort: apply Jul 15-Nov 15, classes begin January, 4 semesters incl summer. No single official program-total tuition figure; baseline $72,000 retained. US News 2026 BSN #13."
+  },
+  {
+    "id": "u-miami",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-01",
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 43260,
+    "tuition_basis": "private-flat",
+    "fees": 1440,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Undergrad BSN not separately ranked in US News 2026; graduate DNP #25 and MSN #26 (2026)",
+    "national_percentile": 0.8,
+    "confidence": "high",
+    "changed": [],
+    "sources": [
+      "https://www.sonhs.miami.edu/academics/bachelors-programs/accelerated_bsn/admissions/index.html",
+      "https://www.sonhs.miami.edu/academics/bachelors-programs/accelerated_bsn/cost-of-study/index.html"
+    ],
+    "notes": "Confirmed: Spring 2027 (January) start with Oct 1, 2026 deadline; 55-credit, 3-semester program at $43,260 tuition + $1,440 nursing fees. All required prereqs within standard set. Baseline matches current facts."
+  },
+  {
+    "id": "buffalo-absn",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-10-01",
+    "start_date": "2027-05-15",
+    "duration_months": 12,
+    "tuition_total": 62000,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026 Best BSN: #59 of 686 (top ~9%)",
+    "national_percentile": 0.91,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "tuition_total",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.buffalo.edu/admissions/undergraduate/absn.html",
+      "https://nursing.buffalo.edu/admissions/undergraduate/tuition-aid.html"
+    ],
+    "notes": "Program is SUMMER-ONLY (begins mid-May, 1-year/4-semester); NO January/Spring cohort. Next cohort Summer 2027 (mid-May), priority deadline Oct 1, 2026. Out-of-state ~$62,000 (up from $38,000). US News 2026 #59/686."
+  },
+  {
+    "id": "christ-college-dayton",
+    "still_active": true,
+    "accepting_spring_2027": "unknown",
+    "deadline": "2026-04-01",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 42700,
+    "tuition_basis": "private-flat",
+    "fees": 1500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "pathophysiology or pharmacology",
+    "us_news_note": "US News 2026 Best BSN: #624 of 686 (lower range)",
+    "national_percentile": 0.09,
+    "confidence": "low",
+    "changed": [
+      "duration_months",
+      "prereqs_additional",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://thechristcollege.edu/accelerated-nursing/",
+      "https://thechristcollege.edu/wp-content/uploads/2025/05/Tuition-and-Fees-2025-2026-BSN-and-ABSN-ver-FINAL.pdf"
+    ],
+    "notes": "Official 2025-2026 tuition PDF confirms ABSN = 70 credit hours x $610 = $42,700; fees ~$1,500. Program 15-16 months/4 semesters. Cohort start months and deadlines NOT published publicly, so Spring 2027 start unconfirmed (low confidence). US News 2026 #624/686."
+  },
+  {
+    "id": "roseman-slc",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-01",
+    "start_date": "2027-01-20",
+    "duration_months": 18,
+    "tuition_total": 65600,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Nursing programs unranked in US News; only Pharmacy ranked",
+    "national_percentile": 0.5,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total"
+    ],
+    "sources": [
+      "https://www.roseman.edu/academic-programs/college-of-nursing/accelerated-bachelor-of-science-in-nursing/",
+      "https://www.roseman.edu/about/university-service-units/bursar/tuition-fees/"
+    ],
+    "notes": "Tuition jumped $51k->$65,600 (FY2026-27 Bursar); deadline moved Apr 1->Nov 1. Spring 2027 (Jan) cohort is Hybrid-Online only; on-campus starts are Fall."
+  },
+  {
+    "id": "mercer",
+    "still_active": true,
+    "accepting_spring_2027": "unknown",
+    "deadline": "2026-11-01",
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 61773,
+    "tuition_basis": "private-flat",
+    "fees": 2850,
+    "scholarship_amt": 0,
+    "prereqs_additional": "TEAS 76% composite min; Pathophysiology; Abnormal Psychology",
+    "us_news_note": "Best Nursing Schools: Master's #89/146 (2026)",
+    "national_percentile": 0.39,
+    "confidence": "high",
+    "changed": [
+      "fees",
+      "scholarship_amt",
+      "prereqs_additional",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://absn.mercer.edu/absn-admissions/tuition/",
+      "https://absn.mercer.edu/absn-admissions/prerequisites/"
+    ],
+    "notes": "Tuition unchanged ($61,773); fees up to $2,850; no standard scholarship on official pages (baseline $500 dropped). TEAS 76% confirmed; Pathophysiology and Abnormal Psychology now listed. Three starts/year (Jan/May/Aug); Nov 1 = Jan-start deadline but no year-stamped 2027 confirmation."
+  },
+  {
+    "id": "northeastern",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-15",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 88768,
+    "tuition_basis": "private-flat",
+    "fees": 0,
+    "scholarship_amt": 16500,
+    "prereqs_additional": "",
+    "us_news_note": "No standalone undergrad BSN rank; Bouve #75/147 US News Best Nursing Schools: Master's",
+    "national_percentile": 0.49,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total",
+      "scholarship_amt",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://absn.northeastern.edu/admission/tuition-and-fees/",
+      "https://absn.northeastern.edu/accelerated-bsn/"
+    ],
+    "notes": "ABSN (second-degree, Boston-area, 16-mo) active and distinct from direct-entry MSN. Tuition up to $88,768 (64 cr x $1,387); scholarship up to $16,500. Deadline (Nov 15) and start (Jan 15) rule-derived from rolling Jan/May/Sep cadence."
+  },
+  {
+    "id": "concordia-st-paul",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": null,
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 64050,
+    "tuition_basis": "private-flat",
+    "fees": 3434,
+    "scholarship_amt": 4000,
+    "prereqs_additional": "TEAS exam (min 65%)",
+    "us_news_note": "",
+    "national_percentile": 0.55,
+    "confidence": "high",
+    "changed": [
+      "fees",
+      "scholarship_amt"
+    ],
+    "sources": [
+      "https://absn.csp.edu/admissions/tuition/",
+      "https://absn.csp.edu/admissions/application-process/"
+    ],
+    "notes": "ABSN active in St. Paul MN with three yearly starts (Jan/May/Sep); Jan 2027 cohort accepting. Tuition unchanged $64,050. Fees updated to $3,434; NEW $4,000 St. Paul scholarship on acceptance. Rolling admissions; TEAS (65% min) required."
+  },
+  {
+    "id": "unm-albuquerque",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-04-01",
+    "start_date": "2026-08-17",
+    "duration_months": 16,
+    "tuition_total": 77506,
+    "tuition_basis": "out-of-state",
+    "fees": 6782,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Pathophysiology I & II (NURS 2239/2240)",
+    "us_news_note": "US News 2026: #118 (tie) Best Nursing Schools (undergraduate BSN)",
+    "national_percentile": 0.83,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://hsc.unm.edu/nursing/programs/bsn/pre-licensure/absn/",
+      "https://hsc.unm.edu/nursing/admissions/tuition/"
+    ],
+    "notes": "ABSN is FALL-ONLY (16-mo); single annual window Nov 1-Apr 1, so NO Spring/Jan 2027 cohort. Next window Nov 1 2026-Apr 1 2027 for Fall 2027 start. Non-resident TOTAL program cost $77,506 includes the $6,782 fees. Pathophysiology I & II confirmed."
+  },
+  {
+    "id": "uofl-louisville",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-11-15",
+    "start_date": "2027-05-15",
+    "duration_months": 15,
+    "tuition_total": 74940,
+    "tuition_basis": "out-of-state",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No standalone US News undergrad BSN rank; Master's No. 65 (tie)/147 (2026)",
+    "national_percentile": 0.6,
+    "confidence": "high",
+    "changed": [
+      "tuition_total"
+    ],
+    "sources": [
+      "https://nursing.louisville.edu/academics/undergraduate/bsn-accelerated",
+      "https://nursing.louisville.edu/admission/cost-aid/undergraduate-tuition-fees"
+    ],
+    "notes": "ONE annual cohort starting in SUMMER (~May; 15-mo) - NO Spring/Jan 2027 cohort; next cohort Summer 2027 (~May). Priority window Aug 15-Nov 15. Out-of-state $74,940 (60 cr x $1,249 non-resident 2026-2027), up from $67,000."
+  },
+  {
+    "id": "u-kentucky",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-08-15",
+    "start_date": "2027-01-11",
+    "duration_months": 16,
+    "tuition_total": 36685,
+    "tuition_basis": "out-of-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Online video interview ($50 fee) required; SRNA nurse-aide certification before start",
+    "us_news_note": "BSN ranked #23 nationally of 695 (#20 among public universities) per US News (UK cites 2021 data)",
+    "national_percentile": 0.97,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "national_percentile",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.uky.edu/undergraduate-programs/accelerated-bsn/apply",
+      "https://online.uky.edu/bachelors/nursing-accelerated/bsn"
+    ],
+    "notes": "Spring (January) cohort exists - next start Jan 11, 2027 (baseline Aug start wrong); Spring 2027 application open now (Jun 1-Aug 15, 2026 window). Fully online UK Online, flat $667/credit regardless of residency = ~$36,685 for 55 credits. Beyond standard: $50 video interview + SRNA certification."
+  },
+  {
+    "id": "regis",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-06-15",
+    "start_date": "2027-01-11",
+    "duration_months": 12,
+    "tuition_total": 38336,
+    "tuition_basis": "private-flat",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Religious Studies (3 cr)",
+    "us_news_note": "Not ranked in US News standalone undergrad BSN list; Regis University ~#273 National Universities",
+    "national_percentile": 0.55,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.regis.edu/academics/majors-and-programs/undergraduate/nursing-bsn-accelerated",
+      "https://catalog.regis.edu/general-information/academic-calendar/"
+    ],
+    "notes": "Two cohorts/yr: January (deadline June 15) and May (deadline Dec 1). The Spring 2027 (Jan 11) cohort's June 15, 2026 deadline just passed (today 2026-06-23), so no longer accepting; next open cohort is May 2027. Tuition $599/cr x 64 = $38,336. Baseline Philosophy prereq not supported; only Religious Studies (3 cr) beyond standard."
+  },
+  {
+    "id": "uarizona-tucson",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-15",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 81030,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026: BSN #19 among public universities, #28 nationally (top 4%), #1 in Arizona",
+    "national_percentile": 0.72,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "duration_months",
+      "national_percentile",
+      "us_news_note"
+    ],
+    "sources": [
+      "https://nursing.arizona.edu/academics/bachelor-science-nursing-bsn/integrative-health",
+      "https://nursing.arizona.edu/costs-financial-aid"
+    ],
+    "notes": "Gilbert BSN-IH (Integrative Health) accelerated pathway active with year-round Fall/Spring/Summer cohorts; Spring (Jan) 2027 accepting. Out-of-state total $81,030 confirmed. Official Spring transfer deadline Oct 15 (a Sept 1 date surfaced in search summaries but unconfirmed on official pages)."
+  },
+  {
+    "id": "utulsa-absn",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": null,
+    "start_date": "2027-01-19",
+    "duration_months": 21,
+    "tuition_total": 39000,
+    "tuition_basis": "private-flat",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026 ranks UTulsa's DNP No. 98/147; no separate ABSN/BSN ranking",
+    "national_percentile": 0.5,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total"
+    ],
+    "sources": [
+      "https://online.utulsa.edu/programs/undergraduate-degrees/accelerated-bsn/",
+      "https://online.utulsa.edu/tuition-and-financial-aid/"
+    ],
+    "notes": "ABSN active (online, ACEN-accredited); rolling admissions, currently accepting (baseline 2026-04-01 past-dated/unconfirmed, set null). Three starts/yr incl mid-Jan Spring I; official calendar lists Spring 2027 classes starting Jan 19, 2027. Official tuition table: 60 cr x $650 = $39,000 (baseline $32,228 stale)."
+  },
+  {
+    "id": "uams-littlerock",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-03-01",
+    "start_date": "2027-05-31",
+    "duration_months": 15,
+    "tuition_total": 39990,
+    "tuition_basis": "out-of-state",
+    "fees": 5000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "TEAS 60% min (waived for bachelor's-degree holders)",
+    "us_news_note": "Tied 59th of 686 in US News 2025-26 Best BSN (up from 74th); highest in Arkansas",
+    "national_percentile": 0.91,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "national_percentile",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.uams.edu/programs/bsn/accelerated-bsn/",
+      "https://students.uams.edu/financial-services/tuition-and-fees/college-of-nursing/"
+    ],
+    "notes": "ABSN is summer-entry ONLY (end May/early June) at the Fayetteville/Northwest Arkansas campus, NOT a Jan/Spring cohort; next cohort Summer 2027 (deadline 2027-03-01). Out-of-state 62 nursing credits x $645/cr (FY26-27) = $39,990; US News rank improved to 59th."
+  },
+  {
+    "id": "uncc-charlotte",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-31",
+    "start_date": "2027-08-16",
+    "duration_months": 16,
+    "tuition_total": 37008,
+    "tuition_basis": "out-of-state",
+    "fees": 6266,
+    "scholarship_amt": 0,
+    "prereqs_additional": "CNA I (Nurse Aide I) certification + NC Nurse Aide Registry listing required prior to enrollment",
+    "us_news_note": "BSN ranked #54 nationally (2025 US News, top ~10%)",
+    "national_percentile": 0.9,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.charlotte.edu/absn/",
+      "https://nursing.charlotte.edu/program-costs/"
+    ],
+    "notes": "ABSN is Fall-only (admits once yearly, Nov 15-Jan 31 window); NO Spring 2027 entry, next cohort Fall 2027 with 2027-01-31 deadline. Official 2025-26 out-of-state total tuition $37,008 (61 cr) with ~$6,266 fees; CNA I still required."
+  },
+  {
+    "id": "gcu",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-15",
+    "start_date": "2027-01-04",
+    "duration_months": 16,
+    "tuition_total": 53550,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 750,
+    "prereqs_additional": "HESI A2 exam; Applied Pathophysiology; cum GPA 3.25 in prereqs; AZ Fingerprint Clearance Card",
+    "us_news_note": "National Universities #395-434 (2026); no distinct undergrad BSN rank",
+    "national_percentile": 0.5,
+    "confidence": "medium",
+    "changed": [
+      "start_date"
+    ],
+    "sources": [
+      "https://www.gcu.edu/degree-programs/absn-accelerated-bsn/tuition",
+      "https://www.gcu.edu/degree-programs/absn-accelerated-bsn/prerequisites"
+    ],
+    "notes": "Tuition ($53,550 = 63 cr x $850 private-flat), 16-month duration, and HESI A2 requirement confirmed unchanged. Spring 2027 start refined to ~Jan 4, 2027; deadline/fees/scholarship not published officially (rolling)."
+  },
+  {
+    "id": "edgewood",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-01",
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 45000,
+    "tuition_basis": "in-state",
+    "fees": 1000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Edgewood University ~#301 National Universities (US News 2026)",
+    "national_percentile": 0.5,
+    "confidence": "high",
+    "changed": [],
+    "sources": [
+      "https://absn.edgewood.edu/",
+      "https://www.edgewood.edu/tuition-financial-aid/tuition-fees/"
+    ],
+    "notes": "Edgewood College rebranded to Edgewood University (effective July 1, 2025); program fully active. Spring 2027 cohort (Jan start) confirmed open with Nov 1, 2026 final deadline; $45,000 inclusive cost; all fields unchanged."
+  },
+  {
+    "id": "georgetown-dc",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": null,
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 81832,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Pathophysiology (with lab); biochemistry/chemistry within 5 yrs; grade B+ on science prereqs",
+    "us_news_note": "Georgetown School of Nursing ranked graduate (master's) per US News 2026",
+    "national_percentile": 0.88,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total",
+      "deadline"
+    ],
+    "sources": [
+      "https://nursing.georgetown.edu/degree-programs/accelerated-bachelor-of-science-in-nursing-program/",
+      "https://nursing.georgetown.edu/admissions/"
+    ],
+    "notes": "ABSN (53 credits, 12 mo) actively recruiting Jan 2027 Spring cohort ('Apply Now to start Jan. 2027'); 2026-27 rate rose to $21,622/semester, pushing program tuition from $76,426 to ~$81,832. Now rolling/continuous review, not the prior fixed deadline."
+  },
+  {
+    "id": "notre-dame-md",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": null,
+    "start_date": "2027-01-15",
+    "duration_months": 15,
+    "tuition_total": 57630,
+    "tuition_basis": "private-flat",
+    "fees": 3300,
+    "scholarship_amt": 0,
+    "prereqs_additional": "TEAS (min 65% composite); Medical Ethics",
+    "us_news_note": "US News 2026 Best Undergraduate Nursing: #249 nationally",
+    "national_percentile": 0.64,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees",
+      "prereqs_additional",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://absn.ndm.edu/admissions/tuition/",
+      "https://absn.ndm.edu/admissions/requirements-prerequisites/"
+    ],
+    "notes": "Program now uses ROLLING admissions (no fixed deadline); confirmed accepting Spring 2027 (Jan). On-campus tuition $57,630 (hybrid $60,690); ATI program fees $3,300. TEAS required (65% min). US News 2026 nursing #249."
+  },
+  {
+    "id": "hunter-nyc",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-01",
+    "start_date": "2027-08-25",
+    "duration_months": 18,
+    "tuition_total": 31620,
+    "tuition_basis": "out-of-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Organic Chemistry w/ lab (CHEM 120/121) in addition to General Chemistry; min 3.2 GPA; bachelor's conferred by June 1",
+    "us_news_note": "CUNY-Hunter (Bellevue) No. 41/147 US News Best Nursing Schools: Master's",
+    "national_percentile": 0.72,
+    "confidence": "high",
+    "changed": [
+      "national_percentile",
+      "us_news_note"
+    ],
+    "sources": [
+      "https://www.hunter.cuny.edu/hunter-bellevue-school-of-nursing/prospective-students/undergraduate-nursing-programs/accelerated-second-degree-nursing-program-a2d/",
+      "https://hunter-undergraduate.catalog.cuny.edu/financial-aid-tuition/tuition-and-fees"
+    ],
+    "notes": "A2D is FALL-ONLY with a Feb 1 deadline; NO Spring 2027 cohort, next is Fall 2027 (~late Aug 2027). Tuition unchanged: 51 credits x $620 CUNY non-resident = $31,620. US News graduate ranking No. 41/147."
+  },
+  {
+    "id": "isu-boise",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-15",
+    "start_date": "2027-05-15",
+    "duration_months": 12,
+    "tuition_total": 42360,
+    "tuition_basis": "out-of-state",
+    "fees": 7000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Cultural diversity gen-ed; Pharmacology for Nursing (DHS 3315); Pathobiology (BIOL 2229/3306)",
+    "us_news_note": "ISU nursing Unranked in US News Best Nursing Schools",
+    "national_percentile": 0.45,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "duration_months",
+      "tuition_total",
+      "fees",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.isu.edu/acceleratednursing/",
+      "https://www.isu.edu/costinfo/undergraduate-tuition/"
+    ],
+    "notes": "ISU's accelerated BSN admits ONLY for a Summer start (~mid-May, 3 consecutive semesters); no Spring 2027 entry, next cohort Summer 2027 (deadline 2027-02-15). Out-of-state ~$14,120/semester x3 = $42,360; Meridian campus confirmed."
+  },
+  {
+    "id": "fiu-miami",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-05-10",
+    "start_date": "2027-08-23",
+    "duration_months": 12,
+    "tuition_total": 43900,
+    "tuition_basis": "out-of-state",
+    "fees": 800,
+    "scholarship_amt": 0,
+    "prereqs_additional": "TEAS (min 70% total, 62% science); bachelor's degree required",
+    "us_news_note": "FIU (Wertheim) ~No. 54/147 Best Nursing Schools: Master's; ~No. 68 DNP (2026)",
+    "national_percentile": 0.63,
+    "confidence": "medium",
+    "changed": [
+      "start_date",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://cnhs.fiu.edu/academics/nursing/undergrad-nursing/programs/ao-bsn/",
+      "https://onestop.fiu.edu/finances/estimate-your-costs/"
+    ],
+    "notes": "AO BSN is Fall-only (60 students/yr, 4 semesters/58 credits); no Spring 2027 cohort - next entry Fall 2027 (apps open Aug 7 2026, deadline May 10 2027). Tuition revised up to ~$43.9K (out-of-state ~$757/credit x 58). TEAS required."
+  },
+  {
+    "id": "ric-providence",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-01",
+    "start_date": "2027-01-15",
+    "duration_months": 20,
+    "tuition_total": 68998,
+    "tuition_basis": "out-of-state",
+    "fees": 4158,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No distinct US News BSN ranking for RIC found; CCNE-accredited, ~91% NCLEX pass",
+    "national_percentile": 0.5,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://www.ric.edu/academics/undergraduate-degree-programs/nursing-bsn/nursing-bsn-second-degree-candidates-specifics",
+      "https://www.ric.edu/admissions-financial-aid/tuition-fees/undergraduate-tuition-and-fees"
+    ],
+    "notes": "RIC still offers a Second Degree (accelerated) BSN with a Spring entry point; Spring 2027 deadline ~Nov 1, 2026 per official catalog. Out-of-state 2026-2027 tuition $13,799.50/semester; ~5 semesters/20 months = ~$68,998 + ~$4,158 fees (vs prior $52,000/$2,500)."
+  },
+  {
+    "id": "csuf",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-11-30",
+    "start_date": "2027-08-23",
+    "duration_months": 24,
+    "tuition_total": 43000,
+    "tuition_basis": "out-of-state",
+    "fees": 3356,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Casper SJT required (new for Fall 2027); 3.25 GPA on last 60 units",
+    "us_news_note": "No distinct accelerated-BSN ranking published by US News for CSUF",
+    "national_percentile": 0.55,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.fullerton.edu/programs/acceleratedbsn/appprocess.html",
+      "https://www.fullerton.edu/financialaid/understanding-aid/cost-of-attendance/graduate-coa.html"
+    ],
+    "notes": "FALL-ONLY program; no Spring 2027 cohort, next available Fall 2027 (~late Aug 2027 start, Nov 30 2026 priority deadline). Out-of-state ~$43K; stored $28K was a stale resident estimate."
+  },
+  {
+    "id": "north-park",
+    "still_active": true,
+    "accepting_spring_2027": "unknown",
+    "deadline": "2026-06-29",
+    "start_date": "2026-09-07",
+    "duration_months": 20,
+    "tuition_total": 62900,
+    "tuition_basis": "private-flat",
+    "fees": 2700,
+    "scholarship_amt": 0,
+    "prereqs_additional": "2.75 prereq GPA, min grade C+",
+    "us_news_note": "Not ranked in US News 2026 Best Nursing Schools: Master's",
+    "national_percentile": 0.5,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "start_date",
+      "fees",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://degree.northpark.edu/online-programs/healthcare-nursing/msn/demsn-direct-entry/",
+      "https://degree.northpark.edu/online-programs/healthcare-nursing/msn/demsn-direct-entry/faqs/"
+    ],
+    "notes": "Tuition $62,900 unchanged ($925/credit x 68). Actively marketed cohort is FALL start (deadline 6/29/2026, start 9/07/2026); no confirmed Jan/Spring 2027 cohort. Stored 'TEAS exam' prereq appears unsupported."
+  },
+  {
+    "id": "u-minnesota",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-12-17",
+    "start_date": "2027-08-23",
+    "duration_months": 16,
+    "tuition_total": 54384,
+    "tuition_basis": "out-of-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "9 prerequisites (5 complete at application); no TEAS required",
+    "us_news_note": "U of M Twin Cities School of Nursing top-ranked nationally (top ~15-20) per 2026 US News",
+    "national_percentile": 0.92,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.umn.edu/academics/master-nursing",
+      "https://nursing.umn.edu/academics/master-nursing/cost-financial-support"
+    ],
+    "notes": "CONFIRMED Fall-start ONLY: no Spring 2027 cohort; next available Fall 2027 (apps open Aug 10, priority deadline Dec 17 2026, start ~late Aug 2027). MN program tuition $54,384 regardless of residency."
+  },
+  {
+    "id": "wsu-spokane",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-07-15",
+    "start_date": "2027-01-11",
+    "duration_months": 24,
+    "tuition_total": 90999,
+    "tuition_basis": "out-of-state",
+    "fees": 8400,
+    "scholarship_amt": 0,
+    "prereqs_additional": "TEAS v7 min score 70 (within 1 yr); prereq GPA 3.0 min",
+    "us_news_note": "WSU nursing ~#40 (tie) undergraduate BSN, 2026 US News",
+    "national_percentile": 0.73,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.wsu.edu/ug-programs/bsn/",
+      "https://nursing.wsu.edu/how-to-apply-pl-bsn/"
+    ],
+    "notes": "Entry-level program is the lockstep Pre-Licensure BSN (PL-BSN); Spring 2027 cohort DOES exist (apply by 2026-07-15, start ~Jan 2027). Out-of-state $1,516.65/credit x ~60 = ~$91,000 (stored $52K was resident/partial); fees ~$8,400."
+  },
+  {
+    "id": "baylor",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-15",
+    "start_date": "2027-05-01",
+    "duration_months": 12,
+    "tuition_total": 101634,
+    "tuition_basis": "private-flat",
+    "fees": 520,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Christian-university prereqs: English Comp I/II + Literature, Federal Government, Bible + World Religion, History; HESI A2 (composite 80+)",
+    "us_news_note": "US News 2026 Best Undergraduate BSN: Baylor (Louise Herrington) ~#28 nationally",
+    "national_percentile": 0.93,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees",
+      "national_percentile",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.baylor.edu/admissions/undergraduate-admissions/second-degree-post-baccalaureate/fastbaccr",
+      "https://onestop.web.baylor.edu/cost-payment/tuition-other-fees/tuition"
+    ],
+    "notes": "FastBacc is MAY-start only; no true Jan/Spring 2027 cohort, next May 2027 (deadline ~Jan 15 2027). Stored $68,100 was the ONLINE Distance ABSN price; on-campus FastBacc bills at flat undergrad rate $33,878/sem x 3 = ~$101,634. Christian-university prereqs + HESI A2 confirmed."
+  },
+  {
+    "id": "marquette-gem",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-11-15",
+    "start_date": "2027-01-11",
+    "duration_months": 20,
+    "tuition_total": 69000,
+    "tuition_basis": "private-flat",
+    "fees": 2755,
+    "scholarship_amt": 0,
+    "prereqs_additional": "A&P, micro w/lab, chem/biochem, nutrition, psych or sociology, stats (within 7 yrs); GRE not required",
+    "us_news_note": "US News 2026-27 Best Nursing Schools: Master's #50 (up 7); online #35",
+    "national_percentile": 0.61,
+    "confidence": "high",
+    "changed": [
+      "start_date"
+    ],
+    "sources": [
+      "https://mastersnursing.marquette.edu/admissions/tuition-and-financial-aid/",
+      "https://www.marquette.edu/grad/program-deadlines.php"
+    ],
+    "notes": "Now branded 'Direct Entry MSN' (DE-MSN). Spring (January) start confirmed at Pleasant Prairie, spring deadline Nov 15 - valid Spring 2027 candidate. Tuition $69,000 unchanged; US News master's #50."
+  },
+  {
+    "id": "uccs-cosprings",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-10",
+    "start_date": "2027-05-15",
+    "duration_months": 16,
+    "tuition_total": 75402,
+    "tuition_basis": "out-of-state",
+    "fees": 0,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Min prereq GPA 3.0/3.25; ATI TEAS; must live in or relocate to CO; pathophysiology, organic/biochem",
+    "us_news_note": "US News 2026 Best Undergraduate BSN: UCCS (Johnson Beth-El) #74 of 686",
+    "national_percentile": 0.89,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees",
+      "national_percentile",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://johnsonbethel.uccs.edu/academics/nursing/accelerated-bsn",
+      "https://news.uccs.edu/2026/04/16/uccs-nursing-program-ranks-74-in-the-nation-for-best-bachelor-of-science-in-nursing-programs/"
+    ],
+    "notes": "SUMMER-start only; no Spring/Jan cohort, next available Summer 2027 (~May/June; deadline Jan 10 2027). Open to out-of-state who relocate to CO: out-of-state rate $75,402 (vs stored $62,877); fees folded into per-semester totals."
+  },
+  {
+    "id": "csun",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-07-28",
+    "start_date": "2027-01-20",
+    "duration_months": 15,
+    "tuition_total": 62988,
+    "tuition_basis": "out-of-state",
+    "fees": 117,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No distinct accelerated-BSN ranking published by US News for CSUN",
+    "national_percentile": 0.55,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "duration_months",
+      "fees",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://tsengcollege.csun.edu/programs/ABSN",
+      "https://tsengcollege.csun.edu/programs/ABSN/tuition-and-fees"
+    ],
+    "notes": "Accepting for Spring 2027 (15-month, 42 seats); final deadline July 28 2026 but closes sooner on volume. Tseng College self-support FLAT $1,086/unit x 58 = $62,988 regardless of residency. NO TEAS - stored 'TEAS' prereq removed."
+  },
+  {
+    "id": "clemson-greenville",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-09-15",
+    "start_date": "2027-05-15",
+    "duration_months": 20,
+    "tuition_total": 104110,
+    "tuition_basis": "out-of-state",
+    "fees": 5000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026 Best Undergraduate BSN: Clemson ~#27",
+    "national_percentile": 0.75,
+    "confidence": "high",
+    "changed": [
+      "fees",
+      "tuition_total"
+    ],
+    "sources": [
+      "https://www.clemson.edu/cbshs/departments/nursing/degrees/nursing-accelerated-second-degree.html",
+      "https://www.clemson.edu/sfs/tuition-fees/tuition-fee-details.html"
+    ],
+    "notes": "Accelerated Second Degree BSN at Greenville is MAY-ONLY (summer start), 20 months/5 semesters; no Jan/Spring 2027 cohort, next May 2027. Out-of-state ~$104,110 (5 x $20,822 nonresident); program fee $1,000/sem x 5 = $5,000."
+  },
+  {
+    "id": "wayne-state-detroit",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-02-15",
+    "start_date": "2027-05-15",
+    "duration_months": 20,
+    "tuition_total": 86998,
+    "tuition_basis": "out-of-state",
+    "fees": 5017,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Healthcare experience (10 hr min)",
+    "us_news_note": "US News 2026: WSU College of Nursing among nation's best (#31 in 2024)",
+    "national_percentile": 0.65,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "tuition_total"
+    ],
+    "sources": [
+      "https://nursing.wayne.edu/admissions/bsn-second-career",
+      "https://wayne.edu/registrar/tuition/fee-charts"
+    ],
+    "notes": "Accelerated/Second-Career BSN starts once yearly in spring/summer (May 8 this cycle); no Winter/Jan 2027 cohort, next ~May 2027. CoN secondary-app deadline Feb 15. 10-hr healthcare-experience requirement valid. Out-of-state 65 cr x $1,338.43 = ~$86,998."
+  },
+  {
+    "id": "stony-brook",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-10-08",
+    "start_date": "2027-05-24",
+    "duration_months": 12,
+    "tuition_total": 46575,
+    "tuition_basis": "out-of-state",
+    "fees": 5790,
+    "scholarship_amt": 0,
+    "prereqs_additional": "English Composition, Lifespan Development",
+    "us_news_note": "Stony Brook (SUNY) #59 National Universities (US News 2026); online MSN #8",
+    "national_percentile": 0.6,
+    "confidence": "medium",
+    "changed": [
+      "start_date",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://nursing.stonybrookmedicine.edu/undergraduate/acceleratedBaccalaureate",
+      "https://www.stonybrook.edu/sfs/tuition-fees/Undergraduate%20Tuition%20and%20Fee%20Per%20Credit%20Rate%20Chart.html"
+    ],
+    "notes": "Cadence shifted to a 12-month SUMMER start: applications open Aug 1, 2026 for a Summer 2027 cohort (no Spring 2027 entry). Out-of-state ~$15,525/sem x 3 (69 cr); 2026 cycle deadline not yet posted, Oct 8 reflects prior cadence."
+  },
+  {
+    "id": "drexel",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2027-01-15",
+    "start_date": "2027-03-29",
+    "duration_months": 11,
+    "tuition_total": 54912,
+    "tuition_basis": "private-flat",
+    "fees": 4186,
+    "scholarship_amt": 0,
+    "prereqs_additional": "English Composition",
+    "us_news_note": "Drexel DNP #96 (tie)/154 (US News 2026); undergrad BSN rank not separately verified",
+    "national_percentile": 0.5,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://drexel.edu/admissions/undergrad/nursing-ace",
+      "https://drexel.edu/drexelcentral/cost/undergrad"
+    ],
+    "notes": "ACE admits Fall and Spring; spring cohort labeled 'Spring (March)' with application deadline Jan 15 and prereqs due Feb 15, so spring 2027 starts ~late March (Drexel spring quarter). 2026-27 tuition $13,728/term x 4 = $54,912; fees ~$4,186. Drexel moves to semester calendar Fall 2027."
+  },
+  {
+    "id": "johns-hopkins",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-01",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 112000,
+    "tuition_basis": "private-flat",
+    "fees": 1400,
+    "scholarship_amt": 5000,
+    "prereqs_additional": "",
+    "us_news_note": "US News 2026 Best Nursing Schools: Master's #2 of 147 (Emory took #1)",
+    "national_percentile": 0.99,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "fees",
+      "scholarship_amt",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.jhu.edu/admissions/apply/deadlines/",
+      "https://nursing.jhu.edu/admissions/tuition-fees/"
+    ],
+    "notes": "Spring 2027 application open; priority deadline Oct 1 for Spring start (Jan 15 is the Fall-start deadline). Redesigned Fall 2026 to four semesters (~16 mo, 50.5 cr) at $28,000/sem = $112,000. Prereq minimum grade is B- (not B+). Scholarships $5,000 to full tuition; reported $5,000 floor."
+  },
+  {
+    "id": "ucla-mecn",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-11-01",
+    "start_date": "2027-09-24",
+    "duration_months": 24,
+    "tuition_total": 93752,
+    "tuition_basis": "out-of-state",
+    "fees": 15317,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Epidemiology; combined chemistry sequence",
+    "us_news_note": "US News 2026 Best Nursing Schools: Master's #8 (tie) of 147",
+    "national_percentile": 0.95,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.ucla.edu/programs-admissions/financial-aid/tuition-fees/tuition-fees-mecn-program",
+      "https://nursing.ucla.edu/programs-admissions/academic-programs/master-of-science-entry/apply"
+    ],
+    "notes": "MECN is FALL-ONLY (~70 students/fall); does NOT admit for Spring 2027. Next cohort Fall 2027 (~late Sep 2027), deadline Nov 1, 2026. Non-resident tuition Yr1 $42,507 + Summer $7,000 + Yr2 $44,245 = $93,752; mandatory health insurance $15,317 (fees)."
+  },
+  {
+    "id": "uw-milwaukee",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-09-01",
+    "start_date": "2027-01-25",
+    "duration_months": 24,
+    "tuition_total": 25456,
+    "tuition_basis": "in-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "biochemistry; CNA course strongly recommended (not required)",
+    "us_news_note": "Master of Nursing #69 of 154 (US News 2026, up from #83)",
+    "national_percentile": 0.55,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "start_date",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://uwm.edu/nursing/academics/mn-direct-entry/",
+      "https://uwm.edu/cost-aid/"
+    ],
+    "notes": "Direct Entry MN confirmed admitting for spring (Jan) cohort; official priority deadline Sept 1 and Spring 2027 instruction begins Jan 25, 2027. 60-61 credits over ~2 yrs; WI-resident grad tuition ~$694/credit; stored $25,456 in-state total retained at medium confidence."
+  },
+  {
+    "id": "alverno",
+    "still_active": true,
+    "accepting_spring_2027": "unknown",
+    "deadline": "2026-06-01",
+    "start_date": "2027-01-15",
+    "duration_months": 18,
+    "tuition_total": 63525,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "abnormal psychology; developmental psychology",
+    "us_news_note": "",
+    "national_percentile": 0.5,
+    "confidence": "medium",
+    "changed": [
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.alverno.edu/demsn",
+      "https://www.alverno.edu/tuition"
+    ],
+    "notes": "MESA AZ VERIFIED: Alverno operates a Mesa, AZ campus for the accelerated 5-semester (18-20 mo) DEMSN; 9-semester/3-yr track is Milwaukee-only. Program is a dual-degree Direct Entry MSN (BSN+MSN, 77 credits), not a standalone ABSN. Tuition $63,525 ($825/credit) + $720/sem ATI fee. Cohort deadlines/starts not published officially."
+  },
+  {
+    "id": "unc-chapel-hill",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-09-22",
+    "start_date": "2027-05-15",
+    "duration_months": 16,
+    "tuition_total": 94944,
+    "tuition_basis": "out-of-state",
+    "fees": 4260,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "UNC-Chapel Hill School of Nursing #12 (tie) of ~147, Best Nursing Schools: Master's",
+    "national_percentile": 0.92,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total",
+      "fees",
+      "national_percentile",
+      "duration_months"
+    ],
+    "sources": [
+      "https://nursing.unc.edu/programs/accelerated-bachelor-of-science-in-nursing",
+      "https://cashier.unc.edu/tuition-fees/undergraduate-programs/"
+    ],
+    "notes": "ABSN is a 4-semester second-degree program starting in MAY (Summer); NO Spring 2027 cohort, next Summer 2027 (apps open mid-July, ~mid-Sept deadline). Out-of-state UG tuition 2026-27 $23,736/semester; ~$94,944 over 4 semesters (estimate; UNC publishes no fixed ABSN total)."
+  },
+  {
+    "id": "capital-columbus",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-12-01",
+    "start_date": "2027-08-15",
+    "duration_months": 20,
+    "tuition_total": 43160,
+    "tuition_basis": "private-flat",
+    "fees": 700,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Organic/biochemistry; 4 science prereqs within 5 years; min 2.75 science GPA",
+    "us_news_note": "Capital University School of Nursing 134-146 of 146, Best Nursing Schools: Master's (bottom tier)",
+    "national_percentile": 0.08,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees",
+      "national_percentile",
+      "duration_months",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.capital.edu/academics/majors-and-minors/nursing-accelerated-program/",
+      "https://www.capital.edu/admission-aid/office-of-financial-aid/tuition-fees/"
+    ],
+    "notes": "ABSN is a 5-semester / 20-month program with AUGUST (Fall) start only, NO Spring 2027 cohort; next Fall 2027. Priority deadline Dec 1, final May 1. Tuition = 65 cr x $664 = $43,160 (down from stale $53,341); fees ~$400/yr."
+  },
+  {
+    "id": "uf-gainesville",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-01",
+    "start_date": "2027-05-13",
+    "duration_months": 16,
+    "tuition_total": 61772,
+    "tuition_basis": "out-of-state",
+    "fees": 4536,
+    "scholarship_amt": 0,
+    "prereqs_additional": "FL Civic Literacy requirement; HESI A2 exam",
+    "us_news_note": "UF nursing among top public programs; exact current BSN rank not confirmable (US News pages blocked)",
+    "national_percentile": 0.8,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027",
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.ufl.edu/programs/bachelor-of-science-bsn/accelerated-bsn/",
+      "https://nursing.ufl.edu/programs/bachelor-of-science-bsn/traditional-bsn/traditional-and-accelerated-bsn-student-expenses/"
+    ],
+    "notes": "UF ABSN is Summer-only (starts each May); NO Spring 2027 cohort, next Summer 2027 (cycle opens Sept 2026, Dec 1 priority, through ~Feb 1, 2027). Out-of-state ~$61,772 tuition + ~$4,536 fees, lower than stale $67k."
+  },
+  {
+    "id": "elmhurst-il",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-12-01",
+    "start_date": "2027-02-01",
+    "duration_months": 16,
+    "tuition_total": 50000,
+    "tuition_basis": "private-flat",
+    "fees": 849,
+    "scholarship_amt": 0,
+    "prereqs_additional": "General Chemistry w/lab; Abnormal Psychology (online ABSN; residency limited to IL, IN, IA, MO, WI)",
+    "us_news_note": "Undergrad BSN not prominently ranked; graduate nursing #119 of 147 (US News 2026 master's)",
+    "national_percentile": 0.4,
+    "confidence": "medium",
+    "changed": [
+      "start_date",
+      "tuition_total",
+      "fees",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://onlinedegrees.elmhurst.edu/programs/accelerated-bsn-online",
+      "https://onlinedegrees.elmhurst.edu/tuition-financial-aid"
+    ],
+    "notes": "Spring 2027 cohort starts Feb 1, 2027 (not Jan 25); rolling admissions ~early-Dec priority. Flat tuition $50,000 ($833.33/credit x 60); $849 NCLEX-prep fee. Online program restricted to IL/IN/IA/MO/WI residents."
+  },
+  {
+    "id": "uvm-burlington",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-03-30",
+    "start_date": "2027-08-25",
+    "duration_months": 36,
+    "tuition_total": 85000,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Unranked Best Nursing Schools: Master's; #95 (tie) Best Nursing DNP (2026)",
+    "national_percentile": 0.6,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027",
+      "start_date",
+      "deadline"
+    ],
+    "sources": [
+      "https://www.uvm.edu/cnhs/nursing/direct-entry-master-science-nursing-program-non-nursing-majors-mepn",
+      "https://catalogue.uvm.edu/graduate/admissionfinancial/tuitionfees/"
+    ],
+    "notes": "UVM MEPN is FALL-ONLY (matriculation in August); no Spring 2027 (January) cohort. Next cohort ~Aug 2027, final deadline March 30, 2027. Baseline start 2027-05-15 was incorrect; out-of-state $1,944/credit, ~$85k total estimate."
+  },
+  {
+    "id": "u-rochester",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-07-01",
+    "start_date": "2027-01-11",
+    "duration_months": 12,
+    "tuition_total": 84090,
+    "tuition_basis": "private-flat",
+    "fees": 5214,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "#15 of 146 in Best Nursing Schools: Master's (2026)",
+    "national_percentile": 0.78,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "scholarship_amt"
+    ],
+    "sources": [
+      "https://son.rochester.edu/academics/accelerated-nursing-programs/absn/admissions.html",
+      "https://son.rochester.edu/financial-aid/schedule-of-charges-26-27.html"
+    ],
+    "notes": "UR Nursing Scholars covers ~100% tuition via scholarship + FORGIVABLE LOAN with a 3-year work commitment — conditional, so scholarship_amt set to 0 for cost scoring (same treatment as other work-commitment awards). Strong benefit if you accept the service obligation. 12-Month ABSN Spring cohort starts ~Jan 2027 (exact date estimated). Spring deadlines: July 1 Regular, April 15 Early Action. 2026-27 tuition $84,090; fees ~$5,214. UR Nursing Scholars (active through 2027) covers 100% tuition via scholarship + forgivable loan with 3-yr work commitment. Chemistry NOT required."
+  },
+  {
+    "id": "linfield-portland",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-08-01",
+    "start_date": "2027-01-15",
+    "duration_months": 15,
+    "tuition_total": 109750,
+    "tuition_basis": "private-flat",
+    "fees": 7715,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "#385 (tie) Best Undergraduate Nursing (US News 2026)",
+    "national_percentile": 0.45,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://www.linfield.edu/programs/mepn/index.html",
+      "https://www.linfield.edu/financial-aid/cost-of-attendance/coa-masters/mepn.html"
+    ],
+    "notes": "15-month MEPN, 5 terms, Jan start; apps open Mar 1, deadline Aug 1. Official 2026-27 COA: $21,950/term x5 = $109,750 tuition and ~$1,543/term x5 = $7,715 fees, far above stale $66,000/$2,700."
+  },
+  {
+    "id": "msu-denver",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-09-01",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 40614,
+    "tuition_basis": "out-of-state",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Clinical Pathophysiology; Casper assessment required",
+    "us_news_note": "#480 (tie) Best Undergraduate Nursing (US News 2026)",
+    "national_percentile": 0.45,
+    "confidence": "high",
+    "changed": [
+      "prereqs_additional",
+      "duration_months"
+    ],
+    "sources": [
+      "https://www.msudenver.edu/nursing/traditional-and-accelerated-nursing-options/",
+      "https://catalog.msudenver.edu/preview_program.php?catoid=52&poid=12458"
+    ],
+    "notes": "Spring 2027 is the LAST spring ANO cohort (program goes Fall-only from Fall 2027); apps open July 1, close Sept 1, 2026. Program not state-funded so cost identical in-/out-of-state: $40,614 'tuition and fees'. Extra prereqs: Clinical Pathophysiology + Casper."
+  },
+  {
+    "id": "lourdes",
+    "still_active": true,
+    "accepting_spring_2027": "unknown",
+    "deadline": "2026-03-01",
+    "start_date": "2026-08-01",
+    "duration_months": 20,
+    "tuition_total": 46200,
+    "tuition_basis": "private-flat",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "#124 of 161 Regional Universities Midwest (US News 2026)",
+    "national_percentile": 0.4,
+    "confidence": "medium",
+    "changed": [],
+    "sources": [
+      "https://lourdes.edu/direct-entry-to-master-of-science-in-nursing/",
+      "https://msn.lourdes.edu/nursing-program-overview/"
+    ],
+    "notes": "DEMSN confirmed still active (66-credit, ~20-month; $700/credit = $46,200). Official pages do not publish cohort start dates or deadlines; baseline retained and Spring 2027 acceptance unconfirmed (appears to run a single annual Fall cohort)."
+  },
+  {
+    "id": "kennesaw-state",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-08-10",
+    "start_date": "2027-01-15",
+    "duration_months": 16,
+    "tuition_total": 45216,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "#373 National Universities, #203 Top Public (US News 2026)",
+    "national_percentile": 0.45,
+    "confidence": "high",
+    "changed": [
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://campus.kennesaw.edu/colleges-departments/wellstar/degrees-programs/undergraduate/bachelor-nursing/accelerated-program.php",
+      "https://campus.kennesaw.edu/offices-services/fiscal-services/bursar/tuition-fees/docs/fy26-undergraduate-tuitionandfees.pdf"
+    ],
+    "notes": "ABSN confirmed active and accepting Spring 2027: Spring apps Feb 1-Aug 10 for January admission. Four-semester (~16-month). Georgia History/Govt is a general institutional degree requirement, not an ABSN admission prereq, so cleared."
+  },
+  {
+    "id": "gmu-fairfax",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-15",
+    "start_date": "2027-08-24",
+    "duration_months": 12,
+    "tuition_total": 69302,
+    "tuition_basis": "out-of-state",
+    "fees": 7685,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Bioethics (3 cr); A&P I/II + micro must be <5 years old at enrollment",
+    "us_news_note": "GMU grad nursing #18 (tie)/147 Master's, #33 (tie)/154 DNP",
+    "national_percentile": 0.6,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.gmu.edu/admissions/bsn-admissions/accelerated-second-degree-bsn-admissions",
+      "https://studentaccounts.gmu.edu/wp-content/uploads/AY25-26_Tuition_and_Fee_Rates_Per_Credit.pdf"
+    ],
+    "notes": "Fall-only; no Spring 2027 cohort. Next = Fall 2027 (apply by Jan 15, 2027; start ~late Aug 2027). Out-of-state from AY25-26 rate: 47 cr x $1,474.50 = ~$69,302; mandatory fee ~$7,685. Bioethics the only prereq beyond standard."
+  },
+  {
+    "id": "lipscomb-nashville",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-04-01",
+    "start_date": "2027-08-17",
+    "duration_months": 16,
+    "tuition_total": 55738,
+    "tuition_basis": "private-flat",
+    "fees": 7000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "BLS-Healthcare Provider CPR cert; background check/drug screen/immunizations prior to enrollment",
+    "us_news_note": "Lipscomb ~#222 National Universities (2026); no standalone 2026 undergrad BSN rank",
+    "national_percentile": 0.45,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://lipscomb.edu/academics/programs/accelerated-bsn",
+      "https://catalog.lipscomb.edu/preview_program.php?catoid=30&poid=10238"
+    ],
+    "notes": "Fall-entry only; no Spring 2027 cohort. Next = Fall 2027 (priority Mar 15, final ~Apr 1, 2027; start ~mid-Aug 2027). Official cost $899/cr x 62 = $55,738 (baseline $69,738 stale). Fees $3,500/semester x 2 = $7,000 (may be higher over 16 mo)."
+  },
+  {
+    "id": "uci-mepn",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-11-30",
+    "start_date": "2027-09-25",
+    "duration_months": 24,
+    "tuition_total": 96053,
+    "tuition_basis": "out-of-state",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "#26 (tie) of 147 Best Nursing Schools: Master's (US News 2026); ~6% acceptance",
+    "national_percentile": 0.82,
+    "confidence": "high",
+    "changed": [
+      "national_percentile"
+    ],
+    "sources": [
+      "https://nursing.uci.edu/degrees-and-programs/masters-entry-program-in-nursing/admissions/",
+      "https://www.reg.uci.edu/fees/2024-2025/nursing.html"
+    ],
+    "notes": "UCI MEPN is Fall-start only, admits once per year; NO Spring 2027 cohort. Next Fall 2027 (deadline Nov 30, 2026; ~late-Sept 2027 start). Nonresident ~$48,027/yr x 2yr = ~$96,053. Percentile updated to 0.82 from US News master's #26/147."
+  },
+  {
+    "id": "u-south-alabama",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-07-15",
+    "start_date": "2027-01-05",
+    "duration_months": 12,
+    "tuition_total": 52452,
+    "tuition_basis": "out-of-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No current on-campus BSN/master's rank surfaced; online programs only (Best Online Master's #101/201)",
+    "national_percentile": 0.35,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total"
+    ],
+    "sources": [
+      "https://www.southalabama.edu/colleges/con/bsn/accelerated.html",
+      "https://www.southalabama.edu/departments/financialaffairs/studentaccounting/tuition.html"
+    ],
+    "notes": "Spring (January) entry offered; 3-semester/62-credit ~12-month program, deadline July 15. Tuition out-of-state per RULE: $846/cr x 62 = $52,452 (baseline $36,828 was in-state/older). 2025-26 nursing rates: in-state $423/cr, out-of-state $846/cr."
+  },
+  {
+    "id": "georgia-southern",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-01",
+    "start_date": "2027-08-15",
+    "duration_months": 12,
+    "tuition_total": 39000,
+    "tuition_basis": "out-of-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "U.S. & Georgia History and Government; HESI A2 75% min in EACH subject area",
+    "us_news_note": "",
+    "national_percentile": 0.4,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027",
+      "deadline"
+    ],
+    "sources": [
+      "https://www.georgiasouthern.edu/degrees/accelerated-nursing-absn-program",
+      "https://www.georgiasouthern.edu/offices/bursar/student-accounts/tuition-fees"
+    ],
+    "notes": "Fall-only program (3 semesters, ~12 mo); no Spring/Jan 2027 cohort. Application window first Mon in Jan through first Mon in Feb for the following Fall, so next cohort Fall 2027 (~Aug 2027), deadline ~2027-02-01. HESI A2 75% required in EACH subject area."
+  },
+  {
+    "id": "usm-portland",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-10-01",
+    "start_date": "2027-05-15",
+    "duration_months": 15,
+    "tuition_total": 71676,
+    "tuition_basis": "out-of-state",
+    "fees": 7458,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "",
+    "national_percentile": 0.4,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://usm.maine.edu/academics/academic_programs/nursing-accelerated-program/",
+      "https://usm.maine.edu/student-financial-services/undergraduate-tuition-fees/"
+    ],
+    "notes": "Cohort starts each May (summer term); the ~Jan 2027 Spring entry is effectively the May 2027 start. Deadline Oct 1, 2026 confirmed. 15 mo / 66 credits. 2026-27 out-of-state: tuition 66cr x $1,086 = $71,676; fees 66cr x $113 = $7,458. NEBHE regional rate ~$42,636."
+  },
+  {
+    "id": "western-carolina",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-04-15",
+    "start_date": "2027-08-15",
+    "duration_months": 16,
+    "tuition_total": 26419,
+    "tuition_basis": "out-of-state",
+    "fees": 2454,
+    "scholarship_amt": 0,
+    "prereqs_additional": "TEAS exam (avg accepted 85-89%); 3 of 4 science prereqs done before applying",
+    "us_news_note": "",
+    "national_percentile": 0.35,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027"
+    ],
+    "sources": [
+      "https://www.wcu.edu/learn/programs/nursing-accelerated-bsn/index.aspx",
+      "https://www.wcu.edu/apply/tuition-and-fees/fall-spring-undergraduate-tuition-and-fees.aspx"
+    ],
+    "notes": "Fall-only entry (16 mo, Biltmore Park Asheville); no Spring/Jan 2027 cohort, next Fall 2027. Deadline Apr 15 (priority Dec 22). NC Promise reduced tuition applies to out-of-state at $3,500/yr cohort rate; 16-mo total tuition+fees ~$26,419. TEAS required."
+  },
+  {
+    "id": "unmc-omaha",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-07-15",
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 76500,
+    "tuition_basis": "out-of-state",
+    "fees": 8400,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Master's currently Unranked (reporting ineligibility); DNP No. 57 (tie)/159",
+    "national_percentile": 0.64,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.unmc.edu/nursing/academic-programs/accelerated-bsn/absn_program_overview1.html",
+      "https://www.unmc.edu/student-success/financial-aid/coa-sheets/bsn_26_27.html"
+    ],
+    "notes": "12-month ABSN starts January (Spring 2027 cohort), priority deadline July 15 (rolling to ~Sept 1), hybrid Omaha/Lincoln/Kearney/Norfolk. Nonresident $1,234/cr-hr x ~62 = ~$76.5K; 2026-27 fees ~$8.4K/yr. DNP No.57/159 -> ~0.64."
+  },
+  {
+    "id": "gwynedd-mercy",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-15",
+    "start_date": "2027-09-01",
+    "duration_months": 20,
+    "tuition_total": 59760,
+    "tuition_basis": "private-flat",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "General Chemistry II (lecture+lab); developmental/lifespan psychology; nutrition by a registered dietitian",
+    "us_news_note": "",
+    "national_percentile": 0.35,
+    "confidence": "low",
+    "changed": [
+      "accepting_spring_2027",
+      "start_date",
+      "deadline",
+      "duration_months"
+    ],
+    "sources": [
+      "https://www.gmercyu.edu/academics/programs/direct-entry-master-of-science-in-nursing-degree",
+      "https://accelerated.gmercyu.edu/become-a-nurse"
+    ],
+    "notes": "DEMSN is FALL-ONLY (prereqs due July 30 of enrollment year) - NOT accepting Spring 2027; next cohort Fall 2027 (~Sept), Jan 15 CSDCAS deadline. Now 20-month/72-credit. Program-specific grad tuition not officially published; tuition/fees kept at baseline (low confidence)."
+  },
+  {
+    "id": "nccu-durham",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-07-01",
+    "start_date": "2027-08-15",
+    "duration_months": 15,
+    "tuition_total": 25146,
+    "tuition_basis": "out-of-state",
+    "fees": 2500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "TEAS minimum score 70; cumulative GPA 3.2; College Algebra & Trigonometry (MATH 1100)",
+    "us_news_note": "NCCU nursing not separately ranked by US News (regional university)",
+    "national_percentile": 0.35,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "tuition_total",
+      "fees",
+      "duration_months"
+    ],
+    "sources": [
+      "https://www.nccu.edu/academics/undergraduate-programs/nursing-accelerated-option-bsn",
+      "https://myeol.nccu.edu/sites/default/files/2025-01/2025-2026-Estimated-Tuition-and-Fees-Schedule.pdf"
+    ],
+    "notes": "ABSN is FALL-ENTRY only, 14-15 months, July 1 deadline; ~Aug start, next cohort Fall 2027 not Spring 2027. TEAS min 70 confirmed. Out-of-state full-time $8,382/sem x 3 = ~$25.1K (baseline $30K high); fees ~$235/sem."
+  },
+  {
+    "id": "csu-pueblo",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-10-01",
+    "start_date": "2027-05-15",
+    "duration_months": 14,
+    "tuition_total": 33000,
+    "tuition_basis": "out-of-state",
+    "fees": 2000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Nursing Pathophysiology; 3.0 prereq GPA required",
+    "us_news_note": "2026 US News Best Undergraduate BSN: CSU Pueblo ~#427; institution #81 Regional Universities West",
+    "national_percentile": 0.3,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.csupueblo.edu/nursing-bs/pathways.html",
+      "https://www.csupueblo.edu/student-financial-services/cost-of-attendance.html"
+    ],
+    "notes": "Program is SUMMER-start only with Oct 1 deadline; NO Spring 2027 (Jan) cohort. Next available Summer 2027 (apps open Aug 15 2026; deadline Oct 1 2026; ~May 2027 start). Out-of-state tuition near baseline. Adds Nursing Pathophysiology prereq."
+  },
+  {
+    "id": "yale",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-11-01",
+    "start_date": "2027-08-25",
+    "duration_months": 36,
+    "tuition_total": 175771,
+    "tuition_basis": "private-flat",
+    "fees": 8690,
+    "scholarship_amt": 0,
+    "prereqs_additional": "4 lab sciences: A&P I, A&P II, General Chemistry, Microbiology (all with lab); no stats/nutrition/lifespan/psych/soc/ethics required",
+    "us_news_note": "US News 2026 Best Nursing Schools (Master's): Yale #14 of 147",
+    "national_percentile": 0.9,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "national_percentile",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://nursing.yale.edu/admissions-aid/financial-aid/tuition-and-fees",
+      "https://nursing.yale.edu/academics/graduate-entry-pre-specialty-nursing-gepn"
+    ],
+    "notes": "GEPN is a 3-year program (1 prespecialty yr + 2 MSN yrs); tuition flat $72,275 (yr1) + 2x$51,748 = $175,771 (2025-26). Yale enrolls in-person FALL ONLY, no Spring/Jan 2027 entry; next cohort Fall 2027 (start ~late Aug 2027, deadline Nov 1 2026). US News 2026 #14/147."
+  },
+  {
+    "id": "montana-state",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-05",
+    "start_date": "2027-08-15",
+    "duration_months": 12,
+    "tuition_total": 46823,
+    "tuition_basis": "out-of-state",
+    "fees": 21892,
+    "scholarship_amt": 0,
+    "prereqs_additional": "organic/biochemistry (CHMY 123/124); NRSG 116 Intro to Professional Nursing",
+    "us_news_note": "MSU Bozeman #318 National Universities (US News 2026); no standalone BSN rank",
+    "national_percentile": 0.4,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://catalog.montana.edu/undergraduate/nursing/absn/",
+      "https://www.montana.edu/ubs/studentaccounts/TuitionFeeCharts/Current-Fall-Spring/acceleratednursing.html"
+    ],
+    "notes": "True second-degree Accelerated BSN (requires prior non-nursing bachelor's); 3 semesters/12 months. FALL-ONLY (August start), NO Spring/January cohort; next cohort Aug 2027 with Jan 5 2027 priority deadline. Out-of-state per official chart: $15,607.60 tuition + $7,297.25 fees/sem (fees include $5,978/sem nursing program fee); 3-sem totals ~$46,823 tuition + ~$21,892 fees."
+  },
+  {
+    "id": "vanderbilt-mn",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-05-15",
+    "start_date": "2027-01-11",
+    "duration_months": 16,
+    "tuition_total": 135762,
+    "tuition_basis": "private-flat",
+    "fees": 3216,
+    "scholarship_amt": 9000,
+    "prereqs_additional": "Anatomy/physiology/microbiology must be taken within 5 years of application",
+    "us_news_note": "US News 2026 Best Nursing Schools: Master's #5 of 147",
+    "national_percentile": 0.97,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "fees"
+    ],
+    "sources": [
+      "https://nursing.vanderbilt.edu/programs/mn/",
+      "https://www.vanderbilt.edu/stuaccts/fees/tuition_fees_2025-26_grad_prof/"
+    ],
+    "notes": "Old 'MSN PreSpecialty' restructured into Master of Nursing (MN) (no BSN required, 66 credits/4 semesters); MN Generalist track admits BOTH fall and spring, so Spring 2027 cohort starts Jan 11 2027. MN Prespecialty sub-track is fall-only. Tuition $2,057/cr x 66 = $135,762. Fees ~$3,216/program. MN auto-scholarship $3,000-$15,000/program."
+  },
+  {
+    "id": "bushnell-eugene",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-09-01",
+    "start_date": "2027-01-15",
+    "duration_months": 12,
+    "tuition_total": 53900,
+    "tuition_basis": "private-flat",
+    "fees": 2050,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No standalone US News nursing rank; Bushnell #71 Regional Universities West (2026)",
+    "national_percentile": 0.3,
+    "confidence": "high",
+    "changed": [
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://www.bushnell.edu/college-of-health-professions/absn/",
+      "https://www.bushnell.edu/absn-admission-requirements/"
+    ],
+    "notes": "ABSN active: 44 credits x $1,225 = $53,900 tuition; total student fees ~$2,050. Spring (January) cohort confirmed with Sep 1 application close. Eligible students may qualify for up to $21,000 Bushnell Nursing Tuition Grant (not standard)."
+  },
+  {
+    "id": "etsu",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-15",
+    "start_date": "2027-05-17",
+    "duration_months": 15,
+    "tuition_total": 68470,
+    "tuition_basis": "out-of-state",
+    "fees": 7500,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "No specific 2026 BSN rank; institution #301 National Universities, #164 Top Public (2026)",
+    "national_percentile": 0.35,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027",
+      "deadline",
+      "start_date",
+      "duration_months",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://www.etsu.edu/nursing/undergrad/accelerated_bsn.php",
+      "https://www.etsu.edu/financial-aid-and-scholarships/cost/cofa.php"
+    ],
+    "notes": "ETSU's Johnson City accelerated BSN admits in SUMMER only; no Spring 2027 cohort, next Summer 2027 (~mid-May), deadline Feb 15 2027. Program 5 semesters / 75 credit hours / ~15 months. Out-of-state across 5 semesters; baseline $35,640/$2,500 was a 1-year estimate."
+  },
+  {
+    "id": "fayetteville-state",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-17",
+    "start_date": "2027-05-15",
+    "duration_months": 15,
+    "tuition_total": 18084,
+    "tuition_basis": "out-of-state",
+    "fees": 8630,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Kaplan Entrance Exam (after application); BS degree in another field; 3.0 GPA; 3 references; interview",
+    "us_news_note": "No US News ranking found; FSU ABSN ranked No.1 in NC for 2026 by RegisteredNursing.org (not US News)",
+    "national_percentile": 0.3,
+    "confidence": "medium",
+    "changed": [
+      "tuition_total",
+      "fees",
+      "duration_months"
+    ],
+    "sources": [
+      "https://www.uncfsu.edu/academics/colleges-schools-and-departments/lloyd-college-of-health-science-and-technology/school-of-nursing/accelerated-bachelor-of-science-in-nursing-track-(absn)",
+      "https://www.uncfsu.edu/paying-for-college/tuition-and-fees"
+    ],
+    "notes": "Shifted cadence: applications JAN 1-17 but program STARTS in Maymester (~mid-May), so no January-start Spring 2027 cohort; the Jan-2027 window feeds the ~May 2027 start. Kaplan Entrance Exam still required. Out-of-state from 2026-2027 schedule ($291.67/credit), far below stale $42,300; ~62 nursing credits assumed (medium confidence on dollar amounts)."
+  },
+  {
+    "id": "viterbo-lacrosse",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-01",
+    "start_date": "2027-08-23",
+    "duration_months": 21,
+    "tuition_total": 51345,
+    "tuition_basis": "private-flat",
+    "fees": 1795,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Not separately ranked for MSN; undergrad nursing ~#294 (US News, mid-pack)",
+    "national_percentile": 0.25,
+    "confidence": "high",
+    "changed": [
+      "start_date",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://www.viterbo.edu/programs/direct-entry-master-science-nursing",
+      "https://www.viterbo.edu/graduate-student-admissions/graduate-admissions-cost-and-aid"
+    ],
+    "notes": "FALL-ONLY program (one start annually each fall); no Spring 2027 cohort, next Fall 2027 (~late Aug). 63 cr; 2026-27 tuition $815/cr = $51,345 (baseline $55,125 stale). Deadlines: Nov 1 priority / Feb 1 regular / May 15 space-available."
+  },
+  {
+    "id": "u-jamestown",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": null,
+    "start_date": "2027-01-04",
+    "duration_months": 20,
+    "tuition_total": 52848,
+    "tuition_basis": "private-flat",
+    "fees": 4780,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Not separately nursing-ranked; #124 tie Regional Univ. Midwest (US News 2026)",
+    "national_percentile": 0.2,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees"
+    ],
+    "sources": [
+      "https://accelerated.uj.edu/academics/programs/nursing-direct-entry-masters-2/",
+      "https://www.uj.edu/admission-aid/tuition-fees-payment/"
+    ],
+    "notes": "Hybrid DEMSN, 72 cr / 5 semesters (~20 mo), Fargo clinicals. MULTIPLE START DATES with rolling admissions (no fixed deadline); Spring 2027 term begins Jan 4, 2027, so it DOES accept the ~Jan 2027 cohort. Tuition $734/cr = $52,848; baseline $34,920 was stale/low."
+  },
+  {
+    "id": "chaminade-honolulu",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-04-01",
+    "start_date": "2027-08-16",
+    "duration_months": 21,
+    "tuition_total": 75000,
+    "tuition_basis": "private-flat",
+    "fees": 3000,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "#38 Regional Univ. West (US News 2026); undergrad nursing ~#288/690 in older data",
+    "national_percentile": 0.3,
+    "confidence": "medium",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total"
+    ],
+    "sources": [
+      "https://chaminade.edu/admissions/transfer-students/admission-requirements-deadlines/",
+      "https://chaminade.edu/nursing-health-professions/bsn/"
+    ],
+    "notes": "Accelerated BSN track (transfer/2nd-degree), 5 back-to-back terms (~21 mo). AUGUST-ONLY start; NO Spring/January cohort, so for a ~Jan 2027 entry next available Aug 2027. Priority deadline Apr 1. Cost ~$75,000 (baseline $80,000); fees est $3,000."
+  },
+  {
+    "id": "columbia",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2026-12-15",
+    "start_date": "2027-06-02",
+    "duration_months": 15,
+    "tuition_total": 117511,
+    "tuition_basis": "private-flat",
+    "fees": 3279,
+    "scholarship_amt": 0,
+    "prereqs_additional": "All prereqs min grade B- (per-course)",
+    "us_news_note": "Top-tier; US News Best Nursing Schools (Master's) among highest nationally (exact 2026 rank paywalled)",
+    "national_percentile": 0.96,
+    "confidence": "medium",
+    "changed": [
+      "fees",
+      "prereqs_additional",
+      "start_date"
+    ],
+    "sources": [
+      "https://www.nursing.columbia.edu/academics/academic-programs/masters-direct-entry-program-non-nurses/mde-admissions",
+      "https://www.nursing.columbia.edu/academics/financial-aid/tuition-and-fees"
+    ],
+    "notes": "MDE is summer-start only ('begins once a year in June'); no Spring 2027 cohort, next Summer 2027 (~June 2). Official site publishes flat $102,806 tuition + $3,279 fees for first three terms (2025-26); no single full-15-month total, so baseline $117,511 retained. Prereq minimum B- (baseline said B+)."
+  },
+  {
+    "id": "penn",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-02-01",
+    "start_date": "2027-08-23",
+    "duration_months": 15,
+    "tuition_total": 139664,
+    "tuition_basis": "private-flat",
+    "fees": 10067,
+    "scholarship_amt": 0,
+    "prereqs_additional": "",
+    "us_news_note": "Penn Nursing #8 (tie) of 147 in US News 2026 Best Nursing Schools: Master's",
+    "national_percentile": 0.95,
+    "confidence": "high",
+    "changed": [
+      "accepting_spring_2027",
+      "deadline",
+      "start_date",
+      "duration_months",
+      "tuition_total",
+      "fees",
+      "national_percentile"
+    ],
+    "sources": [
+      "https://www.nursing.upenn.edu/admissions/bsn-program/accelerated-direct-entry-bsnmsn/",
+      "https://srfs.upenn.edu/graduate-school-nursing-costs-mpn"
+    ],
+    "notes": "Penn's direct-entry path is now the Master of Professional Nursing (MPN), ~15-month Fall(August)-start over 4 consecutive semesters; Spring is mid-program, so no Jan/Spring 2027 entry, next ~Aug 2027 (final deadline Feb 1, 2027). Tuition 4 x $34,916/sem = $139,664; fees ~$10,067. US News 2026 Master's #8(tie)/147."
+  },
+  {
+    "id": "samuel-merritt",
+    "still_active": true,
+    "accepting_spring_2027": true,
+    "deadline": "2026-07-01",
+    "start_date": "2027-01-04",
+    "duration_months": 12,
+    "tuition_total": 109200,
+    "tuition_basis": "private-flat",
+    "fees": 0,
+    "scholarship_amt": 0,
+    "prereqs_additional": "Pharmacology + Pathophysiology; HESI A2 75% (or TEAS 65%) each subject; AHA BLS",
+    "us_news_note": "SMU #182 in US News 2026 Best Undergraduate BSN Programs",
+    "national_percentile": 0.74,
+    "confidence": "high",
+    "changed": [
+      "deadline",
+      "start_date",
+      "tuition_total",
+      "fees",
+      "national_percentile",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://www.samuelmerritt.edu/college-nursing/accelerated-bachelor-science-nursing",
+      "https://www.samuelmerritt.edu/admission/student-accounts"
+    ],
+    "notes": "Spring 2027 cohort active: January start, July 1 2026 priority deadline. Official 2026-2027 all-inclusive tuition sets ABSN at $109,200 for 52 units, up from $90k; new all-inclusive model folds mandatory fees into price (so separate fees $0). Exact Jan 2027 start day estimated."
+  },
+  {
+    "id": "usf-tampa",
+    "still_active": true,
+    "accepting_spring_2027": false,
+    "deadline": "2027-01-01",
+    "start_date": "2027-05-15",
+    "duration_months": 16,
+    "tuition_total": 28018,
+    "tuition_basis": "out-of-state",
+    "fees": 2500,
+    "scholarship_amt": 5000,
+    "prereqs_additional": "",
+    "us_news_note": "Not separately ranked for BSN; USF MSN #22/147 nationally (2026), #1 in Florida",
+    "national_percentile": 0.55,
+    "confidence": "medium",
+    "changed": [
+      "accepting_spring_2027",
+      "deadline",
+      "tuition_total",
+      "scholarship_amt",
+      "prereqs_additional"
+    ],
+    "sources": [
+      "https://health.usf.edu/nursing/undergraduate/programs/second-degree",
+      "https://www.usf.edu/business-finance/controller/student-services/tuition-rates.aspx"
+    ],
+    "notes": "Tampa Accelerated Second Degree BSN is SUMMER-entry only (St. Petersburg is Fall) - NO Spring 2027 cohort; next Summer 2027 (~May 2027 start), NursingCAS deadline Jan 1, USF admission deadline Mar 1. Tuition recomputed out-of-state $466.97/cr x ~60 = ~$28,018 (baseline $36,800 was high). Official $5,000 Second Degree Nursing Success Scholarship now available."
+  }
+]
