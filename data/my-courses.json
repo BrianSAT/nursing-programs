@@ -10,7 +10,7 @@
     },
     "summer_2026": {
       "label": "Summer 2026",
-      "end_date": "2026-08-15"
+      "end_date": "2026-08-01"
     },
     "fall_2026": {
       "label": "Fall 2026",
@@ -23,92 +23,100 @@
       "name": "Chemistry 806-134",
       "institution": "WCTC",
       "semester": "spring1_2026",
-      "status": "in_progress",
+      "status": "completed",
       "tags": [
         "chem",
         "gen_chem_lab"
       ],
       "online": false,
       "has_lab": true,
-      "credits": 4
+      "credits": 4,
+      "grade": "A"
     },
     {
       "id": "wctc-gap-806177",
       "name": "General A&P 806-177",
       "institution": "WCTC",
       "semester": "spring1_2026",
-      "status": "in_progress",
+      "status": "completed",
       "tags": [
         "ap1"
       ],
       "online": true,
       "has_lab": true,
-      "credits": 4
+      "credits": 4,
+      "grade": "A"
     },
     {
       "id": "wctc-stats-804189",
       "name": "Statistics 804-189",
       "institution": "WCTC",
       "semester": "spring1_2026",
-      "status": "in_progress",
+      "status": "completed",
       "tags": [
         "stats"
       ],
       "online": true,
       "has_lab": false,
-      "credits": 3
+      "credits": 3,
+      "grade": "A"
     },
     {
       "id": "matc-lifespan-psych238",
       "name": "Lifespan Psychology PSYCH-238",
       "institution": "MATC",
       "semester": "spring2_2026",
-      "status": "planned",
+      "status": "completed",
       "tags": [
         "lifespan"
       ],
       "online": true,
       "has_lab": false,
-      "credits": 3
+      "credits": 3,
+      "grade": "A"
     },
     {
       "id": "wctc-aap-806179",
       "name": "Advanced A&P 806-179",
       "institution": "WCTC",
       "semester": "spring2_2026",
-      "status": "planned",
+      "status": "completed",
       "tags": [
         "ap2"
       ],
       "online": true,
       "has_lab": true,
-      "credits": 4
+      "credits": 4,
+      "grade": "A"
     },
     {
       "id": "matc-micro-biosci197",
       "name": "Microbiology BIOSCI-197",
       "institution": "MATC",
       "semester": "summer_2026",
-      "status": "planned",
+      "status": "in_progress",
       "tags": [
         "micro"
       ],
       "online": false,
       "has_lab": true,
-      "credits": 4
+      "credits": 4,
+      "notes": "Summer session, completes 2026-07-31 (grade trend: A)"
     },
     {
       "id": "clep-nutrition",
       "name": "Nutrition CLEP Exam",
       "institution": "CLEP",
-      "semester": "summer_2026",
-      "status": "planned",
+      "semester": "spring2_2026",
+      "status": "completed",
       "tags": [
         "nutrition"
       ],
       "online": false,
       "has_lab": false,
-      "credits": 3
+      "credits": 3,
+      "grade": "A",
+      "notes": "Completed in Spring 2 2026 (not summer CLEP as originally planned)"
     }
   ],
   "transcript": [

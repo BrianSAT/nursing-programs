@@ -1,4 +1,3321 @@
 {
-  "pending": [],
-  "completed": []
+  "pending": [
+    {
+      "program_id": "christ-college-dayton",
+      "program_name": "Christ College of Nursing",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "st-catherine-elmsn",
+      "program_name": "St. Catherine University Entry-Level MSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "metro-state-elmsn",
+      "program_name": "Metropolitan State University Entry-Level MSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "detroit-mercy-sdo",
+      "program_name": "University of Detroit Mercy Second Degree Option BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "madonna-absn",
+      "program_name": "Madonna University ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "case-western-mn",
+      "program_name": "Case Western Reserve Master of Nursing (Graduate Entry)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "baldwin-wallace-absn",
+      "program_name": "Baldwin Wallace University ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "kent-state-absn",
+      "program_name": "Kent State University Accelerated BSN (Daytime)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "nku-absn",
+      "program_name": "Northern Kentucky University Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "marian-absn-indy",
+      "program_name": "Marian University ABSN (Indianapolis)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "uindy-absn",
+      "program_name": "University of Indianapolis ABSN (In-Person Track)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "siue-absn",
+      "program_name": "Southern Illinois University Edwardsville Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "eku-second-degree-bsn",
+      "program_name": "Eastern Kentucky University Second Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "uic-gem",
+      "program_name": "University of Illinois Chicago (Graduate Entry MSN)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "aurora-university-menp",
+      "program_name": "Aurora University (Master's Entry into Nursing Practice)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "north-central-college-menp",
+      "program_name": "North Central College (Master's Entry to Nursing Practice)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "chamberlain-chicago",
+      "program_name": "Chamberlain University (Chicago-area campuses)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "purdue-northwest",
+      "program_name": "Purdue University Northwest",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "valparaiso",
+      "program_name": "Valparaiso University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "concordia-wi-absn",
+      "program_name": "Concordia University Wisconsin (ABSN)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "concordia-wi-demsn",
+      "program_name": "Concordia University Wisconsin (Direct Entry MSN)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "herzing-brookfield",
+      "program_name": "Herzing University Brookfield",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "herzing-madison",
+      "program_name": "Herzing University Madison",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "carroll-msn-de",
+      "program_name": "Carroll University (MSN Direct Entry)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "bellin-college",
+      "program_name": "Bellin College",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "msoe",
+      "program_name": "Milwaukee School of Engineering (MSOE)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "uw-oshkosh",
+      "program_name": "UW Oshkosh (Accelerated Online BSN)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "marian-nashville",
+      "program_name": "Marian University ABSN (Nashville)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "uthsc-memphis",
+      "program_name": "UT Health Science Center (Memphis)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "brenau-elmsn",
+      "program_name": "Brenau University (ELMSN)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "south-college-atlanta",
+      "program_name": "South College Atlanta",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "jwu-charlotte",
+      "program_name": "Johnson & Wales (Charlotte)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "midamerica-nazarene",
+      "program_name": "MidAmerica Nazarene",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "twu-dallas",
+      "program_name": "Texas Woman's University (Dallas)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "ut-arlington-aobsn",
+      "program_name": "UT Arlington",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "concordia-texas-austin",
+      "program_name": "Concordia University Texas",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "ut-austin-aemsn",
+      "program_name": "UT Austin (AE-MSN)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "ust-houston-absn",
+      "program_name": "U St. Thomas Houston",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "galen-tampa-bay",
+      "program_name": "Galen College of Nursing (Tampa Bay)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "ucf-absn",
+      "program_name": "UCF",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "rasmussen-orlando",
+      "program_name": "Rasmussen University (Orlando)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "regis-college-weston",
+      "program_name": "Regis College Accelerated 16-Month BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "curry-college",
+      "program_name": "Curry College ACCEL BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "mcphs-worcester",
+      "program_name": "MCPHS University Postbaccalaureate BSN (Worcester)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "mount-saint-vincent",
+      "program_name": "University of Mount Saint Vincent ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "thomas-jefferson",
+      "program_name": "Thomas Jefferson ABSN Plus (formerly FACT)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "rutgers-camden",
+      "program_name": "Rutgers-Camden Accelerated BS in Nursing",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "catholic-university",
+      "program_name": "Catholic University of America ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "marymount",
+      "program_name": "Marymount University ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "shenandoah-loudoun",
+      "program_name": "Shenandoah Accelerated Second Degree BSN (Loudoun)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "jwu-providence",
+      "program_name": "Johnson & Wales University ABSN (Providence)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "robert-morris",
+      "program_name": "Robert Morris University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "saint-vincent",
+      "program_name": "Saint Vincent College",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "vcu",
+      "program_name": "Virginia Commonwealth University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "bon-secours-richmond",
+      "program_name": "Bon Secours Memorial College of Nursing",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "lsu-health-nola",
+      "program_name": "LSU Health New Orleans (CARE program)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "southeastern-la-northshore",
+      "program_name": "Southeastern Louisiana University (Northshore)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "herzing-nola",
+      "program_name": "Herzing University (New Orleans)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "uiw-san-antonio",
+      "program_name": "University of the Incarnate Word",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "texas-lutheran-nb",
+      "program_name": "Texas Lutheran University (New Braunfels)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "csp-portland",
+      "program_name": "Concordia University St. Paul (Portland ABSN site)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "gcu-meridian",
+      "program_name": "Grand Canyon University (Meridian ABSN site)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "eagle-gate-boise",
+      "program_name": "Eagle Gate College (Boise MEPN)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "brookline-abq",
+      "program_name": "Brookline College (Albuquerque)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "lmu-knoxville",
+      "program_name": "Lincoln Memorial University (Knoxville Cedar Bluff)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "south-college-knoxville",
+      "program_name": "South College (Knoxville)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "south-college-asheville",
+      "program_name": "South College (Asheville)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "charleston-southern",
+      "program_name": "Charleston Southern University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "asu-edson",
+      "program_name": "ASU Edson",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "creighton-phoenix",
+      "program_name": "Creighton Phoenix",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "cu-anschutz",
+      "program_name": "CU Anschutz",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "denver-college-nursing",
+      "program_name": "Denver College of Nursing",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "csp-global-denver",
+      "program_name": "CSP Global Denver",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "colorado-christian",
+      "program_name": "Colorado Christian",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "u-utah",
+      "program_name": "University of Utah",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "joyce-draper",
+      "program_name": "Joyce University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "nightingale-slc",
+      "program_name": "Nightingale College",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "sdsu-chula-vista",
+      "program_name": "SDSU",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "national-u",
+      "program_name": "National U",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "apu-san-diego",
+      "program_name": "APU San Diego",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "u-san-diego",
+      "program_name": "U San Diego",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "plu-elmsn",
+      "program_name": "Pacific Lutheran ELMSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "seattle-u-apni",
+      "program_name": "Seattle U",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "roseman-henderson",
+      "program_name": "Roseman Henderson",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "unlv-second-degree",
+      "program_name": "UNLV 2nd-Degree",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "chamberlain-las-vegas",
+      "program_name": "Chamberlain Las Vegas",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "troy-dothan",
+      "program_name": "Troy University (Dothan Campus)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "north-alabama-florence",
+      "program_name": "University of North Alabama",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "alverno-mesa",
+      "program_name": "Alverno College",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "alliant-phoenix",
+      "program_name": "Alliant International University (MSN, Direct Entry)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "chamberlain-phoenix",
+      "program_name": "Chamberlain University (Phoenix Campus)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "brookline-phoenix",
+      "program_name": "Brookline College (Phoenix Campus)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "azusa-pacific-azusa",
+      "program_name": "Azusa Pacific University (Entry-Level Master's, ELM)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "san-diego-state-chula-vista",
+      "program_name": "San Diego State University (Accelerated Second-Bachelor's BSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "csu-long-beach",
+      "program_name": "California State University, Long Beach",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "cal-state-la-los-angeles",
+      "program_name": "California State University, Los Angeles (ABSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "mount-saint-marys-los-angeles",
+      "program_name": "Mount Saint Mary's University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "charles-r-drew-los-angeles",
+      "program_name": "Charles R. Drew University of Medicine and Science (MSN-ELM)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "ucla-los-angeles",
+      "program_name": "UCLA Joe C. Wen School of Nursing (Master's Entry Clinical Nursing, MECN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "western-university-health-sciences-pomona",
+      "program_name": "Western University of Health Sciences - MSN-Entry",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "concordia-university-irvine-rancho-cucamonga",
+      "program_name": "Concordia University Irvine - ABSN (Rancho Cucamonga Hybrid)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "azusa-pacific-university-san-diego",
+      "program_name": "Azusa Pacific University - Entry-Level Master's in Nursing (ELM), San Diego Regional Campus",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "san-francisco-state-university-san-francisco",
+      "program_name": "San Francisco State University - Entry Level Master of Science in Nursing (ELM)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-of-san-francisco-san-francisco",
+      "program_name": "University of San Francisco - Master's Entry MSN, Clinical Nurse Leader (MEPN/CNL)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "california-state-university-san-marcos",
+      "program_name": "California State University, San Marcos",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-of-colorado-anschutz-medical-campus-aurora",
+      "program_name": "University of Colorado Anschutz Medical Campus College of Nursing",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "beth-el-college-of-nursing-colorado-springs",
+      "program_name": "Helen and Arthur E. Johnson Beth-El College of Nursing and Health Sciences (UCCS)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-of-connecticut-waterbury",
+      "program_name": "University of Connecticut - Waterbury",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "trinity-washington-university-washington",
+      "program_name": "Trinity Washington University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-of-delaware-newark",
+      "program_name": "University of Delaware",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "west-coast-university-doral",
+      "program_name": "West Coast University - Miami",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "keiser-university-fort-lauderdale",
+      "program_name": "Keiser University Accelerated BSN - Fort Lauderdale Campus",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "jacksonville-university-ascension-st-vincents",
+      "program_name": "JU & Ascension St. Vincent's Accelerated BSN (16-Month)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "grand-canyon-university-lake-mary",
+      "program_name": "GCU Orlando (Lake Mary) Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "keiser-university-miami",
+      "program_name": "Keiser University Accelerated BSN - Miami Campus",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "nova-southeastern-university-miami",
+      "program_name": "Nova Southeastern University Accelerated BSN - Miami Campus",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "miami-regional-university-miami-springs",
+      "program_name": "Miami Regional University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "grand-canyon-university-miramar",
+      "program_name": "Grand Canyon University (Miramar)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "keiser-university-pembroke-pines",
+      "program_name": "Keiser University (Pembroke Pines)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "herzing-university-atlanta",
+      "program_name": "Herzing University - Accelerated BSN (Atlanta)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "middle-georgia-state-macon",
+      "program_name": "Middle Georgia State University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-hawaii-manoa-honolulu",
+      "program_name": "University of Hawaii at Manoa - Graduate Entry Program in Nursing (GEPN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "st-lukes-college-sioux-city",
+      "program_name": "St. Luke's College",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "rosalind-franklin-north-chicago",
+      "program_name": "Rosalind Franklin University of Medicine and Science - MSN for Entry into Nursing Practice (MENP)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "rasmussen-university-romeoville",
+      "program_name": "Rasmussen University - Romeoville/Joliet (BSN Second Degree)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "lincoln-memorial-university-lexington",
+      "program_name": "Lincoln Memorial University - Caylor School of Nursing (Lexington site, with CHI Saint Joseph Health)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "spalding-louisville",
+      "program_name": "Spalding University Accelerated BSN (Second Degree)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "endicott-beverly",
+      "program_name": "Endicott College Accelerated BSN (ABSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "northeastern-boston-direct-entry",
+      "program_name": "Northeastern University Direct-Entry Nursing MS (Bouve College, Boston)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "simmons-boston",
+      "program_name": "Simmons University Direct Entry MSN (RN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "boston-college-chestnut-hill",
+      "program_name": "Boston College Connell School of Nursing - Direct-Entry MS, Registered Nurse Track",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "laboure-college-milton",
+      "program_name": "Curry College Accelerated Nursing Program (ACCEL) - successor to Laboure College of Healthcare's ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "umass-dartmouth-north-dartmouth",
+      "program_name": "UMass Dartmouth Second Degree Accelerated BS in Nursing (Hybrid)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "coppin-state-baltimore",
+      "program_name": "Coppin State University Accelerated Second Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "stevenson-owings-mills",
+      "program_name": "Stevenson University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "une-portland",
+      "program_name": "University of New England",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "sjc-maine-standish",
+      "program_name": "Saint Joseph's College of Maine",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "concordia-ann-arbor",
+      "program_name": "Concordia University Ann Arbor",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "detroit-mercy-novi",
+      "program_name": "University of Detroit Mercy - MEAGN (Master's Entry Advanced Generalist Nursing)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "eastern-michigan-ypsilanti",
+      "program_name": "Eastern Michigan University - Second Degree Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "herzing-minneapolis",
+      "program_name": "Herzing University - Accelerated BSN (Minneapolis)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "rasmussen-st-cloud",
+      "program_name": "Rasmussen University – St. Cloud Campus (BSN Accelerated Second Degree)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "bethel-st-paul",
+      "program_name": "Bethel University Post-Baccalaureate Nursing Program",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "northwestern-st-paul",
+      "program_name": "University of Northwestern - St. Paul, School of Nursing",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "st-thomas-st-paul",
+      "program_name": "University of St. Thomas – Susan S. Morrison School of Nursing (Direct Entry MSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "missouri-baptist-university-st-louis",
+      "program_name": "Missouri Baptist University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "william-carey-university-biloxi",
+      "program_name": "William Carey University (Biloxi)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-of-providence-great-falls",
+      "program_name": "University of Providence",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "western-carolina-university-cullowhee",
+      "program_name": "Western Carolina University - Master's Entry Prelicensure Nursing (MEPN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-of-new-hampshire-durham",
+      "program_name": "University of New Hampshire – Direct Entry Master of Science in Nursing (CNL Track)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "franklin-pierce-university-manchester",
+      "program_name": "Franklin Pierce University – Master's Entry Program in Nursing (MEPN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "mcphs-university-manchester",
+      "program_name": "MCPHS University – Bachelor of Science in Nursing, Postbaccalaureate (Manchester, NH)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "caldwell-university-caldwell",
+      "program_name": "Caldwell University – Bachelor of Science in Nursing, Second-Degree/Accelerated Track",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "montclair-state-montclair",
+      "program_name": "Montclair State University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "chamberlain-north-brunswick",
+      "program_name": "Chamberlain University (North Brunswick)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "felician-parsippany",
+      "program_name": "Felician University (Parsippany - Hybrid ABSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "felician-rutherford",
+      "program_name": "Felician University (Rutherford - On-Ground ABSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "fairleigh-dickinson-teaneck",
+      "program_name": "Fairleigh Dickinson University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "thomas-edison-state-trenton",
+      "program_name": "Thomas Edison State University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "william-paterson-wayne",
+      "program_name": "William Paterson University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "university-new-mexico-albuquerque",
+      "program_name": "University of New Mexico",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "new-mexico-state-las-cruces",
+      "program_name": "New Mexico State University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "grand-canyon-henderson",
+      "program_name": "Grand Canyon University ABSN - Las Vegas (Henderson)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "nevada-state-henderson",
+      "program_name": "Nevada State University School of Nursing (Full-Time Track)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "touro-nevada-henderson",
+      "program_name": "Touro University Nevada School of Nursing - Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "unr-lake-tahoe-incline-village",
+      "program_name": "University of Nevada, Reno - Orvis School of Nursing at Lake Tahoe",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "unlv-las-vegas",
+      "program_name": "University of Nevada, Las Vegas (UNLV) School of Nursing - Accelerated Second-Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "lehman-college-bronx",
+      "program_name": "Lehman College (CUNY) - Accelerated Nursing Program",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "mercy-university-bronx",
+      "program_name": "Mercy University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "monroe-university-bronx",
+      "program_name": "Monroe University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "suny-downstate-brooklyn",
+      "program_name": "SUNY Downstate Health Sciences University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "touro-university-nyscas-new-york",
+      "program_name": "Touro University (NYSCAS)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "yeshiva-university-new-york",
+      "program_name": "Yeshiva University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "niagara-university-niagara-falls",
+      "program_name": "Niagara University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "molloy-university-rockville-centre",
+      "program_name": "Molloy University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "wagner-college-staten-island",
+      "program_name": "Wagner College",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "widener-university-chester",
+      "program_name": "Widener University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "gwynedd-mercy-philadelphia",
+      "program_name": "Gwynedd Mercy University - Philadelphia Campus",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "temple-philadelphia",
+      "program_name": "Temple University Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "wcu-west-chester",
+      "program_name": "West Chester University M.S.N. with Accelerated B.S.N.",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "south-carolina-columbia",
+      "program_name": "University of South Carolina Master's Entry to Practice Nursing (MEPN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "belmont-nashville",
+      "program_name": "Belmont University Accelerated 2nd Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "herzing-nashville",
+      "program_name": "Herzing University Accelerated BSN (Nashville)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "eagle-gate-murray",
+      "program_name": "Eagle Gate College Master's Entry Program in Nursing (MEPN) - Murray",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    },
+    {
+      "program_id": "uwyo-laramie-brand",
+      "program_name": "University of Wyoming BRAND (Fay W. Whitney School of Nursing)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ]
+    }
+  ],
+  "completed": [
+    {
+      "program_id": "san-francisco-state-university-san-mateo",
+      "program_name": "San Francisco State University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "mount-carmel-sdap",
+      "program_name": "Mount Carmel College of Nursing Second Degree Accelerated Program",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "msj-magelin",
+      "program_name": "Mount St. Joseph University MAGELIN Direct-Entry MSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "saint-peters-university-jersey-city",
+      "program_name": "Saint Peter's University — Accelerated BSN Program",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "ursuline-absn",
+      "program_name": "Ursuline College ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "immaculata-university-immaculata",
+      "program_name": "Immaculata University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "university-of-north-georgia-gainesville",
+      "program_name": "University of North Georgia - Accelerated BSN (Gainesville)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "u-houston-absn",
+      "program_name": "U Houston",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "rivier-university-nashua",
+      "program_name": "Rivier University – Accelerated Bachelor of Science in Nursing (ABSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "utc-chattanooga",
+      "program_name": "University of Tennessee at Chattanooga",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "baker-college-royal-oak",
+      "program_name": "Baker College - Accelerated BSN (Royal Oak)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "uthealth-san-antonio",
+      "program_name": "UT Health San Antonio",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "iu-northwest",
+      "program_name": "Indiana University Northwest",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "umass-boston",
+      "program_name": "UMass Boston ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "gcu-salt-lake-city",
+      "program_name": "Grand Canyon University ABSN - Salt Lake City (Sandy) Site",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "grand-canyon-university-englewood",
+      "program_name": "Grand Canyon University - Denver/Englewood ABSN Site",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "salem-state-salem",
+      "program_name": "Salem State University Accelerated Second Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "oakland-asd-bsn",
+      "program_name": "Oakland University Accelerated Second-Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "college-of-new-jersey-ewing",
+      "program_name": "The College of New Jersey — Accelerated Second-Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "goldfarb-absn",
+      "program_name": "Goldfarb School of Nursing at Barnes-Jewish College ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "holy-family",
+      "program_name": "Holy Family Second Degree Fast-Track BSN (14-Month)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "ramapo-college-mahwah",
+      "program_name": "Ramapo College of New Jersey",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "avila-absn",
+      "program_name": "Avila University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "brenau-university-gainesville",
+      "program_name": "Brenau University - Accelerated BSN (Gainesville)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "gwynedd-mercy",
+      "program_name": "Gwynedd Mercy University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "gcu-albuquerque",
+      "program_name": "Grand Canyon University (Albuquerque ABSN site)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "saint-xavier",
+      "program_name": "Saint Xavier University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "rasmussen-bloomington",
+      "program_name": "Rasmussen University - BSN Second Degree Accelerated Entry (Bloomington)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "william-jewell",
+      "program_name": "William Jewell College",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "rockhurst-university-kansas-city",
+      "program_name": "Rockhurst University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "mount-sinai-pson",
+      "program_name": "Phillips School of Nursing at Mount Sinai ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "plu-absn-lynnwood",
+      "program_name": "PLU ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "lewis-university",
+      "program_name": "Lewis University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "la-roche",
+      "program_name": "La Roche University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "william-carey-baton-rouge",
+      "program_name": "William Carey University School of Nursing - 2nd Degree Hybrid BSN (Baton Rouge)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "rutgers-newark",
+      "program_name": "Rutgers School of Nursing Second-Degree BSN (Newark)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "university-of-providence-lewistown",
+      "program_name": "University of Providence - Accelerated BSN (Lewistown site)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "east-carolina-university-greenville",
+      "program_name": "East Carolina University College of Nursing - Accelerated Second-Degree BSN (ABSN)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "grand-canyon-university-st-louis",
+      "program_name": "Grand Canyon University – St. Louis (Creve Coeur)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "gcu-tucson",
+      "program_name": "Grand Canyon University (Tucson ABSN site)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "fairfield-austin",
+      "program_name": "Fairfield University Accelerated Second Degree Nursing (ASDNU) - Austin",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "university-of-connecticut-storrs",
+      "program_name": "University of Connecticut - Storrs",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "cumberland-lebanon",
+      "program_name": "Cumberland University Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "bellarmine-absn",
+      "program_name": "Bellarmine University Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "long-island-university-brooklyn",
+      "program_name": "Long Island University - Brooklyn (Harriet Rothkopf Heilbrunn School of Nursing)",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "villanova",
+      "program_name": "Villanova BSNExpress",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "waynesburg",
+      "program_name": "Waynesburg University",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "adelphi-university-garden-city",
+      "program_name": "Adelphi University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "queens-charlotte",
+      "program_name": "Queens University of Charlotte",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "msu-absn-detroit",
+      "program_name": "Michigan State University ABSN (Detroit site)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "gwu",
+      "program_name": "George Washington University ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "pace",
+      "program_name": "Pace University Lienhard ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "mgh-ihp",
+      "program_name": "MGH Institute of Health Professions ABSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "nyu-meyers",
+      "program_name": "NYU Rory Meyers Accelerated 15-Month BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "seton-hall",
+      "program_name": "Seton Hall Second Degree Accelerated BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "kean-university-jersey-city",
+      "program_name": "Kean University (Kean Jersey City) — Accelerated Second-Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "chestnut-hill-college-philadelphia",
+      "program_name": "Chestnut Hill College",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "ttuhsc-san-antonio",
+      "program_name": "Texas Tech University HSC (San Antonio site)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "texas-am-round-rock",
+      "program_name": "Texas A&M (Round Rock)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "nau-north-valley",
+      "program_name": "NAU North Valley",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "barry-university-miami-shores",
+      "program_name": "Barry University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "gvsu-second-degree-bsn",
+      "program_name": "Grand Valley State University Accelerated Second Degree BSN",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "union-hendersonville",
+      "program_name": "Union University (Hendersonville)",
+      "queued_at": "2026-07-14",
+      "reason": "First-blush scout add — verify prereqs/extras, exact deadlines and cohort dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "north-carolina-at-greensboro",
+      "program_name": "North Carolina A&T State University - Accelerated BSN Entry Option",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    },
+    {
+      "program_id": "olivet-nazarene-bourbonnais",
+      "program_name": "Olivet Nazarene University",
+      "queued_at": "2026-07-14",
+      "reason": "Census triage add — verify prereqs/extras, exact dates, tuition, application requirements",
+      "fields_needed": [
+        "prerequisites.extra",
+        "deadline",
+        "start_date",
+        "tuition",
+        "application_requirements"
+      ],
+      "completed_at": "2026-07-15"
+    }
+  ]
 }

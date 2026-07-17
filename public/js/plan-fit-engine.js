@@ -245,34 +245,78 @@ const PlanFitEngine = (function () {
     const deadline = program.admissions?.deadline;
     if (!deadline) return false;
 
-    // Compare with today
-    const today = new Date().toISOString().split('T')[0];
+    // Compare on Brian's local application calendar. UTC flips to tomorrow at
+    // 7 p.m. CDT and used to close same-day deadlines several hours early.
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: 'America/Chicago',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit'
+    }).formatToParts(new Date());
+    const value = type => parts.find(part => part.type === type)?.value;
+    const today = `${value('year')}-${value('month')}-${value('day')}`;
     return deadline < today;
   }
 
-  // Check if prereqs must be complete at application and user won't have them done
-  function checkInProgressPolicy(program, profile) {
+  // Check if prereqs must be complete at application and user won't have them done.
+  // Deadline-aware: a course whose semester ends before the application deadline
+  // counts as complete by application time. Rolling/null deadline = applicant
+  // controls timing, so any currently-enrolled course counts.
+  function checkInProgressPolicy(program, profile, prereqMap) {
     const inProgressOk = program.admissions?.in_progress_ok;
     if (inProgressOk !== false) return { blocked: false, reason: null };
 
-    // Check if all required standard prereqs are already completed (not just planned)
+    const deadline = program.admissions?.deadline;
+    const availableAtApp = tagsAvailableByDate(profile, deadline || '9999-12-31');
+
     const standard = program.prerequisites?.standard || {};
     for (const [key, required] of Object.entries(standard)) {
       if (!required) continue;
       if (key === 'ap_1_2') {
-        if (!profile.completedTags.has('ap1') || !profile.completedTags.has('ap2')) {
+        if (!availableAtApp.has('ap1') || !availableAtApp.has('ap2')) {
           return {
             blocked: true,
-            reason: 'Requires complete prereqs at application — you will have courses in-progress'
+            reason: 'Requires complete prereqs at application — yours won’t be done by the deadline'
           };
         }
       } else {
-        if (!profile.completedTags.has(key)) {
+        if (!availableAtApp.has(key)) {
           return {
             blocked: true,
-            reason: 'Requires complete prereqs at application — you will have courses in-progress'
+            reason: 'Requires complete prereqs at application — yours won’t be done by the deadline'
           };
         }
+      }
+    }
+
+    // A school that requires prerequisites complete at application means its
+    // mapped extra courses too. Previously only the standard checklist was
+    // enforced here, so requirements such as Human Genetics could incorrectly
+    // remain a fall course even when the application window came first.
+    const mappings = prereqMap?.mappings || {};
+    for (const extra of (program.prerequisites?.extra || [])) {
+      const mapping = mappings[extra];
+      if (!mapping || mapping.hard_blocker || mapping.type !== 'course') continue;
+      if (mapping.notes?.includes('during program')) continue;
+
+      const tags = mapping.tags || [];
+      if (tags.length === 0) continue;
+
+      const hasMappedTag = tag => {
+        if (Array.isArray(tag)) return tag.some(option => hasMappedTag(option));
+        if (tag === 'chem_sequence') return profile.chemCourseCount >= 2;
+        return availableAtApp.has(tag);
+      };
+
+      const satisfied = mapping.logic === 'or'
+        ? hasMappedTag(tags[0])
+        : tags.every(hasMappedTag);
+
+      if (!satisfied) {
+        return {
+          blocked: true,
+          reason: `Requires complete prereqs at application — ${extra} won’t be done by the deadline`
+        };
       }
     }
 
@@ -286,10 +330,26 @@ const PlanFitEngine = (function () {
     return missingCourses;
   }
 
-  // Check if program is confirmed not accepting applications
-  function isNotAccepting(program) {
-    const notes = (program.verification?.notes || '').toUpperCase();
-    return notes.includes('NOT ACCEPTING') || notes.includes('NOT CURRENTLY ACCEPTING');
+  // Return the target-specific availability blocker, if any.
+  function getAvailabilityBlock(program) {
+    const notes = [
+      program.verification?.notes,
+      program.notes,
+      program.admissions?.app_timing_notes
+    ].filter(Boolean).join(' ').toUpperCase();
+    const targetCycleClosed = notes.includes('START WINDOW CANNOT BE MET')
+      || notes.includes('JANUARY 2027 IS UNAVAILABLE')
+      || /\b(?:AUTUMN|FALL|WINTER|SPRING|JANUARY|JAN)\b.{0,50}\bAPPLICATION CYCLE (?:IS )?CLOSED\b/.test(notes);
+    if (targetCycleClosed) return 'No cohort available in the target start window';
+
+    const discontinued = /\b(?:PROGRAM|TRACK|OPTION|LOCATION|SITE|CAMPUS)\b.{0,40}\b(?:DISCONTINUED|NO LONGER OFFERED|NO LONGER AN ENROLLMENT OPTION|CLOSED)\b/.test(notes)
+      || /\b(?:ABSN|DEMSN|MEPN|ELMSN)\b.{0,40}\b(?:FULLY )?DISCONTINUED\b/.test(notes);
+    if (discontinued) return 'Program or location is no longer offered';
+
+    if (notes.includes('NOT ACCEPTING') || notes.includes('NOT CURRENTLY ACCEPTING')) {
+      return 'Not currently accepting applications';
+    }
+    return null;
   }
 
   // Main evaluation: evaluate a single program
@@ -299,10 +359,11 @@ const PlanFitEngine = (function () {
     let status = 'fits';
 
     // 0. Hard blocker: program confirmed not accepting applications
-    if (isNotAccepting(program)) {
+    const availabilityBlock = getAvailabilityBlock(program);
+    if (availabilityBlock) {
       return {
         status: 'ruled_out',
-        reasons: ['Not currently accepting applications'],
+        reasons: [availabilityBlock],
         warnings: []
       };
     }
@@ -318,7 +379,7 @@ const PlanFitEngine = (function () {
     }
 
     // 2. Hard blocker: in_progress_ok = false and prereqs incomplete
-    const inProgressCheck = checkInProgressPolicy(program, profile);
+    const inProgressCheck = checkInProgressPolicy(program, profile, prereqMap);
     if (inProgressCheck.blocked) {
       return {
         status: 'ruled_out',

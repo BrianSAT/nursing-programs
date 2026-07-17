@@ -146,6 +146,219 @@ select {
   accent-color: #2563eb;
 }
 
+.cost-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #333;
+  cursor: pointer;
+  white-space: nowrap;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #f8f8f8;
+}
+
+.cost-toggle:has(input:checked) {
+  background: #fef3c7;
+  border-color: #f59e0b;
+  font-weight: 600;
+}
+
+.cost-toggle input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+  accent-color: #f59e0b;
+}
+
+.ncas-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.ncas-yes {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.ncas-direct {
+  background: #e0e7ff;
+  color: #3730a3;
+}
+
+.ncas-unknown {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+
+.geo-flag {
+  color: #d97706;
+  font-size: 0.9rem;
+  margin-left: 4px;
+  cursor: help;
+}
+
+.geo-flag-cell {
+  text-align: center;
+}
+
+.sel-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: help;
+}
+
+.sel-selective {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.sel-competitive {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.sel-accessible {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.sel-open {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.sel-unknown {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+
+.rep-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: help;
+}
+
+.rep-tier-5 {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.rep-tier-4 {
+  background: #ecfccb;
+  color: #3f6212;
+}
+
+.rep-tier-3 {
+  background: #e0f2fe;
+  color: #075985;
+}
+
+.rep-tier-2 {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.rep-tier-1 {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.rep-unknown {
+  background: #f3f4f6;
+  color: #9ca3af;
+}
+
+.rep-notes-text {
+  font-size: 0.85rem;
+  color: #4b5563;
+  line-height: 1.5;
+}
+
+.rel-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: help;
+}
+
+.rel-secular {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.rel-affiliated {
+  background: #fef9c3;
+  color: #854d0e;
+}
+
+.rel-required {
+  background: #fde68a;
+  color: #78350f;
+  border: 1px solid #f59e0b;
+}
+
+.rel-unknown {
+  background: #f3f4f6;
+  color: #c4c8cf;
+}
+
+.app-progress-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 8px;
+  background: #dbeafe;
+  color: #1e40af;
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+.app-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.app-step {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  padding: 2px 0;
+}
+
+.app-step input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  accent-color: #16a34a;
+}
+
+.app-step:has(input:checked) {
+  color: #16a34a;
+  text-decoration: line-through;
+}
+
 .stats {
   margin-bottom: 10px;
   color: #666;

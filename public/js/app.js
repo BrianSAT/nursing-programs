@@ -2,6 +2,7 @@ let programs = [];
 let programsMap = {};
 let currentSort = { column: 'raw_score', direction: 'desc' };
 let workCommitmentEnabled = {}; // Track per-program: { programId: true/false }
+let appProgress = {}; // Per-program application step checkboxes: { programId: { stepKey: true } }
 let computedPlanFit = {}; // Computed plan-fit results from engine
 let prereqMap = null; // Loaded prereq-map.json
 
@@ -11,12 +12,14 @@ async function loadPrograms() {
 
   try {
     // Load programs, courses, and prereq-map in parallel
-    const [programsRes, courseData, prereqMapRes] = await Promise.all([
+    const [programsRes, courseData, prereqMapRes, , progressRes] = await Promise.all([
       fetch('/api/programs').then(r => { if (!r.ok) throw new Error('Failed to load programs'); return r.json(); }),
       CoursesPanel.loadCourseData(),
       fetch('/api/prereq-map').then(r => { if (!r.ok) throw new Error('Failed to load prereq-map'); return r.json(); }),
-      TodoPanel.loadTodoData()
+      TodoPanel.loadTodoData(),
+      fetch('/api/app-progress').then(r => r.ok ? r.json() : {}).catch(() => ({}))
     ]);
+    appProgress = progressRes || {};
 
     programs = programsRes.programs;
     programsMap = {};
@@ -43,6 +46,7 @@ function reEvaluateAndRender() {
   const courseData = CoursesPanel.getCourseData();
   if (courseData && prereqMap && programs.length > 0) {
     computedPlanFit = PlanFitEngine.evaluateAll(programs, courseData, prereqMap);
+    invalidateCostFreeRanks(); // fit statuses feed cost-free ranks too
     renderTable();
   }
 }
@@ -50,6 +54,190 @@ function reEvaluateAndRender() {
 function getPlanFit(program) {
   // Use computed plan-fit if available, fall back to stored
   return computedPlanFit[program.id] || program.plan_fit || {};
+}
+
+// v3: plan-fit is a score modifier, not just a filter.
+// Live display score = score_pre_fit (base×start×time×cost from sync) × current fit scaler,
+// so adding/removing courses moves scores in real time.
+const FIT_SCALER = { fits: 1.0, fall_required: 0.85, adjust: 0.6, ruled_out: 0 };
+
+// Cost toggle: 'ranked' = cost scratches (hard 0 at $10k/mo) and scales rank (default).
+// 'ignored' = money silenced — scores and ranks computed with no cost penalty at all.
+let costMode = 'ranked';
+let costFreeRanks = null; // memoized id → rank for ignored mode
+
+function getFitScaler(status) {
+  return FIT_SCALER[status] ?? 1.0;
+}
+
+function getDisplayScore(program) {
+  const scores = program.scores || {};
+  const preFit = costMode === 'ignored' ? scores.score_no_cost_pre_fit : scores.score_pre_fit;
+  if (preFit == null) return scores.raw_score; // pre-v3 data fallback
+  const status = getPlanFit(program).status;
+  return Math.round(preFit * getFitScaler(status) * 100) / 100;
+}
+
+function invalidateCostFreeRanks() {
+  costFreeRanks = null;
+}
+
+function getDisplayRank(program) {
+  if (costMode !== 'ignored') return program.scores?.rank;
+  if (!costFreeRanks) {
+    costFreeRanks = {};
+    programs
+      .map(p => ({ id: p.id, s: getDisplayScore(p) ?? -1 }))
+      .sort((a, b) => b.s - a.s)
+      .forEach((e, i) => { costFreeRanks[e.id] = i + 1; });
+  }
+  return costFreeRanks[program.id];
+}
+
+// Application system: structured field for vetted programs, notes scan for scout adds.
+function getAppSystem(program) {
+  const sys = program.application_requirements?.system;
+  if (sys === 'nursingcas' || sys === 'both') return 'nursingcas';
+  if (sys === 'direct') return 'direct';
+  const text = [
+    program.admissions?.app_timing_notes,
+    program.notes,
+    program.application_requirements?.system_notes,
+    ...(program.prerequisites?.extra || [])
+  ].filter(Boolean).join(' ');
+  if (/not? nursingcas/i.test(text)) return 'direct';
+  if (/nursingcas|\bNCAS\b/i.test(text)) return 'nursingcas';
+  if (/direct (application|\w* ?portal)|via [\w.]+ portal|common app/i.test(text)) return 'direct';
+  return null; // unknown — research queue will settle it
+}
+
+function getNcasBadge(program) {
+  const sys = getAppSystem(program);
+  if (sys === 'nursingcas') return '<span class="ncas-badge ncas-yes" title="Applies via NursingCAS — marginal cost of adding this school is low">NCAS</span>';
+  if (sys === 'direct') return '<span class="ncas-badge ncas-direct" title="Direct/own-portal application">Direct</span>';
+  return '<span class="ncas-badge ncas-unknown" title="Application system unverified">?</span>';
+}
+
+// Religious affiliation: substance over name (required coursework upgrades,
+// name-only secular schools stay secular). Heuristic-seeded; vetting refines.
+function getReligiousBadge(program) {
+  const r = program.religious;
+  if (!r || r.affiliated === null) return '<span class="rel-badge rel-unknown" title="Affiliation unverified">?</span>';
+  if (r.affiliated === false) return '<span class="rel-badge rel-secular" title="Secular' + (r.note ? ' — ' + r.note.replace(/"/g, '&quot;') : '') + '">—</span>';
+  const short = (r.tradition || 'Affiliated').split(' ')[0].replace(/[()]/g, '').slice(0, 9);
+  const cls = r.required_coursework ? 'rel-required' : 'rel-affiliated';
+  const title = (r.tradition || 'Religiously affiliated')
+    + (r.required_coursework ? ' — REQUIRED religion coursework' : r.required_coursework === false ? ' — no required religion coursework' : '')
+    + (r.note ? ' · ' + r.note : '');
+  return '<span class="rel-badge ' + cls + '" title="' + title.replace(/"/g, '&quot;') + '">' + short + (r.required_coursework ? ' ✝' : '') + '</span>';
+}
+
+function religiousSortValue(program) {
+  const r = program.religious;
+  if (!r || r.affiliated === null) return 3;         // unknown last
+  if (r.affiliated === false) return 0;              // secular first
+  return r.required_coursework ? 2 : 1;              // affiliated, then required-coursework
+}
+
+// ─── Application-step checkboxes (persisted via /api/app-progress) ──
+const DEFAULT_APP_STEPS = [
+  ['portal', 'Create application account/portal'],
+  ['transcripts', 'Send transcripts (UW-Madison, WCTC, MATC)'],
+  ['essay', 'Personal statement/essay'],
+  ['references', 'Reference letters'],
+  ['exam', 'Entrance exam (if required — check)'],
+  ['submit', 'Submit application + fee'],
+  ['interview', 'Interview (if invited)'],
+  ['deposit', 'Enrollment deposit (on acceptance)'],
+];
+
+function getAppSteps(program) {
+  const ar = program.application_requirements;
+  if (!ar || !ar.system) return DEFAULT_APP_STEPS;
+  const steps = [];
+  steps.push(['portal', ar.system === 'nursingcas' ? 'NursingCAS application'
+    : ar.system === 'both' ? 'NursingCAS + school supplemental' : 'School portal application']);
+  steps.push(['transcripts', 'Send transcripts (UW-Madison, WCTC, MATC)']);
+  if (ar.essays && ar.essays.length) {
+    ar.essays.forEach((e, i) => steps.push(['essay' + i, e.label || 'Essay ' + (i + 1)]));
+  } else {
+    steps.push(['essay', 'Personal statement (verify requirement)']);
+  }
+  if (ar.references && ar.references.count) steps.push(['references', ar.references.count + ' reference ' + (ar.references.type || 'letters')]);
+  if (ar.resume) steps.push(['resume', 'Resume/CV']);
+  if (ar.exam) steps.push(['exam', ar.exam.toUpperCase().replace(/_/g, ' ') + ' exam']);
+  (ar.certifications || []).forEach(c => steps.push(['cert-' + c, c.toUpperCase() + ' certification']));
+  if (ar.background_check) steps.push(['background', 'Background check']);
+  steps.push(['submit', 'Submit application' + (ar.fee ? ' + $' + ar.fee + ' fee' : ' + fee')]);
+  if (ar.interview && ar.interview !== 'none') steps.push(['interview', 'Interview (' + ar.interview.replace(/_/g, ' ') + ')']);
+  if (ar.deposit && ar.deposit.amount) steps.push(['deposit', '$' + ar.deposit.amount + ' deposit (' + (ar.deposit.timing || 'on acceptance') + ')']);
+  return steps;
+}
+
+function getAppProgressCount(program) {
+  const done = appProgress[program.id] || {};
+  const steps = getAppSteps(program);
+  const n = steps.filter(([key]) => done[key]).length;
+  return { n, total: steps.length };
+}
+
+async function toggleAppStep(programId, step, checkbox) {
+  const done = checkbox.checked;
+  if (!appProgress[programId]) appProgress[programId] = {};
+  if (done) appProgress[programId][step] = true; else delete appProgress[programId][step];
+  try {
+    await fetch('/api/app-progress/' + programId, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ step, done })
+    });
+  } catch (e) {
+    checkbox.checked = !done; // revert on failure
+    if (done) delete appProgress[programId][step]; else appProgress[programId][step] = true;
+    return;
+  }
+  const counter = document.getElementById('app-steps-count-' + programId);
+  if (counter) {
+    const { n, total } = getAppProgressCount(programsMap[programId]);
+    counter.textContent = n + '/' + total;
+  }
+  renderTable();
+}
+
+// Unique geographical circumstances: scored honestly by actual place, but flagged
+// so odd situations (weekend formats, commuter rail, online-statewide) get seen.
+function getGeoFlag(program) {
+  const note = program.location?.unique_note;
+  if (!note) return '';
+  return '<span class="geo-flag" title="' + note.replace(/"/g, '&quot;') + '">⚑</span>';
+}
+
+// Raw selectivity percentile with tier badge. The formula uses the sweet-spot
+// transform (1 − |pctile − 0.8|); this shows the untransformed "how hard to get in."
+function getSelectivityBadge(program) {
+  const pct = program.scores?.national_percentile;
+  if (pct == null) return '<span class="sel-badge sel-unknown">?</span>';
+  const est = program.verification?.confidence === 'tentative' ? '~' : '';
+  const label = est + Math.round(pct * 100) + 'th';
+  let tier, title;
+  if (pct >= 0.8) { tier = 'sel-selective'; title = 'Selective — upper quartile admissions'; }
+  else if (pct >= 0.65) { tier = 'sel-competitive'; title = 'Competitive'; }
+  else if (pct >= 0.55) { tier = 'sel-accessible'; title = 'Accessible'; }
+  else { tier = 'sel-open'; title = 'Effectively open admission'; }
+  if (est) title += ' (scout estimate — unverified)';
+  return '<span class="sel-badge ' + tier + '" title="' + title + '">' + label + '</span>';
+}
+
+// Reputation (hiring lens) — explicit 1–5 scale. Tier 3 is the safety hinge;
+// tiers 4–5 are descriptive only (no status bonus), while tiers 2–1 are penalized.
+function getReputationBadge(program) {
+  const rep = program.scores?.reputation;
+  if (rep == null) return '<span class="rep-badge rep-unknown">?</span>';
+  const factor = program.scores?.rep_factor ?? 1;
+  const label = program.scores?.rep_label || '';
+  const notes = program.scores?.rep_notes || '';
+  const title = rep + '/5 — ' + label + (factor < 1 ? ' — score ×' + factor : ' — no score penalty') + '. ' + notes;
+  return '<span class="rep-badge rep-tier-' + rep + '" title="' + escapeHtml(title) + '">' + rep + '/5</span>';
 }
 
 function getDataStatus(program) {
@@ -68,9 +256,8 @@ function formatCurrency(amount) {
 }
 
 function getDisplayedMonthlyBurn(program) {
-  if (!program.costs) return null;
-
-  const baseBurn = program.costs['Mo. Burn'];
+  // v3: sync computes scores.monthly_burn for all programs; legacy Excel field as fallback
+  const baseBurn = program.scores?.monthly_burn ?? program.costs?.['Mo. Burn'];
   if (baseBurn == null) return null;
 
   if (workCommitmentEnabled[program.id] && program.scholarships?.work_commitment) {
@@ -111,6 +298,7 @@ function renderTable() {
   const stats = document.getElementById('stats');
   const search = document.getElementById('search').value.toLowerCase();
   const typeFilter = document.getElementById('type-filter').value;
+  const appSystemFilter = document.getElementById('app-system-filter').value;
   const dataFilter = document.getElementById('data-filter').value;
   // Gather checked plan-fit categories
   const fitChecked = new Set();
@@ -127,13 +315,19 @@ function renderTable() {
     // Type filter
     const typeMatch = !typeFilter || p.type === typeFilter;
 
+    // Application-system filter. Schools marked "both" count as NursingCAS
+    // because they still share the NursingCAS profile and application workflow.
+    const appSystem = getAppSystem(p);
+    const appSystemMatch = !appSystemFilter ||
+      (appSystemFilter === 'unknown' ? appSystem == null : appSystem === appSystemFilter);
+
     // Data status filter
     const status = getDataStatus(p);
     const dataMatch = !dataFilter ||
       (dataFilter === 'complete' && status === 'complete') ||
       (dataFilter === 'needs-data' && status === 'needs-data');
 
-    return searchMatch && typeMatch && dataMatch;
+    return searchMatch && typeMatch && appSystemMatch && dataMatch;
   });
 
   // Sort based on currentSort
@@ -166,16 +360,37 @@ function renderTable() {
           ? valA.localeCompare(valB)
           : valB.localeCompare(valA);
       case 'rank':
-        valA = a.scores?.rank ?? 999;
-        valB = b.scores?.rank ?? 999;
+        valA = getDisplayRank(a) ?? 999;
+        valB = getDisplayRank(b) ?? 999;
         break;
       case 'duration':
         valA = a.program_details?.duration_months ?? 999;
         valB = b.program_details?.duration_months ?? 999;
         break;
       case 'monthly_burn':
-        valA = a.costs?.['Mo. Burn'] ?? 999999;
-        valB = b.costs?.['Mo. Burn'] ?? 999999;
+        valA = a.scores?.monthly_burn ?? a.costs?.['Mo. Burn'] ?? 999999;
+        valB = b.scores?.monthly_burn ?? b.costs?.['Mo. Burn'] ?? 999999;
+        break;
+      case 'ncas':
+        const ncasOrder = { nursingcas: 0, direct: 1 };
+        valA = ncasOrder[getAppSystem(a)] ?? 2;
+        valB = ncasOrder[getAppSystem(b)] ?? 2;
+        break;
+      case 'geo_flag':
+        valA = a.location?.unique_note ? 0 : 1;
+        valB = b.location?.unique_note ? 0 : 1;
+        break;
+      case 'religious':
+        valA = religiousSortValue(a);
+        valB = religiousSortValue(b);
+        break;
+      case 'selectivity':
+        valA = a.scores?.national_percentile ?? -1;
+        valB = b.scores?.national_percentile ?? -1;
+        break;
+      case 'reputation':
+        valA = a.scores?.reputation ?? -1;
+        valB = b.scores?.reputation ?? -1;
         break;
       case 'start_date':
         valA = a.admissions?.start_date || '9999-99-99';
@@ -201,8 +416,8 @@ function renderTable() {
         break;
       case 'raw_score':
       default:
-        valA = a.scores?.raw_score ?? -1;
-        valB = b.scores?.raw_score ?? -1;
+        valA = getDisplayScore(a) ?? -1;
+        valB = getDisplayScore(b) ?? -1;
         break;
     }
     // Numeric comparison
@@ -224,8 +439,8 @@ function renderTable() {
   tbody.innerHTML = filtered.map(p => {
     const status = getDataStatus(p);
     const monthlyBurn = getDisplayedMonthlyBurn(p);
-    const rawScore = p.scores?.raw_score;
-    const rank = p.scores?.rank;
+    const rawScore = getDisplayScore(p);
+    const rank = getDisplayRank(p);
     const hasWorkCommit = p.scholarships?.work_commitment != null;
     const isChecked = workCommitmentEnabled[p.id] ? 'checked' : '';
     const workCommitCell = hasWorkCommit
@@ -263,7 +478,11 @@ function renderTable() {
 
     const isApplyTracked = TodoPanel.isTracked ? TodoPanel.isTracked(p.id) : false;
     const applyChecked = isApplyTracked ? 'checked' : '';
-    const applyCell = `<input type="checkbox" class="apply-checkbox" data-program-id="${p.id}" ${applyChecked} onclick="event.stopPropagation(); toggleApply('${p.id}', this)">`;
+    const progressCount = getAppProgressCount(p);
+    const progressBadge = progressCount.n > 0
+      ? `<span class="app-progress-badge" title="Application steps completed">${progressCount.n}/${progressCount.total}</span>`
+      : '';
+    const applyCell = `<input type="checkbox" class="apply-checkbox" data-program-id="${p.id}" ${applyChecked} onclick="event.stopPropagation(); toggleApply('${p.id}', this)">${progressBadge}`;
 
     return `
       <tr class="${status === 'needs-data' ? 'needs-data-row' : ''}" onclick="showDetail('${p.id}')">
@@ -272,11 +491,16 @@ function renderTable() {
         <td>${verifIcon}<strong>${p.name}</strong></td>
         <td><span class="type-badge type-${p.type}">${p.type}</span></td>
         <td>${p.location?.full || '-'}</td>
+        <td class="geo-flag-cell">${getGeoFlag(p)}</td>
+        <td>${getReligiousBadge(p)}</td>
         <td>${durationDisplay}</td>
         <td>${formatDate(p.admissions?.start_date)}</td>
         <td>${formatDate(p.admissions?.deadline)}</td>
+        <td>${getNcasBadge(p)}</td>
         <td id="burn-${p.id}">${formatCurrency(monthlyBurn)}</td>
         <td class="work-commit-cell">${workCommitCell}</td>
+        <td>${getSelectivityBadge(p)}</td>
+        <td>${getReputationBadge(p)}</td>
         <td class="score" id="score-${p.id}">${rawScore != null ? rawScore.toFixed(2) : '-'}</td>
         <td>${planFitStatus ? '<span class="plan-fit-badge ' + planFitClass + '">' + planFitLabel + '</span>' : '-'}</td>
         <td class="status-${status}">${status === 'complete' ? 'Complete' : 'Needs Data'}</td>
@@ -288,9 +512,15 @@ function renderTable() {
 // Event listeners
 document.getElementById('search').addEventListener('input', renderTable);
 document.getElementById('type-filter').addEventListener('change', renderTable);
+document.getElementById('app-system-filter').addEventListener('change', renderTable);
 document.getElementById('data-filter').addEventListener('change', renderTable);
 document.querySelectorAll('.fit-checkboxes input[type="checkbox"]').forEach(cb => {
   cb.addEventListener('change', renderTable);
+});
+document.getElementById('cost-toggle').addEventListener('change', (e) => {
+  costMode = e.target.checked ? 'ignored' : 'ranked';
+  invalidateCostFreeRanks();
+  renderTable();
 });
 
 // Work-commitment checkbox toggle (per-program)
@@ -356,12 +586,13 @@ function updateApplyStats() {
 // we can adjust the stored raw_score by (newCostScore / storedCostScore) rather than
 // recomputing everything (which won't match scores imported from Excel).
 function recalculateRawScore(program, newCostScore) {
-  const storedRawScore = program.scores?.raw_score;
+  const displayScore = getDisplayScore(program);
+  if (costMode === 'ignored') return displayScore; // cost silenced — scholarship math is moot
   const storedCostScore = program.scores?.cost_score;
 
-  if (storedRawScore == null || !storedCostScore) return storedRawScore;
+  if (displayScore == null || !storedCostScore) return displayScore;
 
-  return Math.round((storedRawScore / storedCostScore * newCostScore) * 100) / 100;
+  return Math.round((displayScore / storedCostScore * newCostScore) * 100) / 100;
 }
 
 // Column header sorting
@@ -375,8 +606,8 @@ function setupSortableHeaders() {
         currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
       } else {
         currentSort.column = column;
-        // Default directions: score/rank desc, others asc
-        currentSort.direction = ['raw_score', 'rank'].includes(column) ? 'desc' : 'asc';
+        // Score starts high-to-low; rank starts at #1.
+        currentSort.direction = column === 'raw_score' ? 'desc' : 'asc';
       }
 
       // Update header classes
@@ -546,17 +777,62 @@ function showDetail(id) {
     }
     html += '</div>';
 
-    // Scores
-    html += '<div class="detail-section"><h3>Scores</h3><div class="detail-grid">';
-    html += '<div class="detail-item"><div class="label">Raw Score</div><div class="value" style="color: #2563eb; font-size: 1.2rem;">' + safeScore(scores.raw_score) + '</div></div>';
-    html += buildDetailItem('Location', (scores.location_score || '-') + (scores.location_boost ? ' (+' + scores.location_boost + ')' : ''));
-    html += buildDetailItem('Prestige', safePercent(scores.prestige));
-    html += buildDetailItem('NP Pathway', safePercent(scores.np_pathway));
-    html += buildDetailItem('Competitiveness', safePercent(scores.competitiveness));
-    html += buildDetailItem('Start Score', safePercent(scores.start_score));
-    html += buildDetailItem('Cost Score', safePercent(scores.cost_score));
-    html += buildDetailItem("Nat'l Percentile", safePercent(scores.national_percentile));
+    // Unique geographical circumstances — human-judgment lane, not in the score
+    if (p.location?.unique_note) {
+      html += '<div class="detail-section"><h3>⚑ Unique Geography</h3><p style="margin: 4px 0; color: #92400e;">' + p.location.unique_note + '</p></div>';
+    }
+
+    // Religious affiliation
+    if (p.religious && p.religious.affiliated !== null) {
+      const r = p.religious;
+      html += '<div class="detail-section"><h3>Religious Affiliation</h3><p style="margin: 4px 0;">'
+        + (r.affiliated ? (r.tradition || 'Affiliated') : 'Secular')
+        + (r.required_coursework === true ? ' — <strong>required religion coursework</strong>' : r.required_coursework === false ? ' — no required religion coursework' : '')
+        + (r.note ? ' <span style="color:#666;">(' + r.note + ')</span>' : '')
+        + (r.source !== 'verified' ? ' <span style="color:#9ca3af; font-size:0.8em;">[heuristic — pending vetting]</span>' : '')
+        + '</p></div>';
+    }
+
+    // Application steps — checkboxes persist across sessions
+    const steps = getAppSteps(p);
+    const doneMap = appProgress[p.id] || {};
+    const doneCount = steps.filter(([key]) => doneMap[key]).length;
+    html += '<div class="detail-section"><h3>Application Steps <span id="app-steps-count-' + p.id + '" class="app-progress-badge">' + doneCount + '/' + steps.length + '</span></h3>';
+    html += '<div class="app-steps">';
+    for (const [key, label] of steps) {
+      const checked = doneMap[key] ? 'checked' : '';
+      html += '<label class="app-step"><input type="checkbox" ' + checked
+        + ' onchange="toggleAppStep(\'' + p.id + '\', \'' + key + '\', this)"> '
+        + label + '</label>';
+    }
+    if (!p.application_requirements?.system) {
+      html += '<p style="color:#9ca3af; font-size:0.8rem; margin:6px 0 0;">Generic checklist — school-specific steps appear after vetting fills application_requirements.</p>';
+    }
     html += '</div></div>';
+
+    // Scores (v3: score = base10 × start × time × cost × reputation × fit)
+    const liveFitStatus = getPlanFit(p).status;
+    html += '<div class="detail-section"><h3>Scores</h3><div class="detail-grid">';
+    html += '<div class="detail-item"><div class="label">Score' + (costMode === 'ignored' ? ' (cost ignored)' : '') + '</div><div class="value" style="color: #2563eb; font-size: 1.2rem;">' + safeScore(getDisplayScore(p)) + '</div></div>';
+    const altPreFit = costMode === 'ignored' ? scores.score_pre_fit : scores.score_no_cost_pre_fit;
+    const altScore = altPreFit != null ? Math.round(altPreFit * getFitScaler(liveFitStatus) * 100) / 100 : null;
+    html += buildDetailItem(costMode === 'ignored' ? 'Score w/ cost' : 'Score if cost ignored', safeScore(altScore));
+    html += buildDetailItem('Base (of 10)', safeScore(scores.base_score));
+    html += buildDetailItem('Metro Base (of 9)', safeScore(scores.location_score));
+    html += buildDetailItem('Competitiveness', safePercent(scores.competitiveness));
+    html += buildDetailItem('Start', safePercent(scores.start_score));
+    html += buildDetailItem('Time', safePercent(scores.time_factor));
+    html += buildDetailItem('Cost', safePercent(scores.cost_score));
+    html += buildDetailItem('Fit Scaler', liveFitStatus ? ('×' + getFitScaler(liveFitStatus) + ' (' + liveFitStatus + ')') : '-');
+    html += buildDetailItem("Nat'l Percentile", safePercent(scores.national_percentile));
+    const reputationText = scores.reputation != null
+      ? (scores.reputation + '/5 — ' + escapeHtml(scores.rep_label || '') + ' (×' + (scores.rep_factor ?? 1) + ')')
+      : '-';
+    html += buildDetailItem('Reputation', reputationText);
+    html += '</div></div>';
+    if (scores.rep_notes) {
+      html += '<div class="detail-section"><h3>Reputation Signals (hiring lens)</h3><p class="rep-notes-text">' + escapeHtml(scores.rep_notes) + '</p></div>';
+    }
 
     // Costs
     html += '<div class="detail-section"><h3>Costs</h3><div class="detail-grid">';

@@ -1000,6 +1000,1382 @@
       "type": "document",
       "hard_blocker": false,
       "notes": "Centralized nursing application portal. Administrative, not a course prereq."
+    },
+    "english_comp": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "speech_comm": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "pathophysiology": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "psych_or_sociology_choice (only ONE of Intro Psychology OR Principles of Sociology required, not both)": {
+      "tags": [
+        "sociology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "biology_with_lab_disputed (catalog lists 'Biology with lab' as a required 4th science course distinct from A&P I/II, but the two saintpeters.edu marketing/admissions pages omit it entirely — see notes)": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Human Genetics (3 credits, C+ min, must be within 7 years)": {
+      "tags": [
+        "genetics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Normal Nutrition must be taught by a Registered Dietitian": {
+      "tags": [
+        "nutrition"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Survey of Chemistry must include an organic-chemistry component (verify applicant's completed chem course covered organic content, not just general/inorganic)": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "lab_science_sequence_2course: An 8-credit-hour TWO-COURSE sequence is required, separate from A&P. Official sources conflict on scope: the current (2024-revised) advising sheet and the live nursing-degree page say 'Biology, Chemistry, or Physics sequence' (any one), but an older (2023) advising worksheet says specifically 'Nursing majors (8 hours). A chemistry sequence is required.' Either way, this is a 2-COURSE sequence (e.g., CHEM 1151K+1152K or CHEM 1211K+1212K), and the applicant's single 1-semester Chemistry course does NOT appear to satisfy it alone — likely needs a second course in the same subject. This is a probable admission gap not mentioned in the original estimate.": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "college_algebra_math1111: MATH 1111 (College Algebra) or higher required, separate from and in addition to Statistics (MATH 1401). Not present in applicant's listed 2026 coursework; would need to rely on old (2001-2005) UW-Madison coursework if applicable — needs applicant verification.": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "ga_us_history_constitution_exam: Georgia-specific legislative requirement — US History, GA History, US Constitution, and GA Constitution exams (or equivalent coursework) explicitly listed as 'Additional requirements may include' for BOTH Traditional and Accelerated tracks. Out-of-state applicants typically satisfy via UNG Testing Center 'Legislative Exams' (short assessments). Applicant has no GA-specific coursework and would need to complete these exams.": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "psych_soc_or_logic: Only ONE of PSYC 1101 (Intro Psychology), SOCI 1101 (Intro Sociology), or PSYC 2103 (Human Growth & Development/Lifespan Psych) is required — OR logic, not additive. Applicant's 'Lifespan Psychology' course almost certainly satisfies this if it corresponds to PSYC 2103 (standard USG course number for lifespan/human growth & development).": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "english_composition_1101_1102: ENGL 1101 & 1102 with grade C or better required — presumably satisfied by applicant's original bachelor's degree coursework, subject to verification.": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "tx_government (GOVT 2306-equivalent, 6 SCH incl. Texas Constitution emphasis — HIGH RISK, see notes)": {
+      "tags": [
+        "tx_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Texas-specific government requirement; corrected from generic U.S. government 2026-07-15"
+    },
+    "us_government": {
+      "tags": [
+        "us_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "history (6 SCH American History; up to 3 SCH may be Texas History)": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "english_comp (TX Core Communication component)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "speech_comm (possible TX Core Communication sub-requirement, not separately confirmed)": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "fine_arts (TX Core Creative Arts component)": {
+      "tags": [
+        "fine_arts"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "Texas Core Creative Arts requirement; mapped 2026-07-15"
+    },
+    "SOCI 1301 (Sociology — explicitly named as distinct from general Texas Core social/behavioral science component)": {
+      "tags": [
+        "sociology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "biology_with_lab_disputed (catalog lists 'Biology with lab' as a required 4th science course distinct from A&P I/II, but the two marketing/admissions pages omit it entirely — see notes)": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Survey of Chemistry must include an organic-chemistry component (verify applicant's chem course covered organic content, not just general/inorganic)": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "lab_science_sequence_2course: an 8-credit-hour TWO-COURSE lab science sequence is required, separate from A&P (Biology, Chemistry, or Physics per the current advising sheet, vs. 'chemistry sequence required' per an older worksheet). The applicant's single 1-semester Chemistry course likely does NOT satisfy this alone — a probable admission gap not in the original estimate.": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "college_algebra_math1111: MATH 1111 College Algebra or higher required in addition to Statistics — not present in applicant's 2026 coursework, needs verification against old UW-Madison coursework.": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "ga_us_history_constitution_exam: Georgia-specific legislative exams (US/GA History, US/GA Constitution) or equivalent coursework listed for both tracks — applicant has none, would need to complete via UNG Testing Center 'Legislative Exams.'": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "psych_soc_or_logic: only ONE of Intro Psychology, Intro Sociology, or Human Growth & Development/Lifespan Psych required (OR logic) — applicant's Lifespan Psychology likely satisfies this.": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "english_composition_1101_1102: ENGL 1101 & 1102 required, presumably satisfied by the applicant's original bachelor's degree, subject to verification.": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "SOCI 1301 (Sociology — explicitly named as distinct from the general Texas Core social/behavioral science component)": {
+      "tags": [
+        "sociology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "college_algebra": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "6 hours writing & communication (English Composition I & II or equivalent, incl. public speaking per some sheets)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "pathophysiology (BIO 2150, 3 credits — required prerequisite; NOT present in applicant's completed/in-progress course list, appears to be a genuine gap)": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Residency restriction: TX public school. In-state tuition requires 12 CONSECUTIVE months of established Texas domicile (qualifying TX employment >=20hrs/wk, real property ownership, business ownership, or marriage to a TX domiciliary) immediately preceding the census date of the enrollment term (likely the 12th class day — roughly early-to-mid June for a mid-May start; exact Summer 2027 census date not published). If applicant begins establishing TX domicile now (~July 2026), her 12-month clock completes ~July 2027, which is probably AFTER the Summer 2027 census date — meaning she would likely be billed non-resident for her FIRST (entry) term only (~$16-17K instead of ~$5K for that term), then could reclassify to resident starting the SECOND term (Fall 2027) onward via UTHSCSA's standard mid-program reclassification process (Core Residency Questions filed with Registrar before that term's census date), provided domicile is continuous and unbroken. Achieving full in-state pricing from day one would have required domicile established by ~May/June 2026. She should move to TX and start qualifying employment/lease as soon as possible to minimize the non-resident-priced window.": {
+      "tags": [
+        "residency"
+      ],
+      "type": "policy",
+      "hard_blocker": true,
+      "notes": "auto-added by merge-vetting 2026-07-15"
+    },
+    "english_comp (Comp I & II, 6 hrs)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "philosophy (Intro to Philosophy, required — note this is PHILOSOPHY not a dedicated bioethics/nursing-ethics course)": {
+      "tags": [
+        "philosophy"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "history (U.S. History I & II)": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "tx_government": {
+      "tags": [
+        "us_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "fine_arts (Visual & Performing Arts — source page listed History/US Govt/TX Govt/Fine Arts together for a 12-hr block; exact required combination unclear, confirm with admissions)": {
+      "tags": [
+        "fine_arts"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "english_comp (ENG W131, 3cr)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "speech_comm (SPCH S121 Public Speaking, 3cr)": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "college_algebra (MATH M100 Basic Mathematics, 4cr)": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "professional_writing (ENG W231, 3cr, not in standard taxonomy)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "cultural_historical_studies elective (6cr, category/topic unspecified)": {
+      "tags": [
+        "cultural_diversity"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Residency restriction: NOT a residency restriction in the usual sense (private school, no in-state/OOS tuition split) — this field is repurposed per research instructions to carry the accreditation/approval status, the critical finding for this program. CCNE (national nursing accreditation): NOT YET GRANTED as of this check. GCU's own site states the Englewood BSN 'does not currently hold national nursing accreditation' and 'is pursuing initial accreditation by CCNE.' A CCNE site visit occurred Feb 2026; verified directly against CCNE's own database and its Jan/Apr/Jun 2026 board-action PDFs that no accreditation decision has been published through the most recent available board meeting (April 21-24, 2026). Colorado Board of Nursing: 'Interim Approval' + 'Phase II recognition' (per GCU disclosure) — NOT independently verified on CO BON's own site (403 Forbidden on every attempt). Colorado CCHE: 'Provisional Authorization' under the CO Degree Authorization Act — CONFIRMED via a primary-source CDHE board agenda document, which reveals a statutory requirement that provisionally-authorized programs achieve Colorado-site accreditation within 3 years of initial authorization (one possible extension), renewed annually. Could not locate a 2025/2026 renewal filing to confirm current-year status.": {
+      "tags": [
+        "residency"
+      ],
+      "type": "policy",
+      "hard_blocker": true,
+      "notes": "auto-added by merge-vetting 2026-07-15"
+    },
+    "Applied Pathophysiology (BIO-322, 4 credits)": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "College Mathematics (gen-ed requirement)": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BIO 1200 General Biology (4 cr), separate from the A&P course": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "CHM 2010 Organic & Biological Chemistry — 2nd required chemistry course (applicant has completed only 1 of 2 required chem courses as of 2026)": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "One Philosophy-or-higher-level course (4 cr) — Ethics is only one of several qualifying options, not specifically mandated": {
+      "tags": [
+        "philosophy"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "MTH 0661 Elementary Algebra — waivable via SAT math 490-540 or ACT math 18+": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Microbiology (BIO 3520) — NOT a pre-admission prerequisite; taken in-program during Semester 1": {
+      "tags": [
+        "micro"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Life-Span Developmental Psychology (PSY 2250) — NOT a pre-admission prerequisite; taken in-program during Semester 1 (the actual pre-admission psych prereq is general PSY 1000 Intro to Psychology)": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Composition I": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Chemistry pathway ambiguous: General Chem I & II (2-course sequence) OR a single Organic Chemistry course OR a single 'Principles of Chemistry' course — unclear which pathway the applicant's single 2026 General Chemistry course satisfies": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Applied Pathophysiology (BIO-322, 4 cr, letter-graded prereq) - required ABSN-specific prerequisite; not present in applicant's completed/in-progress coursework -- real gap to plan for": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Composition I & II (ENG-105, ENG-106) - gen-ed requirement, but on the list GCU says CAN be satisfied by equivalent content from a prior bachelor's degree": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "College Mathematics (MAT-144) - gen-ed requirement, also on the 'equivalent content' waivable list": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "State constitution/government course - one example pathway document (Nevada) lists a state constitution requirement; could not confirm an NM-specific equivalent": {
+      "tags": [
+        "us_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "CHM-101 content note: GCU's chemistry prerequisite is titled 'Introduction to General, Organic, and Biochemistry' -- a combined course; applicant's 2026 'General Chemistry' course may not cover organic/biochem content -- flagged as a transfer-equivalency question mark, not a confirmed gap": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Residency restriction excludes applicant": {
+      "tags": [
+        "residency"
+      ],
+      "type": "policy",
+      "hard_blocker": true,
+      "notes": "auto-added by merge-vetting 2026-07-15"
+    },
+    "CNA required before program start": {
+      "tags": [
+        "cna"
+      ],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "CNA pre-start requirement — auto-blocked 2026-07-15"
+    },
+    "genetics (Introduction to Genetics course or human-biology course with a genetics component per catalog description; explicitly CANNOT be satisfied by micro or A&P)": {
+      "tags": [
+        "genetics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "organic_chem/biochemistry (Introductory Organic and Biochemistry, 3 cr — the required chem)": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "english_comp (College Writing I and II)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "speech_comm (Introduction to Human Communication)": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "cultural_diversity (Cultural Diversity & Intergroup Relations / Diversity and Social Justice)": {
+      "tags": [
+        "cultural_diversity"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Pathophysiology (3 cr) — replaces General Chemistry as ABSN prerequisite for cohorts beginning January 2027 or later (per 2025-26 catalog note and current admissions page); must be earned within 5 years of applying": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Composition I & II (ENGL 110/120)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "College Algebra or Quantitative Reasoning (MATH 123/126) — not the same as a Statistics course": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Critical Thinking or Intro to Logic (PHIL 110/220) — official doc states waived for transfer students with 60+ credit hours": {
+      "tags": [
+        "critical_thinking"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Foundations of Ethics & Civic Engagement (ETCE 101) — official doc states waived for transfer students with 60+ credit hours": {
+      "tags": [
+        "ethics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Speech Communication (SPEE 200)": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Humanities or Fine Arts elective": {
+      "tags": [
+        "fine_arts"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "General Biology (BIOL 150) — listed as a nested prerequisite required before BIOL 230 Human A&P I": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Organic Chemistry & Biochemistry (CHEM 106, with lab) required IN ADDITION to intro/general Chemistry (CHEM 105, with lab) — a two-course chem sequence, not a single general chemistry course": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Standalone Biology course covering cell biology, molecular biology, and genetics (3 sem credits) -- distinct from, and in addition to, the Anatomy & Physiology series": {
+      "tags": [
+        "genetics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Minimum 1 elective in physical/biological/behavioral science or humanities (3 sem credits; no stated recency limit)": {
+      "tags": [
+        "biology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "TOEFL/IELTS required for non-native English speakers (TOEFL minimum 173 computer-based / 80 internet-based / 550 paper-based)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Minimum grade B (3.0) required in Biology, A&P, and Microbiology; minimum grade B- (2.7) in Nutrition, Human Growth & Development, and the elective": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Composition I & II (ENG 101, ENG 102) - 6 hrs": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "College Algebra or higher (MAT 131) - 3 hrs": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Public Speaking or Interpersonal Communication (COM 101 or COM 202) - 3 hrs": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "General Psychology (PSY 201; separate course from the Lifespan/Developmental Psych requirement) - 3 hrs": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "World History or U.S. History, two courses (HIS 101/201 & HIS 102/202) - 6 hrs [University Core]": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Fine Arts: Art, Music, or Theatre Appreciation - 3 hrs [University Core]": {
+      "tags": [
+        "fine_arts"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Organic Biochemistry OR General Chemistry II, 3 credits (either satisfies; this is Chem II/organic-level, not an introductory Gen Chem I course)": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "General Psychology, 3 credits (separate required course, in addition to the Life Span/Developmental Psych course)": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Life Span: A Holistic Approach OR Developmental Psychology, 3 credits (either satisfies)": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Grade of C+ or higher required in Nutrition and in Life Span/Developmental Psychology; grade of C or higher required in all other prerequisites including all 4 science courses": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "HESI A2 (Anatomy/Physiology + Math sections) required at new-student ORIENTATION, not at time of application/admission": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "organic_chem": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "genetics": {
+      "tags": [
+        "genetics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "college_algebra (MATH 1065, min grade B)": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "chem_sequence (TWO courses required: 'Intro to Chem for Allied Health' + 'Organic & Biochem for Allied Health,' both min B-)": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "general/intro psychology (separate 3sh course required IN ADDITION to developmental/lifespan psych)": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "pathophysiology (BIO-322 Applied Pathophysiology, 4cr -- required PREREQUISITE, completed before the nursing major, not taught within it)": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "General Chemistry: full one-year/TWO-SEMESTER sequence required, not a single course - applicant's one completed chem course is likely insufficient alone": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "General Psychology (intro) required - applicant's Lifespan Psychology may NOT satisfy this; confirm with UK": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Composition/Communication: two courses (UK CIS 110 + CIS 111 equivalents), complete before applying": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Four humanities courses / 12 credits (C+ or better) from English, Ethics, Philosophy, Religion, History, Foreign Language, Visual & Performing Arts - elective bucket; Religion is one OPTION, not mandatory": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "College Algebra or Math for the Liberal Arts": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Seven prerequisites total: A&P I, A&P II, Microbiology, Nutrition, Ethics, Lifespan Development Psychology, Statistics; B- or better in natural science + nutrition, C or better in the rest": {
+      "tags": [
+        "ethics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Science Elective: Biology, Chemistry, or Physics WITH LAB, 4 cr - separate from Microbiology (micro does NOT double-count); applicant's in-person-lab Chemistry satisfies this slot": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Comp (6 cr) + Social Science/Humanities (15 cr) + General Electives (14 cr) required ONLY for applicants WITHOUT a bachelor's - waived for this applicant": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Finite Mathematics (3 cr) - required in addition to Statistics; not in applicant's coursework": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Biology (4 cr with lab) - required in addition to A&P/Micro; not in applicant's 2026 coursework": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Minimum grade B+/3.3 in EVERY prerequisite (Lifespan Developmental Psychology exempt: C or higher, no recency limit)": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Theology or Religion (3 cr) - required PREREQUISITE for the accelerated track, must be complete before program start": {
+      "tags": [
+        "theology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Philosophy or Ethics (3 cr) - either satisfies": {
+      "tags": [
+        "philosophy"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Composition II (3 cr)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Oral Communication (3 cr)": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Humanities elective: History, Literature, Politics, Geography, Philosophy, Religion, or Art (3 cr)": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Texas Government (TCCN GOVT 2306, 3 hrs) - required, cannot be substituted; page explicitly states out-of-state students must complete a TX Government course before enrolling since home-state coursework won't satisfy it. LIKELY GAP for this applicant given her UW-Madison degree.": {
+      "tags": [
+        "tx_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "American Government (TCCN GOVT 2305, 3 hrs)": {
+      "tags": [
+        "us_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "U.S. History I & II (TCCN HIST 1301 & 1302, 6 hrs)": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Composition I & II (ENGL 1301 & 1302, 6 hrs; literature courses do NOT qualify)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Visual & Performing Arts course (3 hrs; art/music/drama/dance/theater or music-history course)": {
+      "tags": [
+        "fine_arts"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Organic Chemistry OR Chemistry for Health Professionals specifically (NOT general/gen chem) - 4 cr, must include lab, min grade C, completed within 5 years of entry": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Philosophical knowledge course - 3 cr, min grade C-, no recency limit": {
+      "tags": [
+        "philosophy"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "College writing course - 3 cr, min grade C-, no recency limit": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Theological or religious knowledge course - 3 cr, min grade C-, no recency limit": {
+      "tags": [
+        "theology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Human Genetics (3 cr, w/ lab)": {
+      "tags": [
+        "genetics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English Composition - scientific/technical writing (3 cr)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "SoPA Core Curriculum (separate from the 25-credit, 7-course nursing prereq list): proficiency in writing, quantitative reasoning, and foreign language/global perspectives; distribution requirements in humanities, social sciences, and natural science; supporting requirements in American government, oral communication, and race & inclusion. No time limit on this coursework (unlike the 10-year cap on nursing prereqs). Normally satisfied via transfer-credit evaluation of an applicant's existing bachelor's degree (up to 60 credits transferable) - should not require new coursework for someone who already holds a 4-year bachelor's degree, but applicant should request a formal transfer-credit evaluation to confirm nothing is missing.": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Abnormal Psychology (3 credits) - REQUIRED in addition to Lifespan Psychology; applicant has NOT completed this (new finding vs prior pass)": {
+      "tags": [
+        "abnormal_psych"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "25 credit hours of prerequisites total (A&P I 4cr, A&P II 4cr, Micro w/ lab 4cr, Gen Chem w/ lab 4cr, Statistics 3cr, Lifespan Psychology 3cr, Abnormal Psychology 3cr); C or better in each": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "theology_religious_studies": {
+      "tags": [
+        "theology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "human_pathology": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "CNA required before program start - SRNA (Kentucky State Registered Nurse Aide) certification must be completed before the first nursing semester (NOT required at application): ~75-hr state-approved course + KY competency exam; UK offers its own course (~$800). Exact deadline for the Jan cohort is ambiguously worded ('summer before starting' is written for Fall cohorts) - confirm with UK, but under any reading it is pre-start": {
+      "tags": [
+        "cna"
+      ],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "CNA pre-start requirement — auto-blocked 2026-07-15"
+    },
+    "CNA required before program start - Certified Nurse Aide COURSE completion required before the program begins (clinical skills start day one). HARD BLOCKER for this applicant: no CNA course completable before Jan 2027": {
+      "tags": [
+        "cna"
+      ],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "CNA pre-start requirement — auto-blocked 2026-07-15"
+    },
+    "Current, unencumbered CNA (Certified Nursing Assistant) certification OR LPN/LVN license REQUIRED of ALL applicants regardless of degree pathway -- official FAQ calls this non-negotiable; EMT/CMA certifications do NOT substitute, they only 'strengthen' an application": {
+      "tags": [
+        "cna"
+      ],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "CNA pre-start requirement — auto-blocked 2026-07-15"
+    },
+    "Institution and Society course: one course such as introductory sociology, economics, or religion; religion is an option, not a required theology course": {
+      "tags": [
+        "theology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English composition, 6 semester credits": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Mathematics, 3 semester credits, separate from statistics": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Chemistry with lab becomes required beginning with the Spring 2027 cohort": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Pathophysiology, 3 credits, grade B or better, completed within five years of matriculation": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "A second chemistry course with lab, or the permitted additional life-science-with-lab substitution under UAB's AMNP footnote; transcript equivalency must be confirmed": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Pre-calculus, finite mathematics, or a higher mathematics course, 3 credits": {
+      "tags": [
+        "college_algebra"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "English composition sequence, waived for applicants who already hold a bachelor's degree": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Biology/chemistry is an OR-pathway: one biology with lab plus one chemistry with lab, or an approved two-course biology sequence, or an approved two-course chemistry sequence": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Chemistry must be General Chemistry I with lab; since September 2022 the chemistry lab must be in person.": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "ethics": {
+      "tags": [
+        "ethics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "healthcare_exp": {
+      "tags": [
+        "healthcare_exp"
+      ],
+      "type": "experience",
+      "hard_blocker": true,
+      "notes": "Required healthcare experience — auto-blocked 2026-07-15"
+    },
+    "biological_chemistry": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "pathophysiology (3cr — one of the 5 designated 'science' prereqs)": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "english_comp (English I & II, 6cr combined)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "texas_core_curriculum_42cr — Communication 6, Mathematics 3, Life/Physical Sciences 6, Language/Philosophy/Culture 3, Creative Arts 3, American History 6, Government/Political Science 6, Social/Behavioral Science 3, Component Area Option 6 — NOT automatically waived by an out-of-state bachelor's degree (see notes)": {
+      "tags": [
+        "speech_comm"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "american_history (6 cr, any two core-list history courses)": {
+      "tags": [
+        "history"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "us_government (3 cr, Federal Government, GOVT 2305/POLS 206)": {
+      "tags": [
+        "us_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "tx_government (3 cr, Texas Government, GOVT 2306/POLS 207 — TX-specific course, very unlikely satisfied by an out-of-state degree)": {
+      "tags": [
+        "tx_government"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "communications (6 cr, any two core-list courses, e.g. composition + speech)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "fine_arts (3 cr, Creative Arts core course)": {
+      "tags": [
+        "fine_arts"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "philosophy_or_ethics (3 cr, Language/Philosophy/Culture core; Contemporary Moral Issues or Intro to Philosophy recommended)": {
+      "tags": [
+        "philosophy"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "flexible_science_elective (4 cr: zoology, general biology, physics, or a second chemistry course — any one of the four satisfies this slot)": {
+      "tags": [
+        "chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Theology distribution — 2 courses required (6 credits total), any religion course qualifies": {
+      "tags": [
+        "theology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "PHI 353 Bio-Medical Ethics (3 credits) — listed on both the AO Prerequisites page and Admissions Requirements page": {
+      "tags": [
+        "ethics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Philosophy Distribution (3 credits) — appears as a SEPARATE line item on the Admissions Requirements page but is NOT on the dedicated AO Prerequisites page; unresolved discrepancy, confirm with a pre-nursing advisor whether this is required in addition to Bio-Medical Ethics": {
+      "tags": [
+        "philosophy"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Liberal arts course (Art, Music, Dance, Theater, or Photography), grade C or better, 3 credits": {
+      "tags": [
+        "fine_arts"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "CHM 234 Introductory Biochemistry (4cr) — ADMISSION prerequisite; must be complete with a posted grade BEFORE the Aug 1-8, 2026 application window; generic General Chemistry is not equivalent absent a written GVSU transfer evaluation": {
+      "tags": [
+        "organic_chem"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BIO 355 Human Genetics (3cr) — ADMISSION prerequisite; must be complete with a posted grade BEFORE the Aug 1-8, 2026 application window; not deferrable": {
+      "tags": [
+        "genetics"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BMS 250 Anatomy & Physiology I (4cr) — ADMISSION prerequisite; must be complete with a posted grade BEFORE applying": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BMS 251 Anatomy & Physiology II (4cr) — ADMISSION prerequisite; must be complete with a posted grade BEFORE applying": {
+      "tags": [
+        "ap1",
+        "ap2"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BMS 212 Introductory Microbiology (3cr) — ADMISSION prerequisite; must be complete with a posted grade BEFORE applying": {
+      "tags": [
+        "micro"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "PSY 364 Lifespan Developmental Psychology (3cr) — ADMISSION prerequisite; must be complete with a posted grade BEFORE applying": {
+      "tags": [
+        "lifespan"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BMS 305 Clinical Nutrition (3cr) — corequisite required before program START; may be in progress during the nursing application": {
+      "tags": [
+        "nutrition"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BMS 310 Pathophysiology (3cr) — corequisite required before program START; may be in progress during the nursing application": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "STA 215 Statistics (3cr) — corequisite required before program START; may be in progress during the nursing application": {
+      "tags": [
+        "stats"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "CNA I certification (active listing with the N.C. Nurse Aide I Registry via NCBON) — required for admission, treated as a hard-blocker requirement; NOT currently held by this applicant per profile; unclear whether a Wisconsin CNA registration would satisfy this or whether NC-specific registration/reciprocity is required — confirm directly": {
+      "tags": [
+        "cna"
+      ],
+      "type": "certification",
+      "hard_blocker": true,
+      "notes": "CNA pre-start requirement — auto-blocked 2026-07-15"
+    },
+    "BIB 105 Introduction to Christianity (theology/Bible, required)": {
+      "tags": [
+        "theology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BIB 210 Christianity & Culture (theology/Bible, required)": {
+      "tags": [
+        "theology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "BIO 330 Pathophysiology": {
+      "tags": [
+        "pathophysiology"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
+    },
+    "Gen-ed if not already satisfied: English Comp I & II, Oral Communication, Cultural Understanding (9cr), International Culture (3cr)": {
+      "tags": [
+        "english_comp"
+      ],
+      "type": "course",
+      "hard_blocker": false,
+      "notes": "auto-mapped by merge-vetting 2026-07-15"
     }
   }
 }

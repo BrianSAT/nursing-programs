@@ -32,6 +32,12 @@
           <option value="MN">MN</option>
           <option value="GEM">GEM</option>
         </select>
+        <select id="app-system-filter" title="Show programs by application system">
+          <option value="">All App Systems</option>
+          <option value="nursingcas">NursingCAS / NCAS Only</option>
+          <option value="direct">Direct Only</option>
+          <option value="unknown">Unverified App System</option>
+        </select>
         <select id="data-filter">
           <option value="">All Data Status</option>
           <option value="complete">Complete Only</option>
@@ -43,6 +49,9 @@
           <label class="fit-cb"><input type="checkbox" value="adjust" checked>Adjust</label>
           <label class="fit-cb"><input type="checkbox" value="ruled_out">Ruled Out</label>
         </div>
+        <label class="cost-toggle" title="Ignore cost entirely — scores and ranks recomputed with no cost penalty (revives $10k+/mo schools)">
+          <input type="checkbox" id="cost-toggle">💰 Ignore cost
+        </label>
       </div>
 
       <div class="stats" id="stats"></div>
@@ -55,11 +64,16 @@
             <th class="sortable" data-sort="name">Program</th>
             <th class="sortable" data-sort="type">Type</th>
             <th class="sortable" data-sort="location">Location</th>
+            <th class="sortable" data-sort="geo_flag" title="Unique geographical circumstances — scored by actual place, flagged for human judgment">⚑</th>
+            <th class="sortable" data-sort="religious" title="Religious affiliation — secular first, ✝ = required religion coursework, ? = unverified">Rel.</th>
             <th class="sortable" data-sort="duration">Duration</th>
             <th class="sortable" data-sort="start_date">Start Date</th>
             <th class="sortable" data-sort="deadline">Deadline</th>
+            <th class="sortable" data-sort="ncas" title="Application system — NursingCAS schools share one application profile">App Via</th>
             <th class="sortable" data-sort="monthly_burn">$/Month</th>
             <th>Work Commit</th>
+            <th class="sortable" data-sort="selectivity" title="National selectivity percentile — how hard to get in (raw; the formula's sweet-spot transform peaks at 80th)">Selectivity</th>
+            <th class="sortable" data-sort="reputation" title="Hiring reputation (1–5): 5 HR loves it · 4 strong signal · 3 doesn't close doors · 2 raises questions · 1 actively raises eyebrows. Tiers below 3 reduce score.">Rep</th>
             <th class="sortable sort-desc" data-sort="raw_score">Score</th>
             <th class="sortable" data-sort="plan_fit">Plan Fit</th>
             <th class="sortable" data-sort="status">Status</th>
